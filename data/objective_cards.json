@@ -1,0 +1,938 @@
+{
+  "generatedBy": "gen_objective_cards.py",
+  "cardCount": 161,
+  "chapters": [
+    {
+      "number": 12,
+      "title": "The Nervous System and Nervous Tissue",
+      "sections": [
+        {
+          "id": "ch12_s01",
+          "title": "Basic Structure and Function of the Nervous System",
+          "cards": [
+            {
+              "objective": "Identify the anatomical and functional divisions of the nervous system",
+              "answer": "Anatomically the nervous system divides into the central nervous system (CNS = brain and spinal cord) and the peripheral nervous system (PNS = all nerves and ganglia outside the CNS). Functionally it divides into the somatic system (voluntary control of skeletal muscle), the autonomic system (involuntary control of smooth/cardiac muscle and glands), and the enteric system (the gut). The autonomic system is further split into sympathetic and parasympathetic divisions."
+            },
+            {
+              "objective": "Relate the functional and structural differences between gray matter and white matter structures of the nervous system to the structure of neurons",
+              "answer": "Gray matter contains neuron cell bodies, dendrites, and unmyelinated fibers, so it is where synapses and integration occur; it forms the cortex and nuclei of the CNS and the ganglia of the PNS. White matter consists mainly of myelinated axons—the pale myelin gives it its color—and forms the tracts that carry signals between regions. The difference simply reflects which part of the neuron predominates."
+            },
+            {
+              "objective": "List the basic functions of the nervous system",
+              "answer": "The nervous system carries out sensation (detecting stimuli through receptors), integration (processing and interpreting that input in the CNS), and response (motor output to muscles and glands). It also supports higher functions such as memory, emotion, and cognition, and helps maintain homeostasis."
+            }
+          ]
+        },
+        {
+          "id": "ch12_s02",
+          "title": "Nervous Tissue",
+          "cards": [
+            {
+              "objective": "Describe the basic structure of a neuron",
+              "answer": "A neuron has a cell body (soma) containing the nucleus and organelles, dendrites that receive incoming signals, and a single axon that conducts action potentials away from the soma to its terminals. Many axons are wrapped in a myelin sheath interrupted by nodes of Ranvier that speed conduction. At the axon terminals, signals pass to the next cell across synapses via neurotransmitter release."
+            },
+            {
+              "objective": "Identify the different types of neurons on the basis of polarity",
+              "answer": "Neurons are classified by the number of processes off the soma. Multipolar neurons have one axon and many dendrites (most CNS and motor neurons); bipolar neurons have one axon and one dendrite (special senses such as the retina); unipolar (pseudounipolar) neurons have a single process that splits (most sensory neurons); and anaxonic neurons have no clear axon."
+            },
+            {
+              "objective": "List the glial cells of the CNS and describe their function",
+              "answer": "The CNS has four glia. Astrocytes support neurons, regulate the extracellular environment, and help form the blood–brain barrier; oligodendrocytes myelinate CNS axons; microglia are the resident immune and phagocytic cells; and ependymal cells line the ventricles and produce and circulate cerebrospinal fluid."
+            },
+            {
+              "objective": "List the glial cells of the PNS and describe their function",
+              "answer": "The PNS has two glia. Schwann cells myelinate (or simply ensheath) PNS axons and aid their regeneration, and satellite cells surround and support neuron cell bodies in ganglia, regulating their environment."
+            }
+          ]
+        },
+        {
+          "id": "ch12_s03",
+          "title": "The Function of Nervous Tissue",
+          "cards": [
+            {
+              "objective": "Distinguish the major functions of the nervous system: sensation, integration, and response",
+              "answer": "Sensation is the reception of stimuli by sensory receptors and their transmission to the CNS. Integration is the processing of that information—comparing, interpreting, and deciding on a response—within the CNS. Response is the motor output that acts on effectors (muscles or glands) to produce an effect."
+            },
+            {
+              "objective": "List the sequence of events in a simple sensory receptor–motor response pathway",
+              "answer": "A stimulus activates a sensory receptor, which sends a signal along a sensory (afferent) neuron to the CNS. There the information is integrated (often through interneurons), and a motor (efferent) neuron carries the command out to an effector—a muscle or gland—that produces the response."
+            }
+          ]
+        },
+        {
+          "id": "ch12_s04",
+          "title": "The Action Potential",
+          "cards": [
+            {
+              "objective": "Describe the components of the membrane that establish the resting membrane potential",
+              "answer": "The resting potential (about ‒70 mV) is set by unequal ion distribution and selective permeability. The Na+/K+ ATPase pumps three Na+ out for every two K+ in, and the membrane is far more permeable to K+ through leak channels, so K+ leaving makes the inside negative. Large trapped anionic proteins add to that negativity."
+            },
+            {
+              "objective": "Describe the changes that occur to the membrane that result in the action potential",
+              "answer": "A threshold stimulus opens voltage-gated Na+ channels, and Na+ rushes in to depolarize the membrane toward +30 mV. The Na+ channels then inactivate as voltage-gated K+ channels open, so K+ exits and repolarizes the membrane, briefly hyperpolarizing it before the Na+/K+ pump restores the gradients. The event is all-or-none and propagates along the axon."
+            }
+          ]
+        },
+        {
+          "id": "ch12_s05",
+          "title": "Communication Between Neurons",
+          "cards": [
+            {
+              "objective": "Explain the differences between the types of graded potentials",
+              "answer": "Graded potentials vary in size with stimulus strength and decay over distance. Depolarizing graded potentials bring the membrane closer to threshold (excitatory, e.g., EPSPs), while hyperpolarizing ones move it farther from threshold (inhibitory, e.g., IPSPs). They summate over time and space to determine whether an action potential fires at the axon hillock."
+            },
+            {
+              "objective": "Categorize the major neurotransmitters by chemical type and effect",
+              "answer": "Neurotransmitters fall into chemical classes: acetylcholine (cholinergic); amino acids such as glutamate (excitatory) and GABA/glycine (inhibitory); biogenic amines/monoamines like dopamine, norepinephrine, and serotonin; and neuropeptides such as endorphins. Whether the effect is excitatory or inhibitory depends on the receptor bound, not the transmitter alone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Anatomy of the Nervous System",
+      "sections": [
+        {
+          "id": "ch13_s01",
+          "title": "The Embryologic Perspective",
+          "cards": [
+            {
+              "objective": "Describe the growth and differentiation of the neural tube",
+              "answer": "The nervous system arises from ectoderm that thickens into the neural plate, folds into the neural groove, and closes into the neural tube with a hollow central canal. The tube's anterior end enlarges into three primary vesicles (prosencephalon, mesencephalon, rhombencephalon) that become the brain, while the rest becomes the spinal cord."
+            },
+            {
+              "objective": "Relate the different stages of development to the adult structures of the central nervous system",
+              "answer": "The three primary vesicles subdivide into five secondary vesicles: the prosencephalon forms the telencephalon (cerebrum) and diencephalon (thalamus/hypothalamus); the mesencephalon remains the midbrain; and the rhombencephalon forms the metencephalon (pons and cerebellum) and myelencephalon (medulla). These give rise to all adult brain regions."
+            },
+            {
+              "objective": "Explain the expansion of the ventricular system of the adult brain from the central canal of the neural tube",
+              "answer": "The hollow central canal of the neural tube expands within the developing brain to form the ventricles. It enlarges into the paired lateral ventricles in the cerebrum, the third ventricle in the diencephalon, and the fourth ventricle between the pons/medulla and cerebellum, all remaining continuous with the central canal of the spinal cord."
+            },
+            {
+              "objective": "Describe the connections of the diencephalon and cerebellum on the basis of patterns of embryonic development",
+              "answer": "Because the diencephalon develops as a relay between cerebrum and brain stem, its thalamus channels nearly all sensory and motor information to and from the cerebral cortex. The cerebellum, derived from the metencephalon, connects to the brain stem through three pairs of cerebellar peduncles that carry its input and output for coordinating movement."
+            }
+          ]
+        },
+        {
+          "id": "ch13_s02",
+          "title": "The Central Nervous System",
+          "cards": [
+            {
+              "objective": "Name the major regions of the adult brain",
+              "answer": "The adult brain has four major regions: the cerebrum (two hemispheres with cortex and basal nuclei), the diencephalon (thalamus, hypothalamus, epithalamus), the brain stem (midbrain, pons, medulla oblongata), and the cerebellum."
+            },
+            {
+              "objective": "Describe the connections between the cerebrum and brain stem through the diencephalon, and from those regions into the spinal cord",
+              "answer": "The cerebral cortex communicates with lower centers through the diencephalon, whose thalamus relays sensory and motor traffic. Descending fibers pass through the brain stem (midbrain, pons, medulla) and continue into the spinal cord, while ascending fibers travel the reverse route back up to the cortex."
+            },
+            {
+              "objective": "Recognize the complex connections within the subcortical structures of the basal nuclei",
+              "answer": "The basal nuclei (caudate, putamen, and globus pallidus, with the associated subthalamic nucleus and substantia nigra) lie deep within the cerebrum. They form loops with the cortex and thalamus that select and modulate voluntary movement, and their dysfunction produces disorders such as Parkinson's disease."
+            },
+            {
+              "objective": "Explain the arrangement of gray and white matter in the spinal cord",
+              "answer": "In the spinal cord the arrangement is the reverse of the brain's surface: gray matter forms a central butterfly/H shape of cell bodies (with dorsal, lateral, and ventral horns), surrounded by white matter columns (funiculi) of ascending and descending myelinated tracts."
+            }
+          ]
+        },
+        {
+          "id": "ch13_s03",
+          "title": "Circulation and the Central Nervous System",
+          "cards": [
+            {
+              "objective": "Describe the vessels that supply the CNS with blood",
+              "answer": "The brain is supplied by the paired internal carotid arteries (anterior circulation) and the vertebral arteries, which join to form the basilar artery (posterior circulation). These connect at the cerebral arterial circle (circle of Willis) at the base of the brain for collateral flow, and venous blood drains into dural venous sinuses and out the internal jugular veins."
+            },
+            {
+              "objective": "Name the components of the ventricular system and the regions of the brain in which each is located",
+              "answer": "The ventricular system comprises the two lateral ventricles (one in each cerebral hemisphere), the third ventricle in the diencephalon, the cerebral aqueduct in the midbrain, and the fourth ventricle between the brain stem and cerebellum, continuous with the central canal of the spinal cord."
+            },
+            {
+              "objective": "Explain the production of cerebrospinal fluid and its flow through the ventricles",
+              "answer": "Cerebrospinal fluid is produced by the choroid plexus in the ventricles. It flows from the lateral ventricles to the third ventricle, through the cerebral aqueduct to the fourth ventricle, then into the subarachnoid space where it cushions the CNS, before being reabsorbed into the dural venous sinuses through arachnoid granulations."
+            },
+            {
+              "objective": "Explain how a disruption in circulation would result in a stroke",
+              "answer": "A stroke (cerebrovascular accident) occurs when blood flow to part of the brain is interrupted, starving neurons of oxygen and glucose so they die. It can be ischemic (a clot or embolus blocks a vessel) or hemorrhagic (a vessel ruptures and bleeds), and the lost function corresponds to the region deprived of flow."
+            }
+          ]
+        },
+        {
+          "id": "ch13_s04",
+          "title": "The Peripheral Nervous System",
+          "cards": [
+            {
+              "objective": "Describe the structures found in the PNS",
+              "answer": "The PNS consists of the nerves (bundles of axons) and ganglia (clusters of neuron cell bodies) that lie outside the CNS, along with sensory receptors. It includes the 12 pairs of cranial nerves and 31 pairs of spinal nerves connecting the CNS to the rest of the body."
+            },
+            {
+              "objective": "Distinguish between somatic and autonomic structures, including the special peripheral structures of the enteric nervous system",
+              "answer": "Somatic structures carry sensation from the body wall and voluntarily control skeletal muscle. Autonomic structures involuntarily control smooth muscle, cardiac muscle, and glands through sympathetic and parasympathetic divisions. The enteric nervous system is a semi-independent network in the gut wall that regulates digestion largely on its own."
+            },
+            {
+              "objective": "Name the twelve cranial nerves and explain the functions associated with each",
+              "answer": "The cranial nerves are I Olfactory (smell), II Optic (vision), III Oculomotor, IV Trochlear, and VI Abducens (eye movements), V Trigeminal (facial sensation and chewing), VII Facial (expression and taste), VIII Vestibulocochlear (hearing and balance), IX Glossopharyngeal (taste and swallowing), X Vagus (parasympathetic to viscera), XI Accessory (neck muscles), and XII Hypoglossal (tongue). They may be sensory, motor, or mixed."
+            },
+            {
+              "objective": "Describe the sensory and motor components of spinal nerves and the plexuses that they pass through",
+              "answer": "Each spinal nerve is mixed, formed by a dorsal (sensory) root and a ventral (motor) root that unite. After emerging, the ventral rami of most spinal nerves interweave into plexuses—cervical, brachial, lumbar, and sacral—from which named peripheral nerves arise to serve specific body regions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "The Somatic Nervous System",
+      "sections": [
+        {
+          "id": "ch14_s01",
+          "title": "Sensory Perception",
+          "cards": [
+            {
+              "objective": "Describe different types of sensory receptors",
+              "answer": "Receptors are classified by stimulus: mechanoreceptors (touch, pressure, stretch), thermoreceptors (temperature), nociceptors (pain), chemoreceptors (chemicals), and photoreceptors (light). They can also be grouped by location as exteroceptors (external stimuli), interoceptors (internal organs), and proprioceptors (body position), and structurally range from free nerve endings to encapsulated endings."
+            },
+            {
+              "objective": "Describe the structures responsible for the special senses of taste, smell, hearing, balance, and vision",
+              "answer": "Taste is transduced by taste buds on the tongue; smell by olfactory epithelium in the nasal cavity; hearing and balance by hair cells in the cochlea and vestibular apparatus of the inner ear; and vision by photoreceptors in the retina of the eye. Each special sense uses a dedicated receptor organ and cranial nerve."
+            },
+            {
+              "objective": "Distinguish how different tastes are transduced",
+              "answer": "The five basic tastes are transduced differently. Salty and sour act fairly directly through ion channels (Na+ entry; H+ affecting channels), while sweet, bitter, and umami bind G-protein-coupled receptors that trigger second-messenger cascades. Activation depolarizes the gustatory cell so it releases neurotransmitter onto sensory fibers."
+            },
+            {
+              "objective": "Describe the means of mechanoreception for hearing and balance",
+              "answer": "Both rely on hair cells whose stereocilia bend. In hearing, sound vibrations move the basilar membrane, bending cochlear hair cells; in balance, movement of endolymph or of otoliths bends vestibular hair cells. Bending opens mechanically gated channels, depolarizing the cell and signaling through cranial nerve VIII."
+            },
+            {
+              "objective": "List the supporting structures around the eye and describe the structure of the eyeball",
+              "answer": "The eye is protected and moved by accessory structures: eyelids, eyelashes, conjunctiva, the lacrimal (tear) apparatus, and six extrinsic eye muscles. The eyeball wall has three tunics—the fibrous tunic (sclera and cornea), the vascular tunic (choroid, ciliary body, iris), and the neural tunic (retina)—enclosing the aqueous and vitreous humors."
+            },
+            {
+              "objective": "Describe the processes of phototransduction",
+              "answer": "In the dark, photoreceptors continuously release glutamate. Light strikes the photopigment (rhodopsin), its retinal changes shape and activates transducin, which lowers cGMP and closes Na+ channels, hyperpolarizing the photoreceptor. This reduced glutamate release is the signal passed through bipolar cells to ganglion cells, whose axons form the optic nerve."
+            }
+          ]
+        },
+        {
+          "id": "ch14_s02",
+          "title": "Central Processing",
+          "cards": [
+            {
+              "objective": "Describe the pathways that sensory systems follow into the central nervous system",
+              "answer": "Sensory information generally travels a chain of three neurons: a first-order neuron from the receptor to the spinal cord or brain stem, a second-order neuron that decussates (crosses) and projects to the thalamus, and a third-order neuron from the thalamus to the primary sensory cortex. The thalamus is the main relay for conscious sensation."
+            },
+            {
+              "objective": "Differentiate between the two major ascending pathways in the spinal cord",
+              "answer": "The dorsal column–medial lemniscus pathway carries fine touch, vibration, and proprioception and crosses in the medulla. The spinothalamic (anterolateral) pathway carries pain and temperature and crosses in the spinal cord near the level of entry. Both end in the thalamus and then the somatosensory cortex."
+            },
+            {
+              "objective": "Describe the pathway of somatosensory input from the face and compare it to the ascending pathways in the spinal cord",
+              "answer": "Sensation from the face travels via the trigeminal nerve (CN V) rather than the spinal cord. Its fibers synapse in the trigeminal nuclei of the brain stem, then a second-order neuron crosses and projects to the thalamus and cortex—paralleling the spinal pathways but entering through the brain stem instead of the spinal cord."
+            },
+            {
+              "objective": "Explain topographical representations of sensory information in at least two systems",
+              "answer": "Sensory systems preserve spatial maps. The body surface maps onto the somatosensory cortex as the sensory homunculus (somatotopy), sound frequency maps across the auditory cortex (tonotopy), and visual space maps onto the visual cortex (retinotopy). More sensitive regions occupy proportionally larger cortical areas."
+            },
+            {
+              "objective": "Describe two pathways of visual processing and the functions associated with each",
+              "answer": "Beyond the primary visual cortex, information splits into two streams. The dorsal (“where/how”) stream to the parietal lobe processes location and guides movement, while the ventral (“what”) stream to the temporal lobe processes identity, form, and color for object recognition."
+            }
+          ]
+        },
+        {
+          "id": "ch14_s03",
+          "title": "Motor Responses",
+          "cards": [
+            {
+              "objective": "List the components of the basic processing stream for the motor system",
+              "answer": "Motor control flows from association and premotor cortex that plan a movement, to the primary motor cortex that issues commands, down descending tracts to lower motor neurons, and out to skeletal muscle. The basal nuclei and cerebellum modulate and refine these commands along the way."
+            },
+            {
+              "objective": "Describe the pathway of descending motor commands from the cortex to the skeletal muscles",
+              "answer": "The corticospinal tract begins at pyramidal neurons in the primary motor cortex; their axons descend through the internal capsule and brain stem, with most crossing at the pyramids of the medulla. They synapse on lower motor neurons in the ventral horn of the spinal cord, which then drive the skeletal muscles."
+            },
+            {
+              "objective": "Compare different descending pathways, both by structure and function",
+              "answer": "The lateral corticospinal tract controls precise, voluntary limb movement. Extrapyramidal/brain-stem pathways adjust posture and gross movement: the tectospinal tract orients the head to stimuli, the reticulospinal tract governs posture and muscle tone, the vestibulospinal tract maintains balance, and the rubrospinal tract fine-tunes limb tone."
+            },
+            {
+              "objective": "Explain the initiation of movement from the neurological connections",
+              "answer": "A voluntary movement is planned in the cortex, but the basal nuclei act as a gate—the direct pathway facilitates and the indirect pathway inhibits movement, with dopamine from the substantia nigra biasing toward action. Once movement is released, the motor cortex fires and the cerebellum times and corrects it as it unfolds."
+            },
+            {
+              "objective": "Describe several reflex arcs and their functional roles",
+              "answer": "A reflex arc is a rapid, involuntary response with five parts: receptor, sensory neuron, integration center, motor neuron, and effector. The stretch reflex (e.g., the knee-jerk) is monosynaptic and maintains muscle length; the withdrawal (flexor) reflex is polysynaptic and pulls a limb from a painful stimulus, often paired with a crossed-extensor reflex for support."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "The Autonomic Nervous System",
+      "sections": [
+        {
+          "id": "ch15_s01",
+          "title": "Divisions of the Autonomic Nervous System",
+          "cards": [
+            {
+              "objective": "Name the components that generate the sympathetic and parasympathetic responses of the autonomic nervous system",
+              "answer": "Both divisions use a two-neuron chain from CNS to effector: a preganglionic neuron in the CNS synapses in an autonomic ganglion on a postganglionic neuron that reaches the target. Sympathetic neurons originate in the thoracolumbar spinal cord (T1–L2); parasympathetic neurons originate in the brain stem (via cranial nerves) and the sacral spinal cord (craniosacral)."
+            },
+            {
+              "objective": "Explain the differences in output connections within the two divisions of the autonomic nervous system",
+              "answer": "In the sympathetic division, short preganglionic fibers synapse in ganglia near the spinal cord (the sympathetic chain), then long postganglionic fibers travel to widespread targets, allowing mass activation. In the parasympathetic division, long preganglionic fibers reach ganglia in or near the organ and short postganglionic fibers act locally, producing discrete responses."
+            },
+            {
+              "objective": "Describe the signaling molecules and receptor proteins involved in communication within the two divisions of the autonomic nervous system",
+              "answer": "All preganglionic neurons release acetylcholine onto nicotinic receptors. Parasympathetic postganglionic neurons also release acetylcholine, acting on muscarinic receptors. Most sympathetic postganglionic neurons release norepinephrine onto adrenergic receptors (alpha and beta); the exception is sweat glands, which are cholinergic."
+            }
+          ]
+        },
+        {
+          "id": "ch15_s02",
+          "title": "Autonomic Reflexes and Homeostasis",
+          "cards": [
+            {
+              "objective": "Compare the structure of somatic and autonomic reflex arcs",
+              "answer": "A somatic reflex uses a single motor neuron running from the CNS directly to skeletal muscle, and it is always excitatory. An autonomic reflex uses a two-neuron efferent chain (preganglionic plus postganglionic) with a ganglionic synapse, targets smooth/cardiac muscle or glands, and can be either excitatory or inhibitory."
+            },
+            {
+              "objective": "Explain the differences in sympathetic and parasympathetic reflexes",
+              "answer": "Sympathetic reflexes tend to be widespread and prepare the body for “fight or flight”—raising heart rate, dilating pupils, and mobilizing energy. Parasympathetic reflexes are localized “rest and digest” responses—slowing the heart, stimulating digestion, and constricting pupils."
+            },
+            {
+              "objective": "Differentiate between short and long reflexes",
+              "answer": "Long reflexes involve the CNS: sensory input travels to the brain or spinal cord and autonomic output returns to the organ. Short reflexes are handled locally—especially by the enteric nervous system in the gut—without involving the CNS, letting an organ regulate itself."
+            },
+            {
+              "objective": "Determine the effect of the autonomic nervous system on the regulation of the various organ systems on the basis of the signaling molecules involved",
+              "answer": "An organ's response depends on its receptor type. For example, norepinephrine on β1 receptors speeds the heart, on β2 receptors relaxes airway smooth muscle, and on α1 receptors constricts blood vessels, while acetylcholine on muscarinic receptors slows the heart and stimulates gut motility. Predicting the effect requires knowing both the transmitter and the receptor."
+            },
+            {
+              "objective": "Describe the effects of drugs that affect autonomic function",
+              "answer": "Autonomic drugs mimic or block these transmitters. Agonists activate receptors (e.g., a beta-agonist opens airways), antagonists block them (e.g., a beta-blocker slows the heart), and some act by altering transmitter release or breakdown. Their effects are predicted from the specific receptor they target."
+            }
+          ]
+        },
+        {
+          "id": "ch15_s03",
+          "title": "Central Control",
+          "cards": [
+            {
+              "objective": "Describe the role of higher centers of the brain in autonomic regulation",
+              "answer": "Although autonomic reflexes can run locally, higher brain regions oversee them. The hypothalamus is the chief integration center, the brain stem (medulla) houses cardiovascular and respiratory centers, and the cerebral cortex and limbic system can shift autonomic tone."
+            },
+            {
+              "objective": "Explain the connection of the hypothalamus to homeostasis",
+              "answer": "The hypothalamus is the master homeostatic center: it monitors variables such as temperature, osmolarity, and hunger, and adjusts them through the autonomic nervous system, the endocrine system (via the pituitary), and behavior. By integrating emotional and bodily states, it keeps internal conditions stable."
+            },
+            {
+              "objective": "Describe the regions of the CNS that link the autonomic system with emotion",
+              "answer": "The limbic system—including the amygdala, hippocampus, and cingulate cortex—links emotion to autonomic responses. Emotional states activate the hypothalamus, which drives autonomic output, explaining reactions like a racing heart with fear or blushing with embarrassment."
+            },
+            {
+              "objective": "Describe the pathways important to descending control of the autonomic system",
+              "answer": "Descending fibers from the hypothalamus and brain stem project to the preganglionic autonomic neurons in the spinal cord, letting central centers adjust sympathetic and parasympathetic output. These pathways coordinate reflexes such as blood-pressure and temperature regulation."
+            }
+          ]
+        },
+        {
+          "id": "ch15_s04",
+          "title": "Drugs that Affect the Autonomic System",
+          "cards": [
+            {
+              "objective": "List the classes of pharmaceuticals that interact with the autonomic nervous system",
+              "answer": "Autonomic drugs are grouped by system and action: cholinergic agonists and antagonists (affecting acetylcholine at muscarinic and nicotinic receptors) and adrenergic agonists (sympathomimetics) and antagonists (sympatholytics) affecting norepinephrine/epinephrine receptors."
+            },
+            {
+              "objective": "Differentiate between cholinergic and adrenergic compounds",
+              "answer": "Cholinergic compounds act on acetylcholine receptors (muscarinic and nicotinic), producing parasympathetic-like effects such as a slowed heart rate and increased secretions. Adrenergic compounds act on norepinephrine/epinephrine (alpha and beta) receptors, producing sympathetic-like effects such as increased heart rate and vasoconstriction."
+            },
+            {
+              "objective": "Differentiate between sympathomimetic and sympatholytic drugs",
+              "answer": "Sympathomimetic drugs enhance or mimic sympathetic activity—for example agonists like albuterol or decongestants that raise heart rate, open airways, or constrict vessels. Sympatholytic drugs oppose sympathetic activity—for example beta-blockers or alpha-blockers that lower heart rate and blood pressure."
+            },
+            {
+              "objective": "Relate the consequences of nicotine abuse with respect to autonomic control of the cardiovascular system",
+              "answer": "Nicotine activates nicotinic receptors at autonomic ganglia, stimulating sympathetic output and adrenal release of epinephrine. This raises heart rate, constricts blood vessels, and increases blood pressure; chronic abuse strains the cardiovascular system and promotes hypertension and atherosclerosis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "The Cardiovascular System: Blood",
+      "sections": [
+        {
+          "id": "ch18_s01",
+          "title": "An Overview of Blood",
+          "cards": [
+            {
+              "objective": "Identify the primary functions of blood in transportation, defense, and maintenance of homeostasis",
+              "answer": "Blood provides transportation (of gases, nutrients, wastes, hormones, and heat), defense (immune cells, antibodies, and clotting that guard against blood loss and infection), and maintenance of homeostasis (regulating pH, temperature, and fluid balance)."
+            },
+            {
+              "objective": "Name the fluid component of blood and the three major types of formed elements, and identify their relative proportions in a blood sample",
+              "answer": "Blood is about 55% plasma (the fluid) and 45% formed elements. The formed elements are erythrocytes (red cells, the vast majority and essentially the hematocrit, ~45%), leukocytes (white cells), and platelets; leukocytes and platelets together make up less than 1%, the thin buffy coat."
+            },
+            {
+              "objective": "Discuss the unique physical characteristics of blood",
+              "answer": "Blood is denser and about five times more viscous than water, slightly alkaline (pH 7.35–7.45), and a little warmer than core body temperature (~38 °C). It is scarlet when oxygenated and dark red when deoxygenated, and makes up roughly 8% of body weight (about 5 L in an adult)."
+            },
+            {
+              "objective": "Identify the composition of blood plasma, including its most important solutes and plasma proteins",
+              "answer": "Plasma is about 92% water carrying dissolved solutes: plasma proteins, nutrients, electrolytes, gases, hormones, and wastes. The three main plasma proteins are albumin (maintains osmotic pressure), globulins (transport molecules and antibodies), and fibrinogen (clotting)."
+            }
+          ]
+        },
+        {
+          "id": "ch18_s02",
+          "title": "Production of the Formed Elements",
+          "cards": [
+            {
+              "objective": "Trace the generation of the formed elements of blood from bone marrow stem cells",
+              "answer": "All formed elements arise in red bone marrow from hemopoietic stem cells (hemocytoblasts). These give rise to a myeloid line (red cells, platelets, and most white cells) and a lymphoid line (lymphocytes), progressively differentiating into the mature formed elements."
+            },
+            {
+              "objective": "Discuss the role of hemopoietic growth factors in promoting the production of the formed elements",
+              "answer": "Hemopoiesis is regulated by growth factors: erythropoietin (from the kidney) stimulates red-cell production, thrombopoietin (from the liver) drives platelet formation, and colony-stimulating factors and interleukins promote white-cell production. They keep output matched to the body's needs."
+            }
+          ]
+        },
+        {
+          "id": "ch18_s03",
+          "title": "Erythrocytes",
+          "cards": [
+            {
+              "objective": "Describe the anatomy of erythrocytes",
+              "answer": "Mature red blood cells are small biconcave discs that lack a nucleus and most organelles, maximizing room for hemoglobin and surface area for gas exchange. Their flexible shape lets them squeeze through capillaries, and they rely on anaerobic metabolism so they don't consume the oxygen they carry."
+            },
+            {
+              "objective": "Discuss the various steps in the lifecycle of an erythrocyte",
+              "answer": "Red cells form in the marrow (erythropoiesis) and circulate about 120 days. Aging cells become fragile and are engulfed by macrophages in the spleen and liver; hemoglobin is broken down, its iron and globin recycled, and the heme converted to bilirubin that is excreted in bile."
+            },
+            {
+              "objective": "Explain the composition and function of hemoglobin",
+              "answer": "Hemoglobin is a protein of four globin chains, each holding a heme group with an iron ion that binds one O2. It transports oxygen from the lungs to the tissues, carries some carbon dioxide and hydrogen ions, and its reversible binding lets it load O2 in the lungs and release it in the tissues."
+            }
+          ]
+        },
+        {
+          "id": "ch18_s04",
+          "title": "Leukocytes and Platelets",
+          "cards": [
+            {
+              "objective": "Describe the general characteristics of leukocytes",
+              "answer": "Leukocytes are nucleated cells that defend the body against pathogens and clear debris. They are far fewer than red cells, can leave the bloodstream by diapedesis to enter tissues, and move toward chemical signals by positive chemotaxis."
+            },
+            {
+              "objective": "Classify leukocytes according to their lineage, their main structural features, and their primary functions",
+              "answer": "Leukocytes are granular or agranular. Granulocytes are neutrophils (phagocytose bacteria), eosinophils (target parasites and moderate allergy), and basophils (release histamine in inflammation). Agranulocytes are lymphocytes (B, T, and NK cells for specific immunity) and monocytes (become macrophages that phagocytose)."
+            },
+            {
+              "objective": "Discuss the most common malignancies involving leukocytes",
+              "answer": "Cancers of white cells include the leukemias (excess abnormal leukocytes in blood and marrow that crowd out normal cells) and lymphomas (solid tumors of lymphoid tissue). They are classified as acute or chronic and by cell lineage (myeloid versus lymphoid)."
+            },
+            {
+              "objective": "Identify the lineage, basic structure, and function of platelets",
+              "answer": "Platelets are small, anucleate cell fragments that pinch off from megakaryocytes in the bone marrow. They circulate in the blood and, on encountering vessel injury, adhere and aggregate to form a platelet plug while releasing factors that trigger coagulation."
+            }
+          ]
+        },
+        {
+          "id": "ch18_s05",
+          "title": "Hemostasis",
+          "cards": [
+            {
+              "objective": "Describe the three mechanisms involved in hemostasis",
+              "answer": "Hemostasis stops bleeding in three steps: vascular spasm (the injured vessel constricts), platelet plug formation (platelets adhere and aggregate at the site), and coagulation (a fibrin mesh reinforces the plug into a stable clot)."
+            },
+            {
+              "objective": "Explain how the extrinsic and intrinsic coagulation pathways lead to the common pathway, and the coagulation factors involved in each",
+              "answer": "The extrinsic pathway is triggered by tissue factor released from damaged tissue, and the intrinsic pathway by contact with exposed collagen inside the vessel. Both converge on a common pathway that activates factor X, which converts prothrombin to thrombin, and thrombin then converts fibrinogen into the fibrin mesh (Ca2+ is required throughout)."
+            },
+            {
+              "objective": "Discuss disorders affecting hemostasis",
+              "answer": "Disorders arise from too little or too much clotting. Inadequate clotting causes bleeding—hemophilia (missing clotting factors) or thrombocytopenia (too few platelets). Excessive clotting forms a thrombus that can break free as an embolus and block a vessel, as in pulmonary embolism or stroke."
+            }
+          ]
+        },
+        {
+          "id": "ch18_s06",
+          "title": "Blood Typing",
+          "cards": [
+            {
+              "objective": "Describe the two basic physiological consequences of transfusion of incompatible blood",
+              "answer": "Transfusing incompatible blood causes agglutination—recipient antibodies clump the donor red cells—and hemolysis, the rupture of those cells. The reaction can block vessels and release free hemoglobin that damages the kidneys, and it can be fatal."
+            },
+            {
+              "objective": "Compare and contrast ABO and Rh blood groups",
+              "answer": "ABO type is defined by A and B surface antigens, with the plasma carrying antibodies against whichever antigen is absent (type O has neither antigen and both antibodies). Rh type depends on the D antigen: Rh+ has it, while Rh− lacks it and makes anti-Rh antibodies only after exposure to Rh+ blood."
+            },
+            {
+              "objective": "Identify which blood groups may be safely transfused into patients with different ABO types",
+              "answer": "A safe transfusion avoids giving red cells that carry an antigen the recipient has antibodies against. Type O− is the universal red-cell donor and type AB+ is the universal recipient; otherwise donor and recipient ABO and Rh types must be matched or compatible."
+            },
+            {
+              "objective": "Discuss the pathophysiology of hemolytic disease of the newborn",
+              "answer": "Hemolytic disease of the newborn occurs when an Rh− mother carries an Rh+ fetus. Exposure to fetal blood sensitizes the mother to make anti-Rh antibodies; in a later Rh+ pregnancy those IgG antibodies cross the placenta and hemolyze the fetus's red cells. It is prevented by giving the mother RhoGAM."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "The Cardiovascular System: The Heart",
+      "sections": [
+        {
+          "id": "ch19_s01",
+          "title": "Heart Anatomy",
+          "cards": [
+            {
+              "objective": "Describe the location and position of the heart within the body cavity",
+              "answer": "The heart lies in the mediastinum, the space between the lungs, resting on the diaphragm and just posterior to the sternum. About the size of a fist, it is tilted so its pointed apex points down and to the left while its broader base is directed up and to the right."
+            },
+            {
+              "objective": "Describe the internal and external anatomy of the heart",
+              "answer": "Externally the heart shows four chambers with the coronary sulcus and interventricular sulci carrying coronary vessels, plus the ear-like auricles. Internally it has two thin-walled atria (receiving chambers) and two thick-walled ventricles (pumping chambers) separated by septa, with atrioventricular and semilunar valves directing flow."
+            },
+            {
+              "objective": "Identify the tissue layers of the heart",
+              "answer": "The heart wall has three layers: the endocardium (inner endothelial lining continuous with the vessels), the myocardium (thick middle layer of cardiac muscle that contracts), and the epicardium (outer visceral pericardium). The whole heart sits within a pericardial sac containing lubricating serous fluid."
+            },
+            {
+              "objective": "Relate the structure of the heart to its function as a pump",
+              "answer": "The atria are thin-walled because they only push blood into the ventricles, while the ventricles are muscular to eject blood—the left ventricle thickest because it pumps to the entire body. Valves enforce one-way flow, and the fibrous skeleton anchors the valves and electrically insulates the atria from the ventricles."
+            },
+            {
+              "objective": "Compare systemic circulation to pulmonary circulation",
+              "answer": "The pulmonary circuit carries deoxygenated blood from the right ventricle to the lungs and returns oxygenated blood to the left atrium. The systemic circuit carries oxygenated blood from the left ventricle to the whole body and returns deoxygenated blood to the right atrium."
+            },
+            {
+              "objective": "Identify the veins and arteries of the coronary circulation system",
+              "answer": "The myocardium is fed by the right and left coronary arteries branching from the ascending aorta; major branches include the anterior interventricular (LAD), circumflex, and marginal arteries. Venous blood collects in the cardiac veins that drain into the coronary sinus, which empties into the right atrium."
+            },
+            {
+              "objective": "Trace the pathway of oxygenated and deoxygenated blood thorough the chambers of the heart",
+              "answer": "Deoxygenated blood enters the right atrium from the venae cavae, passes the tricuspid valve into the right ventricle, and is pumped through the pulmonary valve to the lungs. Oxygenated blood returns to the left atrium, passes the mitral valve into the left ventricle, and is pumped through the aortic valve into the aorta."
+            }
+          ]
+        },
+        {
+          "id": "ch19_s02",
+          "title": "Cardiac Muscle and Electrical Activity",
+          "cards": [
+            {
+              "objective": "Describe the structure of cardiac muscle",
+              "answer": "Cardiac muscle cells are short, branched, and striated, usually with one nucleus, and are joined end to end by intercalated discs. These discs hold cells together with desmosomes and connect them electrically with gap junctions, so the impulse spreads cell to cell and the muscle contracts as one coordinated unit (a functional syncytium)."
+            },
+            {
+              "objective": "Identify and describe the components of the conducting system that distributes electrical impulses through the heart",
+              "answer": "The impulse originates in the sinoatrial (SA) node—the pacemaker—in the right atrium, spreads across the atria to the atrioventricular (AV) node, which delays it, then travels down the AV bundle (of His), the right and left bundle branches, and the Purkinje fibers to excite the ventricles from the apex upward."
+            },
+            {
+              "objective": "Compare the effect of ion movement on membrane potential of cardiac conductive and contractile cells",
+              "answer": "Pacemaker (conductive) cells have an unstable resting potential with a slow Na+/funny-current drift to threshold and Ca2+-driven depolarization, giving them automaticity. Contractile cells have a stable resting potential and a plateau phase in which Ca2+ entry prolongs depolarization, producing a long refractory period that prevents tetanus."
+            },
+            {
+              "objective": "Relate characteristics of an electrocardiogram to events in the cardiac cycle",
+              "answer": "An ECG records the heart's electrical events: the P wave is atrial depolarization (just before atrial contraction), the QRS complex is ventricular depolarization (just before ventricular contraction, masking atrial repolarization), and the T wave is ventricular repolarization (just before ventricular relaxation)."
+            },
+            {
+              "objective": "Identify blocks that can interrupt the cardiac cycle",
+              "answer": "A heart block occurs when impulse conduction is impaired, usually at the AV node. In first-degree block conduction is merely slowed, in second-degree block some impulses fail to pass, and in third-degree (complete) block none pass, so the ventricles fall back on their own slow escape rhythm and a pacemaker is needed."
+            }
+          ]
+        },
+        {
+          "id": "ch19_s03",
+          "title": "Cardiac Cycle",
+          "cards": [
+            {
+              "objective": "Describe the relationship between blood pressure and blood flow",
+              "answer": "Blood flows down a pressure gradient, from higher to lower pressure, while valves keep it moving one way. Contraction (systole) raises chamber pressure to push blood out, and relaxation (diastole) lowers pressure to allow filling."
+            },
+            {
+              "objective": "Summarize the events of the cardiac cycle",
+              "answer": "The cardiac cycle is one complete heartbeat. During atrial systole the atria contract and top off the ventricles; then ventricular systole ejects blood into the arteries while the atria relax; during ventricular diastole all chambers relax and fill again. Valves open and close in response to the changing pressures."
+            },
+            {
+              "objective": "Compare atrial and ventricular systole and diastole",
+              "answer": "Atrial systole is a brief, weak contraction that finishes filling the ventricles, whereas ventricular systole is a strong contraction that ejects blood into the pulmonary trunk and aorta. During their respective diastoles each set of chambers relaxes and refills, and the atria and ventricles alternate so the heart never contracts all at once."
+            },
+            {
+              "objective": "Relate heart sounds detected by auscultation to action of heart’s valves",
+              "answer": "The two normal heart sounds come from valves closing. “Lub” (S1) is the closing of the atrioventricular (tricuspid and mitral) valves at the start of ventricular systole, and “dub” (S2) is the closing of the semilunar (pulmonary and aortic) valves at the start of ventricular diastole. Abnormal sounds (murmurs) often signal faulty valves."
+            }
+          ]
+        },
+        {
+          "id": "ch19_s04",
+          "title": "Cardiac Physiology",
+          "cards": [
+            {
+              "objective": "Relate heart rate to cardiac output",
+              "answer": "Cardiac output is the volume of blood pumped by a ventricle each minute, equal to heart rate multiplied by stroke volume. Raising either heart rate or stroke volume raises cardiac output, which at rest is typically about 5 L/min."
+            },
+            {
+              "objective": "Describe the effect of exercise on heart rate",
+              "answer": "Exercise increases heart rate through sympathetic stimulation and circulating epinephrine to meet the muscles' oxygen demand. Over time, regular aerobic training strengthens the heart and raises stroke volume, so the resting heart rate falls."
+            },
+            {
+              "objective": "Identify cardiovascular centers and cardiac reflexes that regulate heart function",
+              "answer": "The cardiovascular centers in the medulla oblongata regulate the heart through the autonomic nervous system. Baroreceptor reflexes (sensing blood pressure) and chemoreceptor reflexes (sensing O2, CO2, and pH) adjust heart rate—speeding it with sympathetic output or slowing it with parasympathetic (vagal) output."
+            },
+            {
+              "objective": "Describe factors affecting heart rate",
+              "answer": "Besides autonomic input, heart rate is modified by hormones (epinephrine, thyroid hormone), ions (K+, Ca2+, Na+ balance), and factors such as age, body temperature, exercise, and emotional state. Positive chronotropic factors speed the heart and negative ones slow it."
+            },
+            {
+              "objective": "Distinguish between positive and negative factors that affect heart contractility",
+              "answer": "Contractility, the force of contraction, is raised by positive inotropic factors—sympathetic stimulation, epinephrine, and elevated Ca2+. It is lowered by negative inotropic factors—parasympathetic stimulation, abnormal K+ levels, low Ca2+, and certain drugs."
+            },
+            {
+              "objective": "Summarize factors affecting stroke volume and cardiac output",
+              "answer": "Stroke volume depends on preload (venous return stretching the ventricle, per the Frank–Starling law), contractility (force at a given stretch), and afterload (the arterial pressure the ventricle must overcome). Together with heart rate, these determine cardiac output."
+            },
+            {
+              "objective": "Describe the cardiac response to variations in blood flow and pressure",
+              "answer": "The heart matches its output to venous return: greater filling stretches the myocardium and increases the force of contraction (the Frank–Starling mechanism), while reflexes tied to pressure changes fine-tune rate and contractility to keep flow adequate."
+            }
+          ]
+        },
+        {
+          "id": "ch19_s05",
+          "title": "Development of the Heart",
+          "cards": [
+            {
+              "objective": "Describe the embryological development of heart structures",
+              "answer": "The heart forms from mesoderm as two endocardial tubes that fuse into a single primitive heart tube, which begins beating around week 3–4. The tube then loops, and its regions balloon and are partitioned by septa into the four-chambered heart."
+            },
+            {
+              "objective": "Identify five regions of the fetal heart",
+              "answer": "The primitive heart tube has five dilations that develop in sequence: the sinus venosus, the atrium, the ventricle, the bulbus cordis, and the truncus arteriosus."
+            },
+            {
+              "objective": "Relate fetal heart structures to adult counterparts",
+              "answer": "These regions remodel into adult structures: the sinus venosus becomes part of the right atrium (and the SA node and coronary sinus), the atrium and ventricle partition into the paired atria and ventricles, the bulbus cordis contributes to the ventricular outflow tracts, and the truncus arteriosus splits into the aorta and pulmonary trunk."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "The Cardiovascular System: Blood Vessels and Circulation",
+      "sections": [
+        {
+          "id": "ch20_s01",
+          "title": "Structure and Function of Blood Vessels",
+          "cards": [
+            {
+              "objective": "Compare and contrast the three tunics that make up the walls of most blood vessels",
+              "answer": "Vessel walls have three layers. The tunica intima (endothelium) gives a smooth inner lining, the tunica media of smooth muscle and elastic tissue controls diameter, and the tunica externa of connective tissue anchors and protects the vessel. Arteries have a thicker media, whereas veins have a thicker externa and a wider lumen."
+            },
+            {
+              "objective": "Distinguish between elastic arteries, muscular arteries, and arterioles on the basis of structure, location, and function",
+              "answer": "Elastic (conducting) arteries such as the aorta are rich in elastin so they stretch and recoil to smooth pulsatile flow. Muscular (distributing) arteries have more smooth muscle to route blood to organs. Arterioles are the smallest resistance vessels, and their smooth muscle adjusts diameter to control flow into capillaries and set blood pressure."
+            },
+            {
+              "objective": "Describe the basic structure of a capillary bed, from the supplying metarteriole to the venule into which it drains",
+              "answer": "A capillary bed is a network of capillaries fed by a metarteriole and drained into a venule. Precapillary sphincters ring the entrances to the true capillaries and open or close to regulate flow, while a thoroughfare channel can bypass the bed. The capillary wall is just endothelium, ideal for exchange."
+            },
+            {
+              "objective": "Explain the structure and function of venous valves in the large veins of the extremities",
+              "answer": "The large veins of the limbs contain one-way valves formed from folds of the tunica intima. Because venous pressure is low, these valves prevent backflow so that contractions of surrounding skeletal muscle (the muscle pump) push blood upward toward the heart against gravity; failed valves cause varicose veins."
+            }
+          ]
+        },
+        {
+          "id": "ch20_s02",
+          "title": "Blood Flow, Blood Pressure, and Resistance",
+          "cards": [
+            {
+              "objective": "Distinguish between systolic pressure, diastolic pressure, pulse pressure, and mean arterial pressure",
+              "answer": "Systolic pressure is the peak arterial pressure during ventricular contraction and diastolic pressure is the lowest, during relaxation. Pulse pressure is the difference between them, and mean arterial pressure (MAP) is the average driving pressure, roughly diastolic pressure plus one-third of the pulse pressure."
+            },
+            {
+              "objective": "Describe the clinical measurement of pulse and blood pressure",
+              "answer": "Pulse is felt where an artery crosses a bone near the surface (e.g., the radial artery), counting beats per minute. Blood pressure is measured with a sphygmomanometer and stethoscope: the cuff is inflated to stop flow, then slowly released while listening for Korotkoff sounds—the first sound marks systolic and their disappearance marks diastolic pressure."
+            },
+            {
+              "objective": "Identify and discuss five variables affecting arterial blood flow and blood pressure",
+              "answer": "Arterial blood flow and pressure depend on cardiac output, blood volume, peripheral resistance (mainly from vessel diameter), blood viscosity, and vessel length or elasticity. Increasing any of these generally raises blood pressure."
+            },
+            {
+              "objective": "Discuss several factors affecting blood flow in the venous system",
+              "answer": "Because venous pressure is low, return relies on the skeletal-muscle pump (contractions squeezing the veins), the respiratory pump (pressure changes with breathing), venous valves that prevent backflow, and sympathetic venoconstriction that drives blood toward the heart."
+            }
+          ]
+        },
+        {
+          "id": "ch20_s03",
+          "title": "Capillary Exchange",
+          "cards": [
+            {
+              "objective": "Identify the primary mechanisms of capillary exchange",
+              "answer": "Substances cross capillary walls by diffusion (the main route, down concentration gradients), by bulk flow (filtration out and reabsorption in, driven by pressures), and by transcytosis (vesicular transport of large molecules)."
+            },
+            {
+              "objective": "Distinguish between capillary hydrostatic pressure and blood colloid osmotic pressure, explaining the contribution of each to net filtration pressure",
+              "answer": "Capillary hydrostatic pressure is the blood pressure pushing fluid out of the capillary, while blood colloid osmotic pressure, generated mainly by plasma albumin, pulls fluid back in. Net filtration pressure is the difference between these outward and inward forces along the capillary."
+            },
+            {
+              "objective": "Compare filtration and reabsorption",
+              "answer": "At the arterial end hydrostatic pressure exceeds osmotic pressure, so fluid is filtered out into the tissues; at the venous end hydrostatic pressure has dropped below osmotic pressure, so most of that fluid is reabsorbed back into the capillary, keeping tissue fluid balanced."
+            },
+            {
+              "objective": "Explain the fate of fluid that is not reabsorbed from the tissues into the vascular capillaries",
+              "answer": "About 15% of the filtered fluid is not reabsorbed. This excess, along with any leaked proteins, enters the lymphatic capillaries and is returned to the bloodstream as lymph, which prevents edema."
+            }
+          ]
+        },
+        {
+          "id": "ch20_s04",
+          "title": "Homeostatic Regulation of the Vascular System",
+          "cards": [
+            {
+              "objective": "Discuss the mechanisms involved in the neural regulation of vascular homeostasis",
+              "answer": "The cardiovascular center in the medulla adjusts vessel diameter through sympathetic vasomotor fibers. Baroreceptors and chemoreceptors feed it information, and it responds with vasoconstriction or vasodilation to keep blood pressure and tissue perfusion appropriate."
+            },
+            {
+              "objective": "Describe the contribution of a variety of hormones to the renal regulation of blood pressure",
+              "answer": "Several hormones adjust blood pressure largely through the kidneys and fluid balance: the renin–angiotensin–aldosterone system and ADH raise pressure by constricting vessels and conserving water and sodium, while atrial natriuretic peptide lowers it by promoting fluid loss, and epinephrine and norepinephrine raise output and resistance."
+            },
+            {
+              "objective": "Identify the effects of exercise on vascular homeostasis",
+              "answer": "Exercise raises cardiac output and redistributes blood flow—vessels in active muscles dilate through autoregulation while those in less active organs constrict. Blood pressure rises modestly, and regular training improves vascular efficiency and lowers resting pressure."
+            },
+            {
+              "objective": "Discuss how hypertension, hemorrhage, and circulatory shock affect vascular health",
+              "answer": "Hypertension is chronically high blood pressure that strains the heart and vessels. Hemorrhage is blood loss that lowers volume and pressure and triggers compensatory reflexes. Circulatory shock is inadequate perfusion of the tissues (e.g., hypovolemic shock from severe blood loss) that becomes life-threatening if not compensated."
+            }
+          ]
+        },
+        {
+          "id": "ch20_s05",
+          "title": "Circulatory Pathways",
+          "cards": [
+            {
+              "objective": "Identify the vessels through which blood travels within the pulmonary circuit, beginning from the right ventricle of the heart and ending at the left atrium",
+              "answer": "From the right ventricle blood enters the pulmonary trunk, which divides into the right and left pulmonary arteries to the lungs. After gas exchange in the pulmonary capillaries, oxygenated blood returns through the pulmonary veins to the left atrium."
+            },
+            {
+              "objective": "Create a flow chart showing the major systemic arteries through which blood travels from the aorta and its major branches, to the most significant arteries feeding into the right and left upper and lower limbs",
+              "answer": "Blood leaves the left ventricle through the aorta (ascending aorta → aortic arch → thoracic → abdominal aorta). The arch gives off the brachiocephalic, left common carotid, and left subclavian arteries; each subclavian feeds an arm (axillary → brachial → radial/ulnar), while the aorta's lower branches (common iliac → femoral → popliteal → tibial) feed the legs."
+            },
+            {
+              "objective": "Create a flow chart showing the major systemic veins through which blood travels from the feet to the right atrium of the heart",
+              "answer": "Blood returns from the feet via the tibial and popliteal veins to the femoral and external iliac veins, which join into the common iliac veins and then the inferior vena cava. Together with drainage from the trunk, the inferior vena cava (and the superior vena cava from the upper body) empties into the right atrium."
+            }
+          ]
+        },
+        {
+          "id": "ch20_s06",
+          "title": "Development of Blood Vessels and Fetal Circulation",
+          "cards": [
+            {
+              "objective": "Describe the development of blood vessels",
+              "answer": "Blood vessels form early from mesoderm by vasculogenesis—blood islands coalesce into the first vessels—and then extend by angiogenesis, sprouting new vessels from existing ones. The heart and vessels are among the first functioning systems in the embryo."
+            },
+            {
+              "objective": "Describe the fetal circulation",
+              "answer": "Fetal circulation bypasses the nonfunctional lungs and liver using shunts. The placenta oxygenates the blood, which enters via the umbilical vein; the ductus venosus bypasses the liver, the foramen ovale shunts blood from the right to the left atrium, and the ductus arteriosus routes blood from the pulmonary trunk to the aorta. These shunts close after birth."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "title": "The Respiratory System",
+      "sections": [
+        {
+          "id": "ch22_s01",
+          "title": "Organs and Structures of the Respiratory System",
+          "cards": [
+            {
+              "objective": "List the structures that make up the respiratory system",
+              "answer": "The respiratory system includes the nose and nasal cavity, pharynx, larynx, trachea, bronchi, and bronchioles (the conducting passages), and the alveoli of the lungs (the respiratory zone where gas exchange occurs). Associated structures include the diaphragm and other respiratory muscles."
+            },
+            {
+              "objective": "Describe how the respiratory system processes oxygen and CO2",
+              "answer": "The system moves air to and from the alveoli, where oxygen diffuses from the air into the blood and carbon dioxide diffuses from the blood into the air to be exhaled. This exchange supplies the O2 needed for cellular respiration and removes the CO2 it produces."
+            },
+            {
+              "objective": "Compare and contrast the functions of upper respiratory tract with the lower respiratory tract",
+              "answer": "The upper respiratory tract (nose, nasal cavity, pharynx, and larynx) warms, filters, and humidifies incoming air. The lower respiratory tract (trachea, bronchi, bronchioles, and lungs) conducts that air and carries out gas exchange in the alveoli."
+            }
+          ]
+        },
+        {
+          "id": "ch22_s02",
+          "title": "The Lungs",
+          "cards": [
+            {
+              "objective": "Describe the overall function of the lung",
+              "answer": "The lungs house the alveoli, providing a vast, thin, moist surface where oxygen enters the blood and carbon dioxide leaves it. They bring air and blood into close contact for efficient gas exchange."
+            },
+            {
+              "objective": "Summarize the blood flow pattern associated with the lungs",
+              "answer": "The lungs receive the entire cardiac output through the pulmonary circuit: deoxygenated blood arrives from the right ventricle via the pulmonary arteries, passes through the alveolar capillaries to be oxygenated, and returns to the left atrium via the pulmonary veins."
+            },
+            {
+              "objective": "Outline the anatomy of the blood supply to the lungs",
+              "answer": "Gas exchange uses the pulmonary circulation (pulmonary arteries in, pulmonary veins out). Separately, the bronchial arteries from the aorta deliver oxygenated blood that nourishes the lung tissue itself, with bronchial veins providing its drainage."
+            },
+            {
+              "objective": "Describe the pleura of the lungs and their function",
+              "answer": "Each lung is enclosed by a double serous membrane: the visceral pleura on the lung surface and the parietal pleura lining the thoracic wall. The pleural cavity between them holds a thin film of fluid that reduces friction during breathing, and its surface tension helps keep the lungs expanded against the chest wall."
+            }
+          ]
+        },
+        {
+          "id": "ch22_s03",
+          "title": "The Process of Breathing",
+          "cards": [
+            {
+              "objective": "Describe the mechanisms that drive breathing",
+              "answer": "Breathing is driven by pressure differences created as thoracic volume changes. Contraction of the diaphragm and external intercostals enlarges the thorax, lowering intrapulmonary pressure so air flows in (inspiration); their relaxation reduces volume, raising pressure so air flows out (expiration)."
+            },
+            {
+              "objective": "Discuss how pressure, volume, and resistance are related",
+              "answer": "By Boyle's law pressure and volume are inversely related, so increasing lung volume lowers pressure and draws air in. Airflow also varies inversely with resistance—narrowed airways (such as in bronchoconstriction) reduce flow, while wider airways ease it."
+            },
+            {
+              "objective": "List the steps involved in pulmonary ventilation",
+              "answer": "Pulmonary ventilation has two phases. In inspiration the diaphragm and external intercostals contract, expanding the thorax and lowering intrapulmonary pressure below atmospheric so air enters. In expiration these muscles relax, the lungs recoil, volume falls, pressure rises above atmospheric, and air exits."
+            },
+            {
+              "objective": "Discuss the physical factors related to breathing",
+              "answer": "Ventilation is influenced by airway resistance (airway diameter), alveolar surface tension (reduced by surfactant so alveoli don't collapse), and lung compliance and elasticity (how easily the lungs stretch and recoil). Abnormalities in any of these increase the work of breathing."
+            },
+            {
+              "objective": "Discuss the meaning of respiratory volume and capacities",
+              "answer": "Respiratory volumes describe the amounts of air moved: tidal volume (a normal breath), inspiratory and expiratory reserve volumes (extra in and out), and residual volume (air remaining after full exhalation). Capacities are sums of volumes—for example vital capacity (the most air exhaled after a maximal inhalation) and total lung capacity."
+            },
+            {
+              "objective": "Define respiratory rate",
+              "answer": "Respiratory rate is the number of breaths taken per minute. In a resting adult it is normally about 12–20 breaths per minute, and it is higher in infants and children."
+            },
+            {
+              "objective": "Outline the mechanisms behind the control of breathing",
+              "answer": "Breathing is normally involuntary, set by respiratory centers in the brain stem that generate the rhythm. These centers respond to chemoreceptor input—especially blood CO2 and pH and, to a lesser extent, O2—adjusting rate and depth to keep blood gases stable, though the rhythm can be voluntarily overridden."
+            },
+            {
+              "objective": "Describe the respiratory centers of the medulla oblongata",
+              "answer": "The medulla oblongata contains the main rhythm generators: the dorsal respiratory group (inspiratory) sets the basic breathing rhythm, and the ventral respiratory group drives forceful inspiration and active expiration when demand rises."
+            },
+            {
+              "objective": "Describe the respiratory centers of the pons",
+              "answer": "The pons contains the pontine respiratory group (formerly the apneustic and pneumotaxic centers), which smooths and fine-tunes the medullary rhythm, influencing the transition between inspiration and expiration and adapting breathing during activities such as speech or sleep."
+            },
+            {
+              "objective": "Discuss factors that can influence the respiratory rate",
+              "answer": "Respiratory rate is altered by blood chemistry (rising CO2/H+ or falling O2 speeds breathing), body temperature and fever, emotions and pain, and exercise, as well as by conscious control, airway irritants, and stretch reflexes in the lungs."
+            }
+          ]
+        },
+        {
+          "id": "ch22_s04",
+          "title": "Gas Exchange",
+          "cards": [
+            {
+              "objective": "Compare the composition of atmospheric air and alveolar air",
+              "answer": "Alveolar air differs from atmospheric air because of gas exchange and humidification: it holds less oxygen and more carbon dioxide than inhaled air and is saturated with water vapor. Because only part of the air is replaced with each breath, alveolar gas composition stays relatively stable."
+            },
+            {
+              "objective": "Describe the mechanisms that drive gas exchange",
+              "answer": "Gases move by simple diffusion down their partial-pressure gradients across the respiratory membrane. Oxygen diffuses from its high partial pressure in the alveoli to lower pressure in the blood, and carbon dioxide diffuses the opposite way, as described by Dalton's and Henry's laws."
+            },
+            {
+              "objective": "Discuss the importance of sufficient ventilation and perfusion, and how the body adapts when they are insufficient",
+              "answer": "Efficient exchange requires matching ventilation (airflow to alveoli) with perfusion (blood flow to capillaries). The body adjusts locally—low O2 constricts pulmonary vessels to divert blood to better-ventilated alveoli, and changes in CO2 alter bronchiole diameter—to keep the ventilation–perfusion ratio near optimal."
+            },
+            {
+              "objective": "Discuss the process of external respiration",
+              "answer": "External respiration is gas exchange at the lungs: oxygen diffuses from alveolar air into the pulmonary capillary blood, and carbon dioxide diffuses from the blood into the alveoli to be exhaled. It converts deoxygenated blood into oxygenated blood."
+            },
+            {
+              "objective": "Describe the process of internal respiration",
+              "answer": "Internal respiration is gas exchange at the tissues: oxygen diffuses from the systemic capillary blood into the cells, and carbon dioxide produced by metabolism diffuses from the cells into the blood. It converts oxygenated blood back into deoxygenated blood."
+            }
+          ]
+        },
+        {
+          "id": "ch22_s05",
+          "title": "Transport of Gases",
+          "cards": [
+            {
+              "objective": "Describe the principles of oxygen transport",
+              "answer": "About 98% of oxygen is carried bound to hemoglobin as oxyhemoglobin, with only ~2% dissolved in plasma. Binding is cooperative and reversible—hemoglobin loads O2 in the lungs where partial pressure is high and unloads it in the tissues where it is low, aided by lower pH, higher CO2, and higher temperature."
+            },
+            {
+              "objective": "Describe the structure of hemoglobin",
+              "answer": "Hemoglobin is a protein with four polypeptide (globin) chains—two alpha and two beta—each cradling a heme group with a central iron atom that binds one oxygen molecule, so each hemoglobin can carry up to four O2."
+            },
+            {
+              "objective": "Compare and contrast fetal and adult hemoglobin",
+              "answer": "Fetal hemoglobin (HbF) has two gamma chains in place of the adult beta chains, giving it a higher affinity for oxygen than adult hemoglobin (HbA). This lets the fetus pull oxygen from the mother's blood across the placenta."
+            },
+            {
+              "objective": "Describe the principles of carbon dioxide transport",
+              "answer": "Carbon dioxide is carried three ways: about 70% as bicarbonate ions (formed in the red cells and buffering blood pH), roughly 20–23% bound to hemoglobin as carbaminohemoglobin, and about 7–10% dissolved in the plasma."
+            }
+          ]
+        },
+        {
+          "id": "ch22_s06",
+          "title": "Modifications in Respiratory Functions",
+          "cards": [
+            {
+              "objective": "Define the terms hyperpnea and hyperventilation",
+              "answer": "Hyperpnea is increased depth (and rate) of breathing that matches raised metabolic demand, as in exercise, so blood gases stay normal. Hyperventilation is breathing in excess of metabolic need, which blows off too much CO2 and can cause respiratory alkalosis."
+            },
+            {
+              "objective": "Describe the effect of exercise on the respiratory system",
+              "answer": "Exercise increases the rate and depth of breathing to meet oxygen demand and clear CO2, in step with increased cardiac output. This response (exercise hyperpnea) is driven mainly by neural signals from the motor cortex and the moving muscles rather than by large changes in blood gases."
+            },
+            {
+              "objective": "Describe the effect of high altitude on the respiratory system",
+              "answer": "At high altitude the lower atmospheric pressure means a lower partial pressure of oxygen, so less O2 loads onto hemoglobin and hypoxia results. The immediate responses are increased breathing (hyperventilation) and a higher heart rate."
+            },
+            {
+              "objective": "Discuss the process of acclimatization",
+              "answer": "Acclimatization is the body's gradual adjustment to prolonged low oxygen at altitude. Over days to weeks the kidneys release more erythropoietin to raise red-cell and hemoglobin production, breathing stays elevated, and capillary density increases, all improving oxygen delivery."
+            }
+          ]
+        },
+        {
+          "id": "ch22_s07",
+          "title": "Embryonic Development of the Respiratory System",
+          "cards": [
+            {
+              "objective": "Create a timeline of the phases of respiratory development in the fetus",
+              "answer": "Lung development proceeds through overlapping phases: the embryonic phase (the lung bud and major airways form), the pseudoglandular phase (the conducting airways branch), the canalicular phase (bronchioles and early gas-exchange regions with capillaries form), the saccular phase (terminal sacs and surfactant appear), and the alveolar phase (true alveoli mature, continuing after birth)."
+            },
+            {
+              "objective": "Propose reasons for fetal breathing movements",
+              "answer": "The fetus makes breathing-like movements even though the lungs are fluid-filled. These are thought to condition and strengthen the respiratory muscles, especially the diaphragm, and to promote normal lung growth in preparation for breathing at birth."
+            },
+            {
+              "objective": "Explain how the lungs become inflated after birth",
+              "answer": "At birth the lung fluid is absorbed and the newborn's first powerful breaths draw in air, inflating the alveoli. Pulmonary surfactant lowers surface tension so the alveoli stay open, and the falling pulmonary resistance helps establish air breathing and closes the fetal circulatory shunts."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

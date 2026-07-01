@@ -1,0 +1,2199 @@
+{
+  "id": "ch18",
+  "number": 18,
+  "title": "The Cardiovascular System: Blood",
+  "weekMapping": {
+    "lectureWeek": 3,
+    "labWeek": 5
+  },
+  "sections": [
+    {
+      "id": "ch18_s00",
+      "title": "Introduction",
+      "objectives": [],
+      "content": [
+        "Single-celled organisms do not need blood. They obtain nutrients directly from and excrete wastes directly into their environment. The human organism cannot do that. Our large, complex bodies need blood to deliver nutrients to and remove wastes from our trillions of cells. The heart pumps blood throughout the body in a network of blood vessels. Together, these three components—blood, heart, and vessels—make up the cardiovascular system. This chapter focuses on the medium of transport: blood."
+      ],
+      "chapterReview": [],
+      "reviewQuestions": [
+        {
+          "id": "ch18_s00_q00",
+          "question": "Why does the human organism need blood, according to the introduction?",
+          "choices": [
+            "To deliver nutrients to and remove wastes from its trillions of cells",
+            "Because human cells cannot perform respiration",
+            "To replace the function of the digestive tract",
+            "Because single-celled organisms also require it"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Large, complex bodies need blood to deliver nutrients to and remove wastes from their cells.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s00"
+        },
+        {
+          "id": "ch18_s00_q01",
+          "question": "What does the chapter say is the focus of this particular chapter?",
+          "choices": [
+            "The medium of transport: blood",
+            "The structure of the heart",
+            "The network of blood vessels",
+            "The exchange of gases in the lungs"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The chapter focuses on the medium of transport: blood.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s00"
+        },
+        {
+          "id": "ch18_s00_q02",
+          "question": "Why do single-celled organisms NOT need blood?",
+          "choices": [
+            "They obtain nutrients and excrete wastes directly into their environment",
+            "They have a simple internal heart",
+            "They store all their nutrients internally",
+            "They do not produce any metabolic wastes"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Single-celled organisms obtain nutrients from and excrete wastes directly into their environment.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s00"
+        }
+      ],
+      "glossary": [],
+      "checkpoints": [
+        {
+          "afterParagraph": 0,
+          "type": "mcq",
+          "question": "According to the introduction, which three components together make up the cardiovascular system?",
+          "choices": [
+            "Blood, heart, and vessels",
+            "Plasma, lymph, and arteries",
+            "Heart, lungs, and kidneys",
+            "Cells, nutrients, and wastes"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The passage states blood, heart, and vessels together make up the cardiovascular system.",
+          "slideId": null
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "ch18_s01",
+      "title": "An Overview of Blood",
+      "objectives": [
+        "Identify the primary functions of blood in transportation, defense, and maintenance of homeostasis",
+        "Name the fluid component of blood and the three major types of formed elements, and identify their relative proportions in a blood sample",
+        "Discuss the unique physical characteristics of blood",
+        "Identify the composition of blood plasma, including its most important solutes and plasma proteins 732 18",
+        "The Cardiovascular System: Blood"
+      ],
+      "content": [
+        "Recall that blood is a connective tissue. Like all connective tissues, it is made up of cellular elements and an extracellular matrix. The cellular elements—referred to as the formed elements—include red blood cells (RBCs), white blood cells (WBCs), and cell fragments called platelets. The extracellular matrix, called plasma, makes blood unique among connective tissues because it is fluid. This fluid, which is mostly water, perpetually suspends the formed elements and enables them to circulate throughout the body within the cardiovascular system.",
+        "Functions of Blood The primary function of blood is to deliver oxygen and nutrients to and remove wastes from body cells, but that is only the beginning of the story. The specific functions of blood also include defense, distribution of heat, and maintenance of homeostasis.",
+        "Transportation Nutrients from the foods you eat are absorbed in the digestive tract. Most of these travel in the bloodstream directly to the liver, where they are processed and released back into the bloodstream for delivery to body cells. Oxygen from the air you breathe diffuses into the blood, which moves from the lungs to the heart, which then pumps it out to the rest of the body. Moreover, endocrine glands scattered throughout the body release their products, called hormones, into the bloodstream, which carries them to distant target cells. Blood also picks up cellular wastes and byproducts, and transports them to various organs for removal. For instance, blood moves carbon dioxide to the lungs for exhalation from the body, and various waste products are transported to the kidneys and liver for excretion from the body in the form of urine or bile.",
+        "Defense Many types of WBCs protect the body from external threats, such as disease-causing bacteria that have entered the bloodstream in a wound. Other WBCs seek out and destroy internal threats, such as cells with mutated DNA that could multiply to become cancerous, or body cells infected with viruses.",
+        "When damage to the vessels results in bleeding, blood platelets and certain proteins dissolved in the plasma, the fluid portion of the blood, interact to block the ruptured areas of the blood vessels involved. This protects the body from further blood loss.",
+        "Maintenance of Homeostasis Recall that body temperature is regulated via a classic negative-feedback loop. If you were exercising on a warm day, your rising core body temperature would trigger several homeostatic mechanisms, including increased transport of blood from your core to your body periphery, which is typically cooler. As blood passes through the vessels of the skin, heat would be dissipated to the environment, and the blood returning to your body core would be cooler. In contrast, on a cold day, blood is diverted away from the skin to maintain a warmer body core. In extreme cases, this may result in frostbite.",
+        "Blood also helps to maintain the chemical balance of the body. Proteins and other compounds in blood act as buffers, which thereby help to regulate the pH of body tissues. Blood also helps to regulate the water content of body cells.",
+        "Composition of Blood You have probably had blood drawn from a superficial vein in your arm, which was then sent to a lab for analysis. Some of the most common blood tests—for instance, those measuring lipid or glucose levels in plasma—determine which substances are present within blood and in what quantities. Other blood tests check for the composition of the blood itself, including the quantities and types of formed elements.",
+        "One such test, called a hematocrit, measures the percentage of RBCs, clinically known as erythrocytes, in a blood sample. It is performed by spinning the blood sample in a specialized centrifuge, a process that causes the heavier elements suspended within the blood sample to separate from the lightweight, liquid plasma. Because the heaviest elements in blood are the erythrocytes, these settle at the very bottom of the hematocrit tube. Located above the erythrocytes is a pale, thin layer composed of the remaining formed elements of blood. These are the WBCs, clinically known as leukocytes, and the platelets, cell fragments also called thrombocytes. This layer is referred to as the buffy coat because of its color; it normally constitutes less than 1 percent of a blood sample. Above the buffy coat is the blood plasma, normally a pale, straw-colored fluid, which constitutes the remainder of",
+        "The volume of erythrocytes after centrifugation is also commonly referred to as packed cell volume (PCV). In normal blood, about 45 percent of a sample is erythrocytes. The hematocrit of any one sample can vary significantly, however, about 36–50 percent, according to gender and other factors. Normal hematocrit values for females range from 37 to 47, with a mean value of 41; for males, hematocrit ranges from 42 to 52, with a mean of 47. The percentage of other formed elements, the WBCs and platelets, is extremely small so it is not normally considered with the hematocrit. So the mean plasma percentage is the percent of blood that is not erythrocytes: for females, it is approximately 59 (or 100 minus 41), and for males, it is approximately 53 (or 100 minus 47).",
+        "Characteristics of Blood When you think about blood, the first characteristic that probably comes to mind is its color. Blood that has just taken up oxygen in the lungs is bright red, and blood that has released oxygen in the tissues is a more dusky red. This is because hemoglobin is a pigment that changes color, depending upon the degree of oxygen saturation.",
+        "Blood is viscous and somewhat sticky to the touch. It has a viscosity approximately five times greater than water. Viscosity is a measure of a fluid’s thickness or resistance to flow, and is influenced by the presence of the plasma proteins and formed elements within the blood. The viscosity of blood has a dramatic impact on blood pressure and flow. Consider the difference in flow between water and honey. The more viscous honey would demonstrate a greater resistance to flow than the less viscous water. The same principle applies to blood.",
+        "The normal temperature of blood is slightly higher than normal body temperature—about 38 °C (or 100.4 °F), compared to 37 °C (or 98.6 °F) for an internal body temperature reading, although daily variations of 0.5 °C are normal. Although the surface of blood vessels is relatively smooth, as blood flows through them, it experiences some friction and resistance, especially as vessels age and lose their elasticity, thereby producing heat. This accounts for its slightly higher temperature.",
+        "The pH of blood averages about 7.4; however, it can range from 7.35 to 7.45 in a healthy person. Blood is therefore somewhat more basic (alkaline) on a chemical scale than pure water, which has a pH of 7.0. Blood contains numerous buffers that actually help to regulate pH.",
+        "Blood constitutes approximately 8 percent of adult body weight. Adult males typically average about 5 to 6 liters of blood. Females average 4–5 liters.",
+        "Blood Plasma Like other fluids in the body, plasma is composed primarily of water: In fact, it is about 92 percent water. Dissolved or suspended within this water is a mixture of substances, most of which are proteins. There are literally hundreds",
+        "of substances dissolved or suspended in the plasma, although many of them are found only in very small quantities.",
+        "INTERACTIVE LINK Visit this site (http://openstax.org/l/normallevels) for a list of normal levels established for many of the substances found in a sample of blood. Serum, one of the specimen types included, refers to a sample of plasma after clotting factors have been removed. What types of measurements are given for levels of glucose in the blood?",
+        "Plasma Proteins About 7 percent of the volume of plasma—nearly all that is not water—is made of proteins. These include several plasma proteins (proteins that are unique to the plasma), plus a much smaller number of regulatory proteins, including enzymes and some hormones. The major components of plasma are summarized in Figure 18.3.",
+        "The three major groups of plasma proteins are as follows:",
+        "• Albumin is the most abundant of the plasma proteins. Manufactured by the liver, albumin molecules serve as binding proteins—transport vehicles for fatty acids and steroid hormones. Recall that lipids are hydrophobic; however, their binding to albumin enables their transport in the watery plasma. Albumin is also the most significant contributor to the osmotic pressure of blood; that is, its presence holds water inside the blood vessels and draws water from the tissues, across blood vessel walls, and into the bloodstream. This in turn helps to maintain both blood volume and blood pressure. Albumin normally accounts for approximately 54 percent of the total plasma protein content, in clinical levels of 3.5–5.0 g/dL blood. • The second most common plasma proteins are the globulins. A heterogeneous group, there are three main subgroups known as alpha, beta, and gamma globulins. The alpha and beta globulins transport iron, lipids, and the fat-soluble vitamins A, D, E, and K to the cells; like albumin, they also contribute to osmotic pressure. The gamma globulins are proteins involved in immunity and are better known as antibodies or immunoglobulins. Although other plasma proteins are produced by the liver, immunoglobulins are produced by specialized leukocytes known as plasma cells. (Seek additional content for more information about immunoglobulins.) Globulins make up approximately 38 percent of the total plasma protein volume, in clinical levels of 1.0–1.5 g/dL blood. • Fibrinogen is the third of the three major groups of plasma proteins. Like albumin and the alpha and beta globulins, fibrinogen is produced by the liver. It is essential for blood clotting, a process described later in this chapter. Fibrinogen accounts for about 7 percent of the total plasma protein volume, in clinical levels of 0.2–0.45 g/dL blood.",
+        "Other Plasma Solutes In addition to proteins, plasma contains a wide variety of other substances. These include various electrolytes, such as sodium, potassium, and calcium ions; dissolved gases, such as oxygen, carbon dioxide, and nitrogen; various organic nutrients, such as vitamins, lipids, glucose, and amino acids; and metabolic wastes. All of these nonprotein solutes combined contribute approximately 1 percent to the total volume of plasma.",
+        "Phlebotomy and Medical Lab Technology Phlebotomists are professionals trained to draw blood (phleb- = “a blood vessel”; -tomy = “to cut”). When more than a few drops of blood are required, phlebotomists perform a venipuncture, typically of a surface vein in the arm. They perform a capillary stick on a finger, an earlobe, or the heel of an infant when only a small quantity of blood is required. An arterial stick is collected from an artery and used to analyze blood gases. After collection, the blood may be analyzed by medical laboratories or perhaps used for transfusions, donations, or research. While many allied health professionals practice phlebotomy, the American Society of Phlebotomy Technicians issues certificates to",
+        "individuals passing a national examination, and some large labs and hospitals hire individuals expressly for their skill in phlebotomy.",
+        "Medical or clinical laboratories employ a variety of individuals in technical positions:",
+        "• Clinical Laboratory Technologists (CLT), also known as Medical Laboratory Scientists (MLS), typically hold a bachelor’s degree and certification from an accredited training program. They perform a wide variety of tests on various body fluids, including blood. The information they provide is essential to the primary care providers in determining a diagnosis and in monitoring the course of a disease and response to treatment. • Medical laboratory technicians (MLT) typically have an associate’s degree but may perform duties similar to those of an MT. • Medical laboratory assistants (MLA) spend the majority of their time processing samples and carrying out routine assignments within the lab. Clinical training is required, but a degree may not be essential to obtaining a position."
+      ],
+      "chapterReview": [],
+      "reviewQuestions": [
+        {
+          "id": "ch18_s01_q00",
+          "question": "Which sequence correctly lists the layers of a centrifuged blood sample from top to bottom?",
+          "choices": [
+            "Plasma, buffy coat, erythrocytes",
+            "Erythrocytes, buffy coat, plasma",
+            "Buffy coat, plasma, erythrocytes",
+            "Plasma, erythrocytes, buffy coat"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Plasma floats on top, the buffy coat sits in the middle, and erythrocytes settle at the bottom.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s01"
+        },
+        {
+          "id": "ch18_s01_q01",
+          "question": "In normal blood, approximately what percentage of a sample is erythrocytes?",
+          "choices": [
+            "About 45 percent",
+            "About 92 percent",
+            "Less than 1 percent",
+            "About 7 percent"
+          ],
+          "correctAnswer": 0,
+          "explanation": "About 45 percent of a normal blood sample is erythrocytes (the hematocrit).",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s01"
+        },
+        {
+          "id": "ch18_s01_q02",
+          "question": "The buffy coat in a hematocrit tube is composed of:",
+          "choices": [
+            "Leukocytes and platelets",
+            "Erythrocytes only",
+            "Plasma proteins",
+            "Dissolved electrolytes"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The buffy coat is the pale layer of WBCs and platelets, normally under 1 percent of the sample.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s01"
+        },
+        {
+          "id": "ch18_s01_q03",
+          "question": "Blood has a viscosity approximately how many times greater than water?",
+          "choices": [
+            "Five times",
+            "Two times",
+            "Ten times",
+            "Equal to water"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Blood is about five times more viscous than water.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s01"
+        },
+        {
+          "id": "ch18_s01_q04",
+          "question": "Which plasma proteins are also known as antibodies or immunoglobulins?",
+          "choices": [
+            "Gamma globulins",
+            "Albumin",
+            "Fibrinogen",
+            "Alpha globulins"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The gamma globulins are proteins involved in immunity, better known as antibodies or immunoglobulins.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s01"
+        },
+        {
+          "id": "ch18_s01_q05",
+          "question": "Plasma is composed primarily of:",
+          "choices": [
+            "Water (about 92 percent)",
+            "Albumin",
+            "Electrolytes",
+            "Fibrinogen"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Plasma is about 92 percent water.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s01"
+        }
+      ],
+      "glossary": [],
+      "checkpoints": [
+        {
+          "afterParagraph": 0,
+          "type": "mcq",
+          "question": "Blood is unique among connective tissues because its extracellular matrix is:",
+          "choices": [
+            "Fluid (plasma)",
+            "Mineralized like bone",
+            "Composed of dense collagen fibers",
+            "Absent entirely"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Plasma, the fluid extracellular matrix, makes blood unique among connective tissues.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 3,
+          "type": "mcq",
+          "question": "Which formed elements protect the body from disease-causing bacteria entering through a wound?",
+          "choices": [
+            "White blood cells",
+            "Red blood cells",
+            "Platelets",
+            "Plasma proteins"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Many types of WBCs protect the body from external threats such as bacteria.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 6,
+          "type": "mcq",
+          "question": "On a warm day, how does blood help regulate body temperature?",
+          "choices": [
+            "Heat is dissipated to the environment as blood passes through skin vessels",
+            "Blood is diverted away from the skin to the core",
+            "Blood thickens to retain heat",
+            "Plasma proteins absorb excess heat permanently"
+          ],
+          "correctAnswer": 0,
+          "explanation": "On a warm day, blood moves to the periphery where heat is dissipated through skin vessels.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 9,
+          "type": "mcq",
+          "question": "In a hematocrit, the erythrocytes settle at the bottom of the tube because they are:",
+          "choices": [
+            "The heaviest formed elements",
+            "The lightest component",
+            "Bound to plasma proteins",
+            "Part of the buffy coat"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Erythrocytes are the heaviest elements, so they settle at the very bottom of the tube.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 13,
+          "type": "mcq",
+          "question": "The average pH of blood is about 7.4, which makes it:",
+          "choices": [
+            "Slightly more basic (alkaline) than pure water",
+            "Strongly acidic",
+            "Exactly neutral like pure water",
+            "More acidic than pure water"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Blood at pH 7.4 is somewhat more basic than pure water, which has a pH of 7.0.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 18,
+          "type": "mcq",
+          "question": "About 7 percent of plasma volume is made of:",
+          "choices": [
+            "Proteins",
+            "Electrolytes",
+            "Dissolved gases",
+            "Glucose"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Nearly all of plasma that is not water (about 7 percent) is made of proteins.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 21,
+          "type": "mcq",
+          "question": "Which plasma protein is the most abundant and the most significant contributor to osmotic pressure?",
+          "choices": [
+            "Albumin",
+            "Fibrinogen",
+            "Gamma globulin",
+            "Thrombopoietin"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Albumin is the most abundant plasma protein and the chief contributor to osmotic pressure.",
+          "slideId": null
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/731_Blood_Cells",
+          "caption": "Blood Cells A single drop of blood contains millions of red blood cells, platelets, and white blood cells. One of each type is shown here, isolated from a scanning electron micrograph."
+        },
+        {
+          "imageName": "TextbookImages/733_Composition_of_Blood",
+          "caption": "Composition of Blood The cellular elements of blood include a vast number of erythrocytes and comparatively fewer leukocytes and platelets. Plasma is the fluid in which the formed elements are suspended. A sample of blood spun in a centrifuge reveals that plasma is the lightest component. It floats at the top of the tube separated from the heaviest elements, the erythrocytes, by a buffy coat of leukocytes and platelets. Hematocrit is the percentage of the total sample that is comprised of erythrocytes. Depressed and elevated hematocrit levels are shown for comparison."
+        },
+        {
+          "imageName": "TextbookImages/735_Major_Blood_Components",
+          "caption": "Major Blood Components"
+        }
+      ]
+    },
+    {
+      "id": "ch18_s02",
+      "title": "Production of the Formed Elements",
+      "objectives": [
+        "Trace the generation of the formed elements of blood from bone marrow stem cells",
+        "Discuss the role of hemopoietic growth factors in promoting the production of the formed elements"
+      ],
+      "content": [
+        "The lifespan of the formed elements is very brief. Although one type of leukocyte called memory cells can survive for years, most erythrocytes, leukocytes, and platelets normally live only a few hours to a few weeks. Thus, the body must form new blood cells and platelets quickly and continuously. When you donate a unit of blood during a blood drive (approximately 475 mL, or about 1 pint), your body typically replaces the donated plasma within 24 hours, but it takes about 4 to 6 weeks to replace the blood cells. This restricts the frequency with which donors can contribute their blood. The process by which this replacement occurs is called hemopoiesis, or hematopoiesis (from the Greek root haima- = “blood”; -poiesis = “production”).",
+        "Sites of Hemopoiesis Prior to birth, hemopoiesis occurs in a number of tissues, beginning with the yolk sac of the developing embryo, and continuing in the fetal liver, spleen, lymphatic tissue, and eventually the red bone marrow. Following birth, most hemopoiesis occurs in the red marrow, a connective tissue within the spaces of spongy (cancellous) bone tissue. In children, hemopoiesis can occur in the medullary cavity of long bones; in adults, the process is largely restricted to the cranial and pelvic bones, the vertebrae, the sternum, and the proximal epiphyses of the femur and humerus.",
+        "Throughout adulthood, the liver and spleen maintain their ability to generate the formed elements. This process is referred to as extramedullary hemopoiesis (meaning hemopoiesis outside the medullary cavity of adult bones). When a disease such as bone cancer destroys the bone marrow, causing hemopoiesis to fail, extramedullary hemopoiesis may be initiated.",
+        "Differentiation of Formed Elements from Stem Cells All formed elements arise from stem cells of the red bone marrow. Recall that stem cells undergo mitosis plus cytokinesis (cellular division) to give rise to new daughter cells: One of these remains a stem cell and the other differentiates into one of any number of diverse cell types. Stem cells may be viewed as occupying a hierarchal system, with some loss of the ability to diversify at each step. The totipotent stem cell is the zygote, or fertilized egg. The totipotent (toti- = “all”) stem cell gives rise to all cells of the human body. The next level is the pluripotent stem cell, which gives rise to multiple types of cells of the body and some of the supporting fetal membranes. Beneath this level, the mesenchymal cell is a stem cell that develops only into types of connective tissue, including fibrous connective tissue, bone, cartilage, and blood, but not epithelium, muscle, and nervous tissue. One step lower on the hierarchy of stem cells is the hematopoietic stem cell, or hemocytoblast. All of the formed elements of blood originate from this specific type of cell.",
+        "Hemopoiesis begins when the hematopoietic stem cell is exposed to appropriate chemical stimuli collectively called hemopoietic growth factors, which prompt it to divide and differentiate. One daughter cell remains a hematopoietic",
+        "stem cell, allowing hemopoiesis to continue. The other daughter cell becomes either of two types of more specialized stem cells:",
+        "• Lymphoid stem cells give rise to a class of leukocytes known as lymphocytes, which include the various T cells, B cells, and natural killer (NK) cells, all of which function in immunity. However, hemopoiesis of lymphocytes progresses somewhat differently from the process for the other formed elements. In brief, lymphoid stem cells quickly migrate from the bone marrow to lymphatic tissues, including the lymph nodes, spleen, and thymus, where their production and differentiation continues. B cells are so named since they mature in the bone marrow, while T cells mature in the thymus. • Myeloid stem cells give rise to all the other formed elements, including the erythrocytes; megakaryocytes that produce platelets; and a myeloblast lineage that gives rise to monocytes and three forms of granular leukocytes: neutrophils, eosinophils, and basophils.",
+        "Lymphoid and myeloid stem cells do not immediately divide and differentiate into mature formed elements. As you can see in Figure 18.4, there are several intermediate stages of precursor cells (literally, forerunner cells), many of which can be recognized by their names, which have the suffix -blast. For instance, megakaryoblasts are the precursors of megakaryocytes, and proerythroblasts become reticulocytes, which eject their nucleus and most other organelles before maturing into erythrocytes.",
+        "Hemopoietic Growth Factors Development from stem cells to precursor cells to mature cells is again initiated by hemopoietic growth factors. These include the following:",
+        "• Erythropoietin (EPO) is a glycoprotein hormone secreted by the interstitial fibroblast cells of the kidneys in response to low oxygen levels. It prompts the production of erythrocytes. Some athletes use synthetic EPO as",
+        "a performance-enhancing drug (called blood doping) to increase RBC counts and subsequently increase oxygen delivery to tissues throughout the body. EPO is a banned substance in most organized sports, but it is also used medically in the treatment of certain anemia, specifically those triggered by certain types of cancer, and other disorders in which increased erythrocyte counts and oxygen levels are desirable. • Thrombopoietin, another glycoprotein hormone, is produced by the liver and kidneys. It triggers the development of megakaryocytes into platelets. • Cytokines are glycoproteins secreted by a wide variety of cells, including red bone marrow, leukocytes, macrophages, fibroblasts, and endothelial cells. They act locally as autocrine or paracrine factors, stimulating the proliferation of progenitor cells and helping to stimulate both nonspecific and specific resistance to disease. There are two major subtypes of cytokines known as colony-stimulating factors and interleukins. ◦ Colony-stimulating factors (CSFs) are glycoproteins that act locally, as autocrine or paracrine factors. Some trigger the differentiation of myeloblasts into granular leukocytes, namely, neutrophils, eosinophils, and basophils. These are referred to as granulocyte CSFs. A different CSF induces the production of monocytes, called monocyte CSFs. Both granulocytes and monocytes are stimulated by GM-CSF; granulocytes, monocytes, platelets, and erythrocytes are stimulated by multi-CSF. Synthetic forms of these hormones are often administered to patients with various forms of cancer who are receiving chemotherapy to revive their WBC counts. ◦ Interleukins are another class of cytokine signaling molecules important in hemopoiesis. They were initially thought to be secreted uniquely by leukocytes and to communicate only with other leukocytes, and were named accordingly, but are now known to be produced by a variety of cells including bone marrow and endothelium. Researchers now suspect that interleukins may play other roles in body functioning, including differentiation and maturation of cells, producing immunity and inflammation. To date, more than a dozen interleukins have been identified, with others likely to follow. They are generally numbered IL-1, IL-2, IL-3, etc.",
+        "EVERYDAY CONNECTION Blood Doping In its original intent, the term blood doping was used to describe the practice of injecting by transfusion supplemental RBCs into an individual, typically to enhance performance in a sport. Additional RBCs would deliver more oxygen to the tissues, providing extra aerobic capacity, clinically referred to as VO2 max. The source of the cells was either from the recipient (autologous) or from a donor with compatible blood (homologous). This practice was aided by the well-developed techniques of harvesting, concentrating, and freezing of the RBCs that could be later thawed and injected, yet still retain their functionality. These practices are considered illegal in virtually all sports and run the risk of infection, significantly increasing the viscosity of the blood and the potential for transmission of blood-borne pathogens if the blood was collected from another individual.",
+        "With the development of synthetic EPO in the 1980s, it became possible to provide additional RBCs by artificially stimulating RBC production in the bone marrow. Originally developed to treat patients suffering from anemia, renal failure, or cancer treatment, large quantities of EPO can be generated by recombinant DNA technology. Synthetic EPO is injected under the skin and can increase hematocrit for many weeks. It may also induce polycythemia and raise hematocrit to 70 or greater. This increased viscosity raises the resistance of the blood and forces the heart to pump more powerfully; in extreme cases, it has resulted in death. Other drugs such as cobalt II chloride have been shown to increase natural EPO gene expression. Blood doping has become problematic in many sports, especially cycling. Lance Armstrong, winner of seven Tour de France and many other cycling titles, was stripped of his victories and admitted to blood doping in 2013.",
+        "INTERACTIVE LINK Watch this video (http://openstax.org/l/doping) to see doctors discuss the dangers of blood doping in sports. What are the some potential side effects of blood doping?",
+        "Bone Marrow Sampling and Transplants Sometimes, a healthcare provider will order a bone marrow biopsy, a diagnostic test of a sample of red bone marrow, or a bone marrow transplant, a treatment in which a donor’s healthy bone marrow—and its stem cells—replaces the faulty bone marrow of a patient. These tests and procedures are often used to assist in the diagnosis and treatment of various severe forms of anemia, such as thalassemia major and sickle cell anemia, as well as some types of cancer, specifically leukemia.",
+        "In the past, when a bone marrow sample or transplant was necessary, the procedure would have required inserting a large-bore needle into the region near the iliac crest of the pelvic bones (os coxae). This location was preferred, since its location close to the body surface makes it more accessible, and it is relatively isolated from most vital organs. Unfortunately, the procedure is quite painful.",
+        "Now, direct sampling of bone marrow can often be avoided. In many cases, stem cells can be isolated in just a few hours from a sample of a patient’s blood. The isolated stem cells are then grown in culture using the appropriate hemopoietic growth factors, and analyzed or sometimes frozen for later use.",
+        "For an individual requiring a transplant, a matching donor is essential to prevent the immune system from destroying the donor cells—a phenomenon known as tissue rejection. To treat patients with bone marrow transplants, it is first necessary to destroy the patient’s own diseased marrow through radiation and/or chemotherapy. Donor bone marrow stem cells are then intravenously infused. From the bloodstream, they establish themselves in the recipient’s bone marrow."
+      ],
+      "chapterReview": [],
+      "reviewQuestions": [
+        {
+          "id": "ch18_s02_q00",
+          "question": "Following birth, where does most hemopoiesis occur?",
+          "choices": [
+            "In the red bone marrow",
+            "In the yolk sac",
+            "In the fetal liver",
+            "In the thymus"
+          ],
+          "correctAnswer": 0,
+          "explanation": "After birth, most hemopoiesis occurs in the red marrow of spongy bone.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s02"
+        },
+        {
+          "id": "ch18_s02_q01",
+          "question": "Which growth factor triggers the development of megakaryocytes into platelets?",
+          "choices": [
+            "Thrombopoietin",
+            "Erythropoietin",
+            "Interleukin-1",
+            "Granulocyte CSF"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Thrombopoietin triggers the development of megakaryocytes into platelets.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s02"
+        },
+        {
+          "id": "ch18_s02_q02",
+          "question": "Myeloid stem cells give rise to all the following EXCEPT:",
+          "choices": [
+            "Lymphocytes",
+            "Erythrocytes",
+            "Megakaryocytes (platelets)",
+            "Neutrophils"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Lymphocytes arise from lymphoid stem cells, not myeloid stem cells.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s02"
+        },
+        {
+          "id": "ch18_s02_q03",
+          "question": "Precursor (forerunner) cells in hemopoiesis are often recognized by which suffix in their names?",
+          "choices": [
+            "-blast",
+            "-cyte",
+            "-poiesis",
+            "-emia"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Many intermediate precursor cells carry the suffix -blast, such as megakaryoblasts.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s02"
+        },
+        {
+          "id": "ch18_s02_q04",
+          "question": "Which stem cell can give rise to ALL cells of the human body?",
+          "choices": [
+            "The totipotent stem cell (zygote)",
+            "The pluripotent stem cell",
+            "The mesenchymal cell",
+            "The hematopoietic stem cell"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The totipotent stem cell, the zygote, gives rise to all cells of the body.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s02"
+        },
+        {
+          "id": "ch18_s02_q05",
+          "question": "Why does blood doping with synthetic EPO pose a danger to the body?",
+          "choices": [
+            "It raises hematocrit and blood viscosity, forcing the heart to pump harder",
+            "It lowers the red blood cell count dangerously",
+            "It destroys platelets and prevents clotting",
+            "It permanently shuts down the kidneys"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Excess EPO can raise hematocrit and viscosity so much the heart must pump more powerfully, sometimes fatally.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s02"
+        }
+      ],
+      "glossary": [],
+      "checkpoints": [
+        {
+          "afterParagraph": 0,
+          "type": "mcq",
+          "question": "What is the term for the process by which the body forms new blood cells and platelets?",
+          "choices": [
+            "Hemopoiesis",
+            "Hemostasis",
+            "Hemolysis",
+            "Hematocrit"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hemopoiesis (hematopoiesis) is the process of blood cell production.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 2,
+          "type": "mcq",
+          "question": "Hemopoiesis occurring in the adult liver and spleen, outside the bone marrow, is called:",
+          "choices": [
+            "Extramedullary hemopoiesis",
+            "Intramedullary hemopoiesis",
+            "Lymphoid hemopoiesis",
+            "Myeloid hemopoiesis"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Extramedullary hemopoiesis is blood cell formation outside the medullary cavity of adult bones.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 3,
+          "type": "mcq",
+          "question": "All formed elements of blood ultimately originate from which specific cell?",
+          "choices": [
+            "The hematopoietic stem cell (hemocytoblast)",
+            "The totipotent zygote",
+            "The mesenchymal cell",
+            "The megakaryocyte"
+          ],
+          "correctAnswer": 0,
+          "explanation": "All formed elements originate from the hematopoietic stem cell, or hemocytoblast.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 6,
+          "type": "mcq",
+          "question": "Which stem cell line gives rise to lymphocytes such as T cells, B cells, and NK cells?",
+          "choices": [
+            "Lymphoid stem cells",
+            "Myeloid stem cells",
+            "Mesenchymal cells",
+            "Megakaryocytes"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Lymphoid stem cells give rise to the lymphocytes that function in immunity.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 10,
+          "type": "mcq",
+          "question": "Erythropoietin (EPO) is secreted by the kidneys in response to:",
+          "choices": [
+            "Low oxygen levels",
+            "High platelet counts",
+            "Elevated blood pH",
+            "Excess iron in the diet"
+          ],
+          "correctAnswer": 0,
+          "explanation": "EPO is secreted by interstitial fibroblast cells of the kidneys in response to low oxygen levels.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 14,
+          "type": "mcq",
+          "question": "A bone marrow transplant replaces a patient's faulty marrow with:",
+          "choices": [
+            "A donor's healthy bone marrow and its stem cells",
+            "Synthetic erythropoietin",
+            "Cultured plasma proteins",
+            "Frozen platelets only"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A bone marrow transplant uses a donor's healthy marrow and its stem cells.",
+          "slideId": null
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/737_Hematopoietic_System_of_Bone_Marrow",
+          "caption": "Hematopoietic System of Bone Marrow Hemopoiesis is the proliferation and differentiation of the formed elements of blood."
+        }
+      ]
+    },
+    {
+      "id": "ch18_s03",
+      "title": "Erythrocytes",
+      "objectives": [
+        "Describe the anatomy of erythrocytes",
+        "Discuss the various steps in the lifecycle of an erythrocyte",
+        "Explain the composition and function of hemoglobin"
+      ],
+      "content": [
+        "The erythrocyte, commonly known as a red blood cell (or RBC), is by far the most common formed element: A single drop of blood contains millions of erythrocytes and just thousands of leukocytes. Specifically, males have about 5.4 million erythrocytes per microliter (µL) of blood, and females have approximately 4.8 million per µL. In fact, erythrocytes are estimated to make up about 25 percent of the total cells in the body. As you can imagine, they are quite small cells, with a mean diameter of only about 7–8 micrometers (µm). The primary functions of erythrocytes are to pick up inhaled oxygen from the lungs and transport it to the body’s tissues, and to pick up some (about 24 percent) carbon dioxide waste at the tissues and transport it to the lungs for exhalation. Erythrocytes remain within the vascular network. Although leukocytes typically leave the blood vessels to perform their defensive functions, movement of erythrocytes from the blood vessels is abnormal.",
+        "Shape and Structure of Erythrocytes As an erythrocyte matures in the red bone marrow, it extrudes its nucleus and most of its other organelles. During the first day or two that it is in the circulation, an immature erythrocyte, known as a reticulocyte, will still typically contain remnants of organelles. Reticulocytes should comprise approximately 1–2 percent of the erythrocyte count and provide a rough estimate of the rate of RBC production, with abnormally low or high rates indicating deviations in the production of these cells. These remnants, primarily of networks (reticulum) of ribosomes, are quickly shed, however, and mature, circulating erythrocytes have few internal cellular structural components. Lacking mitochondria, for example, they rely on anaerobic respiration. This means that they do not utilize any of the oxygen they are transporting, so they can deliver it all to the tissues. They also lack endoplasmic reticula and do not synthesize proteins. Erythrocytes do, however, contain some structural proteins that help the blood cells maintain their unique structure and enable them to change their shape to squeeze through capillaries. This includes the protein spectrin, a cytoskeletal protein element.",
+        "Erythrocytes are biconcave disks; that is, they are plump at their periphery and very thin in the center. Since they lack most organelles, there is more interior space for the presence of the hemoglobin molecules that, as you will see shortly, transport gases. The biconcave shape also provides a greater surface area across which gas exchange can occur, relative to its volume; a sphere of a similar diameter would have a lower surface area-to- volume ratio. In the capillaries, the oxygen carried by the erythrocytes can diffuse into the plasma and then through the capillary walls to reach the cells, whereas some of the carbon dioxide produced by the cells as a waste product diffuses into the capillaries to be picked up by the erythrocytes. Capillary beds are extremely narrow, slowing the passage of the erythrocytes and providing an extended opportunity for gas exchange to occur. However, the space within capillaries can be so minute that, despite their own small size, erythrocytes may have to fold in on themselves if they are to make their way through. Fortunately, their structural proteins like spectrin are flexible, allowing them to bend over themselves to a surprising degree, then spring back again when they enter a wider vessel. In wider vessels, erythrocytes may stack up much like a roll of coins, forming a rouleaux, from the French word for “roll.”",
+        "Hemoglobin Hemoglobin is a large molecule made up of proteins and iron. It consists of four folded chains of a protein called",
+        "globin, designated alpha 1 and 2, and beta 1 and 2. Each of these globin molecules is bound to a red pigment molecule called heme, which contains an ion of iron (Fe2+).",
+        "Each iron ion in the heme can bind to one oxygen molecule; therefore, each hemoglobin molecule can transport four oxygen molecules. An individual erythrocyte may contain about 300 million hemoglobin molecules, and therefore can bind to and transport up to 1.2 billion oxygen molecules.",
+        "In the lungs, hemoglobin picks up oxygen, which binds to the iron ions, forming oxyhemoglobin. The bright red, oxygenated hemoglobin travels to the body tissues, where it releases some of the oxygen molecules, becoming darker red deoxyhemoglobin, sometimes referred to as reduced hemoglobin. Oxygen release depends on the need for oxygen in the surrounding tissues, so hemoglobin rarely if ever leaves all of its oxygen behind. In the capillaries, carbon dioxide enters the bloodstream. About 76 percent dissolves in the plasma, some of it remaining as dissolved CO2, and the remainder forming bicarbonate ion. About 23–24 percent of it binds to the amino acids in hemoglobin, forming a molecule known as carbaminohemoglobin. From the capillaries, the hemoglobin carries carbon dioxide back to the lungs, where it releases it for exchange of oxygen.",
+        "Changes in the levels of RBCs can have significant effects on the body’s ability to effectively deliver oxygen to the tissues. Ineffective hematopoiesis results in insufficient numbers of RBCs and results in one of several forms of anemia. An overproduction of RBCs produces a condition called polycythemia. The primary drawback with polycythemia is not a failure to directly deliver enough oxygen to the tissues, but rather the increased viscosity of the blood, which makes it more difficult for the heart to circulate the blood.",
+        "In patients with insufficient hemoglobin, the tissues may not receive sufficient oxygen, resulting in another form of anemia. In determining oxygenation of tissues, the value of greatest interest in healthcare is the percent saturation; that is, the percentage of hemoglobin sites occupied by oxygen in a patient’s blood. Clinically this value is commonly referred to simply as “percent sat.”",
+        "Percent saturation is normally monitored using a device known as a pulse oximeter, which is applied to a thin part of the body, typically the tip of the patient’s finger. The device works by sending two different wavelengths of light (one red, the other infrared) through the finger and measuring the light with a photodetector as it exits. Hemoglobin absorbs light differentially depending upon its saturation with oxygen. The machine calibrates the amount of light received by the photodetector against the amount absorbed by the partially oxygenated hemoglobin and presents the data as percent saturation. Normal pulse oximeter readings range from 95–100 percent. Lower percentages reflect hypoxemia, or low blood oxygen. The term hypoxia is more generic and simply refers to low oxygen levels. Oxygen levels are also directly monitored from free oxygen in the plasma typically following an arterial stick. When this method is applied, the amount of oxygen present is expressed in terms of partial pressure of oxygen or simply PO2 or PO2 and is typically recorded in units of millimeters of mercury, mm Hg.",
+        "The kidneys filter about 180 liters (~380 pints) of blood in an average adult each day, or about 20 percent of the total resting volume, and thus serve as ideal sites for receptors that determine oxygen saturation. In response to hypoxemia, less oxygen will exit the vessels supplying the kidney, resulting in hypoxia (low oxygen concentration) in the tissue fluid of the kidney where oxygen concentration is actually monitored. Interstitial fibroblasts within the kidney secrete EPO, thereby increasing erythrocyte production and restoring oxygen levels. In a classic negative- feedback loop, as oxygen saturation rises, EPO secretion falls, and vice versa, thereby maintaining homeostasis. Populations dwelling at high elevations, with inherently lower levels of oxygen in the atmosphere, naturally maintain a hematocrit higher than people living at sea level. Consequently, people traveling to high elevations may experience symptoms of hypoxemia, such as fatigue, headache, and shortness of breath, for a few days after their arrival. In response to the hypoxemia, the kidneys secrete EPO to step up the production of erythrocytes until homeostasis is achieved once again. To avoid the symptoms of hypoxemia, or altitude sickness, mountain climbers typically rest for several days to a week or more at a series of camps situated at increasing elevations to allow EPO levels and, consequently, erythrocyte counts to rise. When climbing the tallest peaks, such as Mt. Everest and K2 in the Himalayas, many mountain climbers rely upon bottled oxygen as they near the summit.",
+        "Lifecycle of Erythrocytes Production of erythrocytes in the marrow occurs at the staggering rate of more than 2 million cells per second. For this production to occur, a number of raw materials must be present in adequate amounts. These include the same nutrients that are essential to the production and maintenance of any cell, such as glucose, lipids, and amino acids. However, erythrocyte production also requires several trace elements:",
+        "• Iron. We have said that each heme group in a hemoglobin molecule contains an ion of the trace mineral iron. On average, less than 20 percent of the iron we consume is absorbed. Heme iron, from animal foods such as meat, poultry, and fish, is absorbed more efficiently than non-heme iron from plant foods. Upon absorption, iron becomes part of the body’s total iron pool. The bone marrow, liver, and spleen can store iron in the protein compounds ferritin and hemosiderin. Ferroportin transports the iron across the intestinal cell plasma membranes and from its storage sites into tissue fluid where it enters the blood. When EPO stimulates the production of erythrocytes, iron is released from storage, bound to transferrin, and carried to the red marrow where it attaches to erythrocyte precursors. • Copper. A trace mineral, copper is a component of two plasma proteins, hephaestin and ceruloplasmin. Without these, hemoglobin could not be adequately produced. Located in intestinal villi, hephaestin enables iron to be absorbed by intestinal cells. Ceruloplasmin transports copper. Both enable the oxidation of iron from Fe2+ to Fe3+, a form in which it can be bound to its transport protein, transferrin, for transport to body cells. In a state of copper deficiency, the transport of iron for heme synthesis decreases, and iron can accumulate in tissues, where it can eventually lead to organ damage. • Zinc. The trace mineral zinc functions as a co-enzyme that facilitates the synthesis of the heme portion of hemoglobin. • B vitamins. The B vitamins folate and vitamin B12 function as co-enzymes that facilitate DNA synthesis. Thus, both are critical for the synthesis of new cells, including erythrocytes.",
+        "Erythrocytes live up to 120 days in the circulation, after which the worn-out cells are removed by a type of myeloid phagocytic cell called a macrophage, located primarily within the bone marrow, liver, and spleen. The components of the degraded erythrocytes’ hemoglobin are further processed as follows:",
+        "• Globin, the protein portion of hemoglobin, is broken down into amino acids, which can be sent back to the bone marrow to be used in the production of new erythrocytes. Hemoglobin that is not phagocytized is broken down in the circulation, releasing alpha and beta chains that are removed from circulation by the kidneys. • The iron contained in the heme portion of hemoglobin may be stored in the liver or spleen, primarily in the form of ferritin or hemosiderin, or carried through the bloodstream by transferrin to the red bone marrow for recycling into new erythrocytes. • The non-iron portion of heme is degraded into the waste product biliverdin, a green pigment, and then into another waste product, bilirubin, a yellow pigment. Bilirubin binds to albumin and travels in the blood to the liver, which uses it in the manufacture of bile, a compound released into the intestines to help emulsify dietary fats. In the large intestine, bacteria breaks the bilirubin apart from the bile and converts it to urobilinogen and then into stercobilin. It is then eliminated from the body in the feces. Broad-spectrum antibiotics typically",
+        "eliminate these bacteria as well and may alter the color of feces. The kidneys also remove any circulating bilirubin and other related metabolic byproducts such as urobilins and secrete them into the urine.",
+        "The breakdown pigments formed from the destruction of hemoglobin can be seen in a variety of situations. At the site of an injury, biliverdin from damaged RBCs produces some of the dramatic colors associated with a bruise. With a failing liver, bilirubin cannot be removed effectively from circulation and causes the body to assume a yellowish tinge associated with jaundice. Stercobilins within the feces produce the typical brown color associated with this waste. And the yellow of urine is associated with the urobilins.",
+        "The erythrocyte lifecycle is summarized in Figure 18.8.",
+        "Disorders of Erythrocytes The size, shape, and number of erythrocytes, and the number of hemoglobin molecules can have a major impact on a person’s health. When the number of RBCs or hemoglobin is deficient, the general condition is called anemia. There are more than 400 types of anemia and more than 3.5 million Americans suffer from this condition. Anemia",
+        "can be broken down into three major groups: those caused by blood loss, those caused by faulty or decreased RBC production, and those caused by excessive destruction of RBCs. Clinicians often use two groupings in diagnosis: The kinetic approach focuses on evaluating the production, destruction, and removal of RBCs, whereas the morphological approach examines the RBCs themselves, paying particular emphasis to their size. A common test is the mean corpuscle volume (MCV), which measures size. Normal-sized cells are referred to as normocytic, smaller- than-normal cells are referred to as microcytic, and larger-than-normal cells are referred to as macrocytic. Reticulocyte counts are also important and may reveal inadequate production of RBCs. The effects of the various anemias are widespread, because reduced numbers of RBCs or hemoglobin will result in lower levels of oxygen being delivered to body tissues. Since oxygen is required for tissue functioning, anemia produces fatigue, lethargy, and an increased risk for infection. An oxygen deficit in the brain impairs the ability to think clearly, and may prompt headaches and irritability. Lack of oxygen leaves the patient short of breath, even as the heart and lungs work harder in response to the deficit.",
+        "Blood loss anemias are fairly straightforward. In addition to bleeding from wounds or other lesions, these forms of anemia may be due to ulcers, hemorrhoids, inflammation of the stomach (gastritis), and some cancers of the gastrointestinal tract. The excessive use of aspirin or other nonsteroidal anti-inflammatory drugs such as ibuprofen can trigger ulceration and gastritis. Excessive menstruation and loss of blood during childbirth are also potential causes.",
+        "Anemias caused by faulty or decreased RBC production include sickle cell anemia, iron deficiency anemia, vitamin deficiency anemia, and diseases of the bone marrow and stem cells.",
+        "• A characteristic change in the shape of erythrocytes is seen in sickle cell disease (also referred to as sickle cell anemia). A genetic disorder, it is caused by production of an abnormal type of hemoglobin, called hemoglobin S, which delivers less oxygen to tissues and causes erythrocytes to assume a sickle (or crescent) shape, especially at low oxygen concentrations. These abnormally shaped cells can then become lodged in narrow capillaries because they are unable to fold in on themselves to squeeze through, blocking blood flow to tissues and causing a variety of serious problems from painful joints to delayed growth and even blindness and cerebrovascular accidents (strokes). Sickle cell anemia is a genetic condition particularly found in individuals of African descent.",
+        "• Iron deficiency anemia is the most common type and results when the amount of available iron is insufficient to allow production of sufficient heme. This condition can occur in individuals with a deficiency of iron in the",
+        "diet and is especially common in teens and children as well as in vegans and vegetarians. Additionally, iron deficiency anemia may be caused by either an inability to absorb and transport iron or slow, chronic bleeding. • Vitamin-deficient anemias generally involve insufficient vitamin B12 and folate. ◦ Megaloblastic anemia involves a deficiency of vitamin B12 and/or folate, and often involves diets deficient in these essential nutrients. Lack of meat or a viable alternate source, and overcooking or eating insufficient amounts of vegetables may lead to a lack of folate. ◦ Pernicious anemia is caused by poor absorption of vitamin B12 and is often seen in patients with Crohn’s disease (a severe intestinal disorder often treated by surgery), surgical removal of the intestines or stomach (common in some weight loss surgeries), intestinal parasites, and AIDS. ◦ Pregnancies, some medications, excessive alcohol consumption, and some diseases such as celiac disease are also associated with vitamin deficiencies. It is essential to provide sufficient folic acid during the early stages of pregnancy to reduce the risk of neurological defects, including spina bifida, a failure of the neural tube to close. • Assorted disease processes can also interfere with the production and formation of RBCs and hemoglobin. If myeloid stem cells are defective or replaced by cancer cells, there will be insufficient quantities of RBCs produced. ◦ Aplastic anemia is the condition in which there are deficient numbers of RBC stem cells. Aplastic anemia is often inherited, or it may be triggered by radiation, medication, chemotherapy, or infection. ◦ Thalassemia is an inherited condition typically occurring in individuals from the Middle East, the Mediterranean, African, and Southeast Asia, in which maturation of the RBCs does not proceed normally. The most severe form is called Cooley’s anemia. ◦ Lead exposure from industrial sources or even dust from paint chips of iron-containing paints or pottery that has not been properly glazed may also lead to destruction of the red marrow. • Various disease processes also can lead to anemias. These include chronic kidney diseases often associated with a decreased production of EPO, hypothyroidism, some forms of cancer, lupus, and rheumatoid arthritis.",
+        "In contrast to anemia, an elevated RBC count is called polycythemia and is detected in a patient’s elevated hematocrit. It can occur transiently in a person who is dehydrated; when water intake is inadequate or water losses are excessive, the plasma volume falls. As a result, the hematocrit rises. For reasons mentioned earlier, a mild form of polycythemia is chronic but normal in people living at high altitudes. Some elite athletes train at high elevations specifically to induce this phenomenon. Finally, a type of bone marrow disease called polycythemia vera (from the Greek vera = “true”) causes an excessive production of immature erythrocytes. Polycythemia vera can dangerously elevate the viscosity of blood, raising blood pressure and making it more difficult for the heart to pump blood throughout the body. It is a relatively rare disease that occurs more often in males than in females, and is more likely to be present in elderly patients those over 60 years of age."
+      ],
+      "chapterReview": [],
+      "reviewQuestions": [
+        {
+          "id": "ch18_s03_q00",
+          "question": "An immature erythrocyte still containing remnants of organelles is called a:",
+          "choices": [
+            "Reticulocyte",
+            "Megakaryocyte",
+            "Macrophage",
+            "Myeloblast"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A reticulocyte is an immature erythrocyte that still contains remnants of ribosomal networks.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s03"
+        },
+        {
+          "id": "ch18_s03_q01",
+          "question": "Hemoglobin consists of four folded globin chains, each bound to a pigment molecule called:",
+          "choices": [
+            "Heme, which contains an iron ion",
+            "Albumin, which binds fatty acids",
+            "Bilirubin, a yellow pigment",
+            "Spectrin, a cytoskeletal protein"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Each globin chain is bound to heme, which contains an ion of iron.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s03"
+        },
+        {
+          "id": "ch18_s03_q02",
+          "question": "Worn-out erythrocytes, which live up to about 120 days, are removed by:",
+          "choices": [
+            "Macrophages in the bone marrow, liver, and spleen",
+            "The kidneys via filtration",
+            "Reticulocytes in the circulation",
+            "Megakaryocytes in the marrow"
+          ],
+          "correctAnswer": 0,
+          "explanation": "After about 120 days, macrophages in the marrow, liver, and spleen remove worn-out erythrocytes.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s03"
+        },
+        {
+          "id": "ch18_s03_q03",
+          "question": "An overproduction of red blood cells is called polycythemia; its primary drawback is:",
+          "choices": [
+            "Increased blood viscosity that makes the heart work harder",
+            "A failure to deliver oxygen to the tissues",
+            "An inability of blood to clot",
+            "Destruction of all plasma proteins"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The main problem with polycythemia is increased viscosity, making it harder for the heart to circulate blood.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s03"
+        },
+        {
+          "id": "ch18_s03_q04",
+          "question": "In response to hypoxemia, the kidneys secrete EPO. As oxygen saturation rises, EPO secretion:",
+          "choices": [
+            "Falls, in a classic negative-feedback loop",
+            "Rises further to overshoot",
+            "Remains constant regardless of oxygen",
+            "Stops permanently"
+          ],
+          "correctAnswer": 0,
+          "explanation": "In a negative-feedback loop, EPO secretion falls as oxygen saturation rises.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s03"
+        },
+        {
+          "id": "ch18_s03_q05",
+          "question": "The non-iron portion of heme is degraded into biliverdin and then into bilirubin, which the liver uses to manufacture:",
+          "choices": [
+            "Bile",
+            "New hemoglobin",
+            "Transferrin",
+            "Urine"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Bilirubin binds albumin, travels to the liver, and is used to manufacture bile.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s03"
+        }
+      ],
+      "glossary": [],
+      "checkpoints": [
+        {
+          "afterParagraph": 1,
+          "type": "mcq",
+          "question": "Mature circulating erythrocytes lack mitochondria and therefore:",
+          "choices": [
+            "Rely on anaerobic respiration and use none of the oxygen they carry",
+            "Cannot bind oxygen at all",
+            "Synthesize their own proteins for energy",
+            "Consume most of the oxygen they transport"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Lacking mitochondria, erythrocytes use anaerobic respiration, so they deliver all their oxygen to tissues.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 2,
+          "type": "mcq",
+          "question": "The biconcave shape of an erythrocyte is advantageous because it:",
+          "choices": [
+            "Provides greater surface area for gas exchange relative to its volume",
+            "Allows the cell to store a nucleus",
+            "Increases the cell's density",
+            "Prevents the cell from bending in capillaries"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The biconcave shape gives a greater surface-area-to-volume ratio for gas exchange.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 5,
+          "type": "mcq",
+          "question": "Each hemoglobin molecule can transport how many oxygen molecules?",
+          "choices": [
+            "Four",
+            "One",
+            "Two",
+            "Three hundred million"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Each of the four iron ions binds one oxygen, so each hemoglobin carries four oxygen molecules.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 9,
+          "type": "mcq",
+          "question": "A pulse oximeter measures percent saturation by:",
+          "choices": [
+            "Sending red and infrared light through a thin body part to a photodetector",
+            "Drawing arterial blood for gas analysis",
+            "Counting reticulocytes in a smear",
+            "Measuring blood viscosity directly"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A pulse oximeter passes red and infrared light through tissue to a photodetector to gauge oxygen saturation.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 12,
+          "type": "mcq",
+          "question": "Which trace mineral is found in each heme group and is essential to hemoglobin?",
+          "choices": [
+            "Iron",
+            "Copper",
+            "Zinc",
+            "Calcium"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Each heme group contains an ion of iron.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 16,
+          "type": "mcq",
+          "question": "The yellowish tinge of jaundice results from a failing liver being unable to remove which pigment?",
+          "choices": [
+            "Bilirubin",
+            "Biliverdin",
+            "Stercobilin",
+            "Hemoglobin S"
+          ],
+          "correctAnswer": 0,
+          "explanation": "When the liver fails, bilirubin accumulates and gives the body a yellowish tinge (jaundice).",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 21,
+          "type": "mcq",
+          "question": "Which anemia is caused by production of an abnormal hemoglobin called hemoglobin S?",
+          "choices": [
+            "Sickle cell anemia",
+            "Iron deficiency anemia",
+            "Pernicious anemia",
+            "Aplastic anemia"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Sickle cell anemia results from abnormal hemoglobin S that distorts erythrocytes into a sickle shape.",
+          "slideId": null
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/741_Summary_of_Formed_Elements_in_Blood",
+          "caption": "Summary of Formed Elements in Blood"
+        },
+        {
+          "imageName": "TextbookImages/742_Hemoglobin",
+          "caption": "Hemoglobin (a) A molecule of hemoglobin contains four globin proteins, each of which is bound to one molecule of the iron- containing pigment heme. (b) A single erythrocyte can contain 300 million hemoglobin molecules, and thus more than 1 billion oxygen molecules."
+        },
+        {
+          "imageName": "TextbookImages/745_Erythrocyte_Lifecycle",
+          "caption": "Erythrocyte Lifecycle Erythrocytes are produced in the bone marrow and sent into the circulation. At the end of their lifecycle, they are destroyed by macrophages, and their components are recycled."
+        },
+        {
+          "imageName": "TextbookImages/746_Sickle_Cells",
+          "caption": "Sickle Cells Sickle cell anemia is caused by a mutation in one of the hemoglobin genes. Erythrocytes produce an abnormal type of hemoglobin, which causes the cell to take on a sickle or crescent shape. (credit: Janice Haney Carr)"
+        }
+      ]
+    },
+    {
+      "id": "ch18_s04",
+      "title": "Leukocytes and Platelets",
+      "objectives": [
+        "Describe the general characteristics of leukocytes",
+        "Classify leukocytes according to their lineage, their main structural features, and their primary functions",
+        "Discuss the most common malignancies involving leukocytes",
+        "Identify the lineage, basic structure, and function of platelets"
+      ],
+      "content": [
+        "The leukocyte, commonly known as a white blood cell (or WBC), is a major component of the body’s defenses against disease. Leukocytes protect the body against invading microorganisms and body cells with mutated DNA, and they clean up debris. Platelets are essential for the repair of blood vessels when damage to them has occurred; they also provide growth factors for healing and repair. See Figure 18.5 for a summary of leukocytes and platelets.",
+        "Characteristics of Leukocytes Although leukocytes and erythrocytes both originate from hematopoietic stem cells in the bone marrow, they are very different from each other in many significant ways. For instance, leukocytes are far less numerous than erythrocytes: Typically there are only 5000 to 10,000 per µL. They are also larger than erythrocytes and are the only formed elements that are complete cells, possessing a nucleus and organelles. And although there is just one type",
+        "of erythrocyte, there are many types of leukocytes. Most of these types have a much shorter lifespan than that of erythrocytes, some as short as a few hours or even a few minutes in the case of acute infection.",
+        "One of the most distinctive characteristics of leukocytes is their movement. Whereas erythrocytes spend their days circulating within the blood vessels, leukocytes routinely leave the bloodstream to perform their defensive functions in the body’s tissues. For leukocytes, the vascular network is simply a highway they travel and soon exit to reach their true destination. When they arrive, they are often given distinct names, such as macrophage or microglia, depending on their function. As shown in Figure 18.10, they leave the capillaries—the smallest blood vessels—or other small vessels through a process known as emigration (from the Latin for “removal”) or diapedesis (dia- = “through”; -pedan = “to leap”) in which they squeeze through adjacent cells in a blood vessel wall.",
+        "Once they have exited the capillaries, some leukocytes will take up fixed positions in lymphatic tissue, bone marrow, the spleen, the thymus, or other organs. Others will move about through the tissue spaces very much like amoebas, continuously extending their plasma membranes, sometimes wandering freely, and sometimes moving toward the direction in which they are drawn by chemical signals. This attracting of leukocytes occurs because of positive chemotaxis (literally “movement in response to chemicals”), a phenomenon in which injured or infected cells and nearby leukocytes emit the equivalent of a chemical “911” call, attracting more leukocytes to the site. In clinical medicine, the differential counts of the types and percentages of leukocytes present are often key indicators in making a diagnosis and selecting a treatment.",
+        "Classification of Leukocytes When scientists first began to observe stained blood slides, it quickly became evident that leukocytes could be divided into two groups, according to whether their cytoplasm contained highly visible granules:",
+        "• Granular leukocytes contain abundant granules within the cytoplasm. They include neutrophils, eosinophils,",
+        "and basophils (you can view their lineage from myeloid stem cells in Figure 18.4). • While granules are not totally lacking in agranular leukocytes, they are far fewer and less obvious. Agranular leukocytes include monocytes, which mature into macrophages that are phagocytic, and lymphocytes, which arise from the lymphoid stem cell line.",
+        "Granular Leukocytes We will consider the granular leukocytes in order from most common to least common. All of these are produced in the red bone marrow and have a short lifespan of hours to days. They typically have a lobed nucleus and are classified according to which type of stain best highlights their granules.",
+        "The most common of all the leukocytes, neutrophils will normally comprise 50–70 percent of total leukocyte count. They are 10–12 µm in diameter, significantly larger than erythrocytes. They are called neutrophils because their granules show up most clearly with stains that are chemically neutral (neither acidic nor basic). The granules are numerous but quite fine and normally appear light lilac. The nucleus has a distinct lobed appearance and may have two to five lobes, the number increasing with the age of the cell. Older neutrophils have increasing numbers of lobes and are often referred to as polymorphonuclear (a nucleus with many forms), or simply “polys.” Younger and immature neutrophils begin to develop lobes and are known as “bands.”",
+        "Neutrophils are rapid responders to the site of infection and are efficient phagocytes with a preference for bacteria. Their granules include lysozyme, an enzyme capable of lysing, or breaking down, bacterial cell walls; oxidants such as hydrogen peroxide; and defensins, proteins that bind to and puncture bacterial and fungal plasma membranes, so that the cell contents leak out. Abnormally high counts of neutrophils indicate infection and/or inflammation, particularly triggered by bacteria, but are also found in burn patients and others experiencing unusual stress. A burn injury increases the proliferation of neutrophils in order to fight off infection that can result from the destruction of the barrier of the skin. Low counts may be caused by drug toxicity and other disorders, and may increase an individual’s susceptibility to infection.",
+        "Eosinophils typically represent 2–4 percent of total leukocyte count. They are also 10–12 µm in diameter. The granules of eosinophils stain best with an acidic stain known as eosin. The nucleus of the eosinophil will typically have two to three lobes and, if stained properly, the granules will have a distinct red to orange color.",
+        "The granules of eosinophils include antihistamine molecules, which counteract the activities of histamines, inflammatory chemicals produced by basophils and mast cells. Some eosinophil granules contain molecules toxic to parasitic worms, which can enter the body through the integument, or when an individual consumes raw or undercooked fish or meat. Eosinophils are also capable of phagocytosis and are particularly effective when antibodies bind to the target and form an antigen-antibody complex. High counts of eosinophils are typical of patients experiencing allergies, parasitic worm infestations, and some autoimmune diseases. Low counts may be due to drug toxicity and stress.",
+        "Basophils are the least common leukocytes, typically comprising less than one percent of the total leukocyte count. They are slightly smaller than neutrophils and eosinophils at 8–10 µm in diameter. The granules of basophils stain best with basic (alkaline) stains. Basophils contain large granules that pick up a dark blue stain and are so common they may make it difficult to see the two-lobed nucleus.",
+        "In general, basophils intensify the inflammatory response. They share this trait with mast cells. In the past, mast cells were considered to be basophils that left the circulation. However, this appears not to be the case, as the two",
+        "cell types develop from different lineages.",
+        "The granules of basophils release histamines, which contribute to inflammation, and heparin, which opposes blood clotting. High counts of basophils are associated with allergies, parasitic infections, and hypothyroidism. Low counts are associated with pregnancy, stress, and hyperthyroidism.",
+        "Agranular Leukocytes Agranular leukocytes contain smaller, less-visible granules in their cytoplasm than do granular leukocytes. The nucleus is simple in shape, sometimes with an indentation but without distinct lobes. There are two major types of agranulocytes: lymphocytes and monocytes.",
+        "Lymphocytes are the only formed element of blood that arises from lymphoid stem cells. Although they form initially in the bone marrow, much of their subsequent development and reproduction occurs in the lymphatic tissues. Lymphocytes are the second most common type of leukocyte, accounting for about 20–30 percent of all leukocytes, and are essential for the immune response. The size range of lymphocytes is quite extensive, with some authorities recognizing two size classes and others three. Typically, the large cells are 10–14 µm and have a smaller nucleus-to-cytoplasm ratio and more granules. The smaller cells are typically 6–9 µm with a larger volume of nucleus to cytoplasm, creating a “halo” effect. A few cells may fall outside these ranges, at 14–17 µm. This finding has led to the three size range classification.",
+        "The three major groups of lymphocytes include natural killer cells, B cells, and T cells. Natural killer (NK) cells are capable of recognizing cells that do not express “self” proteins on their plasma membrane or that contain foreign or abnormal markers. These “nonself” cells include cancer cells, cells infected with a virus, and other cells with atypical surface proteins. Thus, they provide generalized, nonspecific immunity. The larger lymphocytes are typically NK cells.",
+        "B cells and T cells, also called B lymphocytes and T lymphocytes, play prominent roles in defending the body against specific pathogens (disease-causing microorganisms) and are involved in specific immunity. One form of B cells (plasma cells) produces the antibodies or immunoglobulins that bind to specific foreign or abnormal components of plasma membranes. This is also referred to as humoral (body fluid) immunity. T cells provide cellular-level immunity by physically attacking foreign or diseased cells. A memory cell is a variety of both B and T cells that forms after exposure to a pathogen and mounts rapid responses upon subsequent exposures. Unlike other leukocytes, memory cells live for many years. B cells undergo a maturation process in the bone marrow, whereas T cells undergo maturation in the thymus. This site of the maturation process gives rise to the name B and T cells. The functions of lymphocytes are complex and will be covered in detail in the chapter covering the lymphatic system and immunity. Smaller lymphocytes are either B or T cells, although they cannot be differentiated in a normal blood smear.",
+        "Abnormally high lymphocyte counts are characteristic of viral infections as well as some types of cancer. Abnormally low lymphocyte counts are characteristic of prolonged (chronic) illness or immunosuppression, including that caused by HIV infection and drug therapies that often involve steroids.",
+        "Monocytes originate from myeloid stem cells. They normally represent 2–8 percent of the total leukocyte count. They are typically easily recognized by their large size of 12–20 µm and indented or horseshoe-shaped nuclei. Macrophages are monocytes that have left the circulation and phagocytize debris, foreign pathogens, worn-out erythrocytes, and many other dead, worn out, or damaged cells. Macrophages also release antimicrobial defensins and chemotactic chemicals that attract other leukocytes to the site of an infection. Some macrophages occupy fixed locations, whereas others wander through the tissue fluid.",
+        "Abnormally high counts of monocytes are associated with viral or fungal infections, tuberculosis, and some forms of leukemia and other chronic diseases. Abnormally low counts are typically caused by suppression of the bone marrow.",
+        "Lifecycle of Leukocytes Most leukocytes have a relatively short lifespan, typically measured in hours or days. Production of all leukocytes begins in the bone marrow under the influence of CSFs and interleukins. Secondary production and maturation of lymphocytes occurs in specific regions of lymphatic tissue known as germinal centers. Lymphocytes are fully",
+        "capable of mitosis and may produce clones of cells with identical properties. This capacity enables an individual to maintain immunity throughout life to many threats that have been encountered in the past.",
+        "Disorders of Leukocytes Leukopenia is a condition in which too few leukocytes are produced. If this condition is pronounced, the individual may be unable to ward off disease. Excessive leukocyte proliferation is known as leukocytosis. Although leukocyte counts are high, the cells themselves are often nonfunctional, leaving the individual at increased risk for disease.",
+        "Leukemia is a cancer involving an abundance of leukocytes. It may involve only one specific type of leukocyte from either the myeloid line (myelocytic leukemia) or the lymphoid line (lymphocytic leukemia). In chronic leukemia, mature leukocytes accumulate and fail to die. In acute leukemia, there is an overproduction of young, immature leukocytes. In both conditions the cells do not function properly.",
+        "Lymphoma is a form of cancer in which masses of malignant T and/or B lymphocytes collect in lymph nodes, the spleen, the liver, and other tissues. As in leukemia, the malignant leukocytes do not function properly, and the patient is vulnerable to infection. Some forms of lymphoma tend to progress slowly and respond well to treatment. Others tend to progress quickly and require aggressive treatment, without which they are rapidly fatal.",
+        "Platelets You may occasionally see platelets referred to as thrombocytes, but because this name suggests they are a type of cell, it is not accurate. A platelet is not a cell but rather a fragment of the cytoplasm of a cell called a megakaryocyte that is surrounded by a plasma membrane. Megakaryocytes are descended from myeloid stem cells and are large, typically 50–100 µm in diameter, and contain an enlarged, lobed nucleus. As noted earlier, thrombopoietin, a glycoprotein secreted by the kidneys and liver, stimulates the proliferation of megakaryoblasts, which mature into megakaryocytes. These remain within bone marrow tissue and ultimately form platelet-precursor extensions that extend through the walls of bone marrow capillaries to release into the circulation thousands of cytoplasmic fragments, each enclosed by a bit of plasma membrane. These enclosed fragments are platelets. Each megakaryocyte releases 2000–3000 platelets during its lifespan. Following platelet release, megakaryocyte remnants, which are little more than a cell nucleus, are consumed by macrophages.",
+        "Platelets are relatively small, 2–4 µm in diameter, but numerous, with typically 150,000–160,000 per µL of blood. After entering the circulation, approximately one-third migrate to the spleen for storage for later release in response to any rupture in a blood vessel. They then become activated to perform their primary function, which is to limit blood loss. Platelets remain only about 10 days, then are phagocytized by macrophages.",
+        "Platelets are critical to hemostasis, the stoppage of blood loss following damage to a vessel. They also secrete a variety of growth factors essential for growth and repair of tissue, particularly connective tissue. Infusions of concentrated platelets are now being used in some therapies to stimulate healing.",
+        "Disorders of Platelets Thrombocytosis is a condition in which there are too many platelets. This may trigger formation of unwanted blood clots (thrombosis), a potentially fatal disorder. If there is an insufficient number of platelets, called thrombocytopenia, blood may not clot properly, and excessive bleeding may result.",
+        "View University of Michigan Webscopes (https://openstax.org/r/bloodsmear) and explore the blood slides in greater detail. The Webscope feature allows you to move the slides as you would with a mechanical stage. You can increase and decrease the magnification. There is a chance to review each of the leukocytes individually after you have attempted to identify them from the first two blood smears. In addition, there are a few multiple choice questions.",
+        "Are you able to recognize and identify the various formed elements? You will need to do this is a systematic manner, scanning along the image. The standard method is to use a grid, but this is not possible with this resource. Try constructing a simple table with each leukocyte type and then making a mark for each cell type you identify. Attempt to classify at least 50 and perhaps as many as 100 different cells. Based on the percentage of cells that you count, do the numbers represent a normal blood smear or does something appear to be abnormal?"
+      ],
+      "chapterReview": [],
+      "reviewQuestions": [
+        {
+          "id": "ch18_s04_q00",
+          "question": "Which is the most common leukocyte, normally comprising 50-70 percent of the leukocyte count?",
+          "choices": [
+            "Neutrophils",
+            "Lymphocytes",
+            "Monocytes",
+            "Basophils"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Neutrophils are the most common leukocytes, at 50-70 percent of the total count.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s04"
+        },
+        {
+          "id": "ch18_s04_q01",
+          "question": "Which is the least common leukocyte, typically less than one percent of the total count?",
+          "choices": [
+            "Basophils",
+            "Eosinophils",
+            "Neutrophils",
+            "Lymphocytes"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Basophils are the least common leukocytes, comprising under one percent of the count.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s04"
+        },
+        {
+          "id": "ch18_s04_q02",
+          "question": "Which leukocytes arise from lymphoid stem cells and are the second most common type?",
+          "choices": [
+            "Lymphocytes",
+            "Monocytes",
+            "Eosinophils",
+            "Neutrophils"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Lymphocytes arise from lymphoid stem cells and account for about 20-30 percent of leukocytes.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s04"
+        },
+        {
+          "id": "ch18_s04_q03",
+          "question": "Leukemia is a cancer characterized by:",
+          "choices": [
+            "An abundance of (often nonfunctional) leukocytes",
+            "Too few platelets to clot blood",
+            "A deficiency of red blood cells",
+            "Masses of lymphocytes confined to lymph nodes"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Leukemia is a cancer involving an abundance of leukocytes that do not function properly.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s04"
+        },
+        {
+          "id": "ch18_s04_q04",
+          "question": "Which hormone, secreted by the kidneys and liver, stimulates the production of platelets?",
+          "choices": [
+            "Thrombopoietin",
+            "Erythropoietin",
+            "Interleukin-2",
+            "Histamine"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Thrombopoietin stimulates proliferation of megakaryoblasts that mature into platelet-producing megakaryocytes.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s04"
+        },
+        {
+          "id": "ch18_s04_q05",
+          "question": "Thrombocytopenia, an insufficient number of platelets, results in:",
+          "choices": [
+            "Blood that may not clot properly, causing excessive bleeding",
+            "Unwanted blood clots throughout the body",
+            "An overproduction of leukocytes",
+            "Increased oxygen delivery to tissues"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Thrombocytopenia is too few platelets, so blood may not clot and excessive bleeding can result.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s04"
+        }
+      ],
+      "glossary": [],
+      "checkpoints": [
+        {
+          "afterParagraph": 2,
+          "type": "mcq",
+          "question": "Compared with erythrocytes, leukocytes are described as:",
+          "choices": [
+            "The only formed elements that are complete cells with a nucleus and organelles",
+            "Far more numerous in the blood",
+            "Lacking a nucleus and organelles",
+            "Confined entirely to the bloodstream"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Leukocytes are the only formed elements that are complete cells with a nucleus and organelles.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 4,
+          "type": "mcq",
+          "question": "The process by which leukocytes squeeze through the wall of a blood vessel to reach tissues is called:",
+          "choices": [
+            "Emigration (diapedesis)",
+            "Chemotaxis",
+            "Agglutination",
+            "Hemostasis"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Leukocytes leave vessels through emigration, also called diapedesis.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 7,
+          "type": "mcq",
+          "question": "Which group of leukocytes includes monocytes and lymphocytes?",
+          "choices": [
+            "Agranular leukocytes",
+            "Granular leukocytes",
+            "Neutrophils",
+            "Basophils"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Agranular leukocytes include monocytes and lymphocytes.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 10,
+          "type": "mcq",
+          "question": "Neutrophils, the most common leukocytes, are best described as:",
+          "choices": [
+            "Rapid responders and efficient phagocytes that prefer bacteria",
+            "Cells that mainly counteract histamines",
+            "Antibody-producing plasma cells",
+            "Cells that release heparin to oppose clotting"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Neutrophils are rapid-responding phagocytes with a preference for bacteria.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 12,
+          "type": "mcq",
+          "question": "High counts of eosinophils are typical of patients with:",
+          "choices": [
+            "Allergies and parasitic worm infestations",
+            "Bacterial infections only",
+            "Low blood pressure",
+            "Vitamin B12 deficiency"
+          ],
+          "correctAnswer": 0,
+          "explanation": "High eosinophil counts occur with allergies, parasitic worm infestations, and some autoimmune diseases.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 16,
+          "type": "mcq",
+          "question": "Basophils release histamines, which contribute to inflammation, and heparin, which:",
+          "choices": [
+            "Opposes blood clotting",
+            "Promotes blood clotting",
+            "Destroys bacteria",
+            "Transports oxygen"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Basophil granules release histamines and heparin, the latter opposing blood clotting.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 20,
+          "type": "mcq",
+          "question": "Which cells provide cellular-level immunity by physically attacking foreign or diseased cells?",
+          "choices": [
+            "T cells",
+            "B cells (plasma cells)",
+            "Natural killer cells",
+            "Neutrophils"
+          ],
+          "correctAnswer": 0,
+          "explanation": "T cells provide cellular-level immunity by physically attacking foreign or diseased cells.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 23,
+          "type": "mcq",
+          "question": "Monocytes that have left the circulation and phagocytize debris and pathogens are called:",
+          "choices": [
+            "Macrophages",
+            "Reticulocytes",
+            "Megakaryocytes",
+            "Mast cells"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Macrophages are monocytes that have left the circulation to phagocytize debris and pathogens.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 30,
+          "type": "mcq",
+          "question": "A platelet is best described as:",
+          "choices": [
+            "A cytoplasmic fragment of a megakaryocyte surrounded by a plasma membrane",
+            "A complete cell with a nucleus",
+            "A type of agranular leukocyte",
+            "An immature erythrocyte"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A platelet is not a cell but a membrane-bound cytoplasmic fragment of a megakaryocyte.",
+          "slideId": null
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/749_Emigration",
+          "caption": "Emigration Leukocytes exit the blood vessel and then move through the connective tissue of the dermis toward the site of a wound. Some leukocytes, such as the eosinophil and neutrophil, are characterized as granular leukocytes. They release chemicals from their granules that destroy pathogens; they are also capable of phagocytosis. The monocyte, an agranular leukocyte, differentiates into a macrophage that then phagocytizes the pathogens."
+        },
+        {
+          "imageName": "TextbookImages/750_Granular_Leukocytes",
+          "caption": "Granular Leukocytes A neutrophil has small granules that stain light lilac and a nucleus with two to five lobes. An eosinophil’s granules are slightly larger and stain reddish-orange, and its nucleus has two to three lobes. A basophil has large granules that stain dark blue to purple and a two-lobed nucleus."
+        }
+      ]
+    },
+    {
+      "id": "ch18_s05",
+      "title": "Hemostasis",
+      "objectives": [
+        "Describe the three mechanisms involved in hemostasis",
+        "Explain how the extrinsic and intrinsic coagulation pathways lead to the common pathway, and the coagulation factors involved in each",
+        "Discuss disorders affecting hemostasis"
+      ],
+      "content": [
+        "Platelets are key players in hemostasis, the process by which the body seals a ruptured blood vessel and prevents further loss of blood. Although rupture of larger vessels usually requires medical intervention, hemostasis is quite effective in dealing with small, simple wounds. There are three steps to the process: vascular spasm, the formation of a platelet plug, and coagulation (blood clotting). Failure of any of these steps will result in hemorrhage—excessive bleeding.",
+        "Vascular Spasm When a vessel is severed or punctured, or when the wall of a vessel is damaged, vascular spasm occurs. In vascular spasm, the smooth muscle in the walls of the vessel contracts dramatically. This smooth muscle has both circular layers; larger vessels also have longitudinal layers. The circular layers tend to constrict the flow of blood, whereas the longitudinal layers, when present, draw the vessel back into the surrounding tissue, often making it more difficult for a surgeon to locate, clamp, and tie off a severed vessel. The vascular spasm response is believed to be triggered by several chemicals called endothelins that are released by vessel-lining cells and by pain receptors in response to vessel injury. This phenomenon typically lasts for up to 30 minutes, although it can last for hours.",
+        "Formation of the Platelet Plug In the second step, platelets, which normally float free in the plasma, encounter the area of vessel rupture with the exposed underlying connective tissue and collagenous fibers. The platelets begin to clump together, become spiked and sticky, and bind to the exposed collagen and endothelial lining. This process is assisted by a glycoprotein in the blood plasma called von Willebrand factor, which helps stabilize the growing platelet plug. As platelets collect, they simultaneously release chemicals from their granules into the plasma that further contribute to hemostasis. Among the substances released by the platelets are:",
+        "• adenosine diphosphate (ADP), which helps additional platelets to adhere to the injury site, reinforcing and expanding the platelet plug • serotonin, which maintains vasoconstriction • prostaglandins and phospholipids, which also maintain vasoconstriction and help to activate further clotting chemicals, as discussed next",
+        "A platelet plug can temporarily seal a small opening in a blood vessel. Plug formation, in essence, buys the body time while more sophisticated and durable repairs are being made. In a similar manner, even modern naval warships still carry an assortment of wooden plugs to temporarily repair small breaches in their hulls until permanent repairs can be made.",
+        "Coagulation Those more sophisticated and more durable repairs are collectively called coagulation, the formation of a blood clot. The process is sometimes characterized as a cascade, because one event prompts the next as in a multi-level waterfall. The result is the production of a gelatinous but robust clot made up of a mesh of fibrin—an insoluble filamentous protein derived from fibrinogen, the plasma protein introduced earlier—in which platelets and blood cells are trapped. Figure 18.14 summarizes the three steps of hemostasis.",
+        "Clotting Factors Involved in Coagulation In the coagulation cascade, chemicals called clotting factors (or coagulation factors) prompt reactions that activate still more coagulation factors. The process is complex, but is initiated along two basic pathways:",
+        "• The extrinsic pathway, which normally is triggered by trauma. • The intrinsic pathway, which begins in the bloodstream and is triggered by internal damage to the wall of the vessel.",
+        "Both of these merge into a third pathway, referred to as the common pathway. All three pathways are dependent upon the 12 known clotting factors, including Ca2+ and vitamin K. Clotting factors are secreted primarily by the liver and the platelets. The liver requires the fat-soluble vitamin K to produce many of them. Vitamin K (along with biotin and folate) is somewhat unusual among vitamins in that it is not only consumed in the diet but is also synthesized by bacteria residing in the large intestine. The calcium ion, considered factor IV, is derived from the diet and from the breakdown of bone. Some recent evidence indicates that activation of various clotting factors occurs on specific receptor sites on the surfaces of platelets.",
+        "The 12 clotting factors are numbered I through XIII according to the order of their discovery. Factor VI was once believed to be a distinct clotting factor, but is now thought to be identical to factor V. Rather than renumber the other factors, factor VI was allowed to remain as a placeholder and also a reminder that knowledge changes over time.",
+        "Factor Type of Name Source Pathway(s) number molecule",
+        "Plasma I Fibrinogen Liver Common; converted into fibrin protein",
+        "Plasma Common; converted into II Prothrombin Liver* protein thrombin",
+        "Tissue thromboplastin or tissue Lipoprotein Damaged cells III Extrinsic factor mixture and platelets",
+        "Inorganic Diet, platelets, IV Calcium ions ions in Entire process bone matrix plasma",
+        "Plasma V Proaccelerin Liver, platelets Extrinsic and intrinsic protein",
+        "Plasma VII Proconvertin Liver * Extrinsic protein",
+        "Plasma Platelets and Intrinsic; deficiency results in VIII Antihemolytic factor A protein endothelial hemophilia A factor cells",
+        "Antihemolytic factor B (plasma Plasma Intrinsic; deficiency results in IX Liver* thromboplastin component) protein hemophilia B",
+        "Stuart–Prower factor X Protein Liver* Extrinsic and intrinsic (thrombokinase)",
+        "Antihemolytic factor C (plasma Plasma Intrinsic; deficiency results in XI Liver thromboplastin antecedent) protein hemophilia C",
+        "Factor Type of Name Source Pathway(s) number molecule",
+        "Plasma Intrinsic; initiates clotting in XII Hageman factor Liver protein vitro also activates plasmin",
+        "Plasma Stabilizes fibrin; slows XIII Fibrin-stabilizing factor Liver, platelets protein fibrinolysis",
+        "Extrinsic Pathway The quicker responding and more direct extrinsic pathway (also known as the tissue factor pathway) begins when damage occurs to the surrounding tissues, such as in a traumatic injury. Upon contact with blood plasma, the damaged extravascular cells, which are extrinsic to the bloodstream, release factor III (thromboplastin). Sequentially, Ca2+ then factor VII (proconvertin), which is activated by factor III, are added, forming an enzyme complex. This enzyme complex leads to activation of factor X (Stuart–Prower factor), which activates the common pathway discussed below. The events in the extrinsic pathway are completed in a matter of seconds.",
+        "Intrinsic Pathway The intrinsic pathway (also known as the contact activation pathway) is longer and more complex. In this case, the factors involved are intrinsic to (present within) the bloodstream. The pathway can be prompted by damage to the tissues, resulting from internal factors such as arterial disease; however, it is most often initiated when factor XII (Hageman factor) comes into contact with foreign materials, such as when a blood sample is put into a glass test tube. Within the body, factor XII is typically activated when it encounters negatively charged molecules, such as inorganic polymers and phosphate produced earlier in the series of intrinsic pathway reactions. Factor XII sets off a series of reactions that in turn activates factor XI (antihemolytic factor C or plasma thromboplastin antecedent) then factor IX (antihemolytic factor B or plasma thromboplasmin). In the meantime, chemicals released by the platelets increase the rate of these activation reactions. Finally, factor VIII (antihemolytic factor A) from the platelets and endothelial cells combines with factor IX (antihemolytic factor B or plasma thromboplasmin) to form an enzyme complex that activates factor X (Stuart–Prower factor or thrombokinase), leading to the common pathway. The events in the intrinsic pathway are completed in a few minutes.",
+        "Common Pathway Both the intrinsic and extrinsic pathways lead to the common pathway, in which fibrin is produced to seal off the vessel. Once factor X has been activated by either the intrinsic or extrinsic pathway, the enzyme prothrombinase converts factor II, the inactive enzyme prothrombin, into the active enzyme thrombin. (Note that if the enzyme thrombin were not normally in an inactive form, clots would form spontaneously, a condition not consistent with life.) Then, thrombin converts factor I, the soluble fibrinogen, into the insoluble fibrin protein strands. Factor XIII then stabilizes the fibrin clot.",
+        "Fibrinolysis The stabilized clot is acted upon by contractile proteins within the platelets. As these proteins contract, they pull on the fibrin threads, bringing the edges of the clot more tightly together, somewhat as we do when tightening loose shoelaces. This process also wrings out of the clot a small amount of fluid called serum, which is blood plasma without its clotting factors.",
+        "To restore normal blood flow as the vessel heals, the clot must eventually be removed. Fibrinolysis is the gradual degradation of the clot. Again, there is a fairly complicated series of reactions that involves factor XII and protein- catabolizing enzymes. During this process, the inactive protein plasminogen is converted into the active plasmin, which gradually breaks down the fibrin of the clot. Additionally, bradykinin, a vasodilator, is released, reversing the effects of the serotonin and prostaglandins from the platelets. This allows the smooth muscle in the walls of the vessels to relax and helps to restore the circulation.",
+        "Plasma Anticoagulants An anticoagulant is any substance that opposes coagulation. Several circulating plasma anticoagulants play a role in limiting the coagulation process to the region of injury and restoring a normal, clot-free condition of blood. For instance, a cluster of proteins collectively referred to as the protein C system inactivates clotting factors involved in the intrinsic pathway. TFPI (tissue factor pathway inhibitor) inhibits the conversion of the inactive factor VII to the active form in the extrinsic pathway. Antithrombin inactivates factor X and opposes the conversion of prothrombin (factor II) to thrombin in the common pathway. And as noted earlier, basophils release heparin, a short-acting anticoagulant that also opposes prothrombin. Heparin is also found on the surfaces of cells lining the blood vessels. A pharmaceutical form of heparin is often administered therapeutically, for example, in surgical patients at risk for blood clots.",
+        "INTERACTIVE LINK View these animations (http://openstax.org/l/coagulation) to explore the intrinsic, extrinsic, and common pathways that are involved the process of coagulation. The coagulation cascade restores hemostasis by activating coagulation factors in the presence of an injury.",
+        "Disorders of Clotting Either an insufficient or an excessive production of platelets can lead to severe disease or death. As discussed earlier, an insufficient number of platelets, called thrombocytopenia, typically results in the inability of blood to form clots. This can lead to excessive bleeding, even from minor wounds.",
+        "Another reason for failure of the blood to clot is the inadequate production of functional amounts of one or more clotting factors. This is the case in the genetic disorder hemophilia, which is actually a group of related disorders, the most common of which is hemophilia A, accounting for approximately 80 percent of cases. This disorder results in the inability to synthesize sufficient quantities of factor VIII. Hemophilia B is the second most common form, accounting for approximately 20 percent of cases. In this case, there is a deficiency of factor IX. Both of these defects are linked to the X chromosome and are typically passed from a healthy (carrier) female to their male offspring, since males are XY. Females would need to inherit a defective gene from each parent to manifest the disease, since they are XX. Patients with hemophilia bleed from even minor internal and external wounds, and leak blood into joint spaces after exercise and into urine and stool. Hemophilia C is a rare condition that is triggered by an autosomal (not sex) chromosome that renders factor XI nonfunctional. It is not a true recessive condition, since even individuals with a single copy of the mutant gene show a tendency to bleed. Regular infusions of clotting factors isolated from healthy donors can help prevent bleeding in hemophiliac patients. At some point, genetic therapy will become a viable option.",
+        "In contrast to the disorders characterized by coagulation failure is thrombocytosis, also mentioned earlier, a condition characterized by excessive numbers of platelets that increases the risk for excessive clot formation, a condition known as thrombosis. A thrombus (plural = thrombi) is an aggregation of platelets, erythrocytes, and even WBCs typically trapped within a mass of fibrin strands. While the formation of a clot is normal following the hemostatic mechanism just described, thrombi can form within an intact or only slightly damaged blood vessel. In a large vessel, a thrombus will adhere to the vessel wall and decrease the flow of blood, and is referred to as a mural thrombus. In a small vessel, it may actually totally block the flow of blood and is termed an occlusive thrombus. Thrombi are most commonly caused by vessel damage to the endothelial lining, which activates the clotting mechanism. These may include venous stasis, when blood in the veins, particularly in the legs, remains stationary for long periods. This is one of the dangers of long airplane flights in crowded conditions and may lead to deep vein thrombosis. Thrombophilia, also called hypercoagulation, is a condition in which there is a tendency to form thrombosis. This may be familial (genetic) or acquired. Acquired forms include the autoimmune disease lupus, immune reactions to heparin, polycythemia vera, thrombocytosis, sickle cell disease, pregnancy, and even obesity. A thrombus can seriously impede blood flow to or from a region and will cause a local increase in blood pressure. If flow is to be maintained, the heart will need to generate a greater pressure to overcome the resistance.",
+        "When a portion of a thrombus breaks free from the vessel wall and enters the circulation, it is referred to as an",
+        "embolus. An embolus that is carried through the bloodstream can be large enough to block a vessel critical to a major organ. When it becomes trapped, an embolus is called an embolism. In the heart, brain, or lungs, an embolism may accordingly cause a heart attack, a stroke, or a pulmonary embolism. These are medical emergencies.",
+        "Among the many known biochemical activities of aspirin is its role as an anticoagulant. Aspirin (acetylsalicylic acid) is very effective at inhibiting the aggregation of platelets. It is routinely administered during a heart attack or stroke to reduce the adverse effects. Physicians sometimes recommend that patients at risk for cardiovascular disease take a low dose of aspirin on a daily basis as a preventive measure. However, aspirin can also lead to serious side effects, including increasing the risk of ulcers. A patient is well advised to consult a physician before beginning any aspirin regimen.",
+        "A class of drugs collectively known as thrombolytic agents can help speed up the degradation of an abnormal clot. If a thrombolytic agent is administered to a patient within 3 hours following a thrombotic stroke, the patient’s prognosis improves significantly. However, some strokes are not caused by thrombi, but by hemorrhage. Thus, the cause must be determined before treatment begins. Tissue plasminogen activator is an enzyme that catalyzes the conversion of plasminogen to plasmin, the primary enzyme that breaks down clots. It is released naturally by endothelial cells but is also used in clinical medicine. New research is progressing using compounds isolated from the venom of some species of snakes, particularly vipers and cobras, which may eventually have therapeutic value as thrombolytic agents."
+      ],
+      "chapterReview": [],
+      "reviewQuestions": [
+        {
+          "id": "ch18_s05_q00",
+          "question": "During vascular spasm, what happens to the injured vessel?",
+          "choices": [
+            "Smooth muscle in the vessel wall contracts to constrict blood flow",
+            "The vessel dilates to increase blood flow",
+            "Fibrin immediately seals the entire vessel",
+            "Platelets dissolve the vessel wall"
+          ],
+          "correctAnswer": 0,
+          "explanation": "In vascular spasm, smooth muscle in the vessel wall contracts dramatically to constrict flow.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s05"
+        },
+        {
+          "id": "ch18_s05_q01",
+          "question": "The extrinsic and intrinsic pathways both merge into which pathway?",
+          "choices": [
+            "The common pathway",
+            "The tissue factor pathway",
+            "The contact activation pathway",
+            "The fibrinolytic pathway"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Both the extrinsic and intrinsic pathways merge into the common pathway, where fibrin is produced.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s05"
+        },
+        {
+          "id": "ch18_s05_q02",
+          "question": "The intrinsic pathway is most often initiated when which factor contacts foreign materials such as glass?",
+          "choices": [
+            "Factor XII (Hageman factor)",
+            "Factor III (thromboplastin)",
+            "Factor I (fibrinogen)",
+            "Factor IV (calcium)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The intrinsic pathway is usually initiated when factor XII contacts foreign materials.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s05"
+        },
+        {
+          "id": "ch18_s05_q03",
+          "question": "Hemophilia A and hemophilia B are both:",
+          "choices": [
+            "Linked to the X chromosome and usually passed from carrier females to male offspring",
+            "Caused by an excess of platelets",
+            "Autosomal disorders affecting factor XI",
+            "Conditions of excessive clotting"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hemophilia A (factor VIII) and B (factor IX) are X-linked, typically passed from carrier females to sons.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s05"
+        },
+        {
+          "id": "ch18_s05_q04",
+          "question": "How does aspirin act in relation to hemostasis?",
+          "choices": [
+            "As an anticoagulant that inhibits platelet aggregation",
+            "By increasing the production of clotting factors",
+            "By stimulating vascular spasm",
+            "By converting plasminogen to plasmin"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Aspirin is an anticoagulant that is very effective at inhibiting platelet aggregation.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s05"
+        },
+        {
+          "id": "ch18_s05_q05",
+          "question": "Which substance, released by basophils, is a short-acting anticoagulant that opposes prothrombin?",
+          "choices": [
+            "Heparin",
+            "Fibrinogen",
+            "Serotonin",
+            "Thromboplastin"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Basophils release heparin, a short-acting anticoagulant that opposes prothrombin.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s05"
+        }
+      ],
+      "glossary": [],
+      "checkpoints": [
+        {
+          "afterParagraph": 0,
+          "type": "mcq",
+          "question": "What are the three steps of hemostasis, in order?",
+          "choices": [
+            "Vascular spasm, platelet plug formation, coagulation",
+            "Coagulation, fibrinolysis, vascular spasm",
+            "Platelet plug formation, vascular spasm, agglutination",
+            "Vascular spasm, hemolysis, coagulation"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hemostasis proceeds through vascular spasm, platelet plug formation, then coagulation.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 2,
+          "type": "mcq",
+          "question": "Which plasma glycoprotein helps stabilize the growing platelet plug?",
+          "choices": [
+            "Von Willebrand factor",
+            "Fibrinogen",
+            "Albumin",
+            "Thrombin"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Von Willebrand factor helps platelets bind exposed collagen and stabilizes the platelet plug.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 5,
+          "type": "mcq",
+          "question": "Coagulation produces a robust clot made of a mesh of which insoluble protein?",
+          "choices": [
+            "Fibrin",
+            "Fibrinogen",
+            "Albumin",
+            "Globin"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Coagulation produces a clot made of a mesh of insoluble fibrin derived from fibrinogen.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 8,
+          "type": "mcq",
+          "question": "Which fat-soluble vitamin does the liver require to produce many clotting factors?",
+          "choices": [
+            "Vitamin K",
+            "Vitamin C",
+            "Vitamin B12",
+            "Vitamin A"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The liver requires fat-soluble vitamin K to produce many clotting factors.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 20,
+          "type": "mcq",
+          "question": "A deficiency of factor VIII (antihemolytic factor A) results in which disorder?",
+          "choices": [
+            "Hemophilia A",
+            "Hemophilia B",
+            "Hemophilia C",
+            "Thrombocytosis"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A deficiency of factor VIII results in hemophilia A.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 24,
+          "type": "mcq",
+          "question": "The extrinsic (tissue factor) pathway begins when damaged cells release:",
+          "choices": [
+            "Factor III (thromboplastin)",
+            "Factor XII (Hageman factor)",
+            "Fibrinogen",
+            "Plasmin"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The extrinsic pathway begins when damaged extravascular cells release factor III (thromboplastin).",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 26,
+          "type": "mcq",
+          "question": "In the common pathway, thrombin converts soluble fibrinogen into:",
+          "choices": [
+            "Insoluble fibrin strands",
+            "Prothrombin",
+            "Plasmin",
+            "Serum"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Thrombin converts factor I (fibrinogen) into insoluble fibrin strands.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 28,
+          "type": "mcq",
+          "question": "Fibrinolysis is the gradual degradation of a clot, accomplished mainly by:",
+          "choices": [
+            "Plasmin, converted from inactive plasminogen",
+            "Thrombin acting on fibrinogen",
+            "Von Willebrand factor",
+            "Calcium ions binding fibrin"
+          ],
+          "correctAnswer": 0,
+          "explanation": "During fibrinolysis, inactive plasminogen is converted into active plasmin, which breaks down fibrin.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 33,
+          "type": "mcq",
+          "question": "An aggregation of platelets, erythrocytes, and WBCs trapped in fibrin within a vessel is a:",
+          "choices": [
+            "Thrombus",
+            "Platelet plug",
+            "Serum clot",
+            "Hematocrit"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A thrombus is an aggregation of platelets, RBCs, and WBCs trapped within fibrin strands in a vessel.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 35,
+          "type": "mcq",
+          "question": "When a piece of a thrombus breaks free and becomes lodged in a vessel of a major organ, it is called a(n):",
+          "choices": [
+            "Embolism",
+            "Embolus that remains harmless",
+            "Mural thrombus",
+            "Occlusive plug"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A free-floating embolus that becomes trapped in a vessel is called an embolism.",
+          "slideId": null
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/753_Platelets",
+          "caption": "Platelets Platelets are derived from cells called megakaryocytes."
+        },
+        {
+          "imageName": "TextbookImages/753_Leukocytes",
+          "caption": "Leukocytes (Micrographs provided by the Regents of University of Michigan Medical School © 2012)"
+        },
+        {
+          "imageName": "TextbookImages/755_Hemostasis",
+          "caption": "Hemostasis (a) An injury to a blood vessel initiates the process of hemostasis. Blood clotting involves three steps. First, vascular spasm constricts the flow of blood. Next, a platelet plug forms to temporarily seal small openings in the vessel. Coagulation then enables the repair of the vessel wall once the leakage of blood has stopped. (b) The synthesis of fibrin in blood clots involves either an intrinsic pathway or an extrinsic pathway, both of which lead to a common pathway. (credit a: Kevin MacKenzie)"
+        }
+      ]
+    },
+    {
+      "id": "ch18_s06",
+      "title": "Blood Typing",
+      "objectives": [
+        "Describe the two basic physiological consequences of transfusion of incompatible blood",
+        "Compare and contrast ABO and Rh blood groups",
+        "Identify which blood groups may be safely transfused into patients with different ABO types",
+        "Discuss the pathophysiology of hemolytic disease of the newborn"
+      ],
+      "content": [
+        "Blood transfusions in humans were risky procedures until the discovery of the major human blood groups by Karl Landsteiner, an Austrian biologist and physician, in 1900. Until that point, physicians did not understand that death sometimes followed blood transfusions, when the type of donor blood infused into the patient was incompatible with the patient’s own blood. Blood groups are determined by the presence or absence of specific marker molecules on the plasma membranes of erythrocytes. With their discovery, it became possible for the first time to match patient-donor blood types and prevent transfusion reactions and deaths.",
+        "Antigens, Antibodies, and Transfusion Reactions Antigens are substances that may trigger a defensive response from leukocytes of the immune system if the body does not recognize the antigen as belonging to \"self.\" (Seek more content for additional information on immunity.) Here, we will focus on the role of immunity in blood transfusion reactions. With RBCs in particular, you may see the antigens referred to as isoantigens or agglutinogens (surface antigens) and the antibodies referred to as isoantibodies or agglutinins. In this chapter, we will use the more common terms antigens and antibodies.",
+        "Antigens are generally large proteins, but may include other classes of organic molecules, including carbohydrates, lipids, and nucleic acids. Following an infusion of incompatible blood, erythrocytes with foreign antigens appear in the bloodstream and trigger an immune response. Proteins called antibodies (immunoglobulins), which are produced by certain B lymphocytes called plasma cells, attach to the antigens on the plasma membranes of the infused erythrocytes and cause them to adhere to one another.",
+        "• Because the arms of the Y-shaped antibodies attach randomly to more than one nonself erythrocyte surface, they form clumps of erythrocytes. This process is called agglutination. • The clumps of erythrocytes block small blood vessels throughout the body, depriving tissues of oxygen and nutrients. • As the erythrocyte clumps are degraded, in a process called hemolysis, their hemoglobin is released into the bloodstream. This hemoglobin travels to the kidneys, which are responsible for filtration of the blood. However, the load of hemoglobin released can easily overwhelm the kidney’s capacity to clear it, and the",
+        "patient can quickly develop kidney failure.",
+        "More than 50 antigens have been identified on erythrocyte membranes, but the most significant in terms of their potential harm to patients are classified in two groups: the ABO blood group and the Rh blood group.",
+        "The ABO Blood Group Although the ABO blood group name consists of three letters, ABO blood typing designates the presence or absence of just two antigens, A and B. Both are glycoproteins. People whose erythrocytes have A antigens on their erythrocyte membrane surfaces are designated blood type A, and those whose erythrocytes have B antigens are blood type B. People can also have both A and B antigens on their erythrocytes, in which case they are blood type AB. People with neither A nor B antigens are designated blood type O. ABO blood types are genetically determined.",
+        "The body must be exposed to a foreign antigen before an antibody can be produced. ABO blood group antigens are found in foods and microbes throughout nature. Thus, the human immune system is exposed to A and B antigens at an early age and antibodies are formed naturally. Individuals with type A blood—without any prior exposure to incompatible blood—have naturally-formed antibodies to the B antigen circulating in their blood plasma. These antibodies, referred to as anti-B antibodies, will cause agglutination and hemolysis if they ever encounter erythrocytes with B antigens. Similarly, an individual with type B blood has naturally-formed anti-A antibodies. Individuals with type AB blood, which has both antigens, do not have naturally-formed antibodies to either of these. People with type O blood lack antigens A and B on their erythrocytes, but both anti-A and anti-B antibodies circulate in their blood plasma.",
+        "Rh Blood Groups The Rh blood group is classified according to the presence or absence of a second erythrocyte antigen identified as Rh. (It was first discovered in a type of primate known as a rhesus macaque, which is often used in research, because its blood is similar to that of humans.) Although dozens of Rh antigens have been identified, only one, designated D, is clinically important. Those who have the Rh D antigen present on their erythrocytes—about 85 percent of Americans—are described as Rh positive (Rh+) and those who lack it are Rh negative (Rh−). Note that the Rh group is distinct from the ABO group, so any individual, no matter their ABO blood type, may have or lack this Rh antigen. When identifying a patient’s blood type, the Rh group is designated by adding the word positive or negative to the ABO type. For example, A positive (A+) means ABO group A blood with the Rh antigen present, and AB negative (AB−) means ABO group AB blood without the Rh antigen.",
+        "Table 18.2 summarizes the distribution of the ABO and Rh blood types within the United States.",
+        "Summary of ABO and Rh Blood Types within the United States",
+        "Blood Type Asian Black non-Hispanic Hispanic North American Indian White non-Hispanic",
+        "Blood Type Asian Black non-Hispanic Hispanic North American Indian White non-Hispanic",
+        "In contrast to the ABO group antibodies, which are preformed, antibodies to the Rh antigen are produced only in Rh− individuals after exposure to the antigen. This process, called sensitization, occurs following a transfusion with Rh- incompatible blood or, more commonly, with the birth of an Rh+ baby to an Rh− person. Problems are rare in a first pregnancy, since the baby’s Rh+ cells rarely cross the placenta (the organ of gas and nutrient exchange between the fetus and the pregnant person). However, during or immediately after birth, the Rh− parent can be exposed to the baby’s Rh+ cells. Research has shown that this occurs in about 13−14 percent of such pregnancies. After exposure, the immune system of the person who has given birth begins to generate anti-Rh antibodies. If the same person should then become pregnant with another Rh+ baby, the Rh antibodies they have produced can cross the placenta into the fetal bloodstream and destroy the fetal RBCs. This condition, known as hemolytic disease of the newborn (HDN) or erythroblastosis fetalis, may cause anemia in mild cases, but the agglutination and hemolysis can be so severe that without treatment the fetus may die in the womb or shortly after birth.",
+        "Anti-Rh antibodies begin to circulate in the pregnant person's bloodstream. A second exposure occurs with a subsequent pregnancy with an Rh+ fetus in the uterus. During that subsequent pregnancy, the pregnant person's anti-Rh antibodies may cross the placenta and enter the fetal bloodstream, causing agglutination and hemolysis of fetal erythrocytes.",
+        "A drug known as RhoGAM, short for Rh immune globulin, can temporarily prevent the development of Rh antibodies in the Rh− parent, thereby averting this potentially serious disease for the fetus. RhoGAM antibodies destroy any fetal Rh+ erythrocytes that may cross the placental barrier. RhoGAM is normally administered to Rh− pregnant people during weeks 26−28 of pregnancy and within 72 hours following birth. It has proven remarkably effective in decreasing the incidence of HDN. Earlier we noted that the incidence of HDN in an Rh+ subsequent pregnancy to an Rh− person is about 13–14 percent without preventive treatment. Since the introduction of RhoGAM in 1968, the incidence has dropped to about 0.1 percent in the United States.",
+        "Determining ABO Blood Types Clinicians are able to determine a patient’s blood type quickly and easily using commercially prepared antibodies. An unknown blood sample is allocated into separate wells. Into one well a small amount of anti-A antibody is added, and to another a small amount of anti-B antibody. If the antigen is present, the antibodies will cause visible agglutination of the cells. The blood should also be tested for Rh antibodies.",
+        "ABO Transfusion Protocols To avoid transfusion reactions, it is best to transfuse only matching blood types; that is, a type B+ recipient should ideally receive blood only from a type B+ donor and so on. That said, in emergency situations, when acute hemorrhage threatens the patient’s life, there may not be time for cross matching to identify blood type. In these cases, blood from a universal donor—an individual with type O− blood—may be transfused. Recall that type O erythrocytes do not display A or B antigens. Thus, anti-A or anti-B antibodies that might be circulating in the patient’s blood plasma will not encounter any erythrocyte surface antigens on the donated blood and therefore will not be provoked into a response. One problem with this designation of universal donor is if the O− individual had prior exposure to Rh antigen, Rh antibodies may be present in the donated blood. Also, introducing type O blood into an individual with type A, B, or AB blood will nevertheless introduce antibodies against both A and B antigens, as these are always circulating in the type O blood plasma. This may cause problems for the recipient, but because the volume of blood transfused is much lower than the volume of the patient’s own blood, the adverse effects of the relatively few infused plasma antibodies are typically limited. Rh factor also plays a role. If Rh− individuals receiving blood have had prior exposure to Rh antigen, antibodies for this antigen may be present in the blood and trigger agglutination to some degree. Although it is always preferable to cross match a patient’s blood before transfusing, in a true life-threatening emergency situation, this is not always possible, and these procedures may be implemented.",
+        "A patient with blood type AB+ is known as the universal recipient. This patient can theoretically receive any type of blood, because the patient’s own blood—having both A and B antigens on the erythrocyte surface—does not produce anti-A or anti-B antibodies. In addition, an Rh+ patient can receive both Rh+ and Rh− blood. However, keep in mind that the donor’s blood will contain circulating antibodies, again with possible negative implications. Figure 18.17 summarizes the blood types and compatibilities.",
+        "At the scene of multiple-vehicle accidents, military engagements, and natural or human-caused disasters, many victims may suffer simultaneously from acute hemorrhage, yet type O blood may not be immediately available. In these circumstances, medics may at least try to replace some of the volume of blood that has been lost. This is done by intravenous administration of a saline solution that provides fluids and electrolytes in proportions equivalent to those of normal blood plasma. Research is ongoing to develop a safe and effective artificial blood that would carry out the oxygen-carrying function of blood without the RBCs, enabling transfusions in the field without concern for incompatibility. These blood substitutes normally contain hemoglobin- as well as perfluorocarbon-based oxygen carriers."
+      ],
+      "chapterReview": [],
+      "reviewQuestions": [
+        {
+          "id": "ch18_s06_q00",
+          "question": "Who discovered the major human blood groups in 1900?",
+          "choices": [
+            "Karl Landsteiner",
+            "Kevin MacKenzie",
+            "Janice Haney Carr",
+            "Lance Armstrong"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Karl Landsteiner, an Austrian biologist and physician, discovered the major human blood groups in 1900.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s06"
+        },
+        {
+          "id": "ch18_s06_q01",
+          "question": "A person with type AB blood has which antigens and antibodies?",
+          "choices": [
+            "Both A and B antigens, and neither anti-A nor anti-B antibodies",
+            "Neither A nor B antigens, but both antibodies",
+            "Only A antigen and anti-B antibodies",
+            "Only B antigen and anti-A antibodies"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Type AB has both A and B antigens and, having been exposed to both, forms no anti-A or anti-B antibodies.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s06"
+        },
+        {
+          "id": "ch18_s06_q02",
+          "question": "Which patient is considered the universal recipient?",
+          "choices": [
+            "AB+",
+            "O-",
+            "O+",
+            "A-"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A patient with AB+ blood is the universal recipient, lacking anti-A and anti-B antibodies and being Rh+.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s06"
+        },
+        {
+          "id": "ch18_s06_q03",
+          "question": "Antibodies to the Rh antigen are produced in Rh- individuals only after:",
+          "choices": [
+            "Exposure to the Rh antigen (sensitization)",
+            "Birth, regardless of exposure",
+            "Eating foods containing Rh antigen",
+            "A transfusion of type O blood"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Unlike preformed ABO antibodies, anti-Rh antibodies form only after an Rh- person is exposed to the antigen.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s06"
+        },
+        {
+          "id": "ch18_s06_q04",
+          "question": "What is the function of the drug RhoGAM?",
+          "choices": [
+            "To temporarily prevent the development of Rh antibodies in an Rh- parent",
+            "To stimulate production of Rh antigen in the fetus",
+            "To replace lost blood volume in trauma patients",
+            "To convert type O blood into type AB"
+          ],
+          "correctAnswer": 0,
+          "explanation": "RhoGAM temporarily prevents Rh antibody development, averting hemolytic disease of the newborn.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s06"
+        },
+        {
+          "id": "ch18_s06_q05",
+          "question": "If incompatible blood is transfused, the degradation of clumped erythrocytes releases hemoglobin that can overwhelm and damage the:",
+          "choices": [
+            "Kidneys",
+            "Liver",
+            "Spleen",
+            "Lungs"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Released hemoglobin travels to the kidneys, whose clearance capacity can be overwhelmed, causing kidney failure.",
+          "chapterID": "ch18",
+          "sectionID": "ch18_s06"
+        }
+      ],
+      "glossary": [],
+      "checkpoints": [
+        {
+          "afterParagraph": 0,
+          "type": "mcq",
+          "question": "Blood groups are determined by the presence or absence of specific marker molecules on the plasma membranes of:",
+          "choices": [
+            "Erythrocytes",
+            "Leukocytes",
+            "Platelets",
+            "Plasma proteins"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Blood groups are determined by marker molecules on the plasma membranes of erythrocytes.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 3,
+          "type": "mcq",
+          "question": "When antibodies cause infused incompatible erythrocytes to clump together, the process is called:",
+          "choices": [
+            "Agglutination",
+            "Hemostasis",
+            "Diapedesis",
+            "Coagulation"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Antibodies binding multiple nonself erythrocytes form clumps in a process called agglutination.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 7,
+          "type": "mcq",
+          "question": "A person with type O blood has which antibodies circulating in their plasma?",
+          "choices": [
+            "Both anti-A and anti-B antibodies",
+            "Anti-A antibodies only",
+            "Anti-B antibodies only",
+            "Neither anti-A nor anti-B antibodies"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Type O individuals lack A and B antigens but carry both anti-A and anti-B antibodies.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 8,
+          "type": "mcq",
+          "question": "A person whose erythrocytes carry the Rh D antigen is described as:",
+          "choices": [
+            "Rh positive (Rh+)",
+            "Rh negative (Rh-)",
+            "Type O",
+            "A universal donor"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Those with the Rh D antigen present are Rh positive; about 85 percent of Americans are Rh+.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 14,
+          "type": "mcq",
+          "question": "Hemolytic disease of the newborn can occur when:",
+          "choices": [
+            "An Rh- person's anti-Rh antibodies cross the placenta and destroy an Rh+ fetus's RBCs",
+            "An Rh+ person carries an Rh- fetus in a first pregnancy",
+            "Two Rh+ parents have an Rh- child",
+            "Anti-A antibodies attack the fetal liver"
+          ],
+          "correctAnswer": 0,
+          "explanation": "In HDN, an Rh- person's anti-Rh antibodies cross the placenta and destroy the Rh+ fetus's erythrocytes.",
+          "slideId": null
+        },
+        {
+          "afterParagraph": 17,
+          "type": "mcq",
+          "question": "Why is type O- blood considered the universal donor?",
+          "choices": [
+            "Its erythrocytes display neither A nor B antigens for recipient antibodies to attack",
+            "It contains no plasma at all",
+            "It carries both anti-A and anti-B antigens",
+            "It can only be given to type O recipients"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Type O erythrocytes display no A or B antigens, so recipient anti-A or anti-B antibodies are not provoked.",
+          "slideId": null
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/761_Erythroblastosis_Fetalis",
+          "caption": "Erythroblastosis Fetalis The first exposure of an Rh− person to Rh+ erythrocytes during pregnancy induces sensitization."
+        },
+        {
+          "imageName": "TextbookImages/762_Cross_Matching_Blood_Types",
+          "caption": "Cross Matching Blood Types This sample of a commercially produced “bedside” card enables quick typing of both a recipient’s and donor’s blood before transfusion. The card contains three reaction sites or wells. One is coated with an anti-A antibody, one with an anti-B antibody, and one with an anti-D antibody (tests for the presence of Rh factor D). Mixing a drop of blood and saline into each well enables the blood to interact with a preparation of type-specific antibodies, also called anti-seras. Agglutination of RBCs in a given site indicates a positive identification of the blood antigens, in this case A and Rh antigens for blood type A+. For the purpose of transfusion, the donor’s and recipient’s blood types must match."
+        },
+        {
+          "imageName": "TextbookImages/763_ABO_Blood_Group",
+          "caption": "ABO Blood Group This chart summarizes the characteristics of the blood types in the ABO blood group. See the text for more on the concept of a universal donor or recipient."
+        }
+      ]
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "ABO blood group",
+      "definition": "blood-type classification based on the presence or absence of A and B glycoproteins on the erythrocyte membrane surface",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "agglutination",
+      "definition": "clustering of cells into masses linked by antibodies",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "agranular leukocytes",
+      "definition": "leukocytes with few granules in their cytoplasm; specifically, monocytes, lymphocytes, and NK cells",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "albumin",
+      "definition": "most abundant plasma protein, accounting for most of the osmotic pressure of plasma",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "anemia",
+      "definition": "deficiency of red blood cells or hemoglobin",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "antibodies",
+      "definition": "(also, immunoglobulins or gamma globulins) antigen-specific proteins produced by specialized B lymphocytes that protect the body by binding to foreign objects such as bacteria and viruses",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "anticoagulant",
+      "definition": "substance such as heparin that opposes coagulation",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "antithrombin",
+      "definition": "anticoagulant that inactivates factor X and opposes the conversion of prothrombin (factor II) into thrombin in the common pathway",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "B lymphocytes",
+      "definition": "(also, B cells) lymphocytes that defend the body against specific pathogens and thereby provide specific immunity",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "basophils",
+      "definition": "granulocytes that stain with a basic (alkaline) stain and store histamine and heparin",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "bilirubin",
+      "definition": "yellowish bile pigment produced when iron is removed from heme and is further broken down into waste products",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "biliverdin",
+      "definition": "green bile pigment produced when the non-iron portion of heme is degraded into a waste product; converted to bilirubin in the liver",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "blood",
+      "definition": "liquid connective tissue composed of formed elements—erythrocytes, leukocytes, and platelets—and a fluid extracellular matrix called plasma; component of the cardiovascular system",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "bone marrow biopsy",
+      "definition": "diagnostic test of a sample of red bone marrow",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "bone marrow transplant",
+      "definition": "treatment in which a donor’s healthy bone marrow with its stem cells replaces diseased or damaged bone marrow of a patient",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "bruise",
+      "definition": "localized bleeding under the skin due to damaged blood vessels",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "buffy coat",
+      "definition": "thin, pale layer of leukocytes and platelets that separates the erythrocytes from the plasma in a sample of centrifuged blood",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "carbaminohemoglobin",
+      "definition": "compound of carbon dioxide and hemoglobin, and one of the ways in which carbon dioxide is carried in the blood",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "clotting factors",
+      "definition": "group of 12 identified substances active in coagulation",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "coagulation",
+      "definition": "formation of a blood clot; part of the process of hemostasis",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "colony-stimulating factors (CSFs)",
+      "definition": "glycoproteins that trigger the proliferation and differentiation of myeloblasts into granular leukocytes (basophils, neutrophils, and eosinophils)",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "common pathway",
+      "definition": "final coagulation pathway activated either by the intrinsic or the extrinsic pathway, and ending in the formation of a blood clot",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "cross matching",
+      "definition": "blood test for identification of blood type using antibodies and small samples of blood",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "cytokines",
+      "definition": "class of proteins that act as autocrine or paracrine signaling molecules; in the cardiovascular system, they stimulate the proliferation of progenitor cells and help to stimulate both nonspecific and specific resistance to disease",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "defensins",
+      "definition": "antimicrobial proteins released from neutrophils and macrophages that create openings in the plasma membranes to kill cells",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "deoxyhemoglobin",
+      "definition": "molecule of hemoglobin without an oxygen molecule bound to it",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "diapedesis",
+      "definition": "(also, emigration) process by which leukocytes squeeze through adjacent cells in a blood vessel wall to enter tissues",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "embolus",
+      "definition": "thrombus that has broken free from the blood vessel wall and entered the circulation",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "emigration",
+      "definition": "(also, diapedesis) process by which leukocytes squeeze through adjacent cells in a blood vessel wall to enter tissues",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "eosinophils",
+      "definition": "granulocytes that stain with eosin; they release antihistamines and are especially active against parasitic worms",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "erythrocyte",
+      "definition": "(also, red blood cell) mature myeloid blood cell that is composed mostly of hemoglobin and functions primarily in the transportation of oxygen and carbon dioxide",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "erythropoietin (EPO)",
+      "definition": "glycoprotein that triggers the bone marrow to produce RBCs; secreted by the kidney in response to low oxygen levels",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "extrinsic pathway",
+      "definition": "initial coagulation pathway that begins with tissue damage and results in the activation of the common pathway",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "ferritin",
+      "definition": "protein-containing storage form of iron found in the bone marrow, liver, and spleen",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "fibrin",
+      "definition": "insoluble, filamentous protein that forms the structure of a blood clot",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "fibrinogen",
+      "definition": "plasma protein produced in the liver and involved in blood clotting",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "fibrinolysis",
+      "definition": "gradual degradation of a blood clot",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "formed elements",
+      "definition": "cellular components of blood; that is, erythrocytes, leukocytes, and platelets",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "globin",
+      "definition": "heme-containing globular protein that is a constituent of hemoglobin",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "globulins",
+      "definition": "heterogeneous group of plasma proteins that includes transport proteins, clotting factors, immune proteins, and others",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "granular leukocytes",
+      "definition": "leukocytes with abundant granules in their cytoplasm; specifically, neutrophils, eosinophils, and basophils",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "hematocrit",
+      "definition": "(also, packed cell volume) volume percentage of erythrocytes in a sample of centrifuged blood",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "hematopoietic stem cell",
+      "definition": "type of pluripotent stem cell that gives rise to the formed elements of blood (hemocytoblast)",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "heme",
+      "definition": "red, iron-containing pigment to which oxygen binds in hemoglobin",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "hemocytoblast",
+      "definition": "hematopoietic stem cell that gives rise to the formed elements of blood",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "hemoglobin",
+      "definition": "oxygen-carrying compound in erythrocytes",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "hemolysis",
+      "definition": "destruction (lysis) of erythrocytes and the release of their hemoglobin into circulation",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "hemolytic disease of the newborn (HDN)",
+      "definition": "(also, erythroblastosis fetalis) disorder causing + agglutination and hemolysis in an Rh fetus or − newborn of an Rh person",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "hemophilia",
+      "definition": "genetic disorder characterized by inadequate synthesis of clotting factors",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "hemopoiesis",
+      "definition": "production of the formed elements of blood",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "hemopoietic growth factors",
+      "definition": "chemical signals including erythropoietin, thrombopoietin, colony- stimulating factors, and interleukins that regulate the differentiation and proliferation of particular blood progenitor cells",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "hemorrhage",
+      "definition": "excessive bleeding",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "hemosiderin",
+      "definition": "protein-containing storage form of iron found in the bone marrow, liver, and spleen",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "hemostasis",
+      "definition": "physiological process by which bleeding ceases",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "heparin",
+      "definition": "short-acting anticoagulant stored in mast cells and released when tissues are injured, opposes prothrombin",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "hypoxemia",
+      "definition": "below-normal level of oxygen saturation of blood (typically <95 percent)",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "immunoglobulins",
+      "definition": "(also, antibodies or gamma globulins) antigen-specific proteins produced by specialized B lymphocytes that protect the body by binding to foreign objects such as bacteria and viruses",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "interleukins",
+      "definition": "signaling molecules that may function in hemopoiesis, inflammation, and specific immune responses",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "intrinsic pathway",
+      "definition": "initial coagulation pathway that begins with vascular damage or contact with foreign substances, and results in the activation of the common pathway",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "jaundice",
+      "definition": "yellowing of the skin or whites of the eyes due to excess bilirubin in the blood",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "leukemia",
+      "definition": "cancer involving leukocytes",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "leukocyte",
+      "definition": "(also, white blood cell) colorless, nucleated blood cell, the chief function of which is to protect the body from disease",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "leukocytosis",
+      "definition": "excessive leukocyte proliferation",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "leukopenia",
+      "definition": "below-normal production of leukocytes",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "lymphocytes",
+      "definition": "agranular leukocytes of the lymphoid stem cell line, many of which function in specific immunity",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "lymphoid stem cells",
+      "definition": "type of hematopoietic stem cells that gives rise to lymphocytes, including various T cells, B cells, and NK cells, all of which function in immunity",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "lymphoma",
+      "definition": "form of cancer in which masses of malignant T and/or B lymphocytes collect in lymph nodes, the spleen, the liver, and other tissues",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "lysozyme",
+      "definition": "digestive enzyme with bactericidal properties",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "macrophage",
+      "definition": "phagocytic cell of the myeloid lineage; a matured monocyte",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "megakaryocyte",
+      "definition": "bone marrow cell that produces platelets",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "memory cell",
+      "definition": "type of B or T lymphocyte that forms after exposure to a pathogen",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "monocytes",
+      "definition": "agranular leukocytes of the myeloid stem cell line that circulate in the bloodstream; tissue monocytes are macrophages",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "myeloid stem cells",
+      "definition": "type of hematopoietic stem cell that gives rise to some formed elements, including erythrocytes, megakaryocytes that produce platelets, and a myeloblast lineage that gives rise to monocytes and three forms of granular leukocytes (neutrophils, eosinophils, and basophils)",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "natural killer (NK) cells",
+      "definition": "cytotoxic lymphocytes capable of recognizing cells that do not express “self” proteins on their plasma membrane or that contain foreign or abnormal markers; provide generalized, nonspecific immunity",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "neutrophils",
+      "definition": "granulocytes that stain with a neutral dye and are the most numerous of the leukocytes; especially active against bacteria",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "oxyhemoglobin",
+      "definition": "molecule of hemoglobin to which oxygen is bound",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "packed cell volume (PCV)",
+      "definition": "(also, hematocrit) volume percentage of erythrocytes present in a sample of centrifuged blood",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "plasma",
+      "definition": "in blood, the liquid extracellular matrix composed mostly of water that circulates the formed elements and dissolved materials throughout the cardiovascular system",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "plasmin",
+      "definition": "blood protein active in fibrinolysis",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "platelet plug",
+      "definition": "accumulation and adhesion of platelets at the site of blood vessel injury",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "platelets",
+      "definition": "(also, thrombocytes) one of the formed elements of blood that consists of cell fragments broken off from megakaryocytes",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "pluripotent stem cell",
+      "definition": "stem cell that derives from totipotent stem cells and is capable of differentiating into many, but not all, cell types",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "polycythemia",
+      "definition": "elevated level of hemoglobin, whether adaptive or pathological",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "polymorphonuclear",
+      "definition": "having a lobed nucleus, as seen in some leukocytes",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "positive chemotaxis",
+      "definition": "process in which a cell is attracted to move in the direction of chemical stimuli",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "red blood cells (RBCs)",
+      "definition": "(also, erythrocytes) one of the formed elements of blood that transports oxygen",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "reticulocyte",
+      "definition": "immature erythrocyte that may still contain fragments of organelles",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "Rh blood group",
+      "definition": "blood-type classification based on the presence or absence of the antigen Rh on the erythrocyte membrane surface",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "serum",
+      "definition": "blood plasma that does not contain clotting factors",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "sickle cell disease",
+      "definition": "(also, sickle cell anemia) inherited blood disorder in which hemoglobin molecules are malformed, leading to the breakdown of RBCs that take on a characteristic sickle shape",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "T lymphocytes",
+      "definition": "(also, T cells) lymphocytes that provide cellular-level immunity by physically attacking foreign or diseased cells",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "thalassemia",
+      "definition": "inherited blood disorder in which maturation of RBCs does not proceed normally, leading to abnormal formation of hemoglobin and the destruction of RBCs",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "thrombin",
+      "definition": "enzyme essential for the final steps in formation of a fibrin clot",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "thrombocytes",
+      "definition": "platelets, one of the formed elements of blood that consists of cell fragments broken off from megakaryocytes",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "thrombocytopenia",
+      "definition": "condition in which there are too few platelets, resulting in abnormal bleeding (hemophilia)",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "thrombocytosis",
+      "definition": "condition in which there are too many platelets, resulting in abnormal clotting (thrombosis)",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "thrombopoietin",
+      "definition": "hormone secreted by the liver and kidneys that prompts the development of megakaryocytes into thrombocytes (platelets)",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "thrombosis",
+      "definition": "excessive clot formation",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "thrombus",
+      "definition": "aggregation of fibrin, platelets, and erythrocytes in an intact artery or vein",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "tissue factor",
+      "definition": "protein thromboplastin, which initiates the extrinsic pathway when released in response to tissue damage",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "totipotent stem cell",
+      "definition": "embryonic stem cell that is capable of differentiating into any and all cells of the body; enabling the full development of an organism",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "transferrin",
+      "definition": "plasma protein that binds reversibly to iron and distributes it throughout the body",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "universal donor",
+      "definition": "individual with type O − blood",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "universal recipient",
+      "definition": "individual with type AB + blood",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "vascular spasm",
+      "definition": "initial step in hemostasis, in which the smooth muscle in the walls of the ruptured or damaged blood vessel contracts",
+      "chapterID": "ch18",
+      "sectionID": null
+    },
+    {
+      "term": "white blood cells (WBCs)",
+      "definition": "(also, leukocytes) one of the formed elements of blood that provides defense against disease agents and foreign materials",
+      "chapterID": "ch18",
+      "sectionID": null
+    }
+  ],
+  "totalQuestions": 39
+}
