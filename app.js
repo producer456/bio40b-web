@@ -72,7 +72,7 @@ function renderHome(root) {
   wrap.appendChild(stats);
   const ctaRow = el('div','cta-row');
   const cta1 = el('button','cta','🎯 Master the objectives'); cta1.onclick = () => location.hash = '#/cards';
-  const cta2 = el('button','cta ghost','🫀 Drill body systems'); cta2.onclick = () => location.hash = '#/systems';
+  const cta2 = el('button','cta ghost','🫀 Drill body systems · WIP'); cta2.onclick = () => location.hash = '#/systems';
   ctaRow.appendChild(cta1); ctaRow.appendChild(cta2);
   wrap.appendChild(ctaRow);
 
@@ -269,7 +269,11 @@ function renderSystems(root, sessionKey) {
   if (sessionKey) { renderSession(wrap, sessionKey); root.appendChild(wrap); return; }
 
   document.documentElement.style.setProperty('--accent', 'var(--nervous)');
+
+  wrap.appendChild(el('div', 'wip-kicker', '🚧 WORK IN PROGRESS'));
   wrap.appendChild(el('h1', null, 'Body Systems'));
+  wrap.appendChild(el('div', 'wip-banner',
+    `This deck is still being built and reviewed — new cards and body areas are being added, and answers may still change. Study it, but double‑check against your notes and textbook.`));
   wrap.appendChild(el('p', 'sub muted',
     `A separate deck built around the anatomy itself — structures and their functions, key terms, and quick recall questions, grouped by body system and body area. Same reveal‑and‑rate flow: anything below “Solid” comes back until you’ve mastered the deck.`));
 

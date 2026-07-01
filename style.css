@@ -89,6 +89,17 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 22px 18px 80px; }
 .fc-wrap .unit-h { font-size: 12px; text-transform: uppercase; letter-spacing: .6px;
   color: var(--ink-3); font-weight: 700; padding: 16px 4px 6px; }
 
+/* Work-in-progress markers for the Body Systems deck */
+.wip-dot { font-size: 9px; font-weight: 800; letter-spacing: .5px; vertical-align: middle;
+  padding: 2px 5px; border-radius: 6px; margin-left: 4px;
+  background: color-mix(in srgb, #c9902a 24%, transparent); color: #b5811f; }
+.wip-kicker { font-size: 12px; font-weight: 800; letter-spacing: .8px; color: #b5811f;
+  margin-bottom: 2px; }
+.wip-banner { margin: 6px 0 10px; padding: 12px 14px; border-radius: 12px;
+  font-size: 13.5px; line-height: 1.5; color: var(--ink-2);
+  background: color-mix(in srgb, #c9902a 12%, transparent);
+  border: 1px solid color-mix(in srgb, #c9902a 32%, transparent); }
+
 /* Reader layout */
 .reader { display: grid; grid-template-columns: 300px 1fr; gap: 20px; align-items: start; }
 .toc { position: sticky; top: 74px; max-height: calc(100vh - 96px); overflow-y: auto;
