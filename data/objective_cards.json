@@ -934,5 +934,146 @@
         }
       ]
     }
+  ],
+  "regions": [
+    {
+      "key": "neurons",
+      "name": "Neurons & Nervous Tissue",
+      "icon": "🧠",
+      "unit": "nervous",
+      "sectionIds": [
+        "ch12_s01",
+        "ch12_s02",
+        "ch12_s03",
+        "ch12_s04",
+        "ch12_s05"
+      ],
+      "cardCount": 13
+    },
+    {
+      "key": "brain",
+      "name": "Brain & Spinal Cord",
+      "icon": "🧠",
+      "unit": "nervous",
+      "sectionIds": [
+        "ch13_s01",
+        "ch13_s02",
+        "ch13_s03"
+      ],
+      "cardCount": 12
+    },
+    {
+      "key": "nerves",
+      "name": "Peripheral & Cranial Nerves",
+      "icon": "🔌",
+      "unit": "nervous",
+      "sectionIds": [
+        "ch13_s04"
+      ],
+      "cardCount": 4
+    },
+    {
+      "key": "senses",
+      "name": "Special Senses (Eye & Ear)",
+      "icon": "👁️",
+      "unit": "nervous",
+      "sectionIds": [
+        "ch14_s01"
+      ],
+      "cardCount": 6
+    },
+    {
+      "key": "pathways",
+      "name": "Sensory & Motor Pathways",
+      "icon": "↕️",
+      "unit": "nervous",
+      "sectionIds": [
+        "ch14_s02",
+        "ch14_s03"
+      ],
+      "cardCount": 10
+    },
+    {
+      "key": "autonomic",
+      "name": "Autonomic Nervous System",
+      "icon": "⚡",
+      "unit": "nervous",
+      "sectionIds": [
+        "ch15_s01",
+        "ch15_s02",
+        "ch15_s03",
+        "ch15_s04"
+      ],
+      "cardCount": 16
+    },
+    {
+      "key": "blood",
+      "name": "Blood",
+      "icon": "🩸",
+      "unit": "cardio",
+      "sectionIds": [
+        "ch18_s01",
+        "ch18_s02",
+        "ch18_s03",
+        "ch18_s04",
+        "ch18_s05",
+        "ch18_s06"
+      ],
+      "cardCount": 20
+    },
+    {
+      "key": "heart",
+      "name": "Heart",
+      "icon": "❤️",
+      "unit": "cardio",
+      "sectionIds": [
+        "ch19_s01",
+        "ch19_s02",
+        "ch19_s03",
+        "ch19_s04",
+        "ch19_s05"
+      ],
+      "cardCount": 26
+    },
+    {
+      "key": "vessels",
+      "name": "Blood Vessels & Circulation",
+      "icon": "🫀",
+      "unit": "cardio",
+      "sectionIds": [
+        "ch20_s01",
+        "ch20_s02",
+        "ch20_s03",
+        "ch20_s04",
+        "ch20_s05",
+        "ch20_s06"
+      ],
+      "cardCount": 21
+    },
+    {
+      "key": "lungs",
+      "name": "Lungs & Airways",
+      "icon": "🫁",
+      "unit": "respir",
+      "sectionIds": [
+        "ch22_s01",
+        "ch22_s02"
+      ],
+      "cardCount": 7
+    },
+    {
+      "key": "breathing",
+      "name": "Breathing & Gas Exchange",
+      "icon": "💨",
+      "unit": "respir",
+      "sectionIds": [
+        "ch22_s03",
+        "ch22_s04",
+        "ch22_s05",
+        "ch22_s06",
+        "ch22_s07"
+      ],
+      "cardCount": 26
+    }
   ]
 }

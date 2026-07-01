@@ -17,7 +17,8 @@ const RATINGS = [
 ];
 const MASTERY = 4;
 
-const state = { chapters: [], objByChapter: {}, sectionIndex: [] };
+const state = { chapters: [], objByChapter: {}, sectionIndex: [], regions: [], cardMode: 'chapter' };
+const unitColor = { nervous: 'var(--nervous)', cardio: 'var(--cardio)', respir: 'var(--respir)' };
 const $ = sel => document.querySelector(sel);
 const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
 const esc = s => (s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -29,6 +30,7 @@ async function loadData() {
   state.chapters = chs.sort((a,b) => a.number - b.number);
   const obj = await fetch('data/objective_cards.json').then(r => r.json());
   obj.chapters.forEach(c => { state.objByChapter[c.number] = c; });
+  state.regions = obj.regions || [];
   // flat index of sections for prev/next + lookup
   state.chapters.forEach(ch => ch.sections.forEach(s =>
     state.sectionIndex.push({ chapter: ch, section: s })));
@@ -198,7 +200,19 @@ function renderCards(root, sessionKey) {
 function renderScopePicker(wrap) {
   document.documentElement.style.setProperty('--accent', 'var(--nervous)');
   wrap.appendChild(el('h1', null, 'Master the objectives'));
-  wrap.appendChild(el('p','sub muted', `Pick a chapter or section. Reveal each answer, rate how well you knew it, and any card below “Solid” comes back until you’ve mastered them all.`));
+  wrap.appendChild(el('p','sub muted', `Reveal each answer, rate how well you knew it, and any card below “Solid” comes back until you’ve mastered them all. Drill by chapter or by body region.`));
+
+  // mode toggle: by chapter / by body region
+  const seg = el('div','seg');
+  ['chapter','region'].forEach(m => {
+    const b = el('button', 'seg-btn' + (state.cardMode === m ? ' active' : ''), m === 'chapter' ? 'By chapter' : 'By body region');
+    b.onclick = () => { state.cardMode = m; renderCards(clear($('#app')), undefined); };
+    seg.appendChild(b);
+  });
+  wrap.appendChild(seg);
+
+  if (state.cardMode === 'region') { renderRegionList(wrap); return; }
+
   const list = el('div','scope-list');
   state.chapters.forEach(ch => {
     const oc = state.objByChapter[ch.number]; if (!oc) return;
@@ -226,7 +240,32 @@ function renderScopePicker(wrap) {
   wrap.appendChild(list);
 }
 
+function renderRegionList(wrap) {
+  const list = el('div','scope-list');
+  state.regions.forEach(r => {
+    const color = unitColor[r.unit] || 'var(--nervous)';
+    const row = el('button','region-row card');
+    row.innerHTML = `<div class="badge" style="background:${color}">${r.icon}</div>
+      <div style="flex:1;text-align:left"><div style="font-weight:600">${esc(r.name)}</div>
+      <div class="muted" style="font-size:13px">${r.cardCount} objectives</div></div>
+      <div style="color:${color};font-size:20px">▶</div>`;
+    row.onclick = () => startSession(`region-${r.key}`);
+    list.appendChild(row);
+  });
+  wrap.appendChild(list);
+}
+
 function cardsForKey(key) {
+  if (key.startsWith('region-')) {
+    const r = state.regions.find(x => x.key === key.slice('region-'.length));
+    if (!r) return null;
+    const bySection = {};
+    Object.values(state.objByChapter).forEach(oc => oc.sections.forEach(s => { bySection[s.id] = s.cards; }));
+    const cards = r.sectionIds.flatMap(id => bySection[id] || []);
+    // colour by region unit; find a chapter in that unit for unitOf()
+    const chapNum = { nervous: 12, cardio: 18, respir: 22 }[r.unit] || 12;
+    return { title: r.name, chapter: chapNum, cards };
+  }
   if (key.endsWith('-all')) {
     const n = parseInt(key.replace('ch','').replace('-all',''), 10);
     const oc = state.objByChapter[n];

@@ -132,6 +132,17 @@ figure.fig figcaption { font-size: 13px; color: var(--ink-2); margin-top: 6px; }
 
 /* Flashcards */
 .fc-wrap { max-width: 720px; margin: 0 auto; }
+.seg { display: inline-flex; background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: 12px; padding: 3px; margin: 4px 0 18px; gap: 3px; }
+.seg-btn { border: none; background: transparent; color: var(--ink-2); font-weight: 600;
+  font-size: 14px; padding: 8px 16px; border-radius: 9px; }
+.seg-btn.active { background: var(--accent); color: #fff; }
+.region-row { display: flex; align-items: center; gap: 12px; width: 100%; padding: 14px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  border-radius: var(--radius); box-shadow: var(--shadow); cursor: pointer;
+  transition: transform .1s ease; }
+.region-row:hover { transform: translateY(-1px); }
+.region-row .badge { width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; font-size: 19px; }
 .scope-list { display: grid; gap: 10px; }
 .scope-chapter { padding: 6px; }
 .scope-chapter > .row { display: flex; align-items: center; gap: 12px; padding: 12px 14px;
