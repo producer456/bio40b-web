@@ -17,7 +17,7 @@ const RATINGS = [
 ];
 const MASTERY = 4;
 
-const state = { chapters: [], objByChapter: {}, sectionIndex: [], regions: [], bodyUnits: [], cardMode: 'chapter' };
+const state = { chapters: [], objByChapter: {}, sectionIndex: [], regions: [], bodyUnits: [], teacherDeck: null, cardMode: 'chapter' };
 const unitColor = { nervous: 'var(--nervous)', cardio: 'var(--cardio)', respir: 'var(--respir)' };
 const $ = sel => document.querySelector(sel);
 const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
@@ -34,6 +34,8 @@ async function loadData() {
   // Body Systems deck — separate from the objective cards (unit -> body area).
   const bs = await fetch('data/bodysystems_cards.json').then(r => r.json());
   state.bodyUnits = bs.units || [];
+  // Objectives-from-teacher deck — the lab objective sets, hand-authored.
+  state.teacherDeck = await fetch('data/teacher_cards.json').then(r => r.json());
   // flat index of sections for prev/next + lookup
   state.chapters.forEach(ch => ch.sections.forEach(s =>
     state.sectionIndex.push({ chapter: ch, section: s })));
@@ -52,6 +54,7 @@ function route() {
   root.innerHTML = '';
   if (view === 'read')         renderRead(root, arg);
   else if (view === 'cards')   renderCards(root, arg);
+  else if (view === 'objectives') renderTeacher(root, arg);
   else if (view === 'systems') renderSystems(root, arg);
   else if (view === 'lab')     window.renderLab?.(root);
   else                         renderHome(root);
@@ -264,6 +267,47 @@ function renderRegionList(wrap) {
   wrap.appendChild(list);
 }
 
+// ---- Objectives from teacher deck (the lab objective sets) ----
+function renderTeacher(root, sessionKey) {
+  const wrap = el('div', 'fc-wrap');
+  if (sessionKey) { renderSession(wrap, sessionKey); root.appendChild(wrap); return; }
+
+  const deck = state.teacherDeck;
+  document.documentElement.style.setProperty('--accent', 'var(--nervous)');
+  wrap.appendChild(el('div', 'kicker', 'FROM YOUR TEACHER'));
+  wrap.appendChild(el('h1', null, esc(deck?.title || 'Objectives from teacher')));
+  wrap.appendChild(el('p', 'sub muted',
+    `The objective sets straight from lab. Reveal each card, rate how well you knew it, and anything below “Solid” comes back until you’ve mastered the whole set. Study a single set or the entire deck.`));
+
+  const sets = deck?.sets || [];
+  const totalCards = sets.reduce((n, s) => n + s.cards.length, 0);
+
+  const list = el('div', 'scope-list');
+
+  // whole deck first
+  const whole = el('button', 'region-row card');
+  whole.innerHTML = `<div class="badge" style="background:var(--nervous)">▶</div>
+    <div style="flex:1;text-align:left"><div style="font-weight:600">Whole deck — every set</div>
+    <div class="muted" style="font-size:13px">${totalCards} cards · ${sets.length} sets</div></div>
+    <div style="color:var(--nervous);font-size:20px">▶</div>`;
+  whole.onclick = () => startTeacherSession('teach-all');
+  list.appendChild(whole);
+
+  sets.forEach((s, i) => {
+    const row = el('button', 'region-row card');
+    row.innerHTML = `<div class="badge" style="background:color-mix(in srgb,var(--nervous) 78%,#000)">${s.icon || '📋'}</div>
+      <div style="flex:1;text-align:left"><div style="font-weight:600">Set ${i + 1} · ${esc(s.name)}</div>
+      <div class="muted" style="font-size:13px">${s.cards.length} cards</div></div>
+      <div style="color:var(--nervous);font-size:20px">▶</div>`;
+    row.onclick = () => startTeacherSession(`teach-${s.key}`);
+    list.appendChild(row);
+  });
+  wrap.appendChild(list);
+  root.appendChild(wrap);
+}
+function startTeacherSession(key){ location.hash = `#/objectives/${key}`; }
+const normTeacherCard = c => ({ id: c.id, kick: 'OBJECTIVE', objective: c.front, answer: c.back });
+
 // ---- Body Systems deck (separate from the objective flashcards) ----
 function renderSystems(root, sessionKey) {
   const wrap = el('div', 'fc-wrap');
@@ -320,6 +364,18 @@ const bodyArea = k => state.bodyUnits.flatMap(u => u.areas).find(a => a.key === 
 const bodyUnit = k => state.bodyUnits.find(u => u.key === k);
 
 function cardsForKey(key) {
+  if (key.startsWith('teach-')) {
+    const deck = state.teacherDeck;
+    const rest = key.slice('teach-'.length);
+    if (rest === 'all') {
+      return { title: deck.title || 'Objectives from teacher', unitKey: 'nervous', backHash: '#/objectives',
+               cards: deck.sets.flatMap(s => s.cards.map(normTeacherCard)) };
+    }
+    const set = deck.sets.find(s => s.key === rest);
+    if (!set) return null;
+    return { title: set.name, unitKey: 'nervous', backHash: '#/objectives',
+             cards: set.cards.map(normTeacherCard) };
+  }
   if (key.startsWith('sys-area-')) {
     const a = bodyArea(key.slice('sys-area-'.length));
     if (!a) return null;
@@ -361,8 +417,8 @@ function renderSession(wrap, key) {
   const accent = scope.unitKey ? (unitColor[scope.unitKey] || 'var(--nervous)')
                                : unitOf(scope.chapter).color;
   document.documentElement.style.setProperty('--accent', accent);
-  const backHash = scope.unitKey ? '#/systems' : '#/cards';
-  const noun = scope.unitKey ? 'cards' : 'objectives';
+  const backHash = scope.backHash || (scope.unitKey ? '#/systems' : '#/cards');
+  const noun = scope.backHash ? 'cards' : (scope.unitKey ? 'cards' : 'objectives');
 
   const sess = {
     queue: [...scope.cards], mastered: new Set(), ratings: {},

@@ -1,0 +1,102 @@
+{
+  "generatedBy": "hand-authored from teacher's lab objectives",
+  "title": "Objectives from teacher",
+  "sets": [
+    {
+      "key": "cells",
+      "name": "Cell Structures (Neurons & Glial Cells)",
+      "icon": "🔬",
+      "cards": [
+        { "id": "cells_soma", "front": "Soma (Cell Body)", "back": "The main center holding the nucleus." },
+        { "id": "cells_dendrites", "front": "Dendrites", "back": "The thin, branch-like \"antennas\" receiving signals." },
+        { "id": "cells_axon", "front": "Axon", "back": "The single, long \"tail\" sending signals away." },
+        { "id": "cells_hillock", "front": "Axon Hillock", "back": "The funnel-shaped base where the tail attaches to the body." },
+        { "id": "cells_myelin", "front": "Myelin Sheath", "back": "The insulating wrapper around the tail." },
+        { "id": "cells_nodes", "front": "Nodes of Ranvier", "back": "The bare gaps between the myelin wrappers." },
+        { "id": "cells_bulbs", "front": "Synaptic End Bulbs", "back": "The swollen tips at the very end of the tail." },
+        { "id": "cells_astrocytes", "front": "Astrocytes (CNS)", "back": "Think Astro = Star. Look for star-shaped cells with many extensions." },
+        { "id": "cells_oligo", "front": "Oligodendrocytes (CNS)", "back": "Think Octopus. Reaches out with multiple branches to wrap several different axons in myelin." },
+        { "id": "cells_microglia", "front": "Microglia (CNS)", "back": "Think Micro = Small. Noticeably smaller than other glia." },
+        { "id": "cells_ependymal", "front": "Ependymal Cells (CNS)", "back": "Packed tightly together like floor tiles, with tiny hairs (cilia) pointing into open fluid spaces." },
+        { "id": "cells_schwann", "front": "Schwann Cells (PNS)", "back": "Wraps around just one single axon segment, leaving a visible bulge on the edge where its nucleus sits." },
+        { "id": "cells_satellite", "front": "Satellite Cells (PNS)", "back": "Think Satellites orbiting. Small dot-like nuclei tightly circling around the perimeter of large sensory cell bodies." }
+      ]
+    },
+    {
+      "key": "brainregions",
+      "name": "Four Major Regions of the Brain",
+      "icon": "🧠",
+      "cards": [
+        { "id": "brg_cerebrum", "front": "Cerebrum (The Thinker)", "back": "The large, wrinkly outer part of the brain. It handles your highest mental functions, like conscious perception, language, learning, and memory." },
+        { "id": "brg_diencephalon", "front": "Diencephalon (The Switchboard & Thermostat)", "back": "Located deep inside the brain. It contains the thalamus (routes incoming sensory information) and the hypothalamus (regulates internal balance and the autonomic nervous system)." },
+        { "id": "brg_brainstem", "front": "Brain Stem (The Bridge & Autopilot)", "back": "The stalk connecting the brain to the spinal cord (midbrain, pons, and medulla). A vital pathway for nerve signals that automatically controls critical involuntary functions like heart rate and breathing." },
+        { "id": "brg_cerebellum", "front": "Cerebellum (The \"Little Brain\")", "back": "Sitting at the back of the brain stem, it acts as a real-time motor comparator to coordinate your movements and keep you balanced." }
+      ]
+    },
+    {
+      "key": "brainmodels",
+      "name": "Identifying Brain Structures on Models",
+      "icon": "🗿",
+      "cards": [
+        { "id": "brm_cerebrum", "front": "Cerebrum (The Giant Walnut)", "back": "The massive, highly wrinkled structure that makes up the top and sides of the brain, split into two halves by the longitudinal fissure." },
+        { "id": "brm_corpuscallosum", "front": "Corpus Callosum (The White Arch)", "back": "A large, thick, C-shaped band of white matter deep inside the cerebrum that physically bridges the left and right hemispheres." },
+        { "id": "brm_diencephalon", "front": "Diencephalon (The Hidden Core)", "back": "Buried deep beneath the cerebrum. Look for the thalamus (two egg-shaped masses touching in the middle) and the hypothalamus (funnels down into a sharp angle)." },
+        { "id": "brm_brainstem", "front": "Brain Stem (The Tapering Stalk)", "back": "The cone-like structure connecting to the spinal cord. Spot the pons by looking for a thick bulge on the front, tapering down into the medulla." },
+        { "id": "brm_cerebellum", "front": "Cerebellum (The \"Mini Brain\" / Cauliflower)", "back": "Sitting at the lower back of the brain, it looks exactly like a miniature version of the cerebrum covered in tiny, parallel wrinkles." }
+      ]
+    },
+    {
+      "key": "spinalnerves",
+      "name": "The Spinal Nerves & Plexuses",
+      "icon": "🕸️",
+      "cards": [
+        { "id": "sn_cervical", "front": "Cervical Nerves (C1–C8)", "back": "8 pairs emerging from the neck." },
+        { "id": "sn_thoracic", "front": "Thoracic Nerves (T1–T12)", "back": "12 pairs emerging from the upper back/chest region." },
+        { "id": "sn_lumbar", "front": "Lumbar Nerves (L1–L5)", "back": "5 pairs emerging from the lower back." },
+        { "id": "sn_sacral", "front": "Sacral Nerves (S1–S5)", "back": "5 pairs emerging from the sacrum (pelvic region)." },
+        { "id": "sn_coccygeal", "front": "Coccygeal Nerves", "back": "1 single pair emerging from the coccyx (tailbone)." },
+        { "id": "sn_cervplexus", "front": "Cervical Plexus (Neck & Diaphragm)", "back": "Reorganizes fibers from C1–C5." },
+        { "id": "sn_brachplexus", "front": "Brachial Plexus (The Arms)", "back": "Reorganizes fibers from C4–T1 to supply arm nerves." },
+        { "id": "sn_lumbplexus", "front": "Lumbar Plexus (The Front Leg)", "back": "Arises from the lumbar spinal nerves to supply the pelvic region and anterior leg." },
+        { "id": "sn_sacrplexus", "front": "Sacral Plexus (The Back Leg)", "back": "Arises from the lower lumbar and sacral nerves to supply the posterior leg, forming the large sciatic nerve." }
+      ]
+    },
+    {
+      "key": "eye",
+      "name": "Structures of the Eye",
+      "icon": "👁️",
+      "cards": [
+        { "id": "eye_sclera", "front": "Sclera (The White Armor)", "back": "The tough, white outer layer that covers most of the eyeball." },
+        { "id": "eye_cornea", "front": "Cornea (The Clear Window)", "back": "The transparent front covering that protects the eye and lets light enter." },
+        { "id": "eye_iris", "front": "Iris (The Colored Shutter)", "back": "The colored smooth muscle of the eye that automatically opens and closes depending on light levels." },
+        { "id": "eye_pupil", "front": "Pupil (The Black Hole)", "back": "The central opening or hole within the iris where the light actually passes through." },
+        { "id": "eye_lens", "front": "Lens (The Magnifying Glass)", "back": "The clear structure located just behind the pupil that bends and changes shape to focus incoming light." },
+        { "id": "eye_retina", "front": "Retina (The Screen)", "back": "The innermost lining of the eye made of nervous tissue that captures the visual image." },
+        { "id": "eye_fovea", "front": "Fovea (The Bullseye)", "back": "A tiny indentation at the exact center of the retina that provides your sharpest, clearest vision." },
+        { "id": "eye_opticdisc", "front": "Optic Disc (The Exit Door / Blind Spot)", "back": "The spot at the back of the eye where the optic nerve exits to travel to the brain, creating a natural blind spot." },
+        { "id": "eye_rods", "front": "Rods (Night Vision)", "back": "Light-sensitive cells in the retina for low-light conditions, functioning strictly in grayscale." },
+        { "id": "eye_cones", "front": "Cones (Color Vision)", "back": "Cells in the retina that detect red, green, and blue wavelengths, providing sharp color vision." },
+        { "id": "eye_aqueous", "front": "Aqueous Humor (The Watery Filling)", "back": "A thin, watery fluid that fills the smaller anterior cavity in front of the lens." },
+        { "id": "eye_vitreous", "front": "Vitreous Humor (The Jelly Filling)", "back": "A thick, viscous fluid that fills the large posterior cavity behind the lens." }
+      ]
+    },
+    {
+      "key": "spinalcord",
+      "name": "Spinal Cord Structures",
+      "icon": "🦴",
+      "cards": [
+        { "id": "sc_posthorn", "front": "Posterior (Dorsal) Horns", "back": "Gray matter — the upper \"wings\" that process incoming sensory information." },
+        { "id": "sc_anthorn", "front": "Anterior (Ventral) Horns", "back": "Gray matter — the wider, lower \"wings\" that send out motor signals." },
+        { "id": "sc_lathorn", "front": "Lateral Horns", "back": "Gray matter — small bumps on the sides containing autonomic motor neurons." },
+        { "id": "sc_canal", "front": "Central Canal", "back": "The tiny \"bullseye\" hole right in the center of the gray matter containing cerebrospinal fluid." },
+        { "id": "sc_postcol", "front": "Posterior Columns", "back": "White matter between the two upper wings carrying sensory info up to the brain." },
+        { "id": "sc_antcol", "front": "Anterior Columns", "back": "White matter between the two lower wings carrying motor commands down from the brain." },
+        { "id": "sc_latcol", "front": "Lateral Columns", "back": "White matter filling out the far left and right sides." },
+        { "id": "sc_antfissure", "front": "Anterior Median Fissure", "back": "The deep, wide crack running right down the front midline." },
+        { "id": "sc_postsulcus", "front": "Posterior Median Sulcus", "back": "The shallower, narrower groove running down the back midline." },
+        { "id": "sc_dorsalroot", "front": "Dorsal (Posterior) Nerve Root", "back": "Nerve fibers plugging into the back of the spinal cord, recognizable by the bulging dorsal root ganglion." },
+        { "id": "sc_ventralroot", "front": "Ventral (Anterior) Nerve Root", "back": "Nerve fibers emerging directly from the front of the spinal cord." }
+      ]
+    }
+  ]
+}
