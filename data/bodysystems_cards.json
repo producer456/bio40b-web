@@ -1,0 +1,687 @@
+{
+  "generatedBy": "gen_bodysystems_cards.py",
+  "cardCount": 94,
+  "units": [
+    {
+      "key": "nervous",
+      "name": "Nervous System",
+      "icon": "🧠",
+      "areaCount": 5,
+      "cardCount": 45,
+      "areas": [
+        {
+          "key": "neurons",
+          "name": "Neurons & Nervous Tissue",
+          "icon": "🧠",
+          "unit": "nervous",
+          "cardCount": 10,
+          "cards": [
+            {
+              "id": "neurons_structure1",
+              "kind": "structure",
+              "front": "Dendrite",
+              "back": "The neuron's receiving process — it takes in incoming signals and carries graded potentials toward the cell body."
+            },
+            {
+              "id": "neurons_structure2",
+              "kind": "structure",
+              "front": "Axon hillock",
+              "back": "The trigger zone where graded potentials summate; if the membrane reaches threshold here, the action potential is initiated."
+            },
+            {
+              "id": "neurons_structure3",
+              "kind": "structure",
+              "front": "Myelin sheath",
+              "back": "A lipid-rich insulating wrap (from oligodendrocytes in the CNS, Schwann cells in the PNS) that speeds conduction along the axon."
+            },
+            {
+              "id": "neurons_structure4",
+              "kind": "structure",
+              "front": "Node of Ranvier",
+              "back": "A gap in the myelin sheath where voltage-gated Na+ channels cluster and the action potential regenerates, enabling saltatory conduction."
+            },
+            {
+              "id": "neurons_structure5",
+              "kind": "structure",
+              "front": "Astrocyte",
+              "back": "The most abundant CNS glial cell — it supports neurons, regulates the extracellular environment, and helps form the blood–brain barrier."
+            },
+            {
+              "id": "neurons_term1",
+              "kind": "term",
+              "front": "Resting membrane potential",
+              "back": "The ~−70 mV charge difference across a resting neuron's membrane, set mainly by the Na+/K+ pump and K+ leak channels."
+            },
+            {
+              "id": "neurons_term2",
+              "kind": "term",
+              "front": "Saltatory conduction",
+              "back": "Rapid propagation in which the action potential 'jumps' from node to node along a myelinated axon."
+            },
+            {
+              "id": "neurons_term3",
+              "kind": "term",
+              "front": "Neurotransmitter",
+              "back": "A chemical messenger released at a synapse that carries the signal across to the next cell."
+            },
+            {
+              "id": "neurons_qa1",
+              "kind": "qa",
+              "front": "What are the two glial cells of the PNS and their jobs?",
+              "back": "Schwann cells (myelinate/ensheath axons) and satellite cells (support and regulate neuron cell bodies in ganglia)."
+            },
+            {
+              "id": "neurons_qa2",
+              "kind": "qa",
+              "front": "Which ion rushes IN to depolarize the membrane during an action potential?",
+              "back": "Sodium (Na+), through voltage-gated Na+ channels."
+            }
+          ]
+        },
+        {
+          "key": "brain",
+          "name": "Brain & Spinal Cord",
+          "icon": "🧠",
+          "unit": "nervous",
+          "cardCount": 11,
+          "cards": [
+            {
+              "id": "brain_structure1",
+              "kind": "structure",
+              "front": "Cerebrum",
+              "back": "The largest brain region; its cortex handles conscious thought, sensation, voluntary movement, and language."
+            },
+            {
+              "id": "brain_structure2",
+              "kind": "structure",
+              "front": "Cerebellum",
+              "back": "Coordinates movement, balance, and posture, and fine-tunes the timing and accuracy of motor activity."
+            },
+            {
+              "id": "brain_structure3",
+              "kind": "structure",
+              "front": "Thalamus",
+              "back": "The relay station of the diencephalon that routes nearly all sensory and motor information to the cerebral cortex."
+            },
+            {
+              "id": "brain_structure4",
+              "kind": "structure",
+              "front": "Hypothalamus",
+              "back": "The master homeostatic center — it controls temperature, hunger, thirst, the autonomic system, and the pituitary gland."
+            },
+            {
+              "id": "brain_structure5",
+              "kind": "structure",
+              "front": "Medulla oblongata",
+              "back": "The lowest brain-stem region, containing the vital cardiovascular and respiratory control centers."
+            },
+            {
+              "id": "brain_structure6",
+              "kind": "structure",
+              "front": "Choroid plexus",
+              "back": "The capillary network in the ventricles that produces cerebrospinal fluid."
+            },
+            {
+              "id": "brain_term1",
+              "kind": "term",
+              "front": "Gray matter",
+              "back": "Nervous tissue of neuron cell bodies, dendrites, and synapses; it forms the cortex and the nuclei of the CNS."
+            },
+            {
+              "id": "brain_term2",
+              "kind": "term",
+              "front": "White matter",
+              "back": "Nervous tissue made of myelinated axons; it forms the conducting tracts that carry signals between regions."
+            },
+            {
+              "id": "brain_qa1",
+              "kind": "qa",
+              "front": "What produces cerebrospinal fluid, and where?",
+              "back": "The choroid plexus, located in the ventricles of the brain."
+            },
+            {
+              "id": "brain_qa2",
+              "kind": "qa",
+              "front": "Name the three parts of the brain stem.",
+              "back": "Midbrain, pons, and medulla oblongata."
+            },
+            {
+              "id": "brain_qa3",
+              "kind": "qa",
+              "front": "Which arterial ring at the base of the brain provides collateral flow?",
+              "back": "The cerebral arterial circle (circle of Willis)."
+            }
+          ]
+        },
+        {
+          "key": "nerves",
+          "name": "Peripheral & Cranial Nerves",
+          "icon": "🔌",
+          "unit": "nervous",
+          "cardCount": 8,
+          "cards": [
+            {
+              "id": "nerves_structure1",
+              "kind": "structure",
+              "front": "Dorsal root",
+              "back": "Carries sensory (afferent) fibers INTO the spinal cord; its dorsal root ganglion holds the sensory cell bodies."
+            },
+            {
+              "id": "nerves_structure2",
+              "kind": "structure",
+              "front": "Ventral root",
+              "back": "Carries motor (efferent) fibers OUT of the spinal cord to the periphery."
+            },
+            {
+              "id": "nerves_structure3",
+              "kind": "structure",
+              "front": "Vagus nerve (CN X)",
+              "back": "The major parasympathetic nerve, supplying the heart, lungs, and digestive viscera."
+            },
+            {
+              "id": "nerves_term1",
+              "kind": "term",
+              "front": "Mixed nerve",
+              "back": "A nerve carrying both sensory and motor fibers — all 31 pairs of spinal nerves are mixed."
+            },
+            {
+              "id": "nerves_term2",
+              "kind": "term",
+              "front": "Nerve plexus",
+              "back": "A network where ventral rami interweave (cervical, brachial, lumbar, sacral) to form the named peripheral nerves."
+            },
+            {
+              "id": "nerves_qa1",
+              "kind": "qa",
+              "front": "How many pairs of cranial nerves and spinal nerves are there?",
+              "back": "12 pairs of cranial nerves and 31 pairs of spinal nerves."
+            },
+            {
+              "id": "nerves_qa2",
+              "kind": "qa",
+              "front": "Which cranial nerve controls the muscles of facial expression?",
+              "back": "The facial nerve (CN VII)."
+            },
+            {
+              "id": "nerves_qa3",
+              "kind": "qa",
+              "front": "Which cranial nerve carries vision?",
+              "back": "The optic nerve (CN II)."
+            }
+          ]
+        },
+        {
+          "key": "senses",
+          "name": "Special Senses (Eye & Ear)",
+          "icon": "👁️",
+          "unit": "nervous",
+          "cardCount": 8,
+          "cards": [
+            {
+              "id": "senses_structure1",
+              "kind": "structure",
+              "front": "Retina",
+              "back": "The neural tunic of the eye, containing the photoreceptors (rods and cones) that transduce light."
+            },
+            {
+              "id": "senses_structure2",
+              "kind": "structure",
+              "front": "Cornea",
+              "back": "The transparent front of the fibrous tunic that refracts (bends) incoming light toward the retina."
+            },
+            {
+              "id": "senses_structure3",
+              "kind": "structure",
+              "front": "Cochlea",
+              "back": "The spiral organ of the inner ear whose hair cells transduce sound vibrations into neural signals."
+            },
+            {
+              "id": "senses_structure4",
+              "kind": "structure",
+              "front": "Semicircular canals",
+              "back": "Three inner-ear loops that detect rotational movement of the head for balance."
+            },
+            {
+              "id": "senses_term1",
+              "kind": "term",
+              "front": "Photoreceptor",
+              "back": "A retinal cell (rod or cone) that converts light into an electrical signal."
+            },
+            {
+              "id": "senses_term2",
+              "kind": "term",
+              "front": "Hair cell",
+              "back": "A mechanoreceptor of the inner ear whose bending stereocilia signal sound or head movement."
+            },
+            {
+              "id": "senses_qa1",
+              "kind": "qa",
+              "front": "Which photoreceptors give color vision, and which work in dim light?",
+              "back": "Cones give color vision; rods work in dim (low-light) conditions."
+            },
+            {
+              "id": "senses_qa2",
+              "kind": "qa",
+              "front": "Which cranial nerve carries hearing and balance?",
+              "back": "The vestibulocochlear nerve (CN VIII)."
+            }
+          ]
+        },
+        {
+          "key": "autonomic",
+          "name": "Autonomic Nervous System",
+          "icon": "⚡",
+          "unit": "nervous",
+          "cardCount": 8,
+          "cards": [
+            {
+              "id": "autonomic_structure1",
+              "kind": "structure",
+              "front": "Sympathetic chain ganglia",
+              "back": "The row of ganglia beside the spinal cord where short sympathetic preganglionic fibers synapse."
+            },
+            {
+              "id": "autonomic_term1",
+              "kind": "term",
+              "front": "Preganglionic neuron",
+              "back": "The first autonomic neuron, running from the CNS to an autonomic ganglion; it always releases acetylcholine."
+            },
+            {
+              "id": "autonomic_term2",
+              "kind": "term",
+              "front": "Sympathetic division",
+              "back": "The 'fight-or-flight' thoracolumbar division that raises heart rate, dilates pupils, and mobilizes energy."
+            },
+            {
+              "id": "autonomic_term3",
+              "kind": "term",
+              "front": "Parasympathetic division",
+              "back": "The 'rest-and-digest' craniosacral division that slows the heart and stimulates digestion."
+            },
+            {
+              "id": "autonomic_term4",
+              "kind": "term",
+              "front": "Muscarinic receptor",
+              "back": "The acetylcholine receptor on parasympathetic target organs (e.g., it slows the heart when activated)."
+            },
+            {
+              "id": "autonomic_qa1",
+              "kind": "qa",
+              "front": "What neurotransmitter do most sympathetic postganglionic neurons release?",
+              "back": "Norepinephrine (the exception: sweat glands are cholinergic)."
+            },
+            {
+              "id": "autonomic_qa2",
+              "kind": "qa",
+              "front": "From which spinal regions does the sympathetic division arise?",
+              "back": "The thoracolumbar region (T1–L2)."
+            },
+            {
+              "id": "autonomic_qa3",
+              "kind": "qa",
+              "front": "From where does the parasympathetic division arise?",
+              "back": "The brain stem (via cranial nerves) and the sacral spinal cord — i.e., craniosacral."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cardio",
+      "name": "Cardiovascular System",
+      "icon": "❤️",
+      "areaCount": 3,
+      "cardCount": 30,
+      "areas": [
+        {
+          "key": "blood",
+          "name": "Blood",
+          "icon": "🩸",
+          "unit": "cardio",
+          "cardCount": 10,
+          "cards": [
+            {
+              "id": "blood_structure1",
+              "kind": "structure",
+              "front": "Erythrocyte",
+              "back": "The biconcave, anucleate red blood cell, packed with hemoglobin to maximize oxygen transport."
+            },
+            {
+              "id": "blood_structure2",
+              "kind": "structure",
+              "front": "Hemoglobin",
+              "back": "A protein of four globin chains, each with an iron-containing heme, that binds and carries oxygen."
+            },
+            {
+              "id": "blood_structure3",
+              "kind": "structure",
+              "front": "Platelet",
+              "back": "An anucleate cell fragment shed from megakaryocytes that forms plugs and triggers coagulation."
+            },
+            {
+              "id": "blood_term1",
+              "kind": "term",
+              "front": "Hematocrit",
+              "back": "The percentage of blood volume made up of red blood cells (~45% in adults)."
+            },
+            {
+              "id": "blood_term2",
+              "kind": "term",
+              "front": "Plasma",
+              "back": "The fluid ~55% of blood — about 92% water carrying proteins, nutrients, wastes, and electrolytes."
+            },
+            {
+              "id": "blood_term3",
+              "kind": "term",
+              "front": "Hemostasis",
+              "back": "The stopping of bleeding, in three steps: vascular spasm, platelet plug formation, and coagulation."
+            },
+            {
+              "id": "blood_term4",
+              "kind": "term",
+              "front": "Erythropoietin",
+              "back": "The kidney hormone that stimulates red blood cell production."
+            },
+            {
+              "id": "blood_qa1",
+              "kind": "qa",
+              "front": "What are the three formed elements of blood?",
+              "back": "Erythrocytes (red cells), leukocytes (white cells), and platelets."
+            },
+            {
+              "id": "blood_qa2",
+              "kind": "qa",
+              "front": "Which blood type is the universal red-cell donor?",
+              "back": "Type O negative."
+            },
+            {
+              "id": "blood_qa3",
+              "kind": "qa",
+              "front": "Which plasma protein maintains blood's osmotic pressure?",
+              "back": "Albumin."
+            }
+          ]
+        },
+        {
+          "key": "heart",
+          "name": "Heart",
+          "icon": "❤️",
+          "unit": "cardio",
+          "cardCount": 10,
+          "cards": [
+            {
+              "id": "heart_structure1",
+              "kind": "structure",
+              "front": "Left ventricle",
+              "back": "The thick-walled chamber that pumps oxygenated blood into the aorta and the entire systemic circuit."
+            },
+            {
+              "id": "heart_structure2",
+              "kind": "structure",
+              "front": "SA node",
+              "back": "The heart's pacemaker, in the right atrium, that spontaneously initiates each heartbeat."
+            },
+            {
+              "id": "heart_structure3",
+              "kind": "structure",
+              "front": "AV node",
+              "back": "The node that briefly delays the impulse before passing it to the ventricles, allowing the atria to finish emptying."
+            },
+            {
+              "id": "heart_structure4",
+              "kind": "structure",
+              "front": "Mitral (bicuspid) valve",
+              "back": "The left atrioventricular valve that prevents backflow from the left ventricle into the left atrium."
+            },
+            {
+              "id": "heart_structure5",
+              "kind": "structure",
+              "front": "Intercalated disc",
+              "back": "The junction joining cardiac muscle cells; its gap junctions and desmosomes let the heart contract as one unit."
+            },
+            {
+              "id": "heart_term1",
+              "kind": "term",
+              "front": "Cardiac output",
+              "back": "The volume of blood pumped by a ventricle per minute — heart rate × stroke volume (~5 L/min at rest)."
+            },
+            {
+              "id": "heart_term2",
+              "kind": "term",
+              "front": "Stroke volume",
+              "back": "The volume of blood ejected by a ventricle in one beat; set by preload, contractility, and afterload."
+            },
+            {
+              "id": "heart_qa1",
+              "kind": "qa",
+              "front": "What does the QRS complex of an ECG represent?",
+              "back": "Ventricular depolarization (just before ventricular contraction)."
+            },
+            {
+              "id": "heart_qa2",
+              "kind": "qa",
+              "front": "Trace deoxygenated blood from the venae cavae to the lungs.",
+              "back": "Right atrium → tricuspid valve → right ventricle → pulmonary valve → pulmonary arteries → lungs."
+            },
+            {
+              "id": "heart_qa3",
+              "kind": "qa",
+              "front": "Which heart sound ('lub', S1) is the AV valves closing?",
+              "back": "S1, at the start of ventricular systole."
+            }
+          ]
+        },
+        {
+          "key": "vessels",
+          "name": "Blood Vessels & Circulation",
+          "icon": "🫀",
+          "unit": "cardio",
+          "cardCount": 10,
+          "cards": [
+            {
+              "id": "vessels_structure1",
+              "kind": "structure",
+              "front": "Tunica media",
+              "back": "The middle vessel layer of smooth muscle and elastic tissue that controls vessel diameter."
+            },
+            {
+              "id": "vessels_structure2",
+              "kind": "structure",
+              "front": "Capillary",
+              "back": "The smallest vessel — a single endothelial layer — where gases, nutrients, and wastes are exchanged."
+            },
+            {
+              "id": "vessels_structure3",
+              "kind": "structure",
+              "front": "Arteriole",
+              "back": "The smallest resistance artery; its smooth muscle adjusts flow into capillaries and helps set blood pressure."
+            },
+            {
+              "id": "vessels_structure4",
+              "kind": "structure",
+              "front": "Venous valve",
+              "back": "A one-way fold of tunica intima in limb veins that prevents backflow as the muscle pump moves blood toward the heart."
+            },
+            {
+              "id": "vessels_term1",
+              "kind": "term",
+              "front": "Blood pressure",
+              "back": "The force blood exerts on vessel walls; arterial pressure is reported as systolic/diastolic."
+            },
+            {
+              "id": "vessels_term2",
+              "kind": "term",
+              "front": "Mean arterial pressure (MAP)",
+              "back": "The average driving pressure over the cardiac cycle ≈ diastolic pressure + ⅓ of the pulse pressure."
+            },
+            {
+              "id": "vessels_term3",
+              "kind": "term",
+              "front": "Vasoconstriction",
+              "back": "Narrowing of a vessel by smooth-muscle contraction, which raises resistance and blood pressure."
+            },
+            {
+              "id": "vessels_qa1",
+              "kind": "qa",
+              "front": "What are the three tunics of a blood vessel wall?",
+              "back": "Tunica intima (inner endothelium), tunica media (smooth muscle), and tunica externa (connective tissue)."
+            },
+            {
+              "id": "vessels_qa2",
+              "kind": "qa",
+              "front": "At the arterial end of a capillary, does filtration or reabsorption dominate?",
+              "back": "Filtration — hydrostatic pressure exceeds colloid osmotic pressure, pushing fluid out."
+            },
+            {
+              "id": "vessels_qa3",
+              "kind": "qa",
+              "front": "Which vessel returns blood from the lower body to the right atrium?",
+              "back": "The inferior vena cava."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "respir",
+      "name": "Respiratory System",
+      "icon": "🫁",
+      "areaCount": 2,
+      "cardCount": 19,
+      "areas": [
+        {
+          "key": "airways",
+          "name": "Airways & Lungs",
+          "icon": "🫁",
+          "unit": "respir",
+          "cardCount": 9,
+          "cards": [
+            {
+              "id": "airways_structure1",
+              "kind": "structure",
+              "front": "Alveolus",
+              "back": "The tiny air sac in the lung where gas exchange with the blood takes place."
+            },
+            {
+              "id": "airways_structure2",
+              "kind": "structure",
+              "front": "Trachea",
+              "back": "The cartilage-ringed windpipe that conducts air between the larynx and the bronchi."
+            },
+            {
+              "id": "airways_structure3",
+              "kind": "structure",
+              "front": "Bronchi",
+              "back": "The branching airways that carry air from the trachea into each lung."
+            },
+            {
+              "id": "airways_structure4",
+              "kind": "structure",
+              "front": "Larynx",
+              "back": "The voice box, which routes air, produces sound, and guards the airway during swallowing."
+            },
+            {
+              "id": "airways_structure5",
+              "kind": "structure",
+              "front": "Pleura",
+              "back": "The double serous membrane (visceral + parietal) whose fluid reduces friction and helps keep the lungs expanded."
+            },
+            {
+              "id": "airways_term1",
+              "kind": "term",
+              "front": "Respiratory zone",
+              "back": "The alveoli and alveolar ducts/sacs — the region where actual gas exchange occurs."
+            },
+            {
+              "id": "airways_term2",
+              "kind": "term",
+              "front": "Conducting zone",
+              "back": "The passages from nose to bronchioles that warm, filter, and move air but don't exchange gas."
+            },
+            {
+              "id": "airways_qa1",
+              "kind": "qa",
+              "front": "What lowers alveolar surface tension so the alveoli don't collapse?",
+              "back": "Pulmonary surfactant."
+            },
+            {
+              "id": "airways_qa2",
+              "kind": "qa",
+              "front": "Which circuit brings deoxygenated blood to the lungs?",
+              "back": "The pulmonary circuit — pulmonary arteries from the right ventricle."
+            }
+          ]
+        },
+        {
+          "key": "breathing",
+          "name": "Breathing, Gas Exchange & Transport",
+          "icon": "💨",
+          "unit": "respir",
+          "cardCount": 10,
+          "cards": [
+            {
+              "id": "breathing_structure1",
+              "kind": "structure",
+              "front": "Diaphragm",
+              "back": "The primary muscle of breathing; contracting flattens it, enlarging the thorax to draw air in."
+            },
+            {
+              "id": "breathing_term1",
+              "kind": "term",
+              "front": "Tidal volume",
+              "back": "The volume of air moved in or out during a single normal breath."
+            },
+            {
+              "id": "breathing_term2",
+              "kind": "term",
+              "front": "Vital capacity",
+              "back": "The most air that can be exhaled after a maximal inhalation."
+            },
+            {
+              "id": "breathing_term3",
+              "kind": "term",
+              "front": "External respiration",
+              "back": "Gas exchange at the lungs — O2 diffuses into the blood and CO2 diffuses out into the alveoli."
+            },
+            {
+              "id": "breathing_term4",
+              "kind": "term",
+              "front": "Internal respiration",
+              "back": "Gas exchange at the tissues — O2 diffuses into the cells and CO2 diffuses from the cells into the blood."
+            },
+            {
+              "id": "breathing_term5",
+              "kind": "term",
+              "front": "Partial pressure",
+              "back": "The pressure contributed by a single gas in a mixture; gases diffuse from high to low partial pressure."
+            },
+            {
+              "id": "breathing_qa1",
+              "kind": "qa",
+              "front": "How is most oxygen carried in the blood?",
+              "back": "Bound to hemoglobin as oxyhemoglobin (~98%); only ~2% is dissolved in plasma."
+            },
+            {
+              "id": "breathing_qa2",
+              "kind": "qa",
+              "front": "How is most carbon dioxide transported?",
+              "back": "As bicarbonate ions in the plasma (~70%)."
+            },
+            {
+              "id": "breathing_qa3",
+              "kind": "qa",
+              "front": "What chiefly drives the rate of breathing?",
+              "back": "Blood CO2 and pH (and, to a lesser extent, O2), sensed by chemoreceptors."
+            },
+            {
+              "id": "breathing_qa4",
+              "kind": "qa",
+              "front": "By what process do gases cross the respiratory membrane?",
+              "back": "Simple diffusion, each gas moving down its own partial-pressure gradient."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

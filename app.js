@@ -17,7 +17,7 @@ const RATINGS = [
 ];
 const MASTERY = 4;
 
-const state = { chapters: [], objByChapter: {}, sectionIndex: [], regions: [], cardMode: 'chapter' };
+const state = { chapters: [], objByChapter: {}, sectionIndex: [], regions: [], bodyUnits: [], cardMode: 'chapter' };
 const unitColor = { nervous: 'var(--nervous)', cardio: 'var(--cardio)', respir: 'var(--respir)' };
 const $ = sel => document.querySelector(sel);
 const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
@@ -31,6 +31,9 @@ async function loadData() {
   const obj = await fetch('data/objective_cards.json').then(r => r.json());
   obj.chapters.forEach(c => { state.objByChapter[c.number] = c; });
   state.regions = obj.regions || [];
+  // Body Systems deck — separate from the objective cards (unit -> body area).
+  const bs = await fetch('data/bodysystems_cards.json').then(r => r.json());
+  state.bodyUnits = bs.units || [];
   // flat index of sections for prev/next + lookup
   state.chapters.forEach(ch => ch.sections.forEach(s =>
     state.sectionIndex.push({ chapter: ch, section: s })));
@@ -47,9 +50,10 @@ function route() {
     a.classList.toggle('active', a.dataset.view === view));
   const root = $('#app');
   root.innerHTML = '';
-  if (view === 'read')       renderRead(root, arg);
-  else if (view === 'cards') renderCards(root, arg);
-  else                       renderHome(root);
+  if (view === 'read')         renderRead(root, arg);
+  else if (view === 'cards')   renderCards(root, arg);
+  else if (view === 'systems') renderSystems(root, arg);
+  else                         renderHome(root);
   window.scrollTo(0, 0);
 }
 
@@ -66,7 +70,11 @@ function renderHome(root) {
   [['8','Chapters'], [String(totalSecs),'Sections'], [String(objCardCount()),'Objective cards']]
     .forEach(([n,l]) => { const s = el('div','stat card'); s.innerHTML = `<div class="n">${n}</div><div class="l">${l}</div>`; stats.appendChild(s); });
   wrap.appendChild(stats);
-  wrap.appendChild(el('button','cta','🎯 Start flashcards')).onclick = () => location.hash = '#/cards';
+  const ctaRow = el('div','cta-row');
+  const cta1 = el('button','cta','🎯 Master the objectives'); cta1.onclick = () => location.hash = '#/cards';
+  const cta2 = el('button','cta ghost','🫀 Drill body systems'); cta2.onclick = () => location.hash = '#/systems';
+  ctaRow.appendChild(cta1); ctaRow.appendChild(cta2);
+  wrap.appendChild(ctaRow);
 
   const grid = el('div','unit-grid');
   grid.style.marginTop = '26px';
@@ -255,7 +263,69 @@ function renderRegionList(wrap) {
   wrap.appendChild(list);
 }
 
+// ---- Body Systems deck (separate from the objective flashcards) ----
+function renderSystems(root, sessionKey) {
+  const wrap = el('div', 'fc-wrap');
+  if (sessionKey) { renderSession(wrap, sessionKey); root.appendChild(wrap); return; }
+
+  document.documentElement.style.setProperty('--accent', 'var(--nervous)');
+  wrap.appendChild(el('h1', null, 'Body Systems'));
+  wrap.appendChild(el('p', 'sub muted',
+    `A separate deck built around the anatomy itself — structures and their functions, key terms, and quick recall questions, grouped by body system and body area. Same reveal‑and‑rate flow: anything below “Solid” comes back until you’ve mastered the deck.`));
+
+  const list = el('div', 'scope-list');
+  state.bodyUnits.forEach(u => {
+    const color = unitColor[u.key] || 'var(--nervous)';
+    list.appendChild(el('div', 'unit-h', `${u.icon} ${u.name}`));
+
+    const whole = el('button', 'region-row card');
+    whole.innerHTML = `<div class="badge" style="background:${color}">▶</div>
+      <div style="flex:1;text-align:left"><div style="font-weight:600">Whole system</div>
+      <div class="muted" style="font-size:13px">${u.cardCount} cards · ${u.areaCount} areas</div></div>
+      <div style="color:${color};font-size:20px">▶</div>`;
+    whole.onclick = () => startBodySession(`sys-unit-${u.key}`);
+    list.appendChild(whole);
+
+    u.areas.forEach(a => {
+      const kinds = a.cards.reduce((m, c) => (m[c.kind] = (m[c.kind]||0)+1, m), {});
+      const mix = [ kinds.structure && `${kinds.structure} structures`,
+                    kinds.term && `${kinds.term} terms`,
+                    kinds.qa && `${kinds.qa} questions` ].filter(Boolean).join(' · ');
+      const row = el('button', 'region-row card');
+      row.innerHTML = `<div class="badge" style="background:color-mix(in srgb,${color} 78%,#000)">${a.icon}</div>
+        <div style="flex:1;text-align:left"><div style="font-weight:600">${esc(a.name)}</div>
+        <div class="muted" style="font-size:13px">${a.cardCount} cards — ${mix}</div></div>
+        <div style="color:${color};font-size:20px">▶</div>`;
+      row.onclick = () => startBodySession(`sys-area-${a.key}`);
+      list.appendChild(row);
+    });
+  });
+  wrap.appendChild(list);
+  root.appendChild(wrap);
+}
+function startBodySession(key){ location.hash = `#/systems/${key}`; }
+
+// Kicker label shown above each Body Systems card, by kind.
+const KICK = { structure: 'STRUCTURE → FUNCTION', term: 'KEY TERM', qa: 'QUESTION' };
+// Normalize a Body Systems card (front/back/kind) into the shape the shared
+// session engine expects (objective/answer), keeping id + a kind-specific kicker.
+const normBodyCard = c => ({ id: c.id, kind: c.kind, kick: KICK[c.kind] || 'CARD',
+                             objective: c.front, answer: c.back });
+const bodyArea = k => state.bodyUnits.flatMap(u => u.areas).find(a => a.key === k);
+const bodyUnit = k => state.bodyUnits.find(u => u.key === k);
+
 function cardsForKey(key) {
+  if (key.startsWith('sys-area-')) {
+    const a = bodyArea(key.slice('sys-area-'.length));
+    if (!a) return null;
+    return { title: a.name, unitKey: a.unit, cards: a.cards.map(normBodyCard) };
+  }
+  if (key.startsWith('sys-unit-')) {
+    const u = bodyUnit(key.slice('sys-unit-'.length));
+    if (!u) return null;
+    return { title: u.name, unitKey: u.key,
+             cards: u.areas.flatMap(a => a.cards).map(normBodyCard) };
+  }
   if (key.startsWith('region-')) {
     const r = state.regions.find(x => x.key === key.slice('region-'.length));
     if (!r) return null;
@@ -283,8 +353,11 @@ function startSession(key){ location.hash = `#/cards/${key}`; }
 function renderSession(wrap, key) {
   const scope = cardsForKey(key);
   if (!scope) { location.hash = '#/cards'; return; }
-  const u = unitOf(scope.chapter);
-  document.documentElement.style.setProperty('--accent', u.color);
+  const accent = scope.unitKey ? (unitColor[scope.unitKey] || 'var(--nervous)')
+                               : unitOf(scope.chapter).color;
+  document.documentElement.style.setProperty('--accent', accent);
+  const backHash = scope.unitKey ? '#/systems' : '#/cards';
+  const noun = scope.unitKey ? 'cards' : 'objectives';
 
   const sess = {
     queue: [...scope.cards], mastered: new Set(), ratings: {},
@@ -293,7 +366,7 @@ function renderSession(wrap, key) {
   const store = key => `bio40b.conf.${key}`; // persist last confidence per objective (local only)
 
   const head = el('div','session-head');
-  const back = el('button','back','← All decks'); back.onclick = () => location.hash = '#/cards';
+  const back = el('button','back','← All decks'); back.onclick = () => location.hash = backHash;
   head.appendChild(back);
   head.appendChild(el('div', null, `<strong>${esc(scope.title)}</strong>`));
   wrap.appendChild(head);
@@ -325,7 +398,7 @@ function renderSession(wrap, key) {
     if (!sess.queue.length) { renderDone(); return; }
     const card = sess.queue[0];
     const fc = el('div','flashcard card');
-    fc.innerHTML = `<div class="kick">OBJECTIVE</div><div class="obj">${esc(card.objective)}</div>`;
+    fc.innerHTML = `<div class="kick">${esc(card.kick || 'OBJECTIVE')}</div><div class="obj">${esc(card.objective)}</div>`;
     const ans = el('div','ans'); ans.textContent = card.answer; ans.style.display = 'none';
     fc.appendChild(ans);
     stage.appendChild(fc);
@@ -351,7 +424,7 @@ function renderSession(wrap, key) {
   }
   function renderDone() {
     const done = el('div','done card');
-    done.innerHTML = `<div class="seal">✅</div><h2>All ${sess.total} objectives mastered</h2>
+    done.innerHTML = `<div class="seal">✅</div><h2>All ${sess.total} ${noun} mastered</h2>
       <p class="muted">Finished in ${sess.round} round${sess.round===1?'':'s'}.</p>`;
     const recap = el('div','recap card');
     recap.appendChild(el('div', null, `<strong>Your confidence</strong>`));
@@ -364,7 +437,7 @@ function renderSession(wrap, key) {
     });
     const actions = el('div','done-actions');
     const again = el('button', null, '↻ Study again'); again.onclick = () => { renderSession(clear(wrap), key); };
-    const more  = el('button','primary','Pick another deck'); more.onclick = () => location.hash = '#/cards';
+    const more  = el('button','primary','Pick another deck'); more.onclick = () => location.hash = backHash;
     actions.appendChild(again); actions.appendChild(more);
     stage.innerHTML=''; stage.appendChild(done); stage.appendChild(recap); stage.appendChild(actions);
     fill.style.width='100%';

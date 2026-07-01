@@ -80,7 +80,14 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 22px 18px 80px; }
 .unit-card .chaps { color: var(--ink-2); font-size: 14px; }
 .cta { display: inline-flex; align-items: center; gap: 8px; margin-top: 8px;
   background: var(--accent); color: #fff; border: none; padding: 12px 20px;
-  border-radius: 12px; font-weight: 700; font-size: 15px; }
+  border-radius: 12px; font-weight: 700; font-size: 15px; cursor: pointer; }
+.cta-row { display: flex; gap: 10px; flex-wrap: wrap; }
+.cta.ghost { background: transparent; color: var(--accent);
+  border: 1.5px solid color-mix(in srgb, var(--accent) 45%, transparent); }
+
+/* Body Systems deck: unit headings between area rows */
+.fc-wrap .unit-h { font-size: 12px; text-transform: uppercase; letter-spacing: .6px;
+  color: var(--ink-3); font-weight: 700; padding: 16px 4px 6px; }
 
 /* Reader layout */
 .reader { display: grid; grid-template-columns: 300px 1fr; gap: 20px; align-items: start; }
