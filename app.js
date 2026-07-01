@@ -53,6 +53,7 @@ function route() {
   if (view === 'read')         renderRead(root, arg);
   else if (view === 'cards')   renderCards(root, arg);
   else if (view === 'systems') renderSystems(root, arg);
+  else if (view === 'lab')     window.renderLab?.(root);
   else                         renderHome(root);
   window.scrollTo(0, 0);
 }

@@ -217,3 +217,67 @@ footer { text-align: center; color: var(--ink-3); font-size: 12.5px; padding: 30
   nav.tabs a { padding: 7px 11px; font-size: 13px; }
   .brand small { display: none; }
 }
+
+/* ---- Lab Manual annotator ---- */
+.lab-wrap { max-width: 980px; margin: 0 auto; }
+.lab-intro { padding: 8px 2px 40px; }
+.lab-privacy { margin: 6px 0 16px; padding: 14px 16px; border-radius: 12px; font-size: 14px;
+  line-height: 1.55; color: var(--ink-2);
+  background: color-mix(in srgb, var(--respir) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--respir) 30%, transparent); }
+.lab-drop { margin-top: 14px; padding: 22px; border-radius: 12px; text-align: center;
+  color: var(--ink-3); font-size: 14px; border: 2px dashed var(--line); }
+.lab-drop.over { border-color: var(--accent); color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent); }
+.lab-recents { margin-top: 22px; }
+.lab-recents-h { font-size: 13px; color: var(--ink-3); margin-bottom: 8px; }
+.lab-recent-row { display: flex; justify-content: space-between; gap: 10px; padding: 10px 12px;
+  border: 1px solid var(--line); border-radius: 10px; margin-bottom: 6px; font-size: 14px; }
+
+.lab-toolbar { position: sticky; top: 60px; z-index: 20; display: flex; flex-wrap: wrap; gap: 8px;
+  align-items: center; justify-content: space-between; padding: 8px 10px; margin-bottom: 14px;
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  backdrop-filter: saturate(180%) blur(10px);
+  border: 1px solid var(--line); border-radius: 12px; }
+.lab-tb-left, .lab-tb-mid, .lab-tb-right { display: flex; align-items: center; gap: 6px; }
+.lab-tb-name { max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; }
+.lab-tb-btn { padding: 7px 11px; border-radius: 9px; border: 1px solid var(--line);
+  background: var(--surface-2); color: var(--ink); font-size: 13px; font-weight: 600; }
+.lab-tb-btn.tiny { padding: 6px 9px; }
+.lab-tb-btn.active { background: var(--accent); color: #fff; border-color: transparent; }
+.lab-font-grp { display: flex; gap: 3px; margin-left: 4px; padding-left: 8px; border-left: 1px solid var(--line); }
+.lab-status { padding: 30px; text-align: center; color: var(--ink-3); }
+.lab-status.err { color: var(--cardio); }
+
+.lab-pages { display: flex; flex-direction: column; align-items: center; gap: 18px; padding-bottom: 60px; }
+.lab-page { position: relative; width: 100%; max-width: 900px; background: #fff;
+  box-shadow: var(--shadow); border-radius: 4px; overflow: hidden; }
+.lab-page-num { position: absolute; inset: 0; display: grid; place-items: center;
+  color: var(--ink-3); font-size: 13px; }
+.lab-canvas { display: block; width: 100%; height: auto; }
+.lab-overlay { position: absolute; inset: 0; }
+.lab-pages:not(.move-mode) .lab-overlay { cursor: text; }
+
+.lab-box { position: absolute; min-width: 40px; min-height: 22px; box-sizing: border-box; }
+.lab-box-body { min-height: 20px; padding: 3px 6px; border-radius: 5px; outline: none;
+  color: #12305a; background: rgba(255,247,214,0.9); border: 1px solid rgba(180,140,20,0.7);
+  resize: both; overflow: auto; box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+.lab-box.f-s .lab-box-body { font-size: 12px; }
+.lab-box.f-m .lab-box-body { font-size: 15px; }
+.lab-box.f-l .lab-box-body { font-size: 20px; }
+.lab-box-handle, .lab-box-del { position: absolute; top: -11px; width: 20px; height: 20px;
+  border-radius: 50%; display: grid; place-items: center; font-size: 12px; cursor: pointer;
+  background: var(--accent); color: #fff; opacity: 0; transition: opacity .12s; user-select: none; }
+.lab-box-handle { left: -8px; cursor: grab; }
+.lab-box-del { right: -8px; background: var(--cardio); font-size: 15px; line-height: 1; }
+.lab-box:hover .lab-box-handle, .lab-box:hover .lab-box-del { opacity: 1; }
+
+/* Print: just the pages + answers, nothing else. */
+@media print {
+  header.top, footer, .lab-toolbar, .lab-intro { display: none !important; }
+  .lab-pages { gap: 0; }
+  .lab-page { box-shadow: none; break-inside: avoid; page-break-after: always; max-width: 100%; }
+  .lab-box-handle, .lab-box-del { display: none !important; }
+  .lab-box-body { background: transparent; border: none; box-shadow: none;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
