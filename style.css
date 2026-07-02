@@ -148,6 +148,31 @@ figure.fig figcaption { font-size: 13px; color: var(--ink-2); margin-top: 6px; }
   background: var(--surface); color: var(--ink); font-weight: 600; font-size: 14px; }
 .sec-nav button:disabled { opacity: .4; cursor: default; }
 
+/* Quizzes */
+.quiz-wrap { max-width: 720px; margin: 0 auto; }
+.quiz-unit { margin: 22px 0; }
+.quiz-unit-head { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.quiz-unit-head .badge { width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; color: #fff; font-size: 19px; }
+.quiz-chaps { display: grid; gap: 8px; }
+.quiz-chap { display: flex; justify-content: space-between; align-items: center; width: 100%; text-align: left;
+  padding: 13px 15px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface);
+  color: var(--ink); font-size: 15px; font-weight: 600; cursor: pointer; transition: border-color .1s ease; }
+.quiz-chap:hover { border-color: var(--accent); }
+.quiz-chap:disabled { opacity: .4; cursor: default; }
+.quiz-chap > span:first-child { flex: 1; min-width: 0; margin-right: 10px; overflow-wrap: anywhere; }
+.quiz-chap > .muted { flex: 0 0 auto; }
+.quiz-unit-head > div { min-width: 0; }
+.quiz-unit-head .cta { flex: 0 0 auto; }
+.quiz-head { margin-bottom: 10px; }
+.quiz-head .quiz-title { font-weight: 700; font-size: 17px; }
+.quiz-prog { height: 8px; border-radius: 999px; background: var(--line); overflow: hidden; margin-bottom: 4px; }
+.quiz-prog-fill { height: 100%; background: var(--accent); border-radius: 999px; transition: width .3s ease; }
+.quiz-result { text-align: center; padding: 34px 26px; margin: 10px 0 16px; }
+.quiz-score { font-size: 52px; font-weight: 800; color: var(--accent); line-height: 1; }
+.quiz-score span { font-size: 26px; color: var(--ink-2); font-weight: 600; }
+.quiz-pct { font-size: 20px; font-weight: 700; margin-top: 6px; }
+.quiz-verdict { color: var(--ink-2); margin-top: 4px; }
+
 /* Flashcards */
 .fc-wrap { max-width: 720px; margin: 0 auto; }
 .seg { display: inline-flex; background: var(--surface-2); border: 1px solid var(--line);
@@ -214,8 +239,17 @@ footer { text-align: center; color: var(--ink-3); font-size: 12.5px; padding: 30
 @media (max-width: 820px) {
   .reader { grid-template-columns: 1fr; }
   .toc { position: static; max-height: none; margin-bottom: 8px; }
-  nav.tabs a { padding: 7px 11px; font-size: 13px; }
+  /* Too many tabs to fit a phone row — let them scroll horizontally instead of
+     spilling off-screen. */
+  .top-inner { gap: 10px; }
+  nav.tabs { overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; -ms-overflow-style: none; }
+  nav.tabs::-webkit-scrollbar { display: none; }
+  nav.tabs a { flex: 0 0 auto; white-space: nowrap; padding: 7px 11px; font-size: 13px; }
   .brand small { display: none; }
+  .quiz-unit-head { flex-wrap: wrap; }
+  .quiz-unit-head .cta { margin-top: 0; }
+  .quiz-score { font-size: 44px; }
 }
 
 /* ---- Lab Manual annotator ---- */

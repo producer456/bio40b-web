@@ -53,6 +53,7 @@ function route() {
   const root = $('#app');
   root.innerHTML = '';
   if (view === 'read')         renderRead(root, arg);
+  else if (view === 'quiz')    renderQuiz(root, arg);
   else if (view === 'cards')   renderCards(root, arg);
   else if (view === 'objectives') renderTeacher(root, arg);
   else if (view === 'systems') renderSystems(root, arg);
@@ -199,6 +200,129 @@ function renderQuestion(q){
     box.appendChild(b);
   });
   return box;
+}
+
+// ---- Quizzes ----
+// Graded multiple-choice runner over the same end-of-section review questions the
+// iOS app uses. Read-only: score lives only in memory for the current attempt.
+const chapterQuestions = ch => (ch.sections || []).flatMap(s => s.reviewQuestions || []);
+const unitQuestions = u => state.chapters.filter(c => u.chaps.includes(c.number)).flatMap(chapterQuestions);
+function shuffled(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+
+function renderQuiz(root, arg) {
+  if (!arg) { renderQuizPicker(root); return; }
+  if (arg.startsWith('unit-')) {
+    const u = UNITS.find(x => x.key === arg.slice(5));
+    if (u) { document.documentElement.style.setProperty('--accent', u.color); runQuiz(root, `${u.name} — mixed quiz`, unitQuestions(u)); return; }
+  }
+  const n = parseInt(arg.replace(/^ch/, ''), 10);
+  const ch = state.chapters.find(c => c.number === n);
+  if (!ch) { renderQuizPicker(root); return; }
+  document.documentElement.style.setProperty('--accent', unitOf(n).color);
+  runQuiz(root, `Ch ${ch.number} · ${ch.title}`, chapterQuestions(ch));
+}
+
+function renderQuizPicker(root) {
+  document.documentElement.style.setProperty('--accent', 'var(--nervous)');
+  const wrap = el('div','quiz-wrap');
+  wrap.appendChild(el('h1', null, 'Quiz yourself'));
+  wrap.appendChild(el('p','sub muted', `Take a graded, shuffled quiz built from every end-of-section review question. Tap an answer to lock it in and see the explanation. Your score is shown at the end — nothing is saved.`));
+  UNITS.forEach(u => {
+    const uq = unitQuestions(u);
+    if (!uq.length) return;
+    document.documentElement.style.setProperty('--accent', u.color);
+    const group = el('div','quiz-unit');
+    const head = el('div','quiz-unit-head');
+    head.innerHTML = `<div class="badge" style="background:${u.color}">${u.icon}</div>
+      <div style="flex:1"><div style="font-weight:700">${esc(u.name)}</div>
+      <div class="muted" style="font-size:13px">${u.sub} · ${uq.length} questions</div></div>`;
+    const mix = el('button','cta ghost', `Mixed quiz (${uq.length})`);
+    mix.style.setProperty('--accent', u.color);
+    mix.onclick = () => { location.hash = `#/quiz/unit-${u.key}`; };
+    head.appendChild(mix);
+    group.appendChild(head);
+    const list = el('div','quiz-chaps');
+    state.chapters.filter(c => u.chaps.includes(c.number)).forEach(ch => {
+      const q = chapterQuestions(ch);
+      const b = el('button','quiz-chap');
+      b.innerHTML = `<span>Ch ${ch.number} · ${esc(ch.title)}</span><span class="muted">${q.length} Q →</span>`;
+      b.onclick = () => { location.hash = `#/quiz/ch${ch.number}`; };
+      if (!q.length) b.disabled = true;
+      list.appendChild(b);
+    });
+    group.appendChild(list);
+    wrap.appendChild(group);
+  });
+  root.appendChild(wrap);
+}
+
+function runQuiz(root, title, questions) {
+  const wrap = el('div','quiz-wrap');
+  root.appendChild(wrap);
+  if (!questions.length) {
+    wrap.appendChild(el('h1', null, title));
+    wrap.appendChild(el('p','muted', 'No quiz questions for this selection yet.'));
+    const back = el('button','cta ghost', '← All quizzes'); back.onclick = () => { location.hash = '#/quiz'; };
+    wrap.appendChild(back);
+    return;
+  }
+  const qs = shuffled(questions);
+  let index = 0, score = 0;
+
+  function draw() {
+    wrap.innerHTML = '';
+    if (index >= qs.length) { drawResult(); return; }
+    const q = qs[index];
+    const head = el('div','quiz-head');
+    head.innerHTML = `<div class="quiz-title">${esc(title)}</div>
+      <div class="muted">Question ${index + 1} of ${qs.length} · Score ${score}</div>`;
+    wrap.appendChild(head);
+    const bar = el('div','quiz-prog'); const fill = el('div','quiz-prog-fill');
+    fill.style.width = `${(index / qs.length) * 100}%`; bar.appendChild(fill); wrap.appendChild(bar);
+
+    const box = el('div','q');
+    box.appendChild(el('div','qq', esc(q.question)));
+    let answered = false;
+    q.choices.forEach((choice, i) => {
+      const b = el('button','choice', esc(choice));
+      b.onclick = () => {
+        if (answered) return; answered = true;
+        const correct = i === q.correctAnswer;
+        if (correct) score++;
+        b.classList.add(correct ? 'correct' : 'wrong');
+        if (!correct) box.querySelectorAll('.choice')[q.correctAnswer].classList.add('correct');
+        if (q.explanation) box.appendChild(el('div','expl', esc(q.explanation)));
+        const next = el('button','cta', index + 1 >= qs.length ? 'See results →' : 'Next question →');
+        next.onclick = () => { index++; draw(); };
+        box.appendChild(next);
+      };
+      box.appendChild(b);
+    });
+    wrap.appendChild(box);
+  }
+
+  function drawResult() {
+    wrap.innerHTML = '';
+    const pct = Math.round((score / qs.length) * 100);
+    const verdict = pct >= 90 ? 'Nailed it 🎉' : pct >= 75 ? 'Solid work 💪' : pct >= 60 ? 'Getting there 📈' : 'Keep drilling 📚';
+    const card = el('div','quiz-result card');
+    card.innerHTML = `<div class="quiz-score">${score}<span>/${qs.length}</span></div>
+      <div class="quiz-pct">${pct}%</div><div class="quiz-verdict">${verdict}</div>`;
+    wrap.appendChild(card);
+    const row = el('div','cta-row');
+    const retry = el('button','cta', '↻ Retake');
+    retry.onclick = () => { index = 0; score = 0; qs.sort(() => Math.random() - 0.5); draw(); };
+    const more = el('button','cta ghost', '← All quizzes');
+    more.onclick = () => { location.hash = '#/quiz'; };
+    row.appendChild(retry); row.appendChild(more);
+    wrap.appendChild(row);
+  }
+
+  draw();
 }
 
 // ---- Flashcards ----
