@@ -17,7 +17,7 @@ const RATINGS = [
 ];
 const MASTERY = 4;
 
-const state = { chapters: [], objByChapter: {}, sectionIndex: [], regions: [], bodyUnits: [], teacherDeck: null, exam1Deck: null, cardMode: 'chapter' };
+const state = { chapters: [], objByChapter: {}, sectionIndex: [], regions: [], bodyUnits: [], teacherDeck: null, exam1Deck: null, slideDeckQuizzes: [], cardMode: 'chapter' };
 const unitColor = { nervous: 'var(--nervous)', cardio: 'var(--cardio)', respir: 'var(--respir)' };
 const $ = sel => document.querySelector(sel);
 const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
@@ -38,6 +38,10 @@ async function loadData() {
   state.teacherDeck = await fetch('data/teacher_cards.json').then(r => r.json());
   // "All the things before exam one" — cumulative pre-exam-1 review deck.
   state.exam1Deck = await fetch('data/exam1_cards.json').then(r => r.json());
+  // Slide-deck practice quizzes — standalone graded quizzes with a retake-missed
+  // mastery loop (independent of the end-of-section review questions).
+  state.slideDeckQuizzes = await fetch('data/slidedeck_quizzes.json')
+    .then(r => r.json()).then(d => d.quizzes || []).catch(() => []);
   // flat index of sections for prev/next + lookup
   state.chapters.forEach(ch => ch.sections.forEach(s =>
     state.sectionIndex.push({ chapter: ch, section: s })));
@@ -218,6 +222,11 @@ function shuffled(arr) {
 
 function renderQuiz(root, arg) {
   if (!arg) { renderQuizPicker(root); return; }
+  if (arg.startsWith('sd-')) {
+    const quiz = state.slideDeckQuizzes.find(q => q.key === arg.slice(3));
+    if (quiz) { document.documentElement.style.setProperty('--accent', unitColor[quiz.unit] || 'var(--nervous)'); runMasteryQuiz(root, quiz); return; }
+    renderQuizPicker(root); return;
+  }
   if (arg.startsWith('unit-')) {
     const u = UNITS.find(x => x.key === arg.slice(5));
     if (u) { document.documentElement.style.setProperty('--accent', u.color); runQuiz(root, `${u.name} — mixed quiz`, unitQuestions(u)); return; }
@@ -234,6 +243,25 @@ function renderQuizPicker(root) {
   const wrap = el('div','quiz-wrap');
   wrap.appendChild(el('h1', null, 'Quiz yourself'));
   wrap.appendChild(el('p','sub muted', `Take a graded, shuffled quiz built from every end-of-section review question. Tap an answer to lock it in and see the explanation. Your score is shown at the end — nothing is saved.`));
+
+  // Featured slide-deck practice quizzes (retake-missed mastery loop).
+  if (state.slideDeckQuizzes.length) {
+    const group = el('div','quiz-unit');
+    group.appendChild(el('div','kicker','PRACTICE QUIZZES'));
+    state.slideDeckQuizzes.forEach(q => {
+      const color = unitColor[q.unit] || 'var(--nervous)';
+      const row = el('button','region-row card');
+      row.innerHTML = `<div class="badge" style="background:${color}">${q.icon || '🧠'}</div>
+        <div style="flex:1;text-align:left"><div style="font-weight:700">${esc(q.title)}</div>
+        <div class="muted" style="font-size:13px">${esc(q.sub || '')}${q.sub ? ' · ' : ''}${q.questions.length} questions · retake until perfect</div></div>
+        <div style="color:${color};font-size:20px">▶</div>`;
+      row.onclick = () => { location.hash = `#/quiz/sd-${q.key}`; };
+      group.appendChild(row);
+    });
+    wrap.appendChild(group);
+    wrap.appendChild(el('h2', null, 'By chapter')).style.margin = '26px 0 4px';
+  }
+
   UNITS.forEach(u => {
     const uq = unitQuestions(u);
     if (!uq.length) return;
@@ -322,6 +350,117 @@ function runQuiz(root, title, questions) {
     const more = el('button','cta ghost', '← All quizzes');
     more.onclick = () => { location.hash = '#/quiz'; };
     row.appendChild(retry); row.appendChild(more);
+    wrap.appendChild(row);
+  }
+
+  draw();
+}
+
+// Standalone practice quiz with a retake-missed mastery loop: after each round you
+// can re-drill only the questions you missed, repeating until every one is correct,
+// then reset and start over. Instant feedback + explanation after each answer.
+// Questions and answer options are reshuffled each round to force real recall.
+function runMasteryQuiz(root, quiz) {
+  const wrap = el('div','quiz-wrap');
+  root.appendChild(wrap);
+
+  const allQuestions = quiz.questions.map((q, i) => ({ ...q, _id: i }));
+  let pool = shuffled(allQuestions);   // questions in the current round
+  let index = 0, correctCount = 0, round = 1;
+  let missed = [];                     // _ids missed this round
+  let answered = [];                   // { id, pickedText, correct } for review
+
+  function draw() {
+    wrap.innerHTML = '';
+    if (index >= pool.length) { drawResult(); return; }
+    const q = pool[index];
+
+    const head = el('div','quiz-head');
+    head.innerHTML = `<div class="quiz-title">${esc(quiz.title)}${round > 1 ? ` · Retake ${round - 1}` : ''}</div>
+      <div class="muted">Question ${index + 1} of ${pool.length} · Correct ${correctCount} · Missed ${missed.length}</div>`;
+    wrap.appendChild(head);
+
+    const bar = el('div','quiz-prog'); const fill = el('div','quiz-prog-fill');
+    fill.style.width = `${(index / pool.length) * 100}%`; bar.appendChild(fill); wrap.appendChild(bar);
+
+    const box = el('div','q');
+    box.appendChild(el('div','qq', esc(q.question)));
+    // shuffle options while tracking which is correct
+    const opts = shuffled(q.choices.map((text, i) => ({ text, correct: i === q.correctAnswer })));
+    let locked = false;
+    opts.forEach(opt => {
+      const b = el('button','choice', esc(opt.text));
+      b.onclick = () => {
+        if (locked) return; locked = true;
+        answered.push({ id: q._id, pickedText: opt.text, correct: opt.correct });
+        if (opt.correct) correctCount++;
+        else if (!missed.includes(q._id)) missed.push(q._id);
+        b.classList.add(opt.correct ? 'correct' : 'wrong');
+        if (!opt.correct) [...box.querySelectorAll('.choice')].find(c => c.textContent === q.choices[q.correctAnswer]).classList.add('correct');
+        if (q.explanation) box.appendChild(el('div','expl', esc(q.explanation)));
+        const next = el('button','cta', index + 1 >= pool.length ? 'See round results →' : 'Next question →');
+        next.onclick = () => { index++; draw(); };
+        box.appendChild(next);
+      };
+      box.appendChild(b);
+    });
+    wrap.appendChild(box);
+  }
+
+  function drawResult() {
+    wrap.innerHTML = '';
+    const total = pool.length;
+    const pct = Math.round((correctCount / total) * 100);
+    const perfect = missed.length === 0;
+    const card = el('div','quiz-result card');
+    const verdict = perfect ? 'All correct 🎉' : `${missed.length} to master`;
+    card.innerHTML = `<div class="quiz-score">${correctCount}<span>/${total}</span></div>
+      <div class="quiz-pct">${pct}%</div><div class="quiz-verdict">Round ${round} · ${verdict}</div>`;
+    wrap.appendChild(card);
+
+    if (perfect) {
+      wrap.appendChild(el('div','mastery-banner good',
+        round === 1 ? 'Perfect on the first pass — you\'ve got this deck cold.'
+                    : `You cleared every question. It took ${round} round${round === 1 ? '' : 's'} of retaking the ones you missed. 💪`));
+    } else {
+      wrap.appendChild(el('div','mastery-banner',
+        `Keep going — retake just the ${missed.length} you missed. They'll come back until you get every one right.`));
+      // review of what was missed this round
+      const review = el('div','missed-review');
+      review.appendChild(el('div','missed-h', `Review: questions you missed (${missed.length})`));
+      missed.forEach(id => {
+        const q = allQuestions.find(x => x._id === id);
+        const a = [...answered].reverse().find(x => x.id === id);
+        const item = el('div','missed-item');
+        item.innerHTML = `<div class="mi-q">${esc(q.question)}</div>
+          <div class="mi-yours">Your answer: ${esc(a ? a.pickedText : '—')}</div>
+          <div class="mi-right">Correct: ${esc(q.choices[q.correctAnswer])}</div>
+          ${q.explanation ? `<div class="mi-expl">${esc(q.explanation)}</div>` : ''}`;
+        review.appendChild(item);
+      });
+      wrap.appendChild(review);
+    }
+
+    const row = el('div','cta-row');
+    if (!perfect) {
+      const retake = el('button','cta', `↻ Retake ${missed.length} missed`);
+      retake.onclick = () => {
+        pool = shuffled(allQuestions.filter(q => missed.includes(q._id)));
+        index = 0; correctCount = 0; missed = []; answered = []; round++;
+        draw();
+      };
+      row.appendChild(retake);
+    }
+    const restart = el('button', perfect ? 'cta' : 'cta ghost', '⟳ Start over (all ' + allQuestions.length + ')');
+    restart.onclick = () => {
+      pool = shuffled(allQuestions);
+      index = 0; correctCount = 0; missed = []; answered = []; round = 1;
+      draw();
+    };
+    row.appendChild(restart);
+    const more = el('button','cta ghost', '← All quizzes');
+    more.onclick = () => { location.hash = '#/quiz'; };
+    row.appendChild(more);
     wrap.appendChild(row);
   }
 

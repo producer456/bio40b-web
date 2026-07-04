@@ -173,6 +173,21 @@ figure.fig figcaption { font-size: 13px; color: var(--ink-2); margin-top: 6px; }
 .quiz-pct { font-size: 20px; font-weight: 700; margin-top: 6px; }
 .quiz-verdict { color: var(--ink-2); margin-top: 4px; }
 
+/* Mastery-loop practice quiz: banner + missed-question review */
+.mastery-banner { border-radius: 12px; padding: 12px 14px; margin: 4px 0 14px; font-size: 14px;
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--line));
+  background: color-mix(in srgb, var(--accent) 10%, transparent); color: var(--ink); }
+.mastery-banner.good { border-color: color-mix(in srgb, #2ea24b 55%, var(--line));
+  background: color-mix(in srgb, #2ea24b 12%, transparent); }
+.missed-review { margin: 6px 0 14px; }
+.missed-h { font-weight: 700; font-size: 14px; margin-bottom: 8px; }
+.missed-item { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-bottom: 8px;
+  background: var(--surface); font-size: 13.5px; }
+.missed-item .mi-q { font-weight: 600; margin-bottom: 6px; }
+.missed-item .mi-yours { color: var(--cardio); }
+.missed-item .mi-right { color: #2ea24b; }
+.missed-item .mi-expl { color: var(--ink-2); margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--line); }
+
 /* Flashcards */
 .fc-wrap { max-width: 720px; margin: 0 auto; }
 .seg { display: inline-flex; background: var(--surface-2); border: 1px solid var(--line);
