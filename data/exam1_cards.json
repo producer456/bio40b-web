@@ -1,0 +1,240 @@
+{
+  "title": "All the things before exam one — so far",
+  "sets": [
+    {
+      "key": "brain-structures",
+      "name": "Brain Structures & Functions",
+      "icon": "🧠",
+      "cards": [
+        { "id": "e1_corpus_callosum", "front": "Corpus Callosum", "back": "A large white matter tract deep within the cerebrum that provides the major communication pathway between the right and left cerebral hemispheres." },
+        { "id": "e1_cerebellum", "front": "Cerebellum", "back": "The \"little brain\" that compares cerebral motor commands with sensory feedback to maintain balance and coordinate voluntary movements." },
+        { "id": "e1_thalamus", "front": "Thalamus", "back": "A collection of nuclei that acts as a mandatory relay and processing center for almost all sensory information and motor commands traveling to and from the cerebral cortex." },
+        { "id": "e1_hypothalamus", "front": "Hypothalamus", "back": "The executive control center for homeostasis, coordinating both the autonomic nervous system and the endocrine system." },
+        { "id": "e1_epithalamus", "front": "Epithalamus", "back": "A region of the diencephalon that houses the pineal gland, which secretes melatonin to regulate sleep-wake cycles." },
+        { "id": "e1_infundibulum", "front": "Infundibulum", "back": "A stalk containing vasculature and neural axons that physically connects the pituitary gland to the hypothalamus." },
+        { "id": "e1_pituitary", "front": "Pituitary Gland", "back": "An organ suspended from the hypothalamus that produces, stores, and secretes hormones to regulate various bodily functions." },
+        { "id": "e1_brainstem", "front": "Brain Stem", "back": "Consists of the midbrain, pons, and medulla; it connects the brain to the spinal cord, processes cranial nerve signals, and regulates vital life functions." },
+        { "id": "e1_midbrain", "front": "Midbrain", "back": "The uppermost part of the brain stem that coordinates visual, auditory, and somatosensory information to initiate reflexes, such as turning the head toward a sound." },
+        { "id": "e1_pons", "front": "Pons", "back": "A region of the brain stem that acts as the main connection (bridge) to the cerebellum." },
+        { "id": "e1_medulla", "front": "Medulla (oblongata)", "back": "The lowest part of the brain stem that regulates crucial autonomic functions like cardiovascular activity, blood pressure, and respiratory rates." }
+      ]
+    },
+    {
+      "key": "cerebral-lobes",
+      "name": "Cerebral Lobes & Cortex Landmarks",
+      "icon": "🗺️",
+      "cards": [
+        { "id": "e1_frontal_lobe", "front": "Frontal Lobe", "back": "The anterior region of the cerebral cortex responsible for motor functions, speech production (Broca's area), and executive cognitive functions like judgment, abstract reasoning, and working memory." },
+        { "id": "e1_parietal_lobe", "front": "Parietal Lobe", "back": "Responsible for processing somatosensation, including touch, pressure, pain, and body position (proprioception)." },
+        { "id": "e1_temporal_lobe", "front": "Temporal Lobe", "back": "Primarily associated with auditory (hearing) sensation and plays a crucial role in establishing long-term memories." },
+        { "id": "e1_occipital_lobe", "front": "Occipital Lobe", "back": "The posterior region of the cerebral cortex dedicated to primary visual perception and processing." },
+        { "id": "e1_insula", "front": "Insula", "back": "Located where the frontal and temporal lobes meet, and is involved in language function (using verbs). Note: sources are limited on the insula's broader functions — verify independently." },
+        { "id": "e1_limbic_lobe", "front": "Limbic Lobe", "back": "A collection of structures involved in controlling emotional responses, behavior, and memory formation." },
+        { "id": "e1_precentral_gyrus", "front": "Precentral Gyrus", "back": "A ridge in the frontal lobe housing the primary motor cortex, which sends commands to move skeletal muscles." },
+        { "id": "e1_postcentral_gyrus", "front": "Postcentral Gyrus", "back": "A ridge in the parietal lobe housing the primary somatosensory cortex." },
+        { "id": "e1_central_sulcus", "front": "Central Sulcus", "back": "A surface groove on the cerebral cortex marking the boundary between the frontal and parietal lobes." }
+      ]
+    },
+    {
+      "key": "csf-ventricles",
+      "name": "Cerebrospinal Fluid (CSF) & Ventricular System",
+      "icon": "💧",
+      "cards": [
+        { "id": "e1_choroid_plexus", "front": "Choroid Plexuses", "back": "Specialized membranes/capillaries within the ventricles that filter blood to produce CSF." },
+        { "id": "e1_ependymal_cells", "front": "Ependymal Cells", "back": "A type of glial cell with cilia that filters blood to make CSF and helps move it through the ventricular space." },
+        { "id": "e1_ventricles", "front": "Lateral, 3rd, and 4th Ventricles", "back": "The open spaces (cavities) within the brain where CSF is produced and circulates." },
+        { "id": "e1_interventricular_foramen", "front": "Interventricular Foramen", "back": "The passage where CSF flows from the lateral ventricles into the third ventricle." },
+        { "id": "e1_cerebral_aqueduct", "front": "Cerebral Aqueduct", "back": "The canal passing through the midbrain that connects the third and fourth ventricles." },
+        { "id": "e1_septum_pellucidum", "front": "Septum Pellucidum", "back": "The thin membrane separating the two lateral ventricles. Note: not in the provided sources but standard anatomy — verify for your class." },
+        { "id": "e1_subarachnoid_space", "front": "Subarachnoid Space", "back": "The space between the arachnoid and pia mater where CSF circulates around the outside of the brain and spinal cord, providing a liquid cushion." },
+        { "id": "e1_central_canal", "front": "Central Canal", "back": "The hollow space running down the center of the spinal cord." },
+        { "id": "e1_arachnoid_granulations", "front": "Arachnoid Granulations", "back": "Outpocketings of the arachnoid membrane that allow CSF to filter back into the blood for drainage." },
+        { "id": "e1_superior_sagittal_sinus", "front": "Superior Sagittal Sinus", "back": "The enlarged dural venous sinus located midsagittally at the top of the brain that absorbs the CSF." }
+      ]
+    },
+    {
+      "key": "cranial-nerves",
+      "name": "The 12 Cranial Nerves — Names & Functions",
+      "icon": "🔢",
+      "cards": [
+        { "id": "e1_cn1", "front": "I. Olfactory nerve (Sensory)", "back": "Responsible for the sense of smell." },
+        { "id": "e1_cn2", "front": "II. Optic nerve (Sensory)", "back": "Responsible for vision." },
+        { "id": "e1_cn3", "front": "III. Oculomotor nerve (Motor)", "back": "Controls the movement of 4 extrinsic eye muscles, accommodation of the lens, and pupillary constriction." },
+        { "id": "e1_cn4", "front": "IV. Trochlear nerve (Motor)", "back": "Controls the movement of the superior oblique eye muscle." },
+        { "id": "e1_cn5", "front": "V. Trigeminal nerve (Both)", "back": "Processes cutaneous sensations from ophthalmic, maxillary, and mandibular areas, and controls the muscles of chewing (mastication)." },
+        { "id": "e1_cn6", "front": "VI. Abducens nerve (Motor)", "back": "Controls the movement of the lateral rectus eye muscle." },
+        { "id": "e1_cn7", "front": "VII. Facial nerve (Both)", "back": "Relays taste from the anterior tongue, controls facial expressions, and stimulates tears and salivation." },
+        { "id": "e1_cn8", "front": "VIII. Vestibulocochlear nerve (Sensory)", "back": "Responsible for equilibrium (balance) and hearing." },
+        { "id": "e1_cn9", "front": "IX. Glossopharyngeal nerve (Both)", "back": "Relays taste from the posterior 1/3 of the tongue, assists in swallowing and speech, and stimulates the secretion of saliva." },
+        { "id": "e1_cn10", "front": "X. Vagus nerve (Both)", "back": "Relays taste, pharynx and epiglottis sensations, assists in swallowing, coughing, and voice production, controls the smooth muscle of the GI tract, stimulates secretion of digestive glands, and slows heart rate." },
+        { "id": "e1_cn11", "front": "XI. Accessory (Spinal) nerve (Motor)", "back": "Controls the movement of the head and shoulders by innervating the sternocleidomastoid and trapezius muscles." },
+        { "id": "e1_cn12", "front": "XII. Hypoglossal nerve (Motor)", "back": "Controls speech and swallowing by innervating the tongue muscles." }
+      ]
+    },
+    {
+      "key": "cranial-mnemonics",
+      "name": "Cranial Nerve Mnemonics",
+      "icon": "🧵",
+      "cards": [
+        { "id": "e1_mnem_names", "front": "Mnemonic for the names in order (I–XII)", "back": "\"On Old Olympus' Towering Tops / A Finn And German Viewed Some Hops.\" (Olfactory, Optic, Oculomotor, Trochlear, Trigeminal, Abducens, Facial, Vestibulocochlear, Glossopharyngeal, Vagus, Accessory, Hypoglossal)" },
+        { "id": "e1_mnem_class", "front": "Mnemonic for the classifications (Sensory / Motor / Both)", "back": "\"Some Say Marry Money But My Brother Says Brains Beauty Matter More.\" (S, S, M, M, B, M, B, S, B, B, M, M)" }
+      ]
+    },
+    {
+      "key": "cranial-everyday",
+      "name": "Cranial Nerves in Everyday Activities",
+      "icon": "🏃",
+      "cards": [
+        { "id": "e1_act_bat", "front": "Which nerve? Hearing the crack of a bat hitting a baseball", "back": "Vestibulocochlear nerve (VIII)." },
+        { "id": "e1_act_smell", "front": "Which nerve? Smelling dinner cooking", "back": "Olfactory nerve (I)." },
+        { "id": "e1_act_dizzy", "front": "Which nerve? Being dizzy after a Tilt-a-Whirl ride", "back": "Vestibulocochlear nerve (VIII)." },
+        { "id": "e1_act_shrug", "front": "Which nerve? Lifting your shoulders during warm-ups", "back": "Accessory nerve (XI)." },
+        { "id": "e1_act_chew", "front": "Which nerve? Chewing a tender steak", "back": "Trigeminal nerve (V)." },
+        { "id": "e1_act_swallow", "front": "Which nerve(s)? Swallowing the tender steak", "back": "Glossopharyngeal (IX), Vagus (X), and Hypoglossal (XII) nerves." },
+        { "id": "e1_act_saliva_cry", "front": "Which nerve(s)? Salivation and crying", "back": "Facial (VII) and Glossopharyngeal (IX) nerves." },
+        { "id": "e1_act_reading", "front": "Which nerve(s)? Reading a book (vision and eye movement)", "back": "Optic (II), Oculomotor (III), Trochlear (IV), and Abducens (VI) nerves." },
+        { "id": "e1_act_sunset", "front": "Which nerve? Seeing a sunset", "back": "Optic nerve (II)." },
+        { "id": "e1_act_crosseyed", "front": "Which nerve? Looking cross-eyed", "back": "Oculomotor nerve (III)." },
+        { "id": "e1_act_smile", "front": "Which nerve? Smiling", "back": "Facial nerve (VII)." },
+        { "id": "e1_act_headshake", "front": "Which nerve? Moving your head from side to side", "back": "Accessory nerve (XI)." },
+        { "id": "e1_act_curling_iron", "front": "Which nerve? Feeling a hot curling iron touch the forehead", "back": "Trigeminal nerve (V)." },
+        { "id": "e1_act_hr", "front": "Which nerve? Decreased heart rate", "back": "Vagus nerve (X)." },
+        { "id": "e1_act_roll_eyes", "front": "Which nerve(s)? Rolling your eyes", "back": "Oculomotor (III), Trochlear (IV), and Abducens (VI) nerves." },
+        { "id": "e1_act_digestive", "front": "Which nerve(s)? Digestive system involvement (mouth to gut)", "back": "Trigeminal (V), Facial (VII), Glossopharyngeal (IX), Vagus (X), and Hypoglossal (XII) nerves." },
+        { "id": "e1_act_speaking", "front": "Which nerve(s)? Speaking", "back": "Facial (VII), Glossopharyngeal (IX), Vagus (X), and Hypoglossal (XII) nerves." }
+      ]
+    },
+    {
+      "key": "cranial-clinical",
+      "name": "Cranial Nerve Injuries & Clinical Signs",
+      "icon": "🩺",
+      "cards": [
+        { "id": "e1_bells_palsy", "front": "Bell's Palsy — which nerve, and what happens?", "back": "Affects the Facial nerve (VII). Causes temporary weakness or paralysis of the muscles on one side of the face, preventing symmetrical facial expression." },
+        { "id": "e1_cn9_injury", "front": "Glossopharyngeal nerve (IX) injury — signs?", "back": "Loss of taste sensation from the posterior tongue, decreased salivation, and difficulty swallowing." },
+        { "id": "e1_cn10_injury", "front": "Vagus nerve (X) injury — signs?", "back": "Paralysis of the vocal cords, difficulty swallowing, interrupted sensations from visceral organs, and an increased resting heart rate due to loss of parasympathetic control." }
+      ]
+    },
+    {
+      "key": "spinal-cord",
+      "name": "Spinal Cord Anatomy & Spinal Nerves",
+      "icon": "🦴",
+      "cards": [
+        { "id": "e1_fissure_sulcus", "front": "Anterior Median Fissure & Posterior Median Sulcus", "back": "Surface grooves that mark the anterior and posterior midlines of the spinal cord." },
+        { "id": "e1_dorsal_root", "front": "Dorsal (Posterior) Nerve Root", "back": "The root through which sensory axons enter the back of the spinal cord." },
+        { "id": "e1_ventral_root", "front": "Ventral (Anterior) Nerve Root", "back": "The root through which motor axons emerge from the front of the spinal cord." },
+        { "id": "e1_posterior_horn", "front": "Posterior Horn", "back": "The region of spinal cord gray matter responsible for sensory processing." },
+        { "id": "e1_anterior_horn", "front": "Anterior Horn", "back": "The region of spinal cord gray matter that sends out motor signals to skeletal muscles." },
+        { "id": "e1_lateral_horn", "front": "Lateral Horn", "back": "The region of gray matter (found only in the thoracic, upper lumbar, and sacral regions) that contains the cell bodies of motor neurons for the autonomic nervous system." },
+        { "id": "e1_white_columns", "front": "White Matter Columns", "back": "The spinal cord white matter is divided into posterior, anterior, and lateral columns. They contain ascending tracts (sensory info up to the brain) and descending tracts (motor commands down from the brain)." },
+        { "id": "e1_spinal_nerves", "front": "Spinal Nerves — how many pairs, and the breakdown?", "back": "31 pairs total: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, and 1 coccygeal." },
+        { "id": "e1_plexuses", "front": "Nerve Plexuses", "back": "In the periphery, axons from different spinal nerves come together and reorganize into networks called plexuses. The four main ones are the cervical, brachial, lumbar, and sacral plexuses." },
+        { "id": "e1_intercostal", "front": "Intercostal Nerves", "back": "The thoracic spinal nerves (T2–T11) do not form a plexus, but emerge directly to become the intercostal nerves found between the ribs." }
+      ]
+    },
+    {
+      "key": "neuron-anatomy",
+      "name": "Nervous System Organization & Neuron Anatomy",
+      "icon": "⚡",
+      "cards": [
+        { "id": "e1_cns", "front": "Central Nervous System (CNS)", "back": "The anatomical division of the nervous system consisting of the brain and spinal cord." },
+        { "id": "e1_pns", "front": "Peripheral Nervous System (PNS)", "back": "The anatomical division consisting of all nervous tissue outside the brain and spinal cord, including nerves and ganglia." },
+        { "id": "e1_neurons", "front": "Neurons", "back": "The primary cells of nervous tissue responsible for computation and communication through electrical signals." },
+        { "id": "e1_glia", "front": "Glial Cells (Neuroglia)", "back": "The supporting cells of nervous tissue that provide a framework and maintain the environment around neurons." },
+        { "id": "e1_dendrites", "front": "Dendrites", "back": "Branch-like processes extending from the neuron cell body that act as the primary locations for receiving incoming signals from other neurons." },
+        { "id": "e1_axon", "front": "Axon", "back": "The single long fiber process of a neuron that propagates an electrical signal away from the cell body toward a target cell." },
+        { "id": "e1_myelin", "front": "Myelin Sheath", "back": "A lipid-rich insulating layer surrounding many axons that facilitates the faster transmission of electrical signals." },
+        { "id": "e1_nodes_ranvier", "front": "Nodes of Ranvier", "back": "The gaps found between sections of the myelin sheath along an axon." }
+      ]
+    },
+    {
+      "key": "glial-cells",
+      "name": "Glial Cells (CNS & PNS)",
+      "icon": "🌟",
+      "cards": [
+        { "id": "e1_astrocytes", "front": "Astrocytes (CNS)", "back": "Star-shaped cells that support neurons, maintain the chemical environment, and contribute to the blood-brain barrier." },
+        { "id": "e1_oligodendrocytes", "front": "Oligodendrocytes (CNS)", "back": "The glial cells that provide myelin insulation for axons in the CNS." },
+        { "id": "e1_microglia", "front": "Microglia (CNS)", "back": "Cells that act as resident macrophages to ingest and digest diseased cells or pathogens in the CNS." },
+        { "id": "e1_ependymal_glia", "front": "Ependymal cells (CNS)", "back": "Cells that filter blood to produce cerebrospinal fluid (CSF) and line the ventricles of the brain." },
+        { "id": "e1_schwann", "front": "Schwann cells (PNS)", "back": "The glial cells that provide myelin insulation for axons in the peripheral nervous system." },
+        { "id": "e1_satellite", "front": "Satellite cells (PNS)", "back": "Cells that surround and provide support to neuron cell bodies within peripheral sensory and autonomic ganglia." }
+      ]
+    },
+    {
+      "key": "sensory-receptors",
+      "name": "Sensory Receptor Classifications",
+      "icon": "📡",
+      "cards": [
+        { "id": "e1_exteroceptor", "front": "Exteroceptor", "back": "A receptor located near a stimulus in the external environment, such as somatosensory receptors in the skin." },
+        { "id": "e1_interoceptor", "front": "Interoceptor", "back": "A receptor that interprets stimuli from internal organs and tissues, such as those that monitor blood pressure." },
+        { "id": "e1_proprioceptor", "front": "Proprioceptor", "back": "A receptor located near moving parts, like muscles and joints, that interprets body position as tissues move." },
+        { "id": "e1_chemoreceptor", "front": "Chemoreceptor", "back": "A receptor that interprets chemical stimuli, which is the basis for the senses of taste and smell." },
+        { "id": "e1_osmoreceptor", "front": "Osmoreceptor", "back": "A receptor that responds to solute concentrations of body fluids." },
+        { "id": "e1_nociceptor", "front": "Nociceptor", "back": "A receptor that interprets pain or the presence of chemicals released from tissue damage." },
+        { "id": "e1_mechanoreceptor", "front": "Mechanoreceptor", "back": "A receptor that interprets physical stimuli like pressure, vibration, sound, and balance." },
+        { "id": "e1_thermoreceptor", "front": "Thermoreceptor", "back": "A receptor sensitive to temperatures above or below normal body temperature." },
+        { "id": "e1_free_nerve_endings", "front": "Free Nerve Endings", "back": "Sensory neurons with unencapsulated dendrites embedded in tissue, commonly used to receive pain and temperature sensations." },
+        { "id": "e1_encapsulated_endings", "front": "Encapsulated Endings", "back": "Sensory nerve endings enclosed in connective tissue to enhance their sensitivity, such as lamellated corpuscles for pressure and touch." },
+        { "id": "e1_specialized_receptor_cells", "front": "Specialized Receptor Cells", "back": "Cells with distinct structural components built to interpret specific stimuli, such as photoreceptors in the retina." }
+      ]
+    },
+    {
+      "key": "eye-anatomy",
+      "name": "Anatomy of the Eye",
+      "icon": "👁️",
+      "cards": [
+        { "id": "e1_fibrous_tunic", "front": "Fibrous Tunic", "back": "The outermost layer of the eye, composed primarily of connective tissue." },
+        { "id": "e1_sclera", "front": "Sclera", "back": "The white of the eye, which makes up five-sixths of the fibrous tunic." },
+        { "id": "e1_cornea", "front": "Cornea", "back": "The clear, transparent anterior covering of the eye that allows light to enter and helps focus it onto the retina." },
+        { "id": "e1_vascular_tunic", "front": "Vascular Tunic", "back": "The middle layer of the eye containing the choroid, ciliary body, and iris." },
+        { "id": "e1_choroid", "front": "Choroid", "back": "A highly vascularized connective tissue layer that supplies blood to the eyeball." },
+        { "id": "e1_ciliary_body", "front": "Ciliary Body", "back": "A muscular structure attached to the lens by suspensory ligaments (zonule fibers) that bends the lens to focus light." },
+        { "id": "e1_iris", "front": "Iris", "back": "The colored part of the eye composed of smooth muscle that opens or closes the pupil." },
+        { "id": "e1_pupil", "front": "Pupil", "back": "The hole at the center of the iris that allows light to enter the eye, constricting in bright light and dilating in dim light." },
+        { "id": "e1_neural_tunic", "front": "Neural Tunic (Retina)", "back": "The innermost layer containing the nervous tissue responsible for photoreception." },
+        { "id": "e1_anterior_cavity", "front": "Anterior Cavity", "back": "The space between the cornea and lens, filled with a watery fluid called aqueous humor." },
+        { "id": "e1_posterior_cavity", "front": "Posterior Cavity", "back": "The space behind the lens extending to the posterior interior eyeball, filled with a viscous fluid called vitreous humor." },
+        { "id": "e1_rods", "front": "Rod Photoreceptors", "back": "Retinal receptors specialized for low-light/grayscale vision, containing stacks of discs with the photosensitive pigment rhodopsin." },
+        { "id": "e1_cones", "front": "Cone Photoreceptors", "back": "Retinal receptors specialized for color vision in brighter conditions, using three different photopigments (red, green, and blue)." },
+        { "id": "e1_fovea", "front": "Fovea", "back": "The exact center of the retina with the highest visual acuity (sharpness), containing only photoreceptors and lacking supporting cells or blood vessels." },
+        { "id": "e1_optic_disc", "front": "Optic Disc", "back": "The \"blind spot\" at the back of the eye where retinal ganglion cell axons gather and exit the eye as the optic nerve." }
+      ]
+    },
+    {
+      "key": "ear-external-middle",
+      "name": "External & Middle Ear",
+      "icon": "👂",
+      "cards": [
+        { "id": "e1_auricle", "front": "Auricle (Pinna)", "back": "The large, fleshy external structure of the ear that directs sound waves toward the auditory canal." },
+        { "id": "e1_tympanic_membrane", "front": "Tympanic Membrane (Ear Drum)", "back": "The membrane at the end of the auditory canal that vibrates when struck by sound waves." },
+        { "id": "e1_ossicles", "front": "Ossicles", "back": "The three small bones in the middle ear—the malleus (hammer), incus (anvil), and stapes (stirrup)—that amplify and transmit sound vibrations to the inner ear." },
+        { "id": "e1_eustachian_tube", "front": "Eustachian Tube", "back": "A tube connecting the middle ear to the pharynx that helps equilibrate air pressure across the tympanic membrane." }
+      ]
+    },
+    {
+      "key": "ear-hearing",
+      "name": "Inner Ear & Hearing (Audition)",
+      "icon": "🔊",
+      "cards": [
+        { "id": "e1_bony_labyrinth", "front": "Inner Ear (Bony Labyrinth)", "back": "Composed of a series of canals embedded within the temporal bone, it is divided into the cochlea (for hearing) and the vestibule (for balance)." },
+        { "id": "e1_cochlea", "front": "Cochlea", "back": "A spiral-shaped structure of the inner ear containing sensory neurons where sound waves are transduced into neural signals." },
+        { "id": "e1_oval_window", "front": "Oval Window", "back": "The membrane attached to the stapes where sound vibrations enter the fluid-filled tubes of the cochlea (starting at the scala vestibuli)." },
+        { "id": "e1_organ_of_corti", "front": "Organ of Corti", "back": "The structure located within the cochlear duct that contains mechanoreceptor hair cells responsible for converting fluid waves into nerve impulses." },
+        { "id": "e1_basilar_membrane", "front": "Basilar Membrane", "back": "The membrane upon which the organs of Corti sit; it moves in response to specific sound frequencies, with high frequencies moving the base and low frequencies moving the apex." },
+        { "id": "e1_hair_cells", "front": "Hair Cells & Stereocilia", "back": "Mechanoreceptor cells topped with hair-like extensions (stereocilia) that bend in response to sound waves or head movements to open ion channels and create electrical signals." },
+        { "id": "e1_tectorial_membrane", "front": "Tectorial Membrane", "back": "A membrane that lies over the hair cells in the cochlea; when the basilar membrane moves, the tectorial membrane slides across the stereocilia, causing them to bend." }
+      ]
+    },
+    {
+      "key": "ear-balance",
+      "name": "Equilibrium (Balance)",
+      "icon": "🌀",
+      "cards": [
+        { "id": "e1_vestibule", "front": "Vestibule", "back": "The region of the inner ear responsible for encoding information about equilibrium and the body's sense of balance." },
+        { "id": "e1_utricle_saccule", "front": "Utricle and Saccule", "back": "Specialized structures within the vestibule that sense head position and linear acceleration using macula tissue." },
+        { "id": "e1_otoliths", "front": "Otolithic Membrane & Otoliths", "back": "A viscous gel layer topped with heavy calcium carbonate crystals (otoliths); it slides in response to gravity (like when tilting the head), which bends the underlying hair cells." },
+        { "id": "e1_semicircular_canals", "front": "Semicircular Canals", "back": "Three ring-like extensions of the vestibule that sense rotational head movements (like shaking your head \"no\")." },
+        { "id": "e1_ampulla_cupula", "front": "Ampulla & Cupula", "back": "The ampulla is the enlarged base of each semicircular canal containing hair cells; the cupula is the membrane covering them that bends as fluid lags behind during rotational head movement." }
+      ]
+    }
+  ]
+}

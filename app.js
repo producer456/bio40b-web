@@ -17,7 +17,7 @@ const RATINGS = [
 ];
 const MASTERY = 4;
 
-const state = { chapters: [], objByChapter: {}, sectionIndex: [], regions: [], bodyUnits: [], teacherDeck: null, cardMode: 'chapter' };
+const state = { chapters: [], objByChapter: {}, sectionIndex: [], regions: [], bodyUnits: [], teacherDeck: null, exam1Deck: null, cardMode: 'chapter' };
 const unitColor = { nervous: 'var(--nervous)', cardio: 'var(--cardio)', respir: 'var(--respir)' };
 const $ = sel => document.querySelector(sel);
 const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
@@ -36,6 +36,8 @@ async function loadData() {
   state.bodyUnits = bs.units || [];
   // Objectives-from-teacher deck — the lab objective sets, hand-authored.
   state.teacherDeck = await fetch('data/teacher_cards.json').then(r => r.json());
+  // "All the things before exam one" — cumulative pre-exam-1 review deck.
+  state.exam1Deck = await fetch('data/exam1_cards.json').then(r => r.json());
   // flat index of sections for prev/next + lookup
   state.chapters.forEach(ch => ch.sections.forEach(s =>
     state.sectionIndex.push({ chapter: ch, section: s })));
@@ -56,6 +58,7 @@ function route() {
   else if (view === 'quiz')    renderQuiz(root, arg);
   else if (view === 'cards')   renderCards(root, arg);
   else if (view === 'objectives') renderTeacher(root, arg);
+  else if (view === 'exam1')   renderExam1(root, arg);
   else if (view === 'systems') renderSystems(root, arg);
   else if (view === 'lab')     window.renderLab?.(root);
   else                         renderHome(root);
@@ -432,6 +435,51 @@ function renderTeacher(root, sessionKey) {
 function startTeacherSession(key){ location.hash = `#/objectives/${key}`; }
 const normTeacherCard = c => ({ id: c.id, kick: 'OBJECTIVE', objective: c.front, answer: c.back });
 
+// ---- "All the things before exam one" deck (cumulative pre-exam review) ----
+function renderExam1(root, sessionKey) {
+  const wrap = el('div', 'fc-wrap');
+  if (sessionKey) { renderSession(wrap, sessionKey); root.appendChild(wrap); return; }
+
+  const deck = state.exam1Deck;
+  document.documentElement.style.setProperty('--accent', 'var(--nervous)');
+  wrap.appendChild(el('div', 'kicker', 'EXAM 1 REVIEW'));
+  wrap.appendChild(el('h1', null, esc(deck?.title || 'All the things before exam one — so far')));
+  wrap.appendChild(el('p', 'sub muted',
+    `Everything worth knowing before exam 1, gathered in one deck. Reveal each card, rate how well you knew it, and anything below “Solid” comes back until you’ve mastered the whole set. Study one set or the entire deck.`));
+
+  const sets = (deck?.sets || []).filter(s => (s.cards || []).length);
+  const totalCards = sets.reduce((n, s) => n + s.cards.length, 0);
+  if (!totalCards) {
+    wrap.appendChild(el('p', 'muted', 'No cards in this deck yet — check back soon.'));
+    root.appendChild(wrap);
+    return;
+  }
+
+  const list = el('div', 'scope-list');
+
+  // whole deck first
+  const whole = el('button', 'region-row card');
+  whole.innerHTML = `<div class="badge" style="background:var(--nervous)">▶</div>
+    <div style="flex:1;text-align:left"><div style="font-weight:600">Whole deck — everything</div>
+    <div class="muted" style="font-size:13px">${totalCards} cards · ${sets.length} set${sets.length===1?'':'s'}</div></div>
+    <div style="color:var(--nervous);font-size:20px">▶</div>`;
+  whole.onclick = () => startExam1Session('exam1-all');
+  list.appendChild(whole);
+
+  sets.forEach((s, i) => {
+    const row = el('button', 'region-row card');
+    row.innerHTML = `<div class="badge" style="background:color-mix(in srgb,var(--nervous) 78%,#000)">${s.icon || '📝'}</div>
+      <div style="flex:1;text-align:left"><div style="font-weight:600">Set ${i + 1} · ${esc(s.name)}</div>
+      <div class="muted" style="font-size:13px">${s.cards.length} cards</div></div>
+      <div style="color:var(--nervous);font-size:20px">▶</div>`;
+    row.onclick = () => startExam1Session(`exam1-${s.key}`);
+    list.appendChild(row);
+  });
+  wrap.appendChild(list);
+  root.appendChild(wrap);
+}
+function startExam1Session(key){ location.hash = `#/exam1/${key}`; }
+
 // ---- Body Systems deck (separate from the objective flashcards) ----
 function renderSystems(root, sessionKey) {
   const wrap = el('div', 'fc-wrap');
@@ -498,6 +546,18 @@ function cardsForKey(key) {
     const set = deck.sets.find(s => s.key === rest);
     if (!set) return null;
     return { title: set.name, unitKey: 'nervous', backHash: '#/objectives',
+             cards: set.cards.map(normTeacherCard) };
+  }
+  if (key.startsWith('exam1-')) {
+    const deck = state.exam1Deck;
+    const rest = key.slice('exam1-'.length);
+    if (rest === 'all') {
+      return { title: deck.title || 'All the things before exam one — so far', unitKey: 'nervous', backHash: '#/exam1',
+               cards: deck.sets.flatMap(s => s.cards.map(normTeacherCard)) };
+    }
+    const set = deck.sets.find(s => s.key === rest);
+    if (!set) return null;
+    return { title: set.name, unitKey: 'nervous', backHash: '#/exam1',
              cards: set.cards.map(normTeacherCard) };
   }
   if (key.startsWith('sys-area-')) {
