@@ -1,0 +1,28 @@
+{
+  "practicals": [
+    {
+      "key": "cranial-nerves",
+      "title": "Cranial Nerves — Inferior View",
+      "sub": "Name each nerve, its Roman numeral, and its main function",
+      "unit": "nervous",
+      "icon": "🧠",
+      "image": "practical_cranial_nerves",
+      "credit": "Inferior view of the brain, cranial nerves labeled by number — adapted from OpenStax Anatomy & Physiology (CC BY).",
+      "instructions": "Each black line points to one cranial nerve where it leaves the brain. For every numbered marker, type the nerve's name (spelled correctly), its Roman numeral (I–XII), and its main function. Name and number must be exact; function just needs the key idea.",
+      "pins": [
+        { "n": 1,  "x": 0.2475, "y": 0.1278, "name": "Olfactory",         "numeral": "I",    "aliases": ["olfactory"],         "function": "Smell",                                   "functionKeywords": ["smell", "olfaction", "olfactory", "odor", "odour", "scent"] },
+        { "n": 2,  "x": 0.2475, "y": 0.3196, "name": "Oculomotor",        "numeral": "III",  "aliases": ["oculomotor"],        "function": "Moves most eye muscles; pupil constriction & eyelid", "functionKeywords": ["eye", "pupil", "eyelid", "accommod", "move eye", "eye movement"] },
+        { "n": 3,  "x": 0.2475, "y": 0.4341, "name": "Trochlear",         "numeral": "IV",   "aliases": ["trochlear"],         "function": "Eye movement (superior oblique muscle)",  "functionKeywords": ["eye", "superior oblique", "oblique", "look down", "downward"] },
+        { "n": 4,  "x": 0.2475, "y": 0.5726, "name": "Abducens",          "numeral": "VI",   "aliases": ["abducens", "abducent"], "function": "Eye movement (lateral rectus / abduction)", "functionKeywords": ["eye", "lateral rectus", "abduct", "lateral"] },
+        { "n": 5,  "x": 0.2475, "y": 0.6618, "name": "Vestibulocochlear", "numeral": "VIII", "aliases": ["vestibulocochlear", "auditory", "acoustic"], "function": "Hearing and balance (equilibrium)", "functionKeywords": ["hearing", "hear", "balance", "equilibrium", "auditory", "sound"] },
+        { "n": 6,  "x": 0.2475, "y": 0.7830, "name": "Hypoglossal",       "numeral": "XII",  "aliases": ["hypoglossal"],        "function": "Tongue movement",                        "functionKeywords": ["tongue"] },
+        { "n": 7,  "x": 0.2475, "y": 0.8961, "name": "Accessory",         "numeral": "XI",   "aliases": ["accessory", "spinal accessory"], "function": "Moves neck & shoulder (trapezius, sternocleidomastoid)", "functionKeywords": ["neck", "shoulder", "trapezius", "sternocleidomastoid", "scm", "shrug", "head"] },
+        { "n": 8,  "x": 0.7525, "y": 0.2969, "name": "Optic",             "numeral": "II",   "aliases": ["optic"],             "function": "Vision (sight)",                          "functionKeywords": ["vision", "sight", "see", "visual", "eyesight"] },
+        { "n": 9,  "x": 0.7525, "y": 0.4847, "name": "Trigeminal",        "numeral": "V",    "aliases": ["trigeminal"],        "function": "Facial sensation and chewing (mastication)", "functionKeywords": ["sensation", "face", "facial", "chew", "mastication", "touch", "sensory"] },
+        { "n": 10, "x": 0.7525, "y": 0.6285, "name": "Facial",            "numeral": "VII",  "aliases": ["facial"],            "function": "Facial expression; taste (anterior tongue); tears & saliva", "functionKeywords": ["expression", "face", "facial", "taste", "salivation", "saliva", "tears"] },
+        { "n": 11, "x": 0.7525, "y": 0.7390, "name": "Glossopharyngeal",  "numeral": "IX",   "aliases": ["glossopharyngeal"],  "function": "Taste (posterior tongue), swallowing & salivation", "functionKeywords": ["taste", "swallow", "salivation", "saliva", "tongue", "pharynx", "gag", "blood pressure"] },
+        { "n": 12, "x": 0.7525, "y": 0.8628, "name": "Vagus",             "numeral": "X",    "aliases": ["vagus"],             "function": "Parasympathetic control of heart, lungs & digestive organs; swallowing & voice", "functionKeywords": ["parasympathetic", "viscera", "visceral", "heart", "lung", "digest", "swallow", "voice", "organ"] }
+      ]
+    }
+  ]
+}

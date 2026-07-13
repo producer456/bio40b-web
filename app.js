@@ -17,7 +17,7 @@ const RATINGS = [
 ];
 const MASTERY = 4;
 
-const state = { chapters: [], objByChapter: {}, sectionIndex: [], regions: [], bodyUnits: [], teacherDeck: null, exam1Deck: null, slideDeckQuizzes: [], cardMode: 'chapter' };
+const state = { chapters: [], objByChapter: {}, sectionIndex: [], regions: [], bodyUnits: [], teacherDeck: null, exam1Deck: null, slideDeckQuizzes: [], practicals: [], cardMode: 'chapter' };
 const unitColor = { nervous: 'var(--nervous)', cardio: 'var(--cardio)', respir: 'var(--respir)' };
 const $ = sel => document.querySelector(sel);
 const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
@@ -42,6 +42,9 @@ async function loadData() {
   // mastery loop (independent of the end-of-section review questions).
   state.slideDeckQuizzes = await fetch('data/slidedeck_quizzes.json')
     .then(r => r.json()).then(d => d.quizzes || []).catch(() => []);
+  // Lab practical labeling exercises — point-and-name over a figure (typed answers).
+  state.practicals = await fetch('data/practical.json')
+    .then(r => r.json()).then(d => d.practicals || []).catch(() => []);
   // flat index of sections for prev/next + lookup
   state.chapters.forEach(ch => ch.sections.forEach(s =>
     state.sectionIndex.push({ chapter: ch, section: s })));
@@ -64,6 +67,7 @@ function route() {
   else if (view === 'objectives') renderTeacher(root, arg);
   else if (view === 'exam1')   renderExam1(root, arg);
   else if (view === 'systems') renderSystems(root, arg);
+  else if (view === 'practical') renderPractical(root, arg);
   else if (view === 'lab')     window.renderLab?.(root);
   else                         renderHome(root);
   window.scrollTo(0, 0);
@@ -460,6 +464,221 @@ function runMasteryQuiz(root, quiz) {
     row.appendChild(restart);
     const more = el('button','cta ghost', '← All quizzes');
     more.onclick = () => { location.hash = '#/quiz'; };
+    row.appendChild(more);
+    wrap.appendChild(row);
+  }
+
+  draw();
+}
+
+// ---- Lab practical (point-and-name over a figure) ----
+// A labeling exercise: the figure shows numbered markers on leader lines, but the
+// answers live only in JSON. For each marker the student types the structure name
+// (strict spelling), its Roman numeral (strict), and its function (loose keyword
+// match). Same retake-missed mastery loop as the practice quizzes.
+const ROMAN2ARABIC = { i:'1', ii:'2', iii:'3', iv:'4', v:'5', vi:'6', vii:'7', viii:'8', ix:'9', x:'10', xi:'11', xii:'12' };
+
+// Strip case, punctuation, and filler words so "Olfactory Nerve" == "olfactory".
+function normName(s) {
+  return (s || '').toLowerCase().replace(/[^a-z\s]/g, ' ')
+    .replace(/\b(nerve|cranial|cn|the)\b/g, ' ')
+    .replace(/\s+/g, ' ').trim();
+}
+function normNumeral(s) {
+  let t = (s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  t = t.replace(/^(cn|nerve|number|no)/, '');
+  return t;
+}
+function gradeName(ans, pin) {
+  const a = normName(ans);
+  if (!a) return false;
+  const accepted = [pin.name, ...(pin.aliases || [])].map(normName);
+  return accepted.includes(a);
+}
+function gradeNumeral(ans, pin) {
+  const a = normNumeral(ans);
+  if (!a) return false;
+  const roman = pin.numeral.toLowerCase();
+  return a === roman || a === ROMAN2ARABIC[roman];
+}
+function gradeFunction(ans, pin) {
+  const a = (ans || '').toLowerCase();
+  if (!a.trim()) return false;
+  return (pin.functionKeywords || []).some(k => a.includes(k));
+}
+
+function renderPractical(root, arg) {
+  if (!arg) { renderPracticalPicker(root); return; }
+  const p = state.practicals.find(x => x.key === arg);
+  if (!p) { renderPracticalPicker(root); return; }
+  document.documentElement.style.setProperty('--accent', unitColor[p.unit] || 'var(--nervous)');
+  runPractical(root, p);
+}
+
+function renderPracticalPicker(root) {
+  document.documentElement.style.setProperty('--accent', 'var(--nervous)');
+  const wrap = el('div', 'quiz-wrap');
+  wrap.appendChild(el('h1', null, 'Lab practical'));
+  wrap.appendChild(el('p', 'sub muted', `Point-and-name drills over lab figures. Each marker points to a structure — type its name (spelled correctly), its number, and its function. Retake the ones you miss until every marker is mastered. Nothing is saved.`));
+  if (!state.practicals.length) { wrap.appendChild(el('p', 'muted', 'No practicals yet.')); root.appendChild(wrap); return; }
+  const group = el('div', 'quiz-unit');
+  group.appendChild(el('div', 'kicker', 'LABELING EXERCISES'));
+  state.practicals.forEach(p => {
+    const color = unitColor[p.unit] || 'var(--nervous)';
+    const row = el('button', 'region-row card');
+    row.innerHTML = `<div class="badge" style="background:${color}">${p.icon || '🔬'}</div>
+      <div style="flex:1;text-align:left"><div style="font-weight:700">${esc(p.title)}</div>
+      <div class="muted" style="font-size:13px">${esc(p.sub || '')}${p.sub ? ' · ' : ''}${p.pins.length} markers · retake until perfect</div></div>
+      <div style="color:${color};font-size:20px">▶</div>`;
+    row.onclick = () => { location.hash = `#/practical/${p.key}`; };
+    group.appendChild(row);
+  });
+  wrap.appendChild(group);
+  root.appendChild(wrap);
+}
+
+function runPractical(root, p) {
+  const wrap = el('div', 'quiz-wrap prac-wrap');
+  root.appendChild(wrap);
+
+  const allPins = p.pins.map((pin, i) => ({ ...pin, _id: i }));
+  let pool = shuffled(allPins);
+  let index = 0, correctCount = 0, round = 1;
+  let missed = [];      // _ids missed this round
+  let review = [];      // { pin, name, num, fn, pass } for the round summary
+
+  // Build the figure + all pins once; we just move the "active" highlight.
+  function buildStage(activeId) {
+    const stage = el('div', 'prac-stage');
+    const imgWrap = el('div', 'prac-imgwrap');
+    const img = el('img', 'prac-img'); img.src = figSrc(p.image); img.alt = 'Lab figure — structures marked by number'; img.loading = 'eager';
+    imgWrap.appendChild(img);
+    allPins.forEach(pin => {
+      const dot = el('div', 'prac-pin' + (pin._id === activeId ? ' active' : ''), String(pin.n));
+      dot.style.left = `${pin.x * 100}%`;
+      dot.style.top = `${pin.y * 100}%`;
+      imgWrap.appendChild(dot);
+    });
+    stage.appendChild(imgWrap);
+    return stage;
+  }
+
+  function draw() {
+    wrap.innerHTML = '';
+    if (index >= pool.length) { drawResult(); return; }
+    const pin = pool[index];
+
+    const head = el('div', 'quiz-head');
+    head.innerHTML = `<div class="quiz-title">${esc(p.title)}${round > 1 ? ` · Retake ${round - 1}` : ''}</div>
+      <div class="muted">Marker ${index + 1} of ${pool.length} · Correct ${correctCount} · Missed ${missed.length}</div>`;
+    wrap.appendChild(head);
+
+    const bar = el('div', 'quiz-prog'); const fill = el('div', 'quiz-prog-fill');
+    fill.style.width = `${(index / pool.length) * 100}%`; bar.appendChild(fill); wrap.appendChild(bar);
+
+    wrap.appendChild(buildStage(pin._id));
+
+    const box = el('div', 'q prac-q');
+    box.appendChild(el('div', 'qq', `What is marker <strong>${pin.n}</strong>? Give its name, number, and function.`));
+
+    const form = el('div', 'prac-form');
+    const nameIn = el('input', 'prac-input'); nameIn.type = 'text'; nameIn.placeholder = 'Name (e.g. Olfactory)'; nameIn.autocapitalize = 'words'; nameIn.spellcheck = false;
+    const numIn  = el('input', 'prac-input prac-input-sm'); numIn.type = 'text'; numIn.placeholder = 'Number (I–XII)';
+    const fnIn   = el('input', 'prac-input'); fnIn.type = 'text'; fnIn.placeholder = 'Function (main job)'; fnIn.spellcheck = false;
+    [['Name', nameIn], ['Number', numIn], ['Function', fnIn]].forEach(([lab, inp]) => {
+      const f = el('label', 'prac-field');
+      f.appendChild(el('span', 'prac-flabel', lab));
+      f.appendChild(inp);
+      form.appendChild(f);
+    });
+    box.appendChild(form);
+
+    let locked = false;
+    const check = el('button', 'cta', 'Check answer');
+    const submit = () => {
+      if (locked) return; locked = true;
+      const nameOk = gradeName(nameIn.value, pin);
+      const numOk = gradeNumeral(numIn.value, pin);
+      const fnOk = gradeFunction(fnIn.value, pin);
+      const pass = nameOk && numOk && fnOk;
+      [[nameIn, nameOk], [numIn, numOk], [fnIn, fnOk]].forEach(([inp, ok]) => {
+        inp.classList.add(ok ? 'ok' : 'bad'); inp.disabled = true;
+      });
+      if (pass) correctCount++; else if (!missed.includes(pin._id)) missed.push(pin._id);
+      review.push({ pin, name: nameIn.value, num: numIn.value, fn: fnIn.value, nameOk, numOk, fnOk, pass });
+
+      const ans = el('div', 'prac-answer' + (pass ? ' good' : ''));
+      ans.innerHTML = `<div class="pa-verdict">${pass ? '✅ Correct' : '❌ Not quite'}</div>
+        <div class="pa-line"><span>Name</span><b>${esc(pin.name)}</b></div>
+        <div class="pa-line"><span>Number</span><b>${esc(pin.numeral)}</b></div>
+        <div class="pa-line"><span>Function</span><b>${esc(pin.function)}</b></div>`;
+      box.appendChild(ans);
+
+      check.remove();
+      const next = el('button', 'cta', index + 1 >= pool.length ? 'See round results →' : 'Next marker →');
+      next.onclick = () => { index++; draw(); };
+      box.appendChild(next);
+      next.focus();
+    };
+    check.onclick = submit;
+    fnIn.onkeydown = e => { if (e.key === 'Enter') submit(); };
+    box.appendChild(check);
+    wrap.appendChild(box);
+    setTimeout(() => nameIn.focus(), 0);
+  }
+
+  function drawResult() {
+    wrap.innerHTML = '';
+    const total = pool.length;
+    const pct = Math.round((correctCount / total) * 100);
+    const perfect = missed.length === 0;
+    const card = el('div', 'quiz-result card');
+    const verdict = perfect ? 'All correct 🎉' : `${missed.length} to master`;
+    card.innerHTML = `<div class="quiz-score">${correctCount}<span>/${total}</span></div>
+      <div class="quiz-pct">${pct}%</div><div class="quiz-verdict">Round ${round} · ${verdict}</div>`;
+    wrap.appendChild(card);
+
+    if (perfect) {
+      wrap.appendChild(el('div', 'mastery-banner good',
+        round === 1 ? 'Perfect on the first pass — you know every nerve cold.'
+                    : `You cleared every marker. It took ${round} round${round === 1 ? '' : 's'} of retaking the ones you missed. 💪`));
+    } else {
+      wrap.appendChild(el('div', 'mastery-banner',
+        `Keep going — retake just the ${missed.length} you missed. They'll come back until you get every one right (name + number + function).`));
+      const rev = el('div', 'missed-review');
+      rev.appendChild(el('div', 'missed-h', `Review: markers you missed (${missed.length})`));
+      missed.forEach(id => {
+        const r = [...review].reverse().find(x => x.pin._id === id);
+        const pin = allPins.find(x => x._id === id);
+        const item = el('div', 'missed-item');
+        const mark = (v, ok) => `<span class="${ok ? 'mi-ok' : 'mi-no'}">${v ? esc(v) : '—'}</span>`;
+        item.innerHTML = `<div class="mi-q">Marker ${pin.n}: <b>${esc(pin.name)} (${esc(pin.numeral)})</b></div>
+          <div class="mi-yours">Name ${mark(r?.name, r?.nameOk)} · Number ${mark(r?.num, r?.numOk)} · Function ${mark(r?.fn, r?.fnOk)}</div>
+          <div class="mi-right">Answer: ${esc(pin.name)} · ${esc(pin.numeral)} · ${esc(pin.function)}</div>`;
+        rev.appendChild(item);
+      });
+      wrap.appendChild(rev);
+    }
+
+    const row = el('div', 'cta-row');
+    if (!perfect) {
+      const retake = el('button', 'cta', `↻ Retake ${missed.length} missed`);
+      retake.onclick = () => {
+        pool = shuffled(allPins.filter(x => missed.includes(x._id)));
+        index = 0; correctCount = 0; missed = []; review = []; round++;
+        draw();
+      };
+      row.appendChild(retake);
+    }
+    const restart = el('button', perfect ? 'cta' : 'cta ghost', `⟳ Start over (all ${allPins.length})`);
+    restart.onclick = () => {
+      pool = shuffled(allPins);
+      index = 0; correctCount = 0; missed = []; review = []; round = 1;
+      draw();
+    };
+    row.appendChild(restart);
+    const more = el('button', 'cta ghost', '← All practicals');
+    more.onclick = () => { location.hash = '#/practical'; };
     row.appendChild(more);
     wrap.appendChild(row);
   }

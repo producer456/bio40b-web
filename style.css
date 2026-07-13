@@ -330,3 +330,45 @@ footer { text-align: center; color: var(--ink-3); font-size: 12.5px; padding: 30
   .lab-box-body { background: transparent; border: none; box-shadow: none;
     -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
+
+/* ---- Lab practical (point-and-name over a figure) ---- */
+.prac-wrap { max-width: 860px; }
+.prac-stage { margin: 12px 0 16px; }
+.prac-imgwrap { position: relative; display: block; border: 1px solid var(--line);
+  border-radius: 12px; overflow: hidden; background: #fff; }
+.prac-img { display: block; width: 100%; height: auto; }
+/* Numbered markers sit at the outer end of each leader line. Answers are never
+   shown on the figure — only the marker number. */
+.prac-pin { position: absolute; transform: translate(-50%, -50%);
+  min-width: 26px; height: 26px; padding: 0 5px; border-radius: 13px;
+  display: grid; place-items: center; font-size: 14px; font-weight: 800;
+  background: var(--surface); color: var(--ink); border: 2px solid var(--ink-3);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25); line-height: 1; }
+.prac-pin.active { background: var(--accent); color: #fff; border-color: #fff;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 45%, transparent), 0 2px 8px rgba(0,0,0,0.35);
+  animation: prac-pulse 1.4s ease-in-out infinite; z-index: 2; }
+@keyframes prac-pulse {
+  0%, 100% { box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 40%, transparent), 0 2px 8px rgba(0,0,0,0.35); }
+  50% { box-shadow: 0 0 0 8px color-mix(in srgb, var(--accent) 10%, transparent), 0 2px 8px rgba(0,0,0,0.35); }
+}
+.prac-form { display: flex; flex-direction: column; gap: 10px; margin: 4px 0 12px; }
+.prac-field { display: flex; align-items: center; gap: 10px; }
+.prac-flabel { flex: 0 0 74px; font-size: 13px; font-weight: 700; color: var(--ink-2); }
+.prac-input { flex: 1; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px;
+  background: var(--surface-2); color: var(--ink); font-size: 15px; font-family: inherit; }
+.prac-input:focus { outline: none; border-color: var(--accent); background: var(--surface); }
+.prac-input.ok { border-color: #2ea24b; background: color-mix(in srgb, #2ea24b 12%, transparent); }
+.prac-input.bad { border-color: var(--cardio); background: color-mix(in srgb, var(--cardio) 10%, transparent); }
+.prac-input-sm { max-width: 160px; }
+.prac-answer { margin: 10px 0; padding: 12px 14px; border-radius: 12px;
+  border: 1px solid var(--cardio); background: color-mix(in srgb, var(--cardio) 8%, transparent); }
+.prac-answer.good { border-color: #2ea24b; background: color-mix(in srgb, #2ea24b 10%, transparent); }
+.prac-answer .pa-verdict { font-weight: 800; margin-bottom: 6px; }
+.prac-answer .pa-line { display: flex; gap: 8px; font-size: 14px; padding: 2px 0; }
+.prac-answer .pa-line span { flex: 0 0 74px; color: var(--ink-2); }
+.mi-yours .mi-ok { color: #2ea24b; font-weight: 700; }
+.mi-yours .mi-no { color: var(--cardio); font-weight: 700; text-decoration: line-through; }
+@media (max-width: 560px) {
+  .prac-flabel { flex-basis: 62px; font-size: 12px; }
+  .prac-input-sm { max-width: none; }
+}
