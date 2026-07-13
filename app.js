@@ -88,8 +88,9 @@ function renderHome(root) {
   wrap.appendChild(stats);
   const ctaRow = el('div','cta-row');
   const cta1 = el('button','cta','🎯 Master the objectives'); cta1.onclick = () => location.hash = '#/cards';
+  const cta3 = el('button','cta ghost','🧠 Lab practical'); cta3.onclick = () => location.hash = '#/practical';
   const cta2 = el('button','cta ghost','🫀 Drill body systems · WIP'); cta2.onclick = () => location.hash = '#/systems';
-  ctaRow.appendChild(cta1); ctaRow.appendChild(cta2);
+  ctaRow.appendChild(cta1); ctaRow.appendChild(cta3); ctaRow.appendChild(cta2);
   wrap.appendChild(ctaRow);
 
   const grid = el('div','unit-grid');
