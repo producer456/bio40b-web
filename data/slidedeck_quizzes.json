@@ -7,56 +7,606 @@
       "unit": "nervous",
       "icon": "🧠",
       "questions": [
-        { "question": "What types of signals do cells in the nervous system use to communicate?", "choices": ["Hormonal and chemical signals", "Electrical and chemical signals", "Thermal and electrical signals", "Mechanical and chemical signals", "Magnetic and electrical signals"], "correctAnswer": 1, "explanation": "Neurons signal electrically (action potentials along the membrane) and chemically (neurotransmitters at synapses)." },
-        { "question": "Which two structures make up the central nervous system (CNS)?", "choices": ["Cranial nerves and spinal nerves", "Brain and spinal cord", "Brain and cranial nerves", "Spinal cord and ganglia", "Ganglia and spinal nerves"], "correctAnswer": 1, "explanation": "The CNS is the integrating/control center: the brain and spinal cord. Nerves and ganglia belong to the PNS." },
-        { "question": "What is the primary composition of the peripheral nervous system (PNS)?", "choices": ["The brain and spinal cord", "Only the sensory receptors in the skin", "Nerves that extend from the brain and spinal cord", "The integrative and control centers", "The sympathetic and parasympathetic divisions exclusively"], "correctAnswer": 2, "explanation": "The PNS is everything outside the CNS — the nerves (and ganglia) that link the CNS to the rest of the body." },
-        { "question": "Somatic sensory fibers convey impulses to the central nervous system from which structures?", "choices": ["Smooth muscle, cardiac muscle, and glands", "The brain and spinal cord", "Skin, skeletal muscles, and joints", "Visceral organs", "The autonomic nervous system"], "correctAnswer": 2, "explanation": "\"Somatic\" = body wall. Somatic sensory fibers carry input from skin, skeletal muscles, and joints." },
-        { "question": "Visceral sensory fibers convey impulses to the central nervous system from which structures?", "choices": ["Visceral organs", "Skin and joints", "Skeletal muscles", "The brain", "Cranial nerves"], "correctAnswer": 0, "explanation": "\"Visceral\" refers to internal organs, so visceral sensory fibers carry input from the viscera." },
-        { "question": "The motor (efferent) division of the PNS transmits impulses from the CNS to which effector organs?", "choices": ["Skin and joints", "Brain and spinal cord", "Muscles and glands", "Sensory receptors", "Visceral sensory fibers"], "correctAnswer": 2, "explanation": "Efferent = carries commands away from the CNS to effectors, which are muscles and glands." },
-        { "question": "Which nervous system division provides conscious, voluntary control of skeletal muscles?", "choices": ["Autonomic nervous system", "Sympathetic division", "Parasympathetic division", "Somatic nervous system", "Afferent division"], "correctAnswer": 3, "explanation": "The somatic nervous system gives voluntary control over skeletal muscle; the autonomic system is involuntary." },
-        { "question": "The autonomic nervous system regulates which of the following?", "choices": ["Skeletal muscles and joints", "Skin and bones", "Smooth muscle, cardiac muscle, and glands", "Conscious perception", "Brain and spinal cord integration"], "correctAnswer": 2, "explanation": "The ANS (involuntary) controls smooth muscle, cardiac muscle, and glands." },
-        { "question": "Which functional subdivision of the autonomic nervous system mobilizes body systems during activity?", "choices": ["Somatic division", "Parasympathetic division", "Sympathetic division", "Sensory division", "Afferent division"], "correctAnswer": 2, "explanation": "The sympathetic division is the \"fight-or-flight\" system that mobilizes the body during activity or stress." },
-        { "question": "Which functional subdivision of the autonomic nervous system promotes house-keeping functions during rest?", "choices": ["Sympathetic division", "Parasympathetic division", "Somatic nervous system", "Motor division", "Central nervous system"], "correctAnswer": 1, "explanation": "The parasympathetic division is \"rest-and-digest,\" conserving energy and running housekeeping functions." },
-        { "question": "What proportion of the volume of the nervous system is made up by neuroglia?", "choices": ["About one-quarter", "About one-third", "About half", "About three-quarters", "Almost the entire volume"], "correctAnswer": 2, "explanation": "Neuroglia make up roughly half the volume of the nervous system." },
-        { "question": "Which of the following is a characteristic of neuroglia?", "choices": ["They are electrically excitable", "They cannot multiply or divide", "They are the structural units of the nervous system", "They are not electrically excitable", "They conduct impulses over long distances"], "correctAnswer": 3, "explanation": "Unlike neurons, glia are not electrically excitable and do not conduct impulses; they support neurons." },
-        { "question": "Which type of neuroglia is the most abundant, versatile, and highly branched in the CNS?", "choices": ["Microglial cells", "Ependymal cells", "Oligodendrocytes", "Schwann cells", "Astrocytes"], "correctAnswer": 4, "explanation": "Astrocytes are the most abundant, versatile, and highly branched glia in the CNS." },
-        { "question": "Controlling the chemical environment around neurons is a primary function of which CNS glial cell?", "choices": ["Astrocytes", "Microglial cells", "Ependymal cells", "Oligodendrocytes", "Satellite cells"], "correctAnswer": 0, "explanation": "Astrocytes buffer the chemical environment (e.g., ions, neurotransmitters) around neurons." },
-        { "question": "Which CNS glial cells are small, ovoid cells with thorny processes that monitor neurons and migrate toward injured ones?", "choices": ["Astrocytes", "Ependymal cells", "Microglial cells", "Oligodendrocytes", "Schwann cells"], "correctAnswer": 2, "explanation": "Microglia are small, thorny cells that monitor neuron health and migrate toward injury." },
-        { "question": "What defensive function can microglial cells perform in the CNS?", "choices": ["Producing myelin sheaths", "Beating cilia to circulate cerebrospinal fluid", "Transforming to phagocytize microorganisms and neuronal debris", "Controlling the chemical environment around neurons", "Wrapping around peripheral nerve fibers"], "correctAnswer": 2, "explanation": "Microglia are the CNS's immune cells — they transform to phagocytize microbes and dead neuron debris." },
-        { "question": "Which glial cells range in shape from squamous to columnar and line the central cavities of the brain and spinal cord?", "choices": ["Astrocytes", "Microglial cells", "Oligodendrocytes", "Ependymal cells", "Satellite cells"], "correctAnswer": 3, "explanation": "Ependymal cells line the ventricles and central canal, which contain cerebrospinal fluid." },
-        { "question": "What is the function of the cilia on ependymal cells?", "choices": ["To generate action potentials", "To phagocytize microorganisms", "To beat and circulate cerebrospinal fluid (CSF)", "To form insulating myelin sheaths", "To exchange nutrients between capillaries and neurons"], "correctAnswer": 2, "explanation": "The beating cilia of ependymal cells help circulate cerebrospinal fluid through the CNS cavities." },
-        { "question": "Which CNS glial cells have branched processes that wrap around nerve fibers to form insulating myelin sheaths?", "choices": ["Astrocytes", "Microglial cells", "Ependymal cells", "Schwann cells", "Oligodendrocytes"], "correctAnswer": 4, "explanation": "Oligodendrocytes myelinate axons in the CNS. (Schwann cells do this in the PNS.)" },
-        { "question": "Which PNS glial cells surround neuron cell bodies and function similarly to astrocytes in the CNS?", "choices": ["Schwann cells", "Satellite cells", "Microglial cells", "Oligodendrocytes", "Ependymal cells"], "correctAnswer": 1, "explanation": "Satellite cells surround PNS cell bodies (in ganglia) and, like astrocytes, help control the environment." },
-        { "question": "Which PNS glial cells surround all peripheral nerve fibers and form myelin sheaths in thicker nerve fibers?", "choices": ["Astrocytes", "Microglial cells", "Ependymal cells", "Schwann cells", "Satellite cells"], "correctAnswer": 3, "explanation": "Schwann cells wrap all PNS axons and myelinate the thicker ones — the PNS equivalent of oligodendrocytes." },
-        { "question": "Which of the following is a special characteristic of neurons?", "choices": ["They frequently divide and multiply", "They have a very short lifespan", "They have extreme longevity, lasting a person's lifetime", "They have a low metabolic rate", "They do not require a continuous supply of oxygen"], "correctAnswer": 2, "explanation": "Neurons have extreme longevity — they can function for a person's entire lifetime." },
-        { "question": "With few exceptions, what does it mean that neurons are amitotic?", "choices": ["They do not conduct impulses", "They do not divide", "They do not consume oxygen", "They cannot synthesize proteins", "They lack a cell membrane"], "correctAnswer": 1, "explanation": "Amitotic means they lose the ability to divide — most neurons cannot be replaced if lost." },
-        { "question": "Because neurons have a high metabolic rate, they require a continuous supply of which two substances?", "choices": ["Calcium and potassium", "Oxygen and glucose", "Sodium and chloride", "Water and carbon dioxide", "Amino acids and lipids"], "correctAnswer": 1, "explanation": "Neurons need a constant supply of oxygen and glucose; even brief interruptions can kill them." },
-        { "question": "What is the biosynthetic center of a neuron that synthesizes proteins, membranes, and chemicals?", "choices": ["The axon", "The dendrite", "The myelin sheath", "The neuron cell body", "The node of Ranvier"], "correctAnswer": 3, "explanation": "The cell body (soma) is the biosynthetic center, making proteins, membranes, and chemicals." },
-        { "question": "What term describes clusters of neuron cell bodies located in the central nervous system (CNS)?", "choices": ["Ganglia", "Nerves", "Nuclei", "Tracts", "Glia"], "correctAnswer": 2, "explanation": "In the CNS, clusters of cell bodies are nuclei. (In the PNS they are ganglia.)" },
-        { "question": "What term describes clusters of neuron cell bodies located in the peripheral nervous system (PNS)?", "choices": ["Nuclei", "Tracts", "Ganglia", "Nerves", "Somata"], "correctAnswer": 2, "explanation": "In the PNS, clusters of cell bodies are called ganglia. (In the CNS they are nuclei.)" },
-        { "question": "Bundles of neuron processes (fibers) within the central nervous system are called:", "choices": ["Ganglia", "Nuclei", "Nerves", "Tracts", "Plexuses"], "correctAnswer": 3, "explanation": "Bundles of fibers in the CNS are tracts. (In the PNS they are nerves.)" },
-        { "question": "Bundles of neuron processes (fibers) within the peripheral nervous system are called:", "choices": ["Tracts", "Nuclei", "Nerves", "Ganglia", "Synapses"], "correctAnswer": 2, "explanation": "Bundles of fibers in the PNS are nerves. (In the CNS they are tracts.)" },
-        { "question": "Which short, diffusely branched neuron processes act as the receptive (input) region of the cell?", "choices": ["Axons", "Dendrites", "Axon terminals", "Axon hillocks", "Myelin sheaths"], "correctAnswer": 1, "explanation": "Dendrites are the short, branched input (receptive) region that receives signals." },
-        { "question": "Dendrites convey incoming messages toward the cell body in the form of short distance signals known as:", "choices": ["Action potentials", "Nerve impulses", "Graded potentials", "Synaptic potentials", "Neurotransmitters"], "correctAnswer": 2, "explanation": "Dendrites carry short-distance graded potentials toward the cell body (axons carry action potentials)." },
-        { "question": "The single axon of a neuron typically starts at a cone-shaped area called the:", "choices": ["Axon collateral", "Axon terminal", "Axon hillock", "Synaptic cleft", "Node of Ranvier"], "correctAnswer": 2, "explanation": "The axon arises from the cone-shaped axon hillock on the cell body." },
-        { "question": "Very long axons within the nervous system are specifically referred to as:", "choices": ["Dendrites", "Nerve fibers", "Ganglia", "Tracts", "Glial cells"], "correctAnswer": 1, "explanation": "Long axons are called nerve fibers." },
-        { "question": "Occasional branches along the length of an axon are called:", "choices": ["Axon terminals", "Dendritic spines", "Axon hillocks", "Axon collaterals", "Terminal branches"], "correctAnswer": 3, "explanation": "Branches given off along the length of an axon are axon collaterals." },
-        { "question": "The distal endings of an axon, which number as many as 10,000 terminal branches, are called:", "choices": ["Axon collaterals", "Axon hillocks", "Axon terminals", "Dendrites", "Soma"], "correctAnswer": 2, "explanation": "The distal endings are axon terminals (the secretory region), sometimes 10,000 branches." },
-        { "question": "The axon terminal is the secretory region that releases what substances into the extracellular space?", "choices": ["Cerebrospinal fluid", "Hormones", "Neurotransmitters", "Myelin", "Glucose"], "correctAnswer": 2, "explanation": "Axon terminals release neurotransmitters into the synaptic (extracellular) space." },
-        { "question": "What type of axonal transport moves molecules and organelles away from the cell body?", "choices": ["Retrograde", "Anterograde", "Synaptic", "Amitotic", "Afferent"], "correctAnswer": 1, "explanation": "Anterograde transport moves cargo away from the cell body toward the axon terminal." },
-        { "question": "What type of axonal transport moves molecules and organelles toward the cell body?", "choices": ["Anterograde", "Efferent", "Exocytotic", "Retrograde", "Secretory"], "correctAnswer": 3, "explanation": "Retrograde transport moves cargo back toward the cell body." },
-        { "question": "Certain viruses and bacterial toxins, such as polio, rabies, and tetanus toxin, damage neural tissues by utilizing which mechanism?", "choices": ["Anterograde axonal transport", "Demyelination", "Retrograde axonal transport", "Phagocytosis", "Axon collateral degradation"], "correctAnswer": 2, "explanation": "Polio, rabies, and tetanus toxin hijack retrograde transport to travel back to the cell body." },
-        { "question": "What is a primary function of the myelin sheath composed of a protein-lipid substance?", "choices": ["To generate graded potentials", "To protect and electrically insulate the axon", "To synthesize proteins and chemicals", "To secrete neurotransmitters", "To phagocytize neuronal debris"], "correctAnswer": 1, "explanation": "The myelin sheath protects and electrically insulates the axon." },
-        { "question": "How does the presence of a myelin sheath affect nerve impulse transmission?", "choices": ["It decreases the speed of transmission", "It reverses the direction of transmission", "It increases the speed of nerve impulse transmission", "It randomly stops nerve impulse transmission", "It has no effect on transmission speed"], "correctAnswer": 2, "explanation": "Myelin speeds transmission by allowing the impulse to jump between nodes (saltatory conduction)." },
-        { "question": "The gaps between adjacent Schwann cells, where axon collaterals can emerge, were formerly called:", "choices": ["Synaptic clefts", "Axon hillocks", "Nodes of Ranvier", "Terminal branches", "Dendritic gaps"], "correctAnswer": 2, "explanation": "The myelin gaps between Schwann cells are the nodes of Ranvier (myelin sheath gaps)." },
-        { "question": "How many axons can a single oligodendrocyte wrap its processes around at once in the CNS?", "choices": ["1", "Up to 10", "Up to 60", "Up to 100", "Up to 1,000"], "correctAnswer": 2, "explanation": "One oligodendrocyte can myelinate up to about 60 axons at once — unlike a Schwann cell, which myelinates just one." },
-        { "question": "Regions of the brain and spinal cord with dense collections of myelinated fibers are referred to as:", "choices": ["Gray matter", "Ganglia", "White matter", "Nuclei", "The autonomic system"], "correctAnswer": 2, "explanation": "Myelin is whitish, so densely myelinated fiber regions are white matter." },
-        { "question": "Gray matter in the nervous system is mostly composed of:", "choices": ["Dense collections of myelinated fibers", "Cerebrospinal fluid", "Neuron cell bodies and nonmyelinated fibers", "Schwann cells and satellite cells", "Ependymal cell cilia"], "correctAnswer": 2, "explanation": "Gray matter is mostly neuron cell bodies and unmyelinated fibers." },
-        { "question": "Which structural classification describes a neuron with three or more processes (one axon and multiple dendrites)?", "choices": ["Bipolar", "Unipolar", "Pseudounipolar", "Multipolar", "Anaxonic"], "correctAnswer": 3, "explanation": "Multipolar neurons have one axon and many dendrites (three or more processes total)." },
-        { "question": "What is the most common and major neuron type in the central nervous system?", "choices": ["Unipolar", "Bipolar", "Pseudounipolar", "Multipolar", "Sensory"], "correctAnswer": 3, "explanation": "Multipolar neurons are the most common type in the CNS." },
-        { "question": "Bipolar neurons, which possess exactly two processes, are rare but can be found in which specific locations?", "choices": ["Skin and joints", "Retina and olfactory mucosa", "Spinal cord and brain stem", "Skeletal muscles and bones", "Heart and visceral organs"], "correctAnswer": 1, "explanation": "Rare bipolar neurons are found in special sense organs — the retina and olfactory mucosa." },
-        { "question": "Which neurons are grouped functionally as carrying sensory information from receptors to the CNS?", "choices": ["Sensory (afferent) neurons", "Motor (efferent) neurons", "Interneurons", "Association neurons", "Multipolar neurons"], "correctAnswer": 0, "explanation": "Sensory (afferent) neurons carry input from receptors toward the CNS. (Afferent = toward.)" },
-        { "question": "Which neurons connect sensory and motor neurons, and are located entirely within the CNS?", "choices": ["Sensory neurons", "Motor neurons", "Afferent neurons", "Efferent neurons", "Interneurons"], "correctAnswer": 4, "explanation": "Interneurons (association neurons) lie entirely within the CNS and link sensory to motor neurons." }
+        {
+          "question": "What types of signals do cells in the nervous system use to communicate?",
+          "choices": [
+            "Hormonal and chemical signals",
+            "Electrical and chemical signals",
+            "Thermal and electrical signals",
+            "Mechanical and chemical signals",
+            "Magnetic and electrical signals"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Neurons signal electrically (action potentials along the membrane) and chemically (neurotransmitters at synapses)."
+        },
+        {
+          "question": "Which two structures make up the central nervous system (CNS)?",
+          "choices": [
+            "Cranial nerves and spinal nerves",
+            "Brain and spinal cord",
+            "Brain and cranial nerves",
+            "Spinal cord and ganglia",
+            "Ganglia and spinal nerves"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The CNS is the integrating/control center: the brain and spinal cord. Nerves and ganglia belong to the PNS."
+        },
+        {
+          "question": "What is the primary composition of the peripheral nervous system (PNS)?",
+          "choices": [
+            "The brain and spinal cord",
+            "Only the sensory receptors in the skin",
+            "Nerves that extend from the brain and spinal cord",
+            "The integrative and control centers",
+            "The sympathetic and parasympathetic divisions exclusively"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The PNS is everything outside the CNS — the nerves (and ganglia) that link the CNS to the rest of the body."
+        },
+        {
+          "question": "Somatic sensory fibers convey impulses to the central nervous system from which structures?",
+          "choices": [
+            "Smooth muscle, cardiac muscle, and glands",
+            "The brain and spinal cord",
+            "Skin, skeletal muscles, and joints",
+            "Visceral organs",
+            "The autonomic nervous system"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Somatic\" = body wall. Somatic sensory fibers carry input from skin, skeletal muscles, and joints."
+        },
+        {
+          "question": "Visceral sensory fibers convey impulses to the central nervous system from which structures?",
+          "choices": [
+            "Visceral organs",
+            "Skin and joints",
+            "Skeletal muscles",
+            "The brain",
+            "Cranial nerves"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Visceral\" refers to internal organs, so visceral sensory fibers carry input from the viscera."
+        },
+        {
+          "question": "The motor (efferent) division of the PNS transmits impulses from the CNS to which effector organs?",
+          "choices": [
+            "Skin and joints",
+            "Brain and spinal cord",
+            "Muscles and glands",
+            "Sensory receptors",
+            "Visceral sensory fibers"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Efferent = carries commands away from the CNS to effectors, which are muscles and glands."
+        },
+        {
+          "question": "Which nervous system division provides conscious, voluntary control of skeletal muscles?",
+          "choices": [
+            "Autonomic nervous system",
+            "Sympathetic division",
+            "Parasympathetic division",
+            "Somatic nervous system",
+            "Afferent division"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The somatic nervous system gives voluntary control over skeletal muscle; the autonomic system is involuntary."
+        },
+        {
+          "question": "The autonomic nervous system regulates which of the following?",
+          "choices": [
+            "Skeletal muscles and joints",
+            "Skin and bones",
+            "Smooth muscle, cardiac muscle, and glands",
+            "Conscious perception",
+            "Brain and spinal cord integration"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The ANS (involuntary) controls smooth muscle, cardiac muscle, and glands."
+        },
+        {
+          "question": "Which functional subdivision of the autonomic nervous system mobilizes body systems during activity?",
+          "choices": [
+            "Somatic division",
+            "Parasympathetic division",
+            "Sympathetic division",
+            "Sensory division",
+            "Afferent division"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The sympathetic division is the \"fight-or-flight\" system that mobilizes the body during activity or stress."
+        },
+        {
+          "question": "Which functional subdivision of the autonomic nervous system promotes house-keeping functions during rest?",
+          "choices": [
+            "Sympathetic division",
+            "Parasympathetic division",
+            "Somatic nervous system",
+            "Motor division",
+            "Central nervous system"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The parasympathetic division is \"rest-and-digest,\" conserving energy and running housekeeping functions."
+        },
+        {
+          "question": "What proportion of the volume of the nervous system is made up by neuroglia?",
+          "choices": [
+            "About one-quarter",
+            "About one-third",
+            "About half",
+            "About three-quarters",
+            "Almost the entire volume"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Neuroglia make up roughly half the volume of the nervous system."
+        },
+        {
+          "question": "Which of the following is a characteristic of neuroglia?",
+          "choices": [
+            "They are electrically excitable",
+            "They cannot multiply or divide",
+            "They are the structural units of the nervous system",
+            "They are not electrically excitable",
+            "They conduct impulses over long distances"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Unlike neurons, glia are not electrically excitable and do not conduct impulses; they support neurons."
+        },
+        {
+          "question": "Which type of neuroglia is the most abundant, versatile, and highly branched in the CNS?",
+          "choices": [
+            "Microglial cells",
+            "Ependymal cells",
+            "Oligodendrocytes",
+            "Schwann cells",
+            "Astrocytes"
+          ],
+          "correctAnswer": 4,
+          "explanation": "Astrocytes are the most abundant, versatile, and highly branched glia in the CNS."
+        },
+        {
+          "question": "Controlling the chemical environment around neurons is a primary function of which CNS glial cell?",
+          "choices": [
+            "Astrocytes",
+            "Microglial cells",
+            "Ependymal cells",
+            "Oligodendrocytes",
+            "Satellite cells"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Astrocytes buffer the chemical environment (e.g., ions, neurotransmitters) around neurons."
+        },
+        {
+          "question": "Which CNS glial cells are small, ovoid cells with thorny processes that monitor neurons and migrate toward injured ones?",
+          "choices": [
+            "Astrocytes",
+            "Ependymal cells",
+            "Microglial cells",
+            "Oligodendrocytes",
+            "Schwann cells"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Microglia are small, thorny cells that monitor neuron health and migrate toward injury."
+        },
+        {
+          "question": "What defensive function can microglial cells perform in the CNS?",
+          "choices": [
+            "Producing myelin sheaths",
+            "Beating cilia to circulate cerebrospinal fluid",
+            "Transforming to phagocytize microorganisms and neuronal debris",
+            "Controlling the chemical environment around neurons",
+            "Wrapping around peripheral nerve fibers"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Microglia are the CNS's immune cells — they transform to phagocytize microbes and dead neuron debris."
+        },
+        {
+          "question": "Which glial cells range in shape from squamous to columnar and line the central cavities of the brain and spinal cord?",
+          "choices": [
+            "Astrocytes",
+            "Microglial cells",
+            "Oligodendrocytes",
+            "Ependymal cells",
+            "Satellite cells"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Ependymal cells line the ventricles and central canal, which contain cerebrospinal fluid."
+        },
+        {
+          "question": "What is the function of the cilia on ependymal cells?",
+          "choices": [
+            "To generate action potentials",
+            "To phagocytize microorganisms",
+            "To beat and circulate cerebrospinal fluid (CSF)",
+            "To form insulating myelin sheaths",
+            "To exchange nutrients between capillaries and neurons"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The beating cilia of ependymal cells help circulate cerebrospinal fluid through the CNS cavities."
+        },
+        {
+          "question": "Which CNS glial cells have branched processes that wrap around nerve fibers to form insulating myelin sheaths?",
+          "choices": [
+            "Astrocytes",
+            "Microglial cells",
+            "Ependymal cells",
+            "Schwann cells",
+            "Oligodendrocytes"
+          ],
+          "correctAnswer": 4,
+          "explanation": "Oligodendrocytes myelinate axons in the CNS. (Schwann cells do this in the PNS.)"
+        },
+        {
+          "question": "Which PNS glial cells surround neuron cell bodies and function similarly to astrocytes in the CNS?",
+          "choices": [
+            "Schwann cells",
+            "Satellite cells",
+            "Microglial cells",
+            "Oligodendrocytes",
+            "Ependymal cells"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Satellite cells surround PNS cell bodies (in ganglia) and, like astrocytes, help control the environment."
+        },
+        {
+          "question": "Which PNS glial cells surround all peripheral nerve fibers and form myelin sheaths in thicker nerve fibers?",
+          "choices": [
+            "Astrocytes",
+            "Microglial cells",
+            "Ependymal cells",
+            "Schwann cells",
+            "Satellite cells"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Schwann cells wrap all PNS axons and myelinate the thicker ones — the PNS equivalent of oligodendrocytes."
+        },
+        {
+          "question": "Which of the following is a special characteristic of neurons?",
+          "choices": [
+            "They frequently divide and multiply",
+            "They have a very short lifespan",
+            "They have extreme longevity, lasting a person's lifetime",
+            "They have a low metabolic rate",
+            "They do not require a continuous supply of oxygen"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Neurons have extreme longevity — they can function for a person's entire lifetime."
+        },
+        {
+          "question": "With few exceptions, what does it mean that neurons are amitotic?",
+          "choices": [
+            "They do not conduct impulses",
+            "They do not divide",
+            "They do not consume oxygen",
+            "They cannot synthesize proteins",
+            "They lack a cell membrane"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Amitotic means they lose the ability to divide — most neurons cannot be replaced if lost."
+        },
+        {
+          "question": "Because neurons have a high metabolic rate, they require a continuous supply of which two substances?",
+          "choices": [
+            "Calcium and potassium",
+            "Oxygen and glucose",
+            "Sodium and chloride",
+            "Water and carbon dioxide",
+            "Amino acids and lipids"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Neurons need a constant supply of oxygen and glucose; even brief interruptions can kill them."
+        },
+        {
+          "question": "What is the biosynthetic center of a neuron that synthesizes proteins, membranes, and chemicals?",
+          "choices": [
+            "The axon",
+            "The dendrite",
+            "The myelin sheath",
+            "The neuron cell body",
+            "The node of Ranvier"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The cell body (soma) is the biosynthetic center, making proteins, membranes, and chemicals."
+        },
+        {
+          "question": "What term describes clusters of neuron cell bodies located in the central nervous system (CNS)?",
+          "choices": [
+            "Ganglia",
+            "Nerves",
+            "Nuclei",
+            "Tracts",
+            "Glia"
+          ],
+          "correctAnswer": 2,
+          "explanation": "In the CNS, clusters of cell bodies are nuclei. (In the PNS they are ganglia.)"
+        },
+        {
+          "question": "What term describes clusters of neuron cell bodies located in the peripheral nervous system (PNS)?",
+          "choices": [
+            "Nuclei",
+            "Tracts",
+            "Ganglia",
+            "Nerves",
+            "Somata"
+          ],
+          "correctAnswer": 2,
+          "explanation": "In the PNS, clusters of cell bodies are called ganglia. (In the CNS they are nuclei.)"
+        },
+        {
+          "question": "Bundles of neuron processes (fibers) within the central nervous system are called:",
+          "choices": [
+            "Ganglia",
+            "Nuclei",
+            "Nerves",
+            "Tracts",
+            "Plexuses"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bundles of fibers in the CNS are tracts. (In the PNS they are nerves.)"
+        },
+        {
+          "question": "Bundles of neuron processes (fibers) within the peripheral nervous system are called:",
+          "choices": [
+            "Tracts",
+            "Nuclei",
+            "Nerves",
+            "Ganglia",
+            "Synapses"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Bundles of fibers in the PNS are nerves. (In the CNS they are tracts.)"
+        },
+        {
+          "question": "Which short, diffusely branched neuron processes act as the receptive (input) region of the cell?",
+          "choices": [
+            "Axons",
+            "Dendrites",
+            "Axon terminals",
+            "Axon hillocks",
+            "Myelin sheaths"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Dendrites are the short, branched input (receptive) region that receives signals."
+        },
+        {
+          "question": "Dendrites convey incoming messages toward the cell body in the form of short distance signals known as:",
+          "choices": [
+            "Action potentials",
+            "Nerve impulses",
+            "Graded potentials",
+            "Synaptic potentials",
+            "Neurotransmitters"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Dendrites carry short-distance graded potentials toward the cell body (axons carry action potentials)."
+        },
+        {
+          "question": "The single axon of a neuron typically starts at a cone-shaped area called the:",
+          "choices": [
+            "Axon collateral",
+            "Axon terminal",
+            "Axon hillock",
+            "Synaptic cleft",
+            "Node of Ranvier"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The axon arises from the cone-shaped axon hillock on the cell body."
+        },
+        {
+          "question": "Very long axons within the nervous system are specifically referred to as:",
+          "choices": [
+            "Dendrites",
+            "Nerve fibers",
+            "Ganglia",
+            "Tracts",
+            "Glial cells"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Long axons are called nerve fibers."
+        },
+        {
+          "question": "Occasional branches along the length of an axon are called:",
+          "choices": [
+            "Axon terminals",
+            "Dendritic spines",
+            "Axon hillocks",
+            "Axon collaterals",
+            "Terminal branches"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Branches given off along the length of an axon are axon collaterals."
+        },
+        {
+          "question": "The distal endings of an axon, which number as many as 10,000 terminal branches, are called:",
+          "choices": [
+            "Axon collaterals",
+            "Axon hillocks",
+            "Axon terminals",
+            "Dendrites",
+            "Soma"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The distal endings are axon terminals (the secretory region), sometimes 10,000 branches."
+        },
+        {
+          "question": "The axon terminal is the secretory region that releases what substances into the extracellular space?",
+          "choices": [
+            "Cerebrospinal fluid",
+            "Hormones",
+            "Neurotransmitters",
+            "Myelin",
+            "Glucose"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Axon terminals release neurotransmitters into the synaptic (extracellular) space."
+        },
+        {
+          "question": "What type of axonal transport moves molecules and organelles away from the cell body?",
+          "choices": [
+            "Retrograde",
+            "Anterograde",
+            "Synaptic",
+            "Amitotic",
+            "Afferent"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Anterograde transport moves cargo away from the cell body toward the axon terminal."
+        },
+        {
+          "question": "What type of axonal transport moves molecules and organelles toward the cell body?",
+          "choices": [
+            "Anterograde",
+            "Efferent",
+            "Exocytotic",
+            "Retrograde",
+            "Secretory"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Retrograde transport moves cargo back toward the cell body."
+        },
+        {
+          "question": "Certain viruses and bacterial toxins, such as polio, rabies, and tetanus toxin, damage neural tissues by utilizing which mechanism?",
+          "choices": [
+            "Anterograde axonal transport",
+            "Demyelination",
+            "Retrograde axonal transport",
+            "Phagocytosis",
+            "Axon collateral degradation"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Polio, rabies, and tetanus toxin hijack retrograde transport to travel back to the cell body."
+        },
+        {
+          "question": "What is a primary function of the myelin sheath composed of a protein-lipid substance?",
+          "choices": [
+            "To generate graded potentials",
+            "To protect and electrically insulate the axon",
+            "To synthesize proteins and chemicals",
+            "To secrete neurotransmitters",
+            "To phagocytize neuronal debris"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The myelin sheath protects and electrically insulates the axon."
+        },
+        {
+          "question": "How does the presence of a myelin sheath affect nerve impulse transmission?",
+          "choices": [
+            "It decreases the speed of transmission",
+            "It reverses the direction of transmission",
+            "It increases the speed of nerve impulse transmission",
+            "It randomly stops nerve impulse transmission",
+            "It has no effect on transmission speed"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Myelin speeds transmission by allowing the impulse to jump between nodes (saltatory conduction)."
+        },
+        {
+          "question": "The gaps between adjacent Schwann cells, where axon collaterals can emerge, were formerly called:",
+          "choices": [
+            "Synaptic clefts",
+            "Axon hillocks",
+            "Nodes of Ranvier",
+            "Terminal branches",
+            "Dendritic gaps"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The myelin gaps between Schwann cells are the nodes of Ranvier (myelin sheath gaps)."
+        },
+        {
+          "question": "How many axons can a single oligodendrocyte wrap its processes around at once in the CNS?",
+          "choices": [
+            "1",
+            "Up to 10",
+            "Up to 60",
+            "Up to 100",
+            "Up to 1,000"
+          ],
+          "correctAnswer": 2,
+          "explanation": "One oligodendrocyte can myelinate up to about 60 axons at once — unlike a Schwann cell, which myelinates just one."
+        },
+        {
+          "question": "Regions of the brain and spinal cord with dense collections of myelinated fibers are referred to as:",
+          "choices": [
+            "Gray matter",
+            "Ganglia",
+            "White matter",
+            "Nuclei",
+            "The autonomic system"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Myelin is whitish, so densely myelinated fiber regions are white matter."
+        },
+        {
+          "question": "Gray matter in the nervous system is mostly composed of:",
+          "choices": [
+            "Dense collections of myelinated fibers",
+            "Cerebrospinal fluid",
+            "Neuron cell bodies and nonmyelinated fibers",
+            "Schwann cells and satellite cells",
+            "Ependymal cell cilia"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Gray matter is mostly neuron cell bodies and unmyelinated fibers."
+        },
+        {
+          "question": "Which structural classification describes a neuron with three or more processes (one axon and multiple dendrites)?",
+          "choices": [
+            "Bipolar",
+            "Unipolar",
+            "Pseudounipolar",
+            "Multipolar",
+            "Anaxonic"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Multipolar neurons have one axon and many dendrites (three or more processes total)."
+        },
+        {
+          "question": "What is the most common and major neuron type in the central nervous system?",
+          "choices": [
+            "Unipolar",
+            "Bipolar",
+            "Pseudounipolar",
+            "Multipolar",
+            "Sensory"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Multipolar neurons are the most common type in the CNS."
+        },
+        {
+          "question": "Bipolar neurons, which possess exactly two processes, are rare but can be found in which specific locations?",
+          "choices": [
+            "Skin and joints",
+            "Retina and olfactory mucosa",
+            "Spinal cord and brain stem",
+            "Skeletal muscles and bones",
+            "Heart and visceral organs"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Rare bipolar neurons are found in special sense organs — the retina and olfactory mucosa."
+        },
+        {
+          "question": "Which neurons are grouped functionally as carrying sensory information from receptors to the CNS?",
+          "choices": [
+            "Sensory (afferent) neurons",
+            "Motor (efferent) neurons",
+            "Interneurons",
+            "Association neurons",
+            "Multipolar neurons"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Sensory (afferent) neurons carry input from receptors toward the CNS. (Afferent = toward.)"
+        },
+        {
+          "question": "Which neurons connect sensory and motor neurons, and are located entirely within the CNS?",
+          "choices": [
+            "Sensory neurons",
+            "Motor neurons",
+            "Afferent neurons",
+            "Efferent neurons",
+            "Interneurons"
+          ],
+          "correctAnswer": 4,
+          "explanation": "Interneurons (association neurons) lie entirely within the CNS and link sensory to motor neurons."
+        }
       ]
     },
     {
@@ -66,56 +616,1344 @@
       "unit": "nervous",
       "icon": "🧠",
       "questions": [
-        { "question": "What is the approximate mass of an average human brain?", "choices": ["500 g (about 1 lb)", "800 g (about 1.5 lbs)", "1300 g (almost 3 lbs)", "2000 g (about 4.5 lbs)", "2500 g (about 5.5 lbs)"], "correctAnswer": 2, "explanation": "The average adult brain weighs about 1300 g — almost 3 pounds." },
-        { "question": "Approximately how many neurons are found in the human brain?", "choices": ["1 million", "85 million", "1 billion", "85 billion", "10 to 50 trillion"], "correctAnswer": 3, "explanation": "The brain contains roughly 85 billion neurons." },
-        { "question": "Which of the following is NOT one of the four main regions of the adult human brain?", "choices": ["Cerebral hemispheres", "Diencephalon", "Brain stem", "Spinal cord", "Cerebellum"], "correctAnswer": 3, "explanation": "The four regions are the cerebral hemispheres, diencephalon, brain stem, and cerebellum. The spinal cord is part of the CNS but not a region of the brain." },
-        { "question": "Which three structures make up the brain stem?", "choices": ["Thalamus, hypothalamus, and epithalamus", "Cerebrum, diencephalon, and cerebellum", "Midbrain, pons, and medulla", "Frontal, parietal, and temporal lobes", "Basal nuclei, cerebral cortex, and white matter"], "correctAnswer": 2, "explanation": "The brain stem consists of the midbrain, pons, and medulla oblongata." },
-        { "question": "What percentage of total brain mass is accounted for by the cerebrum?", "choices": ["25%", "40%", "50%", "83%", "95%"], "correctAnswer": 3, "explanation": "The cerebrum makes up about 83% of total brain mass." },
-        { "question": "The surface of the cerebral cortex contains folds that roll upon themselves. These folds are called:", "choices": ["Sulci", "Fissures", "Gyri", "Ventricles", "Tracts"], "correctAnswer": 2, "explanation": "The elevated ridges (folds) of cortical tissue are gyri." },
-        { "question": "Shallow grooves on the surface of the cerebrum are referred to as:", "choices": ["Gyri", "Sulci", "Fissures", "Lobes", "Hemispheres"], "correctAnswer": 1, "explanation": "Shallow grooves are sulci; the ridges between them are gyri." },
-        { "question": "Deep grooves on the surface of the cerebrum are referred to as:", "choices": ["Gyri", "Sulci", "Fissures", "Lobes", "Hemispheres"], "correctAnswer": 2, "explanation": "The deeper grooves are fissures (shallow grooves are sulci)." },
-        { "question": "Which deep groove separates the cerebrum into right and left cerebral hemispheres?", "choices": ["Central sulcus", "Lateral sulcus", "Parieto-occipital sulcus", "Transverse cerebral fissure", "Longitudinal fissure"], "correctAnswer": 4, "explanation": "The longitudinal fissure separates the two cerebral hemispheres." },
-        { "question": "Which groove separates the frontal lobe from the parietal lobe?", "choices": ["Longitudinal fissure", "Central sulcus", "Lateral sulcus", "Parieto-occipital sulcus", "Transverse cerebral fissure"], "correctAnswer": 1, "explanation": "The central sulcus divides the frontal lobe from the parietal lobe." },
-        { "question": "Which fissure separates the cerebrum from the cerebellum?", "choices": ["Longitudinal fissure", "Central sulcus", "Lateral sulcus", "Transverse cerebral fissure", "Parieto-occipital sulcus"], "correctAnswer": 3, "explanation": "The transverse cerebral fissure separates the cerebrum from the cerebellum below it." },
-        { "question": "Which of the following is NOT one of the five lobes of a cerebral hemisphere?", "choices": ["Frontal", "Parietal", "Temporal", "Sphenoid", "Occipital"], "correctAnswer": 3, "explanation": "The five lobes are frontal, parietal, temporal, occipital, and insula. 'Sphenoid' is a bone, not a lobe." },
-        { "question": "Which lobe of the cerebrum is buried under portions of the temporal, parietal, and frontal lobes?", "choices": ["Occipital", "Insula", "Medulla", "Cerebellum", "Diencephalon"], "correctAnswer": 1, "explanation": "The insula lies deep within the lateral sulcus, buried by the surrounding lobes." },
-        { "question": "The lateral sulcus primarily outlines which lobe of the cerebrum?", "choices": ["Frontal", "Parietal", "Occipital", "Temporal", "Insula"], "correctAnswer": 3, "explanation": "The lateral sulcus outlines the temporal lobe." },
-        { "question": "Each cerebral hemisphere consists of three basic regions. Which of the following is NOT one of those regions?", "choices": ["Superficial cerebral cortex of gray matter", "Internal white matter", "Basal nuclei deep within the white matter", "The cerebellar cortex", "None of the above (A, B, and C are the three regions)"], "correctAnswer": 3, "explanation": "The three regions are the cerebral cortex, internal white matter, and basal nuclei. The cerebellar cortex belongs to the cerebellum, not the cerebral hemispheres." },
-        { "question": "What is the approximate thickness of the cerebral cortex?", "choices": ["0.5–1 mm", "2–4 mm", "10–12 mm", "15–20 mm", "2–4 cm"], "correctAnswer": 1, "explanation": "The cerebral cortex is only about 2–4 mm thick." },
-        { "question": "The cerebral cortex accounts for approximately what percentage of the total mass of the brain?", "choices": ["10%", "25%", "40%", "65%", "83%"], "correctAnswer": 2, "explanation": "Despite being thin, the folded cortex accounts for about 40% of total brain mass." },
-        { "question": "Which type of functional area in the cerebral cortex is responsible for the conscious awareness of sensation?", "choices": ["Motor areas", "Sensory areas", "Association areas", "Autonomic areas", "Reflex areas"], "correctAnswer": 1, "explanation": "Sensory areas provide conscious awareness of sensation." },
-        { "question": "Which type of functional area in the cerebral cortex integrates diverse information?", "choices": ["Motor areas", "Sensory areas", "Association areas", "Visceral areas", "Brain stem areas"], "correctAnswer": 2, "explanation": "Association areas integrate diverse information to enable purposeful action." },
-        { "question": "Each cerebral hemisphere is primarily concerned with the sensory and motor functions of the opposite side of the body. This is known as being:", "choices": ["Ipsilateral", "Contralateral", "Bilateral", "Unilateral", "Symmetrical"], "correctAnswer": 1, "explanation": "Each hemisphere serves the opposite (contralateral) side of the body." },
-        { "question": "In which lobe of the cerebrum are the motor areas located?", "choices": ["Parietal lobe", "Occipital lobe", "Temporal lobe", "Frontal lobe", "Insula"], "correctAnswer": 3, "explanation": "The motor areas lie in the frontal lobe." },
-        { "question": "The primary (somatic) motor cortex is located in which specific convolution?", "choices": ["Postcentral gyrus", "Precentral gyrus", "Superior temporal gyrus", "Cingulate gyrus", "Gyri of the insula"], "correctAnswer": 1, "explanation": "The primary motor cortex occupies the precentral gyrus of the frontal lobe." },
-        { "question": "Large neurons in the primary motor cortex that allow conscious control of precise, skilled, skeletal muscle movements are called:", "choices": ["Purkinje cells", "Schwann cells", "Ependymal cells", "Pyramidal cells", "Astrocytes"], "correctAnswer": 3, "explanation": "The large pyramidal cells give rise to the pyramidal (corticospinal) tracts controlling skilled movement." },
-        { "question": "Which motor area is located anterior to the precentral gyrus and helps plan movements or acts as a staging area for skilled motor activities?", "choices": ["Primary motor cortex", "Broca's area", "Premotor cortex", "Somatosensory association area", "Primary somatosensory area"], "correctAnswer": 2, "explanation": "The premotor cortex, just anterior to the precentral gyrus, plans and stages skilled movements." },
-        { "question": "Which motor area is usually present in only one hemisphere (typically the left) and directs the muscles of speech production?", "choices": ["Primary motor cortex", "Premotor cortex", "Wernicke's area", "Broca's area", "Primary auditory cortex"], "correctAnswer": 3, "explanation": "Broca's area, usually in the left hemisphere, directs the muscles used in speech production." },
-        { "question": "Damage to areas of the primary motor cortex, such as from a stroke, typically causes what symptom?", "choices": ["Loss of long-term memory", "Functional blindness", "Paralysis of voluntary muscles on the opposite side of the body", "Paralysis of voluntary muscles on the same side of the body", "Loss of auditory perception"], "correctAnswer": 2, "explanation": "Because motor control is contralateral, damage causes paralysis on the opposite side of the body." },
-        { "question": "The primary somatosensory cortex is located in which region?", "choices": ["Precentral gyrus of the frontal lobe", "Postcentral gyri of the parietal lobe", "Superior margin of the temporal lobe", "Posterior tip of the occipital lobe", "Insula"], "correctAnswer": 1, "explanation": "The primary somatosensory cortex sits in the postcentral gyri of the parietal lobe." },
-        { "question": "The primary somatosensory cortex receives general sensory information from the skin and proprioceptors of all the following EXCEPT:", "choices": ["Skeletal muscles", "Joints", "Tendons", "Smooth muscle in the digestive tract", "Skin"], "correctAnswer": 3, "explanation": "It receives somatic (body-wall) input — skin, skeletal muscles, joints, tendons — not sensation from smooth muscle of the viscera." },
-        { "question": "Which functional area is located posterior to the primary somatosensory cortex and integrates sensory input to determine the size, texture, and relationship of parts of objects being felt?", "choices": ["Primary motor cortex", "Premotor cortex", "Somatosensory association cortex", "Primary visual cortex", "Visual association area"], "correctAnswer": 2, "explanation": "The somatosensory association cortex integrates touch input to identify objects by feel (stereognosis)." },
-        { "question": "The primary visual cortex is located in which lobe of the brain?", "choices": ["Frontal lobe", "Parietal lobe", "Temporal lobe", "Occipital lobe", "Insula"], "correctAnswer": 3, "explanation": "The primary visual cortex is in the occipital lobe." },
-        { "question": "A patient can see visual stimuli but cannot comprehend or recognize what they are looking at (e.g., they cannot recognize faces). Which area of the brain is most likely damaged?", "choices": ["Primary visual cortex", "Visual association area", "Primary auditory cortex", "Broca's area", "Primary motor cortex"], "correctAnswer": 1, "explanation": "The visual association area interprets visual stimuli; damage leaves sight intact but impairs recognition." },
-        { "question": "The primary auditory cortex is located in the superior margin of which lobe?", "choices": ["Frontal lobe", "Parietal lobe", "Temporal lobe", "Occipital lobe", "Insula"], "correctAnswer": 2, "explanation": "The primary auditory cortex lies along the superior margin of the temporal lobe." },
-        { "question": "Which sensory area is responsible for the conscious awareness of balance and the position of the head in space?", "choices": ["Primary auditory cortex", "Auditory association area", "Vestibular cortex", "Olfactory cortex", "Gustatory cortex"], "correctAnswer": 2, "explanation": "The vestibular cortex provides conscious awareness of balance and head position." },
-        { "question": "The primary olfactory cortex is involved in the conscious awareness of:", "choices": ["Taste", "Smell", "Balance", "Hearing", "Vision"], "correctAnswer": 1, "explanation": "The olfactory cortex handles the conscious awareness of smell." },
-        { "question": "The gustatory cortex is involved in the perception of taste. Where is it located?", "choices": ["Precentral gyrus", "Occipital lobe", "Insula", "Medulla oblongata", "Cerebellum"], "correctAnswer": 2, "explanation": "The gustatory (taste) cortex is located in the insula." },
-        { "question": "Conscious perception of visceral sensations, such as an upset stomach or a full bladder, is processed in the:", "choices": ["Gustatory cortex", "Vestibular cortex", "Olfactory cortex", "Visceral sensory area", "Primary somatosensory area"], "correctAnswer": 3, "explanation": "The visceral sensory area gives conscious perception of visceral sensations." },
-        { "question": "Which structure acts as a major relay station for most sensory impulses that reach the cerebral cortex from the spinal cord and brain stem?", "choices": ["Hypothalamus", "Epithalamus", "Thalamus", "Pons", "Medulla oblongata"], "correctAnswer": 2, "explanation": "The thalamus is the major relay station, editing and sorting sensory input on its way to the cortex." },
-        { "question": "The epithalamus contains the pineal gland. What is the primary function of the melatonin secreted by this gland?", "choices": ["To regulate blood pressure", "To regulate the sleep-wake cycle", "To control digestive tract motility", "To stimulate the pituitary gland", "To process auditory reflexes"], "correctAnswer": 1, "explanation": "Melatonin from the pineal gland helps regulate the sleep-wake (circadian) cycle." },
-        { "question": "Which diencephalon structure acts as the autonomic control center, regulating blood pressure, heart rate, digestive tract, and respiration rate?", "choices": ["Thalamus", "Hypothalamus", "Epithalamus", "Pons", "Midbrain"], "correctAnswer": 1, "explanation": "The hypothalamus is the main autonomic control center." },
-        { "question": "Which of the following is NOT a function of the hypothalamus?", "choices": ["Regulation of body temperature", "Regulation of hunger and water balance", "Control of the endocrine system via the pituitary gland", "Conscious perception of visual stimuli", "Control center for emotions and basic drives"], "correctAnswer": 3, "explanation": "Conscious visual perception is a cortex function; the hypothalamus handles temperature, hunger/thirst, endocrine control, and emotions." },
-        { "question": "Which region of the brain stem is located between the diencephalon and the pons?", "choices": ["Medulla oblongata", "Midbrain", "Cerebellum", "Epithalamus", "Spinal cord"], "correctAnswer": 1, "explanation": "The midbrain lies between the diencephalon above and the pons below." },
-        { "question": "Nuclei in the brain stem are associated with how many of the 12 pairs of cranial nerves?", "choices": ["2", "5", "8", "10", "12"], "correctAnswer": 3, "explanation": "Brain stem nuclei are associated with 10 of the 12 pairs of cranial nerves." },
-        { "question": "Which region of the brain stem conveys motor impulses from the cerebrum to the cerebellum and regulates auditory and visual reflexes?", "choices": ["Pons", "Medulla oblongata", "Midbrain", "Thalamus", "Hypothalamus"], "correctAnswer": 2, "explanation": "The midbrain relays cerebrum-to-cerebellum motor impulses and houses auditory/visual reflex centers (corpora quadrigemina)." },
-        { "question": "Which region of the brain stem is composed of conduction tracts, connects higher brain centers to the spinal cord, and contains pneumotaxic and apneustic areas for respiration control?", "choices": ["Midbrain", "Medulla oblongata", "Pons", "Cerebellum", "Thalamus"], "correctAnswer": 2, "explanation": "The pons contains conduction tracts and the pneumotaxic/apneustic respiratory centers." },
-        { "question": "The medulla oblongata blends into the spinal cord at which anatomical landmark?", "choices": ["Transverse fissure", "Foramen magnum", "Central sulcus", "Interventricular foramen", "Cerebral aqueduct"], "correctAnswer": 1, "explanation": "The medulla blends into the spinal cord at the foramen magnum of the skull." },
-        { "question": "Which fluid-filled cavity is contained within the medulla oblongata?", "choices": ["Lateral ventricle", "Third ventricle", "Cerebral aqueduct", "Fourth ventricle", "Subarachnoid space"], "correctAnswer": 3, "explanation": "The fourth ventricle lies within the pons and medulla." },
-        { "question": "The cardiovascular center, which adjusts the force and rate of heart contraction and blood vessel diameter, is located in the:", "choices": ["Midbrain", "Pons", "Cerebellum", "Thalamus", "Medulla oblongata"], "correctAnswer": 4, "explanation": "The cardiovascular center is in the medulla oblongata." },
-        { "question": "Which of the following autonomic functions is NOT regulated by the various centers of the medulla oblongata?", "choices": ["Vomiting", "Swallowing", "Thermoregulation (body temperature)", "Hiccupping", "Coughing and sneezing"], "correctAnswer": 2, "explanation": "The medulla controls vomiting, swallowing, hiccupping, coughing, and sneezing; thermoregulation is a hypothalamic function." },
-        { "question": "Which part of the brain processes input from the cortex, brain stem, and sensory receptors to provide precise, coordinated movements of skeletal muscles?", "choices": ["Cerebrum", "Cerebellum", "Hypothalamus", "Thalamus", "Medulla oblongata"], "correctAnswer": 1, "explanation": "The cerebellum coordinates and fine-tunes skeletal muscle movement." },
-        { "question": "The cerebellum occupies the inferior and posterior aspects of the cranial cavity and consists of two hemispheres separated by a central structure called the:", "choices": ["Corpus callosum", "Vermis", "Longitudinal fissure", "Infundibulum", "Pons"], "correctAnswer": 1, "explanation": "The vermis is the wormlike central structure connecting the two cerebellar hemispheres." }
+        {
+          "question": "What is the approximate mass of an average human brain?",
+          "choices": [
+            "500 g (about 1 lb)",
+            "800 g (about 1.5 lbs)",
+            "1300 g (almost 3 lbs)",
+            "2000 g (about 4.5 lbs)",
+            "2500 g (about 5.5 lbs)"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The average adult brain weighs about 1300 g — almost 3 pounds."
+        },
+        {
+          "question": "Approximately how many neurons are found in the human brain?",
+          "choices": [
+            "1 million",
+            "85 million",
+            "1 billion",
+            "85 billion",
+            "10 to 50 trillion"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The brain contains roughly 85 billion neurons."
+        },
+        {
+          "question": "Which of the following is NOT one of the four main regions of the adult human brain?",
+          "choices": [
+            "Cerebral hemispheres",
+            "Diencephalon",
+            "Brain stem",
+            "Spinal cord",
+            "Cerebellum"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The four regions are the cerebral hemispheres, diencephalon, brain stem, and cerebellum. The spinal cord is part of the CNS but not a region of the brain."
+        },
+        {
+          "question": "Which three structures make up the brain stem?",
+          "choices": [
+            "Thalamus, hypothalamus, and epithalamus",
+            "Cerebrum, diencephalon, and cerebellum",
+            "Midbrain, pons, and medulla",
+            "Frontal, parietal, and temporal lobes",
+            "Basal nuclei, cerebral cortex, and white matter"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The brain stem consists of the midbrain, pons, and medulla oblongata."
+        },
+        {
+          "question": "What percentage of total brain mass is accounted for by the cerebrum?",
+          "choices": [
+            "25%",
+            "40%",
+            "50%",
+            "83%",
+            "95%"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The cerebrum makes up about 83% of total brain mass."
+        },
+        {
+          "question": "The surface of the cerebral cortex contains folds that roll upon themselves. These folds are called:",
+          "choices": [
+            "Sulci",
+            "Fissures",
+            "Gyri",
+            "Ventricles",
+            "Tracts"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The elevated ridges (folds) of cortical tissue are gyri."
+        },
+        {
+          "question": "Shallow grooves on the surface of the cerebrum are referred to as:",
+          "choices": [
+            "Gyri",
+            "Sulci",
+            "Fissures",
+            "Lobes",
+            "Hemispheres"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Shallow grooves are sulci; the ridges between them are gyri."
+        },
+        {
+          "question": "Deep grooves on the surface of the cerebrum are referred to as:",
+          "choices": [
+            "Gyri",
+            "Sulci",
+            "Fissures",
+            "Lobes",
+            "Hemispheres"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The deeper grooves are fissures (shallow grooves are sulci)."
+        },
+        {
+          "question": "Which deep groove separates the cerebrum into right and left cerebral hemispheres?",
+          "choices": [
+            "Central sulcus",
+            "Lateral sulcus",
+            "Parieto-occipital sulcus",
+            "Transverse cerebral fissure",
+            "Longitudinal fissure"
+          ],
+          "correctAnswer": 4,
+          "explanation": "The longitudinal fissure separates the two cerebral hemispheres."
+        },
+        {
+          "question": "Which groove separates the frontal lobe from the parietal lobe?",
+          "choices": [
+            "Longitudinal fissure",
+            "Central sulcus",
+            "Lateral sulcus",
+            "Parieto-occipital sulcus",
+            "Transverse cerebral fissure"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The central sulcus divides the frontal lobe from the parietal lobe."
+        },
+        {
+          "question": "Which fissure separates the cerebrum from the cerebellum?",
+          "choices": [
+            "Longitudinal fissure",
+            "Central sulcus",
+            "Lateral sulcus",
+            "Transverse cerebral fissure",
+            "Parieto-occipital sulcus"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The transverse cerebral fissure separates the cerebrum from the cerebellum below it."
+        },
+        {
+          "question": "Which of the following is NOT one of the five lobes of a cerebral hemisphere?",
+          "choices": [
+            "Frontal",
+            "Parietal",
+            "Temporal",
+            "Sphenoid",
+            "Occipital"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The five lobes are frontal, parietal, temporal, occipital, and insula. 'Sphenoid' is a bone, not a lobe."
+        },
+        {
+          "question": "Which lobe of the cerebrum is buried under portions of the temporal, parietal, and frontal lobes?",
+          "choices": [
+            "Occipital",
+            "Insula",
+            "Medulla",
+            "Cerebellum",
+            "Diencephalon"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The insula lies deep within the lateral sulcus, buried by the surrounding lobes."
+        },
+        {
+          "question": "The lateral sulcus primarily outlines which lobe of the cerebrum?",
+          "choices": [
+            "Frontal",
+            "Parietal",
+            "Occipital",
+            "Temporal",
+            "Insula"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The lateral sulcus outlines the temporal lobe."
+        },
+        {
+          "question": "Each cerebral hemisphere consists of three basic regions. Which of the following is NOT one of those regions?",
+          "choices": [
+            "Superficial cerebral cortex of gray matter",
+            "Internal white matter",
+            "Basal nuclei deep within the white matter",
+            "The cerebellar cortex",
+            "None of the above (A, B, and C are the three regions)"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The three regions are the cerebral cortex, internal white matter, and basal nuclei. The cerebellar cortex belongs to the cerebellum, not the cerebral hemispheres."
+        },
+        {
+          "question": "What is the approximate thickness of the cerebral cortex?",
+          "choices": [
+            "0.5–1 mm",
+            "2–4 mm",
+            "10–12 mm",
+            "15–20 mm",
+            "2–4 cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The cerebral cortex is only about 2–4 mm thick."
+        },
+        {
+          "question": "The cerebral cortex accounts for approximately what percentage of the total mass of the brain?",
+          "choices": [
+            "10%",
+            "25%",
+            "40%",
+            "65%",
+            "83%"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Despite being thin, the folded cortex accounts for about 40% of total brain mass."
+        },
+        {
+          "question": "Which type of functional area in the cerebral cortex is responsible for the conscious awareness of sensation?",
+          "choices": [
+            "Motor areas",
+            "Sensory areas",
+            "Association areas",
+            "Autonomic areas",
+            "Reflex areas"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Sensory areas provide conscious awareness of sensation."
+        },
+        {
+          "question": "Which type of functional area in the cerebral cortex integrates diverse information?",
+          "choices": [
+            "Motor areas",
+            "Sensory areas",
+            "Association areas",
+            "Visceral areas",
+            "Brain stem areas"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Association areas integrate diverse information to enable purposeful action."
+        },
+        {
+          "question": "Each cerebral hemisphere is primarily concerned with the sensory and motor functions of the opposite side of the body. This is known as being:",
+          "choices": [
+            "Ipsilateral",
+            "Contralateral",
+            "Bilateral",
+            "Unilateral",
+            "Symmetrical"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Each hemisphere serves the opposite (contralateral) side of the body."
+        },
+        {
+          "question": "In which lobe of the cerebrum are the motor areas located?",
+          "choices": [
+            "Parietal lobe",
+            "Occipital lobe",
+            "Temporal lobe",
+            "Frontal lobe",
+            "Insula"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The motor areas lie in the frontal lobe."
+        },
+        {
+          "question": "The primary (somatic) motor cortex is located in which specific convolution?",
+          "choices": [
+            "Postcentral gyrus",
+            "Precentral gyrus",
+            "Superior temporal gyrus",
+            "Cingulate gyrus",
+            "Gyri of the insula"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The primary motor cortex occupies the precentral gyrus of the frontal lobe."
+        },
+        {
+          "question": "Large neurons in the primary motor cortex that allow conscious control of precise, skilled, skeletal muscle movements are called:",
+          "choices": [
+            "Purkinje cells",
+            "Schwann cells",
+            "Ependymal cells",
+            "Pyramidal cells",
+            "Astrocytes"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The large pyramidal cells give rise to the pyramidal (corticospinal) tracts controlling skilled movement."
+        },
+        {
+          "question": "Which motor area is located anterior to the precentral gyrus and helps plan movements or acts as a staging area for skilled motor activities?",
+          "choices": [
+            "Primary motor cortex",
+            "Broca's area",
+            "Premotor cortex",
+            "Somatosensory association area",
+            "Primary somatosensory area"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The premotor cortex, just anterior to the precentral gyrus, plans and stages skilled movements."
+        },
+        {
+          "question": "Which motor area is usually present in only one hemisphere (typically the left) and directs the muscles of speech production?",
+          "choices": [
+            "Primary motor cortex",
+            "Premotor cortex",
+            "Wernicke's area",
+            "Broca's area",
+            "Primary auditory cortex"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Broca's area, usually in the left hemisphere, directs the muscles used in speech production."
+        },
+        {
+          "question": "Damage to areas of the primary motor cortex, such as from a stroke, typically causes what symptom?",
+          "choices": [
+            "Loss of long-term memory",
+            "Functional blindness",
+            "Paralysis of voluntary muscles on the opposite side of the body",
+            "Paralysis of voluntary muscles on the same side of the body",
+            "Loss of auditory perception"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Because motor control is contralateral, damage causes paralysis on the opposite side of the body."
+        },
+        {
+          "question": "The primary somatosensory cortex is located in which region?",
+          "choices": [
+            "Precentral gyrus of the frontal lobe",
+            "Postcentral gyri of the parietal lobe",
+            "Superior margin of the temporal lobe",
+            "Posterior tip of the occipital lobe",
+            "Insula"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The primary somatosensory cortex sits in the postcentral gyri of the parietal lobe."
+        },
+        {
+          "question": "The primary somatosensory cortex receives general sensory information from the skin and proprioceptors of all the following EXCEPT:",
+          "choices": [
+            "Skeletal muscles",
+            "Joints",
+            "Tendons",
+            "Smooth muscle in the digestive tract",
+            "Skin"
+          ],
+          "correctAnswer": 3,
+          "explanation": "It receives somatic (body-wall) input — skin, skeletal muscles, joints, tendons — not sensation from smooth muscle of the viscera."
+        },
+        {
+          "question": "Which functional area is located posterior to the primary somatosensory cortex and integrates sensory input to determine the size, texture, and relationship of parts of objects being felt?",
+          "choices": [
+            "Primary motor cortex",
+            "Premotor cortex",
+            "Somatosensory association cortex",
+            "Primary visual cortex",
+            "Visual association area"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The somatosensory association cortex integrates touch input to identify objects by feel (stereognosis)."
+        },
+        {
+          "question": "The primary visual cortex is located in which lobe of the brain?",
+          "choices": [
+            "Frontal lobe",
+            "Parietal lobe",
+            "Temporal lobe",
+            "Occipital lobe",
+            "Insula"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The primary visual cortex is in the occipital lobe."
+        },
+        {
+          "question": "A patient can see visual stimuli but cannot comprehend or recognize what they are looking at (e.g., they cannot recognize faces). Which area of the brain is most likely damaged?",
+          "choices": [
+            "Primary visual cortex",
+            "Visual association area",
+            "Primary auditory cortex",
+            "Broca's area",
+            "Primary motor cortex"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The visual association area interprets visual stimuli; damage leaves sight intact but impairs recognition."
+        },
+        {
+          "question": "The primary auditory cortex is located in the superior margin of which lobe?",
+          "choices": [
+            "Frontal lobe",
+            "Parietal lobe",
+            "Temporal lobe",
+            "Occipital lobe",
+            "Insula"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The primary auditory cortex lies along the superior margin of the temporal lobe."
+        },
+        {
+          "question": "Which sensory area is responsible for the conscious awareness of balance and the position of the head in space?",
+          "choices": [
+            "Primary auditory cortex",
+            "Auditory association area",
+            "Vestibular cortex",
+            "Olfactory cortex",
+            "Gustatory cortex"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The vestibular cortex provides conscious awareness of balance and head position."
+        },
+        {
+          "question": "The primary olfactory cortex is involved in the conscious awareness of:",
+          "choices": [
+            "Taste",
+            "Smell",
+            "Balance",
+            "Hearing",
+            "Vision"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The olfactory cortex handles the conscious awareness of smell."
+        },
+        {
+          "question": "The gustatory cortex is involved in the perception of taste. Where is it located?",
+          "choices": [
+            "Precentral gyrus",
+            "Occipital lobe",
+            "Insula",
+            "Medulla oblongata",
+            "Cerebellum"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The gustatory (taste) cortex is located in the insula."
+        },
+        {
+          "question": "Conscious perception of visceral sensations, such as an upset stomach or a full bladder, is processed in the:",
+          "choices": [
+            "Gustatory cortex",
+            "Vestibular cortex",
+            "Olfactory cortex",
+            "Visceral sensory area",
+            "Primary somatosensory area"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The visceral sensory area gives conscious perception of visceral sensations."
+        },
+        {
+          "question": "Which structure acts as a major relay station for most sensory impulses that reach the cerebral cortex from the spinal cord and brain stem?",
+          "choices": [
+            "Hypothalamus",
+            "Epithalamus",
+            "Thalamus",
+            "Pons",
+            "Medulla oblongata"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The thalamus is the major relay station, editing and sorting sensory input on its way to the cortex."
+        },
+        {
+          "question": "The epithalamus contains the pineal gland. What is the primary function of the melatonin secreted by this gland?",
+          "choices": [
+            "To regulate blood pressure",
+            "To regulate the sleep-wake cycle",
+            "To control digestive tract motility",
+            "To stimulate the pituitary gland",
+            "To process auditory reflexes"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Melatonin from the pineal gland helps regulate the sleep-wake (circadian) cycle."
+        },
+        {
+          "question": "Which diencephalon structure acts as the autonomic control center, regulating blood pressure, heart rate, digestive tract, and respiration rate?",
+          "choices": [
+            "Thalamus",
+            "Hypothalamus",
+            "Epithalamus",
+            "Pons",
+            "Midbrain"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The hypothalamus is the main autonomic control center."
+        },
+        {
+          "question": "Which of the following is NOT a function of the hypothalamus?",
+          "choices": [
+            "Regulation of body temperature",
+            "Regulation of hunger and water balance",
+            "Control of the endocrine system via the pituitary gland",
+            "Conscious perception of visual stimuli",
+            "Control center for emotions and basic drives"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Conscious visual perception is a cortex function; the hypothalamus handles temperature, hunger/thirst, endocrine control, and emotions."
+        },
+        {
+          "question": "Which region of the brain stem is located between the diencephalon and the pons?",
+          "choices": [
+            "Medulla oblongata",
+            "Midbrain",
+            "Cerebellum",
+            "Epithalamus",
+            "Spinal cord"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The midbrain lies between the diencephalon above and the pons below."
+        },
+        {
+          "question": "Nuclei in the brain stem are associated with how many of the 12 pairs of cranial nerves?",
+          "choices": [
+            "2",
+            "5",
+            "8",
+            "10",
+            "12"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Brain stem nuclei are associated with 10 of the 12 pairs of cranial nerves."
+        },
+        {
+          "question": "Which region of the brain stem conveys motor impulses from the cerebrum to the cerebellum and regulates auditory and visual reflexes?",
+          "choices": [
+            "Pons",
+            "Medulla oblongata",
+            "Midbrain",
+            "Thalamus",
+            "Hypothalamus"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The midbrain relays cerebrum-to-cerebellum motor impulses and houses auditory/visual reflex centers (corpora quadrigemina)."
+        },
+        {
+          "question": "Which region of the brain stem is composed of conduction tracts, connects higher brain centers to the spinal cord, and contains pneumotaxic and apneustic areas for respiration control?",
+          "choices": [
+            "Midbrain",
+            "Medulla oblongata",
+            "Pons",
+            "Cerebellum",
+            "Thalamus"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The pons contains conduction tracts and the pneumotaxic/apneustic respiratory centers."
+        },
+        {
+          "question": "The medulla oblongata blends into the spinal cord at which anatomical landmark?",
+          "choices": [
+            "Transverse fissure",
+            "Foramen magnum",
+            "Central sulcus",
+            "Interventricular foramen",
+            "Cerebral aqueduct"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The medulla blends into the spinal cord at the foramen magnum of the skull."
+        },
+        {
+          "question": "Which fluid-filled cavity is contained within the medulla oblongata?",
+          "choices": [
+            "Lateral ventricle",
+            "Third ventricle",
+            "Cerebral aqueduct",
+            "Fourth ventricle",
+            "Subarachnoid space"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The fourth ventricle lies within the pons and medulla."
+        },
+        {
+          "question": "The cardiovascular center, which adjusts the force and rate of heart contraction and blood vessel diameter, is located in the:",
+          "choices": [
+            "Midbrain",
+            "Pons",
+            "Cerebellum",
+            "Thalamus",
+            "Medulla oblongata"
+          ],
+          "correctAnswer": 4,
+          "explanation": "The cardiovascular center is in the medulla oblongata."
+        },
+        {
+          "question": "Which of the following autonomic functions is NOT regulated by the various centers of the medulla oblongata?",
+          "choices": [
+            "Vomiting",
+            "Swallowing",
+            "Thermoregulation (body temperature)",
+            "Hiccupping",
+            "Coughing and sneezing"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The medulla controls vomiting, swallowing, hiccupping, coughing, and sneezing; thermoregulation is a hypothalamic function."
+        },
+        {
+          "question": "Which part of the brain processes input from the cortex, brain stem, and sensory receptors to provide precise, coordinated movements of skeletal muscles?",
+          "choices": [
+            "Cerebrum",
+            "Cerebellum",
+            "Hypothalamus",
+            "Thalamus",
+            "Medulla oblongata"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The cerebellum coordinates and fine-tunes skeletal muscle movement."
+        },
+        {
+          "question": "The cerebellum occupies the inferior and posterior aspects of the cranial cavity and consists of two hemispheres separated by a central structure called the:",
+          "choices": [
+            "Corpus callosum",
+            "Vermis",
+            "Longitudinal fissure",
+            "Infundibulum",
+            "Pons"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The vermis is the wormlike central structure connecting the two cerebellar hemispheres."
+        }
+      ]
+    },
+    {
+      "key": "cardiovascular1",
+      "title": "Blood & Cardiovascular System — Practice Quiz",
+      "sub": "Blood · blood vessels · the heart",
+      "unit": "cardiovascular",
+      "icon": "🫀",
+      "questions": [
+        {
+          "question": "What percentage of whole blood is composed of plasma?",
+          "choices": [
+            "1%",
+            "45%",
+            "55%",
+            "90%",
+            "100%"
+          ],
+          "correctAnswer": 2,
+          "explanation": "By volume, plasma makes up ~55% of whole blood; formed elements (mostly RBCs) make up ~45% (the hematocrit)."
+        },
+        {
+          "question": "What is the approximate lifespan of a healthy red blood cell before it is destroyed by the spleen or liver?",
+          "choices": [
+            "2 days",
+            "15 days",
+            "35 days",
+            "120 days",
+            "365 days"
+          ],
+          "correctAnswer": 3,
+          "explanation": "RBCs lack a nucleus and organelles and cannot repair themselves, so they wear out in about 120 days."
+        },
+        {
+          "question": "Each hemoglobin molecule consists of four globin polypeptides and four heme groups. How many total oxygen molecules can one single hemoglobin molecule transport?",
+          "choices": [
+            "1",
+            "2",
+            "4",
+            "8",
+            "250 million"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Each of the four heme groups binds one O2 molecule, so one hemoglobin carries up to 4 O2."
+        },
+        {
+          "question": "Which type of anemia is caused by an autoimmune disease that destroys the stomach mucosa, preventing the absorption of vitamin B12?",
+          "choices": [
+            "Iron-deficiency anemia",
+            "Pernicious anemia",
+            "Renal anemia",
+            "Aplastic anemia",
+            "Sickle-cell anemia"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Pernicious anemia results from a lack of intrinsic factor (from destroyed gastric mucosa), which is needed to absorb vitamin B12."
+        },
+        {
+          "question": "Which leukocyte is an agranulocyte that normally comprises 2-6% of white blood cells, travels into tissues, and matures into a macrophage?",
+          "choices": [
+            "Neutrophil",
+            "Eosinophil",
+            "Basophil",
+            "Lymphocyte",
+            "Monocyte"
+          ],
+          "correctAnswer": 4,
+          "explanation": "Monocytes are the largest agranulocytes; they leave the blood and differentiate into tissue macrophages."
+        },
+        {
+          "question": "During platelet plug formation, platelets stick to which exposed structural component of a damaged blood vessel?",
+          "choices": [
+            "Fibrinogen",
+            "Reticular fibers",
+            "Elastin",
+            "Collagen fibers",
+            "Smooth muscle"
+          ],
+          "correctAnswer": 3,
+          "explanation": "When the endothelium is damaged, platelets adhere to the exposed collagen fibers (via von Willebrand factor) and become activated."
+        },
+        {
+          "question": "In the coagulation cascade, which active enzyme directly converts fibrinogen into a loose fibrin meshwork?",
+          "choices": [
+            "Prothrombin",
+            "Plasmin",
+            "Thrombin",
+            "Hageman factor (Factor XII)",
+            "Tissue plasminogen activator (tPA)"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Thrombin (formed from prothrombin) cleaves soluble fibrinogen into fibrin, which polymerizes into the clot meshwork."
+        },
+        {
+          "question": "Which enzyme is responsible for breaking down the fibrin meshwork during clot dissolution (fibrinolysis)?",
+          "choices": [
+            "Plasmin",
+            "Thrombin",
+            "Factor XIII",
+            "Urokinase",
+            "Fibrinogen"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Plasmin (activated from plasminogen) digests the fibrin strands, dissolving the clot during fibrinolysis."
+        },
+        {
+          "question": "A patient with a platelet count of less than 50,000/μl exhibits spontaneous, widespread hemorrhage spots called petechiae. What is this condition called?",
+          "choices": [
+            "Hemophilia A",
+            "Polycythemia vera",
+            "Leukemia",
+            "Thrombocytopenia",
+            "Thrombus"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Thrombocytopenia is a deficient number of circulating platelets, causing spontaneous bleeding seen as petechiae."
+        },
+        {
+          "question": "A patient with Type O blood has which naturally occurring antibodies (agglutinins) present in their blood plasma?",
+          "choices": [
+            "Anti-A only",
+            "Anti-B only",
+            "Both Anti-A and Anti-B",
+            "Neither Anti-A nor Anti-B",
+            "Anti-Rh only"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Type O has neither A nor B antigens, so the plasma carries both anti-A and anti-B antibodies (making it the universal RBC donor)."
+        },
+        {
+          "question": "Which layer of a blood vessel wall is composed primarily of smooth muscle and elastic fibers, and is responsible for regulating the vessel's diameter?",
+          "choices": [
+            "Tunica interna (intima)",
+            "Tunica media",
+            "Tunica externa (adventitia)",
+            "Endothelium",
+            "Basement membrane"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The tunica media is the muscular middle layer; its smooth muscle controls vasoconstriction and vasodilation."
+        },
+        {
+          "question": "Which type of arteries are characterized by having a large diameter, acting as pressure reservoirs, and containing more elastic fibers than smooth muscle?",
+          "choices": [
+            "Muscular arteries",
+            "Distributing arteries",
+            "Elastic arteries",
+            "Arterioles",
+            "Continuous capillaries"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Elastic (conducting) arteries like the aorta stretch during systole and recoil during diastole, smoothing pressure — acting as pressure reservoirs."
+        },
+        {
+          "question": "Which type of capillary features an incomplete basement membrane and extremely large intercellular clefts, allowing for the passage of large molecules and cells?",
+          "choices": [
+            "Continuous capillaries",
+            "Fenestrated capillaries",
+            "Sinusoid capillaries",
+            "Metarterioles",
+            "Venules"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Sinusoid (sinusoidal) capillaries are leaky, with large clefts and incomplete basement membranes — found in the liver, spleen, and bone marrow."
+        },
+        {
+          "question": "Compared to arteries, veins are structurally different in that they typically possess:",
+          "choices": [
+            "A thicker tunica media",
+            "More elastic tissue",
+            "Valves to prevent backflow",
+            "A thicker tunica interna",
+            "A consistently smaller lumen"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Veins operate at low pressure, so they have valves that prevent the backflow of blood as it returns to the heart."
+        },
+        {
+          "question": "At rest, which portion of the cardiovascular system contains the largest volume of blood (64%) and functions as a \"blood reservoir\"?",
+          "choices": [
+            "The heart",
+            "Pulmonary vessels",
+            "Systemic arteries and arterioles",
+            "Systemic capillaries",
+            "Systemic veins and venules"
+          ],
+          "correctAnswer": 4,
+          "explanation": "The systemic veins and venules are highly distensible and hold about 64% of the blood, serving as capacitance/reservoir vessels."
+        },
+        {
+          "question": "Large, lipid-insoluble molecules (like insulin) most commonly cross capillary walls via which process?",
+          "choices": [
+            "Simple diffusion",
+            "Transcytosis",
+            "Bulk flow",
+            "Active transport pumps",
+            "Osmosis"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Large, water-soluble molecules are moved across the endothelium in vesicles — transcytosis (endocytosis then exocytosis)."
+        },
+        {
+          "question": "Vascular resistance is the opposition to blood flow. Which of the following factors does NOT primarily determine vascular resistance?",
+          "choices": [
+            "Size of the blood vessel lumen",
+            "Blood viscosity",
+            "Total blood vessel length",
+            "Heart rate",
+            "Friction between blood and the vessel wall"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Resistance depends on vessel diameter (lumen), blood viscosity, and vessel length. Heart rate affects cardiac output, not resistance itself."
+        },
+        {
+          "question": "Which of the following hormones causes vasodilation and results in a decrease in blood pressure?",
+          "choices": [
+            "Antidiuretic hormone (ADH)",
+            "Aldosterone",
+            "Angiotensin II",
+            "Atrial natriuretic peptide (ANP)",
+            "Norepinephrine"
+          ],
+          "correctAnswer": 3,
+          "explanation": "ANP promotes vasodilation and sodium/water loss, lowering blood volume and pressure. The others raise blood pressure."
+        },
+        {
+          "question": "The hepatic portal vein receives nutrient-rich, deoxygenated blood from the digestive organs and directly transports it to which organ?",
+          "choices": [
+            "The heart",
+            "The lungs",
+            "The liver",
+            "The spleen",
+            "The kidneys"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The hepatic portal vein carries nutrient-rich blood from the GI organs to the liver for processing before it returns to general circulation."
+        },
+        {
+          "question": "Which specific structure physically anchors the cusps of the atrioventricular (AV) valves to the papillary muscles, preventing them from everting into the atria during ventricular contraction?",
+          "choices": [
+            "Interventricular septum",
+            "Fossa ovalis",
+            "Chordae tendineae",
+            "Ligamentum arteriosum",
+            "Trabeculae carneae"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The chordae tendineae (\"heart strings\") tether the AV valve cusps to the papillary muscles, holding them shut during ventricular systole."
+        },
+        {
+          "question": "What specific microscopic feature of cardiac muscle tissue anchors adjacent cells together and allows the free passage of ions through gap junctions, resulting in coordinated contraction?",
+          "choices": [
+            "Sarcoplasmic reticulum",
+            "T-tubules",
+            "Intercalated discs",
+            "Epicardium",
+            "Desmosomes alone"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Intercalated discs contain both desmosomes (mechanical anchoring) and gap junctions (ionic coupling), so the myocardium contracts as a functional syncytium."
+        },
+        {
+          "question": "What is the normal intrinsic pacemaker of the heart that spontaneously generates action potentials at a rate of 60-100 times per minute?",
+          "choices": [
+            "Atrioventricular (AV) node",
+            "Sinoatrial (SA) node",
+            "Bundle of His",
+            "Purkinje fibers",
+            "Bundle branches"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The SA node has the fastest intrinsic rate (~60–100/min), so it sets the pace for the whole heart."
+        },
+        {
+          "question": "In the autorhythmic (pacemaker) cells of the heart, which ion influx is primarily responsible for the rapid depolarization phase of the action potential once the threshold is reached?",
+          "choices": [
+            "Sodium (Na+)",
+            "Potassium (K+)",
+            "Calcium (Ca2+)",
+            "Chloride (Cl-)",
+            "Magnesium (Mg2+)"
+          ],
+          "correctAnswer": 2,
+          "explanation": "In pacemaker cells the rapid depolarization to threshold is driven by Ca2+ influx (not Na+ as in contractile cells)."
+        },
+        {
+          "question": "During the action potential of cardiac contractile cells, an extended \"plateau phase\" occurs that prolongs the action potential and prevents tetany. This plateau is primarily caused by the influx of which ion?",
+          "choices": [
+            "Calcium (Ca2+)",
+            "Sodium (Na+)",
+            "Potassium (K+)",
+            "Chloride (Cl-)",
+            "Iron (Fe2+)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The plateau results from slow Ca2+ influx (balanced by K+ efflux), which prolongs the action potential and the refractory period so the heart cannot tetanize."
+        },
+        {
+          "question": "On a normal electrocardiogram (ECG) tracing, what electrical event does the P wave represent?",
+          "choices": [
+            "Ventricular depolarization",
+            "Ventricular repolarization",
+            "Atrial repolarization",
+            "Atrial depolarization",
+            "AV node delay"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The P wave records atrial depolarization, which immediately precedes atrial contraction."
+        },
+        {
+          "question": "Which component of an ECG tracing corresponds directly to the depolarization of the ventricles?",
+          "choices": [
+            "P wave",
+            "P-R interval",
+            "QRS complex",
+            "T wave",
+            "S-T segment"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The QRS complex represents ventricular depolarization (atrial repolarization is hidden within it)."
+        },
+        {
+          "question": "During which specific phase of the cardiac cycle do rising ventricular pressures force the atrioventricular (AV) valves closed—producing the first heart sound—while the semilunar valves remain temporarily closed?",
+          "choices": [
+            "Ventricular filling",
+            "Isovolumetric contraction phase",
+            "Ventricular ejection phase",
+            "Isovolumetric relaxation phase",
+            "Atrial systole"
+          ],
+          "correctAnswer": 1,
+          "explanation": "During isovolumetric contraction all valves are closed; the AV valves snapping shut makes the first heart sound (lubb) while pressure builds toward opening the semilunar valves."
+        },
+        {
+          "question": "The second heart sound (dupp) is produced by which specific physical event during the cardiac cycle?",
+          "choices": [
+            "The opening of the AV valves",
+            "The closing of the AV valves",
+            "The opening of the semilunar valves",
+            "The closing of the semilunar valves",
+            "The contraction of the atria"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The second sound (dupp) is caused by the closing of the semilunar (aortic and pulmonary) valves at the start of ventricular relaxation."
+        },
+        {
+          "question": "Cardiac output (CO), the volume of blood pumped by each ventricle in one minute, is calculated by multiplying which two variables?",
+          "choices": [
+            "Mean arterial pressure (MAP) and resistance (R)",
+            "Systolic blood pressure and diastolic blood pressure",
+            "Heart rate (HR) and stroke volume (SV)",
+            "Pulse pressure and heart rate (HR)",
+            "End-diastolic volume and end-systolic volume"
+          ],
+          "correctAnswer": 2,
+          "explanation": "CO = HR × SV. Stroke volume itself equals end-diastolic volume minus end-systolic volume."
+        },
+        {
+          "question": "Sympathetic nervous system stimulation of the heart results in which of the following physiological changes?",
+          "choices": [
+            "Increased heart rate and increased contractility",
+            "Decreased heart rate and decreased contractility",
+            "Increased heart rate but decreased contractility",
+            "Decreased heart rate but increased contractility",
+            "No change in heart rate or contractility"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Sympathetic stimulation releases norepinephrine, which increases both heart rate (positive chronotropy) and contractility (positive inotropy)."
+        }
+      ]
+    },
+    {
+      "key": "cardiology1",
+      "title": "Cardiology — Practice Quiz",
+      "sub": "The heart · conduction & ECG · blood vessels",
+      "unit": "cardiovascular",
+      "icon": "🫀",
+      "questions": [
+        {
+          "question": "Which specific structure physically anchors the cusps of the atrioventricular (AV) valves to the papillary muscles, preventing them from everting into the atria during ventricular contraction?",
+          "choices": [
+            "Interventricular septum",
+            "Fossa ovalis",
+            "Chordae tendineae",
+            "Ligamentum arteriosum",
+            "Trabeculae carneae"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The chordae tendineae tether the AV valve cusps to the papillary muscles, holding the valves shut during ventricular systole."
+        },
+        {
+          "question": "Which layer of the heart wall is composed primarily of contractile cardiac muscle cells and generates the force of contraction?",
+          "choices": [
+            "Epicardium",
+            "Fibrous pericardium",
+            "Endocardium",
+            "Myocardium",
+            "Parietal layer of serous pericardium"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The myocardium is the thick middle layer of cardiac muscle that actually pumps the blood."
+        },
+        {
+          "question": "What microscopic feature uniquely anchors cardiac muscle cells together and allows the free passage of ions through gap junctions, resulting in coordinated contraction?",
+          "choices": [
+            "Sarcoplasmic reticulum",
+            "T-tubules",
+            "Intercalated discs",
+            "Epicardium",
+            "Desmosomes alone"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Intercalated discs contain desmosomes (anchoring) and gap junctions (ionic coupling), so the myocardium behaves as a functional syncytium."
+        },
+        {
+          "question": "What is the normal intrinsic pacemaker of the heart that spontaneously generates action potentials at a rate of 60-100 times per minute?",
+          "choices": [
+            "Atrioventricular (AV) node",
+            "Sinoatrial (SA) node",
+            "Bundle of His",
+            "Purkinje fibers",
+            "Bundle branches"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The SA node has the fastest intrinsic rate (~60-100/min), so it sets the pace for the whole heart."
+        },
+        {
+          "question": "After an electrical impulse is delayed at the AV node, it passes directly into which structure of the intrinsic conduction system?",
+          "choices": [
+            "Sinoatrial node",
+            "Purkinje fibers",
+            "Right and left bundle branches",
+            "Atrioventricular (AV) bundle (Bundle of His)",
+            "Ectopic focus"
+          ],
+          "correctAnswer": 3,
+          "explanation": "From the AV node the impulse travels into the AV bundle (Bundle of His), the only electrical link between the atria and ventricles."
+        },
+        {
+          "question": "The Purkinje fibers are responsible for carrying the electrical impulse to which specific region of the heart?",
+          "choices": [
+            "From the SA node to the AV node",
+            "Across the atrial walls",
+            "From the heart apex to the ventricular walls",
+            "Down the interventricular septum",
+            "Through the pulmonary trunk"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Purkinje fibers spread the impulse from the apex up through the ventricular walls, producing the coordinated ventricular contraction."
+        },
+        {
+          "question": "What term describes an abnormal, overly excitable area of the heart that begins to depolarize faster than the SA node, potentially leading to a premature heartbeat?",
+          "choices": [
+            "Arrhythmia",
+            "Fibrillation",
+            "Ectopic focus",
+            "Heart block",
+            "Tachycardia"
+          ],
+          "correctAnswer": 2,
+          "explanation": "An ectopic focus is an abnormal pacemaker that fires faster than the SA node, causing a premature (extra) beat."
+        },
+        {
+          "question": "In autorhythmic (pacemaker) cells of the heart, which ion influx is primarily responsible for the rapid depolarization phase of the action potential once the threshold is reached?",
+          "choices": [
+            "Sodium (Na+)",
+            "Potassium (K+)",
+            "Calcium (Ca2+)",
+            "Chloride (Cl-)",
+            "Magnesium (Mg2+)"
+          ],
+          "correctAnswer": 2,
+          "explanation": "In pacemaker cells the rapid depolarization to threshold is driven by Ca2+ influx (not Na+ as in contractile cells)."
+        },
+        {
+          "question": "During the action potential of cardiac contractile cells, an extended \"plateau phase\" occurs that prolongs the action potential and prevents tetany. This plateau is primarily caused by the influx of which ion?",
+          "choices": [
+            "Calcium (Ca2+)",
+            "Sodium (Na+)",
+            "Potassium (K+)",
+            "Chloride (Cl-)",
+            "Iron (Fe2+)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The plateau results from slow Ca2+ influx (balanced by K+ efflux), prolonging the action potential and refractory period so the heart cannot tetanize."
+        },
+        {
+          "question": "The rapid repolarization phase of a cardiac contractile cell action potential is primarily driven by the efflux (exit) of which ion?",
+          "choices": [
+            "Calcium (Ca2+)",
+            "Sodium (Na+)",
+            "Potassium (K+)",
+            "Chloride (Cl-)",
+            "Magnesium (Mg2+)"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Repolarization occurs as Ca2+ channels close and K+ channels open, letting K+ rush out of the cell."
+        },
+        {
+          "question": "Cardiac muscle relies almost exclusively on which type of metabolism to generate ATP?",
+          "choices": [
+            "Anaerobic glycolysis",
+            "Aerobic respiration",
+            "Lactic acid fermentation",
+            "Creatine phosphate breakdown",
+            "Gluconeogenesis"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The myocardium is rich in mitochondria and depends on aerobic (oxygen-requiring) respiration; it fatigues quickly without oxygen."
+        },
+        {
+          "question": "On a normal electrocardiogram (ECG) tracing, what electrical event does the P wave represent?",
+          "choices": [
+            "Ventricular depolarization",
+            "Ventricular repolarization",
+            "Atrial repolarization",
+            "Atrial depolarization",
+            "AV node delay"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The P wave records atrial depolarization, which immediately precedes atrial contraction."
+        },
+        {
+          "question": "Which component of an ECG tracing corresponds directly to the depolarization of the ventricles?",
+          "choices": [
+            "P wave",
+            "P-R interval",
+            "QRS complex",
+            "T wave",
+            "S-T segment"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The QRS complex represents ventricular depolarization (atrial repolarization is hidden within it)."
+        },
+        {
+          "question": "What event is represented by the T wave on a normal electrocardiogram (ECG)?",
+          "choices": [
+            "Atrial depolarization",
+            "Ventricular depolarization",
+            "Ventricular repolarization",
+            "Atrial repolarization",
+            "Plateau phase of the atria"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The T wave represents ventricular repolarization, the recovery of the ventricles before the next beat."
+        },
+        {
+          "question": "An elevation or depression of the S-T segment on an ECG is most notably associated with which clinical condition?",
+          "choices": [
+            "Bradycardia",
+            "Tachycardia",
+            "Myocardial ischemia and infarction",
+            "Normal sinus rhythm",
+            "Bundle branch block"
+          ],
+          "correctAnswer": 2,
+          "explanation": "S-T segment elevation or depression signals myocardial ischemia/infarction (inadequate blood supply or a heart attack)."
+        },
+        {
+          "question": "Which measurement on an ECG represents the entire duration of a cardiac action potential and can be measured to determine a patient's heart rate?",
+          "choices": [
+            "P-R interval",
+            "Q-T interval",
+            "S-T segment",
+            "P wave",
+            "R-R interval"
+          ],
+          "correctAnswer": 4,
+          "explanation": "The R-R interval (peak of one QRS to the next) marks one full cardiac cycle and is used to calculate heart rate."
+        },
+        {
+          "question": "A resting heart rate of less than 60 beats per minute is clinically referred to as:",
+          "choices": [
+            "Tachycardia",
+            "Fibrillation",
+            "Heart block",
+            "Bradycardia",
+            "Extrasystole"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bradycardia is a resting heart rate below 60 bpm (tachycardia is above 100 bpm)."
+        },
+        {
+          "question": "The first heart sound (lubb) is produced by which specific physical event during the cardiac cycle?",
+          "choices": [
+            "The opening of the AV valves",
+            "The closing of the AV valves",
+            "The opening of the semilunar valves",
+            "The closing of the semilunar valves",
+            "The contraction of the atria"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The first sound (lubb) is caused by the closing of the AV valves at the start of ventricular contraction."
+        },
+        {
+          "question": "The second heart sound (dupp) occurs at the beginning of which phase of the cardiac cycle?",
+          "choices": [
+            "Ventricular systole",
+            "Atrial systole",
+            "Ventricular diastole",
+            "Isovolumetric contraction phase",
+            "Ventricular filling"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The second sound (dupp) — closure of the semilunar valves — marks the beginning of ventricular diastole (relaxation)."
+        },
+        {
+          "question": "During the mid-to-late diastole phase of ventricular filling, what is the correct status of the heart valves?",
+          "choices": [
+            "AV valves are closed, SL valves are closed",
+            "AV valves are open, SL valves are closed",
+            "AV valves are closed, SL valves are open",
+            "AV valves are open, SL valves are open",
+            "Only the aortic valve is open"
+          ],
+          "correctAnswer": 1,
+          "explanation": "During ventricular filling the AV valves are open (blood flows atria to ventricles) and the semilunar valves are closed."
+        },
+        {
+          "question": "During the isovolumetric contraction phase of the cardiac cycle, rising ventricular pressure occurs while the blood volume remains constant. What is the status of the valves during this specific phase?",
+          "choices": [
+            "All valves are closed",
+            "All valves are open",
+            "AV valves are open, SL valves are closed",
+            "AV valves are closed, SL valves are open",
+            "Only the mitral valve is open"
+          ],
+          "correctAnswer": 0,
+          "explanation": "During isovolumetric contraction all four valves are closed, so pressure rises while ventricular volume stays constant."
+        },
+        {
+          "question": "Cardiac output (CO), the volume of blood pumped by each ventricle in one minute, is calculated by multiplying which two variables?",
+          "choices": [
+            "Mean arterial pressure (MAP) and resistance (R)",
+            "Systolic blood pressure and diastolic blood pressure",
+            "Heart rate (HR) and stroke volume (SV)",
+            "Pulse pressure and heart rate (HR)",
+            "End-diastolic volume and end-systolic volume"
+          ],
+          "correctAnswer": 2,
+          "explanation": "CO = HR x SV. Stroke volume itself equals end-diastolic volume minus end-systolic volume."
+        },
+        {
+          "question": "Parasympathetic nervous system stimulation of the heart via the vagus nerve results in which of the following physiological changes?",
+          "choices": [
+            "Increased heart rate and increased contractility",
+            "Decreased heart rate by hyperpolarizing the membrane",
+            "Increased heart rate but decreased contractility",
+            "Decreased heart rate and increased contractility",
+            "No change in heart rate or contractility"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vagal (parasympathetic) stimulation releases acetylcholine, which hyperpolarizes SA node cells and slows the heart rate."
+        },
+        {
+          "question": "The innermost layer of a blood vessel, which is adjacent to the lumen and composed of endothelium, is called the:",
+          "choices": [
+            "Tunica media",
+            "Tunica externa",
+            "Tunica interna (intima)",
+            "Adventitia",
+            "Basement membrane"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The tunica interna (intima) lines the lumen; its endothelium provides a smooth, friction-reducing surface for blood flow."
+        },
+        {
+          "question": "Which type of arteries have a large diameter, function as pressure reservoirs, and contain more elastic fibers than smooth muscle?",
+          "choices": [
+            "Muscular arteries",
+            "Distributing arteries",
+            "Elastic arteries",
+            "Arterioles",
+            "Continuous capillaries"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Elastic (conducting) arteries like the aorta stretch during systole and recoil during diastole, acting as pressure reservoirs."
+        },
+        {
+          "question": "What term describes the union of the branches of two or more arteries supplying the same body region, which provides an alternate route for blood flow?",
+          "choices": [
+            "End artery",
+            "Anastomosis",
+            "Venule",
+            "Thoroughfare channel",
+            "Capillary bed"
+          ],
+          "correctAnswer": 1,
+          "explanation": "An anastomosis is where arteries interconnect, providing collateral (alternate) routes if one vessel is blocked."
+        },
+        {
+          "question": "Which type of capillary possesses an incomplete basement membrane and large intercellular clefts, allowing large molecules and cells to pass through?",
+          "choices": [
+            "Continuous capillaries",
+            "Fenestrated capillaries",
+            "Sinusoid capillaries",
+            "Metarterioles",
+            "Muscular venules"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Sinusoid capillaries are leaky, with large clefts and incomplete basement membranes — found in the liver, spleen, and bone marrow."
+        },
+        {
+          "question": "Contraction of the ventricles generates blood pressure. Which parameter represents the arterial pressure during ventricular contraction?",
+          "choices": [
+            "Diastolic blood pressure",
+            "Mean arterial pressure",
+            "Venous pressure",
+            "Systolic blood pressure",
+            "Pulse pressure"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Systolic blood pressure is the peak arterial pressure during ventricular contraction (systole)."
+        },
+        {
+          "question": "At rest, which portion of the cardiovascular system contains the largest volume of blood (approximately 64%) and functions as a \"blood reservoir\"?",
+          "choices": [
+            "The heart",
+            "Pulmonary vessels",
+            "Systemic arteries and arterioles",
+            "Systemic capillaries",
+            "Systemic veins and venules"
+          ],
+          "correctAnswer": 4,
+          "explanation": "The systemic veins and venules are highly distensible and hold about 64% of the blood, serving as capacitance/reservoir vessels."
+        },
+        {
+          "question": "Vascular resistance is the opposition to blood flow due to friction. Which of the following factors does NOT determine vascular resistance?",
+          "choices": [
+            "Size of the blood vessel lumen",
+            "Blood viscosity",
+            "Total blood vessel length",
+            "Heart rate",
+            "Friction between blood and the vessel wall"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Resistance depends on vessel diameter (lumen), blood viscosity, and vessel length. Heart rate affects cardiac output, not resistance."
+        }
       ]
     }
   ]
