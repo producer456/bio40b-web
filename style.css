@@ -267,6 +267,168 @@ footer { text-align: center; color: var(--ink-3); font-size: 12.5px; padding: 30
   .quiz-score { font-size: 44px; }
 }
 
+/* ==========================================================================
+   Phone layout  (body.phone — set by mobile.js, auto below 780px)
+   Bottom tab bar instead of the nine-tab top row, the reader TOC as a slide-up
+   sheet, and thumb-sized controls. Everything .ph-* is hidden otherwise.
+   ========================================================================== */
+.ph-scrim, .ph-tabbar, .ph-sheet, .ph-toc-fab, .ph-lightbox { display: none; }
+.ph-footer-tools { margin-top: 14px; }
+.ph-layout-toggle { border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
+  font-size: 12.5px; font-weight: 600; padding: 8px 14px; border-radius: 999px; }
+
+body.phone { padding-bottom: 0; }
+body.phone header.top nav.tabs { display: none; }
+body.phone .top-inner { padding: 9px 14px; }
+body.phone .brand { font-size: 15px; }
+body.phone .brand small { display: block; font-size: 10.5px; }
+body.phone main { padding: 16px 14px calc(96px + env(safe-area-inset-bottom)); }
+body.phone footer { padding: 24px 18px calc(90px + env(safe-area-inset-bottom)); }
+
+/* Bottom tab bar */
+body.phone .ph-tabbar {
+  display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 70;
+  padding: 6px 4px calc(6px + env(safe-area-inset-bottom));
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  backdrop-filter: saturate(180%) blur(16px);
+  border-top: 1px solid var(--line);
+}
+.ph-tab { flex: 1; min-width: 0; border: none; background: none; padding: 6px 2px 4px;
+  display: flex; flex-direction: column; align-items: center; gap: 3px;
+  color: var(--ink-3); font-size: 10.5px; font-weight: 600; text-decoration: none; }
+.ph-tab .ic { font-size: 20px; line-height: 1; filter: grayscale(1); opacity: .65; }
+.ph-tab .lb { white-space: nowrap; }
+.ph-tab.active { color: var(--accent); }
+.ph-tab.active .ic { filter: none; opacity: 1; transform: translateY(-1px); }
+
+/* Scrim shared by the "More" sheet and the contents sheet */
+body.phone .ph-scrim { display: block; position: fixed; inset: 0; z-index: 65;
+  background: rgba(0,0,0,0.4); opacity: 0; pointer-events: none; transition: opacity .2s ease; }
+body.phone.ph-sheet-open .ph-scrim, body.phone.ph-toc-open .ph-scrim { opacity: 1; pointer-events: auto; }
+
+/* "More" sheet */
+body.phone .ph-sheet {
+  display: block; position: fixed; left: 0; right: 0; bottom: 0; z-index: 75;
+  background: var(--surface); border-top: 1px solid var(--line);
+  border-radius: 20px 20px 0 0; box-shadow: 0 -10px 40px rgba(0,0,0,0.22);
+  padding: 8px 12px calc(78px + env(safe-area-inset-bottom));
+  transform: translateY(110%); transition: transform .24s cubic-bezier(.2,.8,.3,1);
+  max-height: 80vh; overflow-y: auto;
+}
+body.phone.ph-sheet-open .ph-sheet { transform: none; }
+body.phone .ph-sheet, body.phone .reader .toc {
+  -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+.ph-grabber { width: 38px; height: 4px; border-radius: 999px; background: var(--line);
+  margin: 6px auto 10px; }
+.ph-sheet-row { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left;
+  padding: 13px 12px; margin: 4px 0; border: 1px solid var(--line); border-radius: 14px;
+  background: var(--surface-2); color: var(--ink); text-decoration: none;
+  font-family: inherit; font-size: 15px; }
+.ph-sheet-row.active { border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.ph-sheet-row .ic { font-size: 20px; flex: 0 0 auto; }
+.ph-sheet-row .tx { flex: 1; min-width: 0; display: block; }
+.ph-sheet-row .lb { display: block; font-weight: 650; }
+.ph-sheet-row .sb { display: block; font-size: 12.5px; color: var(--ink-3); }
+.ph-sheet-row .ch { color: var(--ink-3); font-size: 20px; }
+.ph-layout-row { margin-top: 12px; border-style: dashed; background: transparent; }
+
+/* Reader: TOC becomes a slide-up sheet driven by a floating button */
+body.phone .reader { display: block; }
+body.phone.ph-has-toc .ph-toc-fab {
+  display: inline-flex; align-items: center; gap: 7px; position: fixed; z-index: 68;
+  right: 14px; bottom: calc(74px + env(safe-area-inset-bottom));
+  padding: 11px 16px; border: none; border-radius: 999px;
+  background: var(--accent); color: #fff; font-size: 14px; font-weight: 700;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.28);
+}
+body.phone.ph-toc-open .ph-toc-fab { opacity: 0; pointer-events: none; }
+body.phone .reader .toc {
+  position: fixed; left: 0; right: 0; bottom: 0; top: auto; z-index: 75;
+  max-height: 76vh; overflow-y: auto; margin: 0; border-radius: 20px 20px 0 0;
+  border-left: none; border-right: none; border-bottom: none;
+  padding: 10px 12px calc(78px + env(safe-area-inset-bottom));
+  box-shadow: 0 -10px 40px rgba(0,0,0,0.22);
+  transform: translateY(110%); visibility: hidden;
+  transition: transform .24s cubic-bezier(.2,.8,.3,1), visibility .24s;
+}
+body.phone.ph-toc-open .reader .toc { transform: none; visibility: visible; }
+body.phone .toc summary { padding: 12px 10px; font-size: 15px; }
+body.phone .toc .sec { padding: 11px 10px 11px 32px; font-size: 14.5px; }
+
+/* Reader body: bigger type, full-bleed figures, chunky prev/next */
+body.phone .article { padding: 18px 16px 22px; border-radius: 14px; }
+body.phone .article p { font-size: 16.5px; line-height: 1.62; }
+body.phone .article h1 { font-size: 24px; }
+body.phone .article h2 { font-size: 17px; margin-top: 22px; }
+body.phone .obj-box { border-radius: 0 10px 10px 0; padding: 12px 14px; }
+body.phone figure.fig img { cursor: zoom-in; }
+body.phone figure.fig figcaption::after { content: ' · tap to enlarge'; color: var(--ink-3); }
+body.phone .sec-nav { flex-direction: column; }
+body.phone .sec-nav button { padding: 15px; font-size: 15px; }
+
+/* Quizzes / self-checks: full-width, no-mistap targets */
+body.phone .q { padding: 14px; }
+body.phone .q .qq { font-size: 16px; }
+body.phone .q .choice { font-size: 15.5px; padding: 14px; min-height: 52px; }
+body.phone .quiz-score { font-size: 46px; }
+body.phone .cta { width: 100%; justify-content: center; padding: 15px 18px; }
+body.phone .cta-row { flex-direction: column; }
+body.phone .quiz-unit-head { flex-wrap: wrap; }
+body.phone .region-row, body.phone .scope-chapter > .row { padding: 15px 14px; }
+body.phone .scope-sections { padding-left: 14px; }
+body.phone .scope-sections button { padding: 13px 12px; font-size: 14.5px; }
+body.phone .seg { display: flex; width: 100%; }
+body.phone .seg-btn { flex: 1; padding: 11px 8px; }
+
+/* Flashcards: taller card, rating row pinned above the tab bar */
+body.phone .flashcard { min-height: 44vh; padding: 26px 18px; }
+body.phone .flashcard .obj { font-size: 21px; }
+body.phone .flashcard .ans { font-size: 16.5px; }
+body.phone .reveal-btn { padding: 16px; font-size: 17px; }
+body.phone .rating { position: sticky; z-index: 40; margin-top: 18px;
+  bottom: calc(66px + env(safe-area-inset-bottom));
+  padding: 10px 10px 12px; border-radius: 16px;
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
+  backdrop-filter: blur(12px); border: 1px solid var(--line); }
+body.phone .rating .row { gap: 6px; }
+body.phone .rating button { padding: 13px 2px; min-height: 60px; }
+body.phone .done-actions { flex-direction: column; }
+body.phone .done-actions button { padding: 15px; }
+
+/* Lab practical: stacked fields, 16px inputs so iOS doesn't zoom on focus */
+body.phone .prac-field { flex-direction: column; align-items: stretch; gap: 5px; }
+body.phone .prac-flabel { flex: none; font-size: 12px; text-transform: uppercase; letter-spacing: .5px; }
+body.phone .prac-input { font-size: 16px; padding: 13px 12px; }
+body.phone .prac-pin { min-width: 22px; height: 22px; font-size: 12px; border-width: 1.5px; }
+
+/* Lab manual annotator sits under the slimmer phone header */
+body.phone .lab-toolbar { top: 52px; }
+
+/* Session header: keep "← All decks" on one line next to the deck title */
+body.phone .session-head { gap: 8px; }
+body.phone .session-head .back { flex: 0 0 auto; white-space: nowrap; padding: 4px 0; }
+body.phone .session-head > div { font-size: 14.5px; line-height: 1.35; }
+
+/* Phone in landscape: the card and sheets get short — give back the height */
+@media (max-height: 560px) {
+  body.phone .flashcard { min-height: 0; padding: 18px 16px; }
+  body.phone .flashcard .obj { font-size: 18px; }
+  body.phone .rating button { min-height: 48px; padding: 9px 2px; }
+  body.phone .reader .toc, body.phone .ph-sheet { max-height: 88vh; }
+}
+
+/* Full-screen figure viewer (tap a figure) */
+body.phone .ph-lightbox { display: flex; position: fixed; inset: 0; z-index: 90;
+  flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+  padding: 20px 12px calc(20px + env(safe-area-inset-bottom));
+  background: rgba(0,0,0,0.92); opacity: 0; pointer-events: none; transition: opacity .18s ease; }
+body.phone.ph-lightbox-open .ph-lightbox { opacity: 1; pointer-events: auto; }
+.ph-lightbox img { max-width: 100%; max-height: 78vh; object-fit: contain;
+  border-radius: 10px; background: #fff; }
+.ph-lb-cap { color: #e8e8ee; font-size: 13.5px; text-align: center; max-height: 20vh; overflow-y: auto; }
+.ph-lb-hint { color: #8a8a95; font-size: 12px; }
+
 /* ---- Lab Manual annotator ---- */
 .lab-wrap { max-width: 980px; margin: 0 auto; }
 .lab-intro { padding: 8px 2px 40px; }
